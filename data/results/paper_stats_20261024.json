@@ -1,0 +1,134 @@
+{
+ "fig1": {
+  "n_clusters": 200,
+  "max_cluster": 182,
+  "n_fanout_hashes": 19079,
+  "max_fanout": 58,
+  "gini_fanout": 0.13286317247876148,
+  "top10_fanout_share": 0.008814084818956926
+ },
+ "fig2": {
+  "retention": {
+   "n_pairs_sampled": 4000,
+   "name_verbatim": 3134,
+   "name_verbatim_pct": 0.7835,
+   "name_modified": 866,
+   "name_modified_pct": 0.2165,
+   "name_dropped": 0,
+   "name_dropped_pct": 0.0,
+   "description_verbatim": 2411,
+   "description_verbatim_pct": 0.6028,
+   "description_modified": 1589,
+   "description_modified_pct": 0.3972,
+   "description_dropped": 0,
+   "description_dropped_pct": 0.0,
+   "attrib_both": 2108,
+   "attrib_both_pct": 0.527,
+   "attrib_one": 600,
+   "attrib_one_pct": 0.15,
+   "attrib_none": 1292,
+   "attrib_none_pct": 0.323,
+   "any_attrib_field_pct": 0.677
+  },
+  "lag_median": 2.159212962962963,
+  "lag_p90": 42.59456944444446
+ },
+ "fig3": {
+  "n_sh_repos": 172,
+  "gini_sh": 0.9457450552316756,
+  "top1_sh": 0.39501910770861365,
+  "gini_ch_item": 0.443949787663797,
+  "n_ch_items": 83212,
+  "spearman_stars_installs": 0.203761276794902,
+  "p": 0.007340154985562491
+ },
+ "fig4": {
+  "presence_rate": {
+   "GitHub stars>0": 1.0,
+   "skills.sh 命中": 0.5043988269794721,
+   "ClawHub 命中": 0.2287390029325513,
+   "release 下载>0": 0.3841642228739003,
+   "npm 有包": 0.24633431085043989
+  },
+  "only_github_pct": 0.2375366568914956,
+  "channels_mean": 2.3636363636363638,
+  "pair_corr": {
+   "GitHub stars>0 × skills.sh 命中": null,
+   "GitHub stars>0 × ClawHub 命中": null,
+   "GitHub stars>0 × release 下载>0": null,
+   "GitHub stars>0 × npm 有包": null,
+   "skills.sh 命中 × ClawHub 命中": 0.163,
+   "skills.sh 命中 × release 下载>0": 0.047,
+   "skills.sh 命中 × npm 有包": 0.131,
+   "ClawHub 命中 × release 下载>0": 0.029,
+   "ClawHub 命中 × npm 有包": 0.094,
+   "release 下载>0 × npm 有包": 0.178
+  }
+ },
+ "fig5": {
+  "cohorts": {
+   "2026-03": {
+    "n": 32,
+    "surv30_pct": 0.7812
+   },
+   "2026-04": {
+    "n": 352,
+    "surv30_pct": 0.5966
+   },
+   "2026-05": {
+    "n": 494,
+    "surv30_pct": 0.3401
+   },
+   "2026-06": {
+    "n": 62,
+    "surv30_pct": 0.9194
+   },
+   "2026-07": {
+    "n": 324,
+    "surv30_pct": 0.3395
+   },
+   "2026-08": {
+    "n": 2931,
+    "surv30_pct": 0.2873
+   },
+   "2026-09": {
+    "n": 3213,
+    "surv30_pct": 0.5973
+   },
+   "2026-10": {
+    "n": 3633,
+    "surv30_pct": 1.0
+   }
+  },
+  "traj_clusters": {
+   "type1": 76,
+   "type2": 51,
+   "type3": 81,
+   "type4": 2
+  }
+ },
+ "fig6": {
+  "latency_median_hours": 1.2927777777777778,
+  "latency_p90_days": 5.06871412037037,
+  "n_merged": 23988,
+  "auc": 0.5945
+ },
+ "fig6_hazard": {
+  "n_delays": 21973,
+  "timing_share": {
+   "0-1d": 0.4116,
+   "1-3d": 0.0419,
+   "3-7d": 0.0508,
+   "7-14d": 0.0517,
+   "14-30d": 0.0907,
+   "30-60d": 0.1013,
+   "60-90d": 0.0426,
+   "90-180d": 0.0691,
+   "180-365d": 0.0416,
+   "365-+d": 0.0986
+  },
+  "note": "分母仅为最终回流过的 fork（head 匹配）；不是全量 fork 的 hazard",
+  "median": 6.645775462962963,
+  "p90": 349.357546296295
+ }
+}

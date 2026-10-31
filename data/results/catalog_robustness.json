@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-10-15T17:29:25",
+  "classification": {
+    "n_clean": 203,
+    "n_catalog": 18,
+    "share": 0.08866995073891626,
+    "rule_counts": {
+      "name_awesome": 17,
+      "topic_list": 10,
+      "desc_meta": 6
+    },
+    "catalog_repos": {
+      "0xNyk/awesome-hermes-agent": {
+        "catalog": true,
+        "rules": [
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": null
+      },
+      "ComposioHQ/awesome-claude-skills": {
+        "catalog": true,
+        "rules": [
+          "desc_meta",
+          "name_awesome"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "HKUSTDial/Supervisor-Skills": {
+        "catalog": true,
+        "rules": [
+          "topic_list"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "Prat011/awesome-llm-skills": {
+        "catalog": true,
+        "rules": [
+          "desc_meta",
+          "name_awesome"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "VoltAgent/awesome-agent-skills": {
+        "catalog": true,
+        "rules": [
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": null
+      },
+      "VoltAgent/awesome-openclaw-skills": {
+        "catalog": true,
+        "rules": [
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": null
+      },
+      "WenyuChiou/awesome-agentic-ai-zh": {
+        "catalog": true,
+        "rules": [
+          "name_awesome"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "composio-community/awesome-claude-plugins": {
+        "catalog": true,
+        "rules": [
+          "desc_meta",
+          "name_awesome"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "composio-community/awesome-codex-skills": {
+        "catalog": true,
+        "rules": [
+          "desc_meta",
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "freestylefly/awesome-gpt-image-2": {
+        "catalog": true,
+        "rules": [
+          "name_awesome"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "heilcheng/awesome-agent-skills": {
+        "catalog": true,
+        "rules": [
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": null
+      },
+      "libukai/awesome-agent-skills": {
+        "catalog": true,
+        "rules": [
+          "name_awesome"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "rohitg00/awesome-claude-design": {
+        "catalog": true,
+        "rules": [
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": null
+      },
+      "sickn33/agentic-awesome-skills": {
+        "catalog": true,
+        "rules": [
+          "name_awesome"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "tmstack/awesome-persona-skills": {
+        "catalog": true,
+        "rules": [
+          "name_awesome"
+        ],
+        "is_fork_gitskills": null
+      },
+      "travisvn/awesome-claude-skills": {
+        "catalog": true,
+        "rules": [
+          "desc_meta",
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": null
+      },
+      "xianyu110/awesome-openclaw-tutorial": {
+        "catalog": true,
+        "rules": [
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": 0
+      },
+      "xixu-me/awesome-persona-distill-skills": {
+        "catalog": true,
+        "rules": [
+          "desc_meta",
+          "name_awesome",
+          "topic_list"
+        ],
+        "is_fork_gitskills": null
+      }
+    },
+    "n_is_fork_gitskills": 0
+  },
+  "descriptive": {
+    "catalog": {
+      "n": 18,
+      "stars_median": 6813.0,
+      "win_forks_total": 8233,
+      "win_stars_total": 69637,
+      "ratio_median": 0.12226518046848792,
+      "ratio_overall": 0.11822737912316728
+    },
+    "non_catalog": {
+      "n": 185,
+      "stars_median": 5549.0,
+      "win_forks_total": 70353,
+      "win_stars_total": 756422,
+      "ratio_median": 0.0975609756097561,
+      "ratio_overall": 0.09300760686495105
+    },
+    "catalog_fork_share": 0.10476420736517955,
+    "catalog_star_share": 0.08430027395137635,
+    "ratio_mwu_p": 0.029944806340390893
+  },
+  "theta_first_fork": {
+    "full": {
+      "n": 95,
+      "median": 6.0,
+      "mean": 30.610526315789475,
+      "share_le_10": 0.5894736842105263
+    },
+    "excl_catalog": {
+      "n": 89,
+      "median": 6.0,
+      "mean": 29.9438202247191,
+      "share_le_10": 0.5955056179775281
+    }
+  },
+  "rate_gradient": {
+    "full": {
+      "beta_log_cum": 0.1281010253287212,
+      "se": 0.06535442818941987,
+      "p": 0.04998444185443989,
+      "factor_per_10x": 1.3430773506713793,
+      "nobs": 25738,
+      "n_repos": 203,
+      "naive_per100_min": 8.06911496350365,
+      "naive_per100_max": 10.188438854982225,
+      "naive_max_min_ratio": 1.2626463870033096
+    },
+    "excl_catalog": {
+      "beta_log_cum": 0.15272602362338678,
+      "se": 0.06638177878182469,
+      "p": 0.021407345674867864,
+      "factor_per_10x": 1.4214317883983794,
+      "nobs": 23078,
+      "n_repos": 185,
+      "naive_per100_min": 7.794197152640116,
+      "naive_per100_max": 10.145697374411897,
+      "naive_max_min_ratio": 1.3016988377020027
+    }
+  },
+  "visibility": {
+    "full": {
+      "beta": -1.5629580007487927,
+      "se": 0.06798350033352288,
+      "p": 5.8345732785991e-117,
+      "n": 203
+    },
+    "excl_catalog": {
+      "beta": -1.5643431588921173,
+      "se": 0.06903747247252276,
+      "p": 1.1287395577443252e-113,
+      "n": 185
+    }
+  },
+  "note": "catalog 判定为多规则并集（known/名称 awesome/描述 list/话题 list），规则明细见 classification.catalog_repos；剔除组的模型规格与正文一致，仅改变样本构成。"
+}

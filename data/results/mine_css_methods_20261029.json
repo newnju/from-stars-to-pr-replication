@@ -1,0 +1,3349 @@
+{
+ "generated_at": "2026-10-29T22:24:05",
+ "M1_kleinberg_bursts": {
+  "per_repo": {
+   "0x0funky/agent-sprite-forge": {
+    "n_weeks": 27,
+    "lam0": 108.0,
+    "lam1": 643.0,
+    "burst_segments": 1,
+    "burst_week_share": 11.1,
+    "max_intensity": 5.95,
+    "short_bursts_le2w": 0
+   },
+   "0xNyk/awesome-hermes-agent": {
+    "n_weeks": 31,
+    "lam0": 156.0,
+    "lam1": 479.33,
+    "burst_segments": 1,
+    "burst_week_share": 19.4,
+    "max_intensity": 2.63,
+    "short_bursts_le2w": 0
+   },
+   "1c7/chinese-independent-developer": {
+    "n_weeks": 475,
+    "lam0": 50.0,
+    "lam1": 814.66,
+    "burst_segments": 14,
+    "burst_week_share": 6.5,
+    "max_intensity": 56.85,
+    "short_bursts_le2w": 9
+   },
+   "Agents365-ai/drawio-skill": {
+    "n_weeks": 34,
+    "lam0": 242.5,
+    "lam1": 914.67,
+    "burst_segments": 3,
+    "burst_week_share": 14.7,
+    "max_intensity": 4.34,
+    "short_bursts_le2w": 3
+   },
+   "AgriciDaniel/claude-ads": {
+    "n_weeks": 37,
+    "lam0": 248.0,
+    "lam1": 697.67,
+    "burst_segments": 1,
+    "burst_week_share": 13.5,
+    "max_intensity": 2.4,
+    "short_bursts_le2w": 0
+   },
+   "AgriciDaniel/claude-obsidian": {
+    "n_weeks": 29,
+    "lam0": 378.0,
+    "lam1": 1969.0,
+    "burst_segments": 2,
+    "burst_week_share": 10.3,
+    "max_intensity": 8.37,
+    "short_bursts_le2w": 2
+   },
+   "AlephAITech/WorkBuddyGuide": {
+    "n_weeks": 16,
+    "lam0": 140.0,
+    "lam1": 632.33,
+    "burst_segments": 2,
+    "burst_week_share": 12.5,
+    "max_intensity": 7.66,
+    "short_bursts_le2w": 2
+   },
+   "Appllama/appllama-skills": {
+    "n_weeks": 11,
+    "lam0": 234.0,
+    "lam1": 585.0,
+    "burst_segments": 1,
+    "burst_week_share": 18.2,
+    "max_intensity": 2.62,
+    "short_bursts_le2w": 1
+   },
+   "Ar9av/obsidian-wiki": {
+    "n_weeks": 29,
+    "lam0": 114.0,
+    "lam1": 298.67,
+    "burst_segments": 4,
+    "burst_week_share": 20.7,
+    "max_intensity": 2.56,
+    "short_bursts_le2w": 4
+   },
+   "BayramAnnakov/claude-reflect": {
+    "n_weeks": 43,
+    "lam0": 20.0,
+    "lam1": 210.0,
+    "burst_segments": 6,
+    "burst_week_share": 14.0,
+    "max_intensity": 13.75,
+    "short_bursts_le2w": 6
+   },
+   "Bhanunamikaze/Agentic-SEO-Skill": {
+    "n_weeks": 34,
+    "lam0": 25.0,
+    "lam1": 71.0,
+    "burst_segments": 2,
+    "burst_week_share": 20.6,
+    "max_intensity": 2.46,
+    "short_bursts_le2w": 0
+   },
+   "BuilderIO/skills": {
+    "n_weeks": 20,
+    "lam0": 86.0,
+    "lam1": 1028.0,
+    "burst_segments": 1,
+    "burst_week_share": 15.0,
+    "max_intensity": 11.95,
+    "short_bursts_le2w": 0
+   },
+   "ChenLiu-1996/figures4papers": {
+    "n_weeks": 78,
+    "lam0": 1.0,
+    "lam1": 756.0,
+    "burst_segments": 4,
+    "burst_week_share": 23.1,
+    "max_intensity": 503.0,
+    "short_bursts_le2w": 2
+   },
+   "CherryHQ/cherry-studio": {
+    "n_weeks": 127,
+    "lam0": 319.0,
+    "lam1": 1597.67,
+    "burst_segments": 3,
+    "burst_week_share": 9.4,
+    "max_intensity": 5.72,
+    "short_bursts_le2w": 2
+   },
+   "ComposioHQ/awesome-claude-skills": {
+    "n_weeks": 54,
+    "lam0": 987.0,
+    "lam1": 3717.6,
+    "burst_segments": 4,
+    "burst_week_share": 29.6,
+    "max_intensity": 3.35,
+    "short_bursts_le2w": 2
+   },
+   "ConardLi/garden-skills": {
+    "n_weeks": 27,
+    "lam0": 288.0,
+    "lam1": 1390.67,
+    "burst_segments": 2,
+    "burst_week_share": 29.6,
+    "max_intensity": 4.1,
+    "short_bursts_le2w": 1
+   },
+   "D4Vinci/Scrapling": {
+    "n_weeks": 106,
+    "lam0": 74.5,
+    "lam1": 4501.1,
+    "burst_segments": 7,
+    "burst_week_share": 31.1,
+    "max_intensity": 64.23,
+    "short_bursts_le2w": 4
+   },
+   "Devin-AXIS/iPolloWork": {
+    "n_weeks": 61,
+    "lam0": 53.0,
+    "lam1": 589.0,
+    "burst_segments": 2,
+    "burst_week_share": 21.3,
+    "max_intensity": 8.58,
+    "short_bursts_le2w": 1
+   },
+   "DietrichGebert/ponytail": {
+    "n_weeks": 20,
+    "lam0": 6403.5,
+    "lam1": 23612.67,
+    "burst_segments": 1,
+    "burst_week_share": 10.0,
+    "max_intensity": 4.61,
+    "short_bursts_le2w": 1
+   },
+   "Ebazhanov/linkedin-skill-assessments-quizzes": {
+    "n_weeks": 381,
+    "lam0": 29.0,
+    "lam1": 310.34,
+    "burst_segments": 9,
+    "burst_week_share": 22.8,
+    "max_intensity": 11.93,
+    "short_bursts_le2w": 7
+   },
+   "Egonex-AI/Understand-Anything": {
+    "n_weeks": 33,
+    "lam0": 1110.0,
+    "lam1": 12733.33,
+    "burst_segments": 1,
+    "burst_week_share": 15.2,
+    "max_intensity": 8.87,
+    "short_bursts_le2w": 0
+   },
+   "EverMind-AI/EverOS": {
+    "n_weeks": 52,
+    "lam0": 179.0,
+    "lam1": 871.8,
+    "burst_segments": 3,
+    "burst_week_share": 17.3,
+    "max_intensity": 4.39,
+    "short_bursts_le2w": 1
+   },
+   "EvoMap/evolver": {
+    "n_weeks": 39,
+    "lam0": 53.0,
+    "lam1": 1872.33,
+    "burst_segments": 2,
+    "burst_week_share": 7.7,
+    "max_intensity": 46.16,
+    "short_bursts_le2w": 2
+   },
+   "FireRedTeam/FireRed-OpenStoryline": {
+    "n_weeks": 38,
+    "lam0": 56.0,
+    "lam1": 299.0,
+    "burst_segments": 4,
+    "burst_week_share": 26.3,
+    "max_intensity": 6.32,
+    "short_bursts_le2w": 1
+   },
+   "Fission-AI/OpenSpec": {
+    "n_weeks": 64,
+    "lam0": 1127.0,
+    "lam1": 2817.5,
+    "burst_segments": 5,
+    "burst_week_share": 17.2,
+    "max_intensity": 2.45,
+    "short_bursts_le2w": 4
+   },
+   "Forward-Future/loopy": {
+    "n_weeks": 20,
+    "lam0": 31.0,
+    "lam1": 800.67,
+    "burst_segments": 1,
+    "burst_week_share": 15.0,
+    "max_intensity": 25.83,
+    "short_bursts_le2w": 0
+   },
+   "FoundationAgents/OpenManus": {
+    "n_weeks": 86,
+    "lam0": 182.5,
+    "lam1": 5354.38,
+    "burst_segments": 1,
+    "burst_week_share": 4.7,
+    "max_intensity": 53.31,
+    "short_bursts_le2w": 0
+   },
+   "Gabberflast/academic-pptx-skill": {
+    "n_weeks": 35,
+    "lam0": 28.0,
+    "lam1": 140.67,
+    "burst_segments": 3,
+    "burst_week_share": 11.4,
+    "max_intensity": 5.68,
+    "short_bursts_le2w": 3
+   },
+   "GargantuaX/gemini-watermark-remover": {
+    "n_weeks": 45,
+    "lam0": 96.0,
+    "lam1": 472.5,
+    "burst_segments": 1,
+    "burst_week_share": 8.9,
+    "max_intensity": 4.92,
+    "short_bursts_le2w": 0
+   },
+   "Gentleman-Programming/gentle-ai": {
+    "n_weeks": 35,
+    "lam0": 206.0,
+    "lam1": 515.0,
+    "burst_segments": 3,
+    "burst_week_share": 11.4,
+    "max_intensity": 2.08,
+    "short_bursts_le2w": 3
+   },
+   "Graphify-Labs/graphify": {
+    "n_weeks": 30,
+    "lam0": 3915.0,
+    "lam1": 12559.67,
+    "burst_segments": 2,
+    "burst_week_share": 10.0,
+    "max_intensity": 3.72,
+    "short_bursts_le2w": 2
+   },
+   "HKUSTDial/Supervisor-Skills": {
+    "n_weeks": 28,
+    "lam0": 308.0,
+    "lam1": 1085.0,
+    "burst_segments": 2,
+    "burst_week_share": 14.3,
+    "max_intensity": 4.19,
+    "short_bursts_le2w": 1
+   },
+   "HughYau/qiushi-skill": {
+    "n_weeks": 31,
+    "lam0": 32.0,
+    "lam1": 924.0,
+    "burst_segments": 1,
+    "burst_week_share": 3.2,
+    "max_intensity": 70.62,
+    "short_bursts_le2w": 1
+   },
+   "JCodesMore/ai-website-cloner-template": {
+    "n_weeks": 33,
+    "lam0": 599.0,
+    "lam1": 4106.33,
+    "burst_segments": 2,
+    "burst_week_share": 18.2,
+    "max_intensity": 5.76,
+    "short_bursts_le2w": 0
+   },
+   "Jeffallan/claude-skills": {
+    "n_weeks": 53,
+    "lam0": 113.0,
+    "lam1": 1247.8,
+    "burst_segments": 2,
+    "burst_week_share": 7.5,
+    "max_intensity": 13.81,
+    "short_bursts_le2w": 2
+   },
+   "JimLiu/baoyu-design": {
+    "n_weeks": 21,
+    "lam0": 144.0,
+    "lam1": 662.0,
+    "burst_segments": 1,
+    "burst_week_share": 14.3,
+    "max_intensity": 4.6,
+    "short_bursts_le2w": 0
+   },
+   "JimLiu/baoyu-skills": {
+    "n_weeks": 41,
+    "lam0": 530.0,
+    "lam1": 1739.75,
+    "burst_segments": 4,
+    "burst_week_share": 17.1,
+    "max_intensity": 3.52,
+    "short_bursts_le2w": 4
+   },
+   "JuliusBrussee/caveman": {
+    "n_weeks": 30,
+    "lam0": 2495.0,
+    "lam1": 15010.33,
+    "burst_segments": 1,
+    "burst_week_share": 10.0,
+    "max_intensity": 6.02,
+    "short_bursts_le2w": 0
+   },
+   "K-Dense-AI/scientific-agent-skills": {
+    "n_weeks": 53,
+    "lam0": 670.0,
+    "lam1": 3896.4,
+    "burst_segments": 5,
+    "burst_week_share": 15.1,
+    "max_intensity": 6.63,
+    "short_bursts_le2w": 5
+   },
+   "KKKKhazix/human-writing": {
+    "n_weeks": 12,
+    "lam0": 140.5,
+    "lam1": 1001.33,
+    "burst_segments": 1,
+    "burst_week_share": 16.7,
+    "max_intensity": 9.64,
+    "short_bursts_le2w": 1
+   },
+   "KKKKhazix/khazix-skills": {
+    "n_weeks": 29,
+    "lam0": 475.0,
+    "lam1": 2319.67,
+    "burst_segments": 3,
+    "burst_week_share": 20.7,
+    "max_intensity": 5.38,
+    "short_bursts_le2w": 2
+   },
+   "Kaelio/ktx": {
+    "n_weeks": 24,
+    "lam0": 11.5,
+    "lam1": 361.33,
+    "burst_segments": 1,
+    "burst_week_share": 16.7,
+    "max_intensity": 26.3,
+    "short_bursts_le2w": 0
+   },
+   "Klotzkette/claude-fuer-deutsches-recht": {
+    "n_weeks": 23,
+    "lam0": 37.0,
+    "lam1": 270.0,
+    "burst_segments": 2,
+    "burst_week_share": 21.7,
+    "max_intensity": 7.05,
+    "short_bursts_le2w": 1
+   },
+   "Leonxlnx/taste-skill": {
+    "n_weeks": 36,
+    "lam0": 2362.5,
+    "lam1": 7980.33,
+    "burst_segments": 2,
+    "burst_week_share": 13.9,
+    "max_intensity": 3.03,
+    "short_bursts_le2w": 1
+   },
+   "MemPalace/mempalace": {
+    "n_weeks": 30,
+    "lam0": 316.5,
+    "lam1": 16172.0,
+    "burst_segments": 1,
+    "burst_week_share": 6.7,
+    "max_intensity": 73.73,
+    "short_bursts_le2w": 1
+   },
+   "MemTensor/MemOS": {
+    "n_weeks": 68,
+    "lam0": 115.5,
+    "lam1": 737.33,
+    "burst_segments": 4,
+    "burst_week_share": 8.8,
+    "max_intensity": 7.66,
+    "short_bursts_le2w": 4
+   },
+   "Mintplex-Labs/anything-llm": {
+    "n_weeks": 178,
+    "lam0": 313.0,
+    "lam1": 1234.06,
+    "burst_segments": 8,
+    "burst_week_share": 8.4,
+    "max_intensity": 8.55,
+    "short_bursts_le2w": 7
+   },
+   "MycroftAI/mycroft-core": {
+    "n_weeks": 545,
+    "lam0": 10.0,
+    "lam1": 34.06,
+    "burst_segments": 24,
+    "burst_week_share": 13.8,
+    "max_intensity": 6.65,
+    "short_bursts_le2w": 15
+   },
+   "NVIDIA/SkillSpector": {
+    "n_weeks": 32,
+    "lam0": 363.5,
+    "lam1": 3247.33,
+    "burst_segments": 1,
+    "burst_week_share": 9.4,
+    "max_intensity": 8.93,
+    "short_bursts_le2w": 0
+   },
+   "NVIDIA/skills": {
+    "n_weeks": 35,
+    "lam0": 77.0,
+    "lam1": 455.33,
+    "burst_segments": 3,
+    "burst_week_share": 11.4,
+    "max_intensity": 5.53,
+    "short_bursts_le2w": 3
+   },
+   "NanmiCoder/MediaCrawler": {
+    "n_weeks": 177,
+    "lam0": 206.0,
+    "lam1": 1910.59,
+    "burst_segments": 8,
+    "burst_week_share": 10.7,
+    "max_intensity": 19.47,
+    "short_bursts_le2w": 5
+   },
+   "Natively-AI-assistant/natively-cluely-ai-assistant": {
+    "n_weeks": 39,
+    "lam0": 61.0,
+    "lam1": 257.33,
+    "burst_segments": 2,
+    "burst_week_share": 7.7,
+    "max_intensity": 6.87,
+    "short_bursts_le2w": 2
+   },
+   "NevaMind-AI/memU": {
+    "n_weeks": 65,
+    "lam0": 64.0,
+    "lam1": 1377.83,
+    "burst_segments": 3,
+    "burst_week_share": 15.4,
+    "max_intensity": 19.85,
+    "short_bursts_le2w": 2
+   },
+   "NousResearch/hermes-agent": {
+    "n_weeks": 66,
+    "lam0": 1556.0,
+    "lam1": 20996.5,
+    "burst_segments": 1,
+    "burst_week_share": 16.7,
+    "max_intensity": 10.2,
+    "short_bursts_le2w": 0
+   },
+   "Observal/Observal": {
+    "n_weeks": 30,
+    "lam0": 75.5,
+    "lam1": 635.0,
+    "burst_segments": 3,
+    "burst_week_share": 16.7,
+    "max_intensity": 8.3,
+    "short_bursts_le2w": 2
+   },
+   "Ontos-AI/knowhere": {
+    "n_weeks": 26,
+    "lam0": 140.0,
+    "lam1": 350.0,
+    "burst_segments": 2,
+    "burst_week_share": 19.2,
+    "max_intensity": 2.16,
+    "short_bursts_le2w": 1
+   },
+   "OpenRaiser/NanoResearch": {
+    "n_weeks": 32,
+    "lam0": 6.0,
+    "lam1": 158.33,
+    "burst_segments": 2,
+    "burst_week_share": 31.2,
+    "max_intensity": 20.75,
+    "short_bursts_le2w": 0
+   },
+   "OpenSenseNova/SenseNova-Skills": {
+    "n_weeks": 28,
+    "lam0": 79.5,
+    "lam1": 797.0,
+    "burst_segments": 1,
+    "burst_week_share": 21.4,
+    "max_intensity": 8.55,
+    "short_bursts_le2w": 0
+   },
+   "Orchestra-Research/AI-Research-SKILLs": {
+    "n_weeks": 51,
+    "lam0": 250.0,
+    "lam1": 655.6,
+    "burst_segments": 3,
+    "burst_week_share": 11.8,
+    "max_intensity": 3.19,
+    "short_bursts_le2w": 2
+   },
+   "OthmanAdi/planning-with-files": {
+    "n_weeks": 43,
+    "lam0": 454.0,
+    "lam1": 2944.75,
+    "burst_segments": 2,
+    "burst_week_share": 9.3,
+    "max_intensity": 7.64,
+    "short_bursts_le2w": 1
+   },
+   "Panniantong/Agent-Reach": {
+    "n_weeks": 35,
+    "lam0": 2812.0,
+    "lam1": 7501.67,
+    "burst_segments": 3,
+    "burst_week_share": 17.1,
+    "max_intensity": 2.47,
+    "short_bursts_le2w": 2
+   },
+   "ParthJadhav/app-store-screenshots": {
+    "n_weeks": 34,
+    "lam0": 118.5,
+    "lam1": 1127.67,
+    "burst_segments": 1,
+    "burst_week_share": 2.9,
+    "max_intensity": 21.57,
+    "short_bursts_le2w": 1
+   },
+   "Prat011/awesome-llm-skills": {
+    "n_weeks": 53,
+    "lam0": 22.0,
+    "lam1": 144.4,
+    "burst_segments": 3,
+    "burst_week_share": 9.4,
+    "max_intensity": 9.41,
+    "short_bursts_le2w": 3
+   },
+   "Q00/ouroboros": {
+    "n_weeks": 41,
+    "lam0": 100.0,
+    "lam1": 576.5,
+    "burst_segments": 2,
+    "burst_week_share": 14.6,
+    "max_intensity": 5.14,
+    "short_bursts_le2w": 0
+   },
+   "RyanFitzgerald/devportfolio": {
+    "n_weeks": 503,
+    "lam0": 7.0,
+    "lam1": 38.48,
+    "burst_segments": 5,
+    "burst_week_share": 2.0,
+    "max_intensity": 32.26,
+    "short_bursts_le2w": 4
+   },
+   "Ryze-AI-Adgent/open-seo-mcp-skills": {
+    "n_weeks": 9,
+    "lam0": 1069.0,
+    "lam1": 2672.5,
+    "burst_segments": 0,
+    "burst_week_share": 0.0,
+    "max_intensity": 1,
+    "short_bursts_le2w": 0
+   },
+   "SawyerHood/dev-browser": {
+    "n_weeks": 47,
+    "lam0": 51.0,
+    "lam1": 746.5,
+    "burst_segments": 3,
+    "burst_week_share": 19.1,
+    "max_intensity": 12.3,
+    "short_bursts_le2w": 1
+   },
+   "ScrapeCreators/social-media-research-skills": {
+    "n_weeks": 21,
+    "lam0": 205.0,
+    "lam1": 528.67,
+    "burst_segments": 1,
+    "burst_week_share": 9.5,
+    "max_intensity": 3.05,
+    "short_bursts_le2w": 1
+   },
+   "Shanyin-ai/shanyin-screenwriting-master": {
+    "n_weeks": 30,
+    "lam0": 49.0,
+    "lam1": 122.5,
+    "burst_segments": 1,
+    "burst_week_share": 3.3,
+    "max_intensity": 2.73,
+    "short_bursts_le2w": 1
+   },
+   "Shubhamsaboo/awesome-llm-apps": {
+    "n_weeks": 130,
+    "lam0": 897.5,
+    "lam1": 3578.31,
+    "burst_segments": 10,
+    "burst_week_share": 12.3,
+    "max_intensity": 6.33,
+    "short_bursts_le2w": 8
+   },
+   "SnailSploit/Claude-Red": {
+    "n_weeks": 34,
+    "lam0": 59.5,
+    "lam1": 1531.67,
+    "burst_segments": 4,
+    "burst_week_share": 20.6,
+    "max_intensity": 21.94,
+    "short_bursts_le2w": 3
+   },
+   "Snailclimb/JavaGuide": {
+    "n_weeks": 442,
+    "lam0": 255.0,
+    "lam1": 990.39,
+    "burst_segments": 16,
+    "burst_week_share": 20.8,
+    "max_intensity": 3.73,
+    "short_bursts_le2w": 10
+   },
+   "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance": {
+    "n_weeks": 32,
+    "lam0": 21.5,
+    "lam1": 95.33,
+    "burst_segments": 2,
+    "burst_week_share": 12.5,
+    "max_intensity": 4.37,
+    "short_bursts_le2w": 2
+   },
+   "Sylinko/Everywhere": {
+    "n_weeks": 79,
+    "lam0": 23.0,
+    "lam1": 491.86,
+    "burst_segments": 3,
+    "burst_week_share": 16.5,
+    "max_intensity": 22.35,
+    "short_bursts_le2w": 1
+   },
+   "ThinkInAIXYZ/deepchat": {
+    "n_weeks": 89,
+    "lam0": 36.0,
+    "lam1": 328.12,
+    "burst_segments": 4,
+    "burst_week_share": 14.6,
+    "max_intensity": 11.86,
+    "short_bursts_le2w": 3
+   },
+   "TokenRhythm/opensquilla": {
+    "n_weeks": 25,
+    "lam0": 145.0,
+    "lam1": 858.0,
+    "burst_segments": 3,
+    "burst_week_share": 32.0,
+    "max_intensity": 5.03,
+    "short_bursts_le2w": 2
+   },
+   "Untrivial-ai/agent-orchestrator": {
+    "n_weeks": 37,
+    "lam0": 262.0,
+    "lam1": 1229.67,
+    "burst_segments": 3,
+    "burst_week_share": 16.2,
+    "max_intensity": 3.94,
+    "short_bursts_le2w": 2
+   },
+   "VoltAgent/awesome-agent-skills": {
+    "n_weeks": 52,
+    "lam0": 598.0,
+    "lam1": 1741.6,
+    "burst_segments": 4,
+    "burst_week_share": 13.5,
+    "max_intensity": 3.89,
+    "short_bursts_le2w": 3
+   },
+   "VoltAgent/awesome-openclaw-skills": {
+    "n_weeks": 39,
+    "lam0": 298.0,
+    "lam1": 6578.67,
+    "burst_segments": 1,
+    "burst_week_share": 23.1,
+    "max_intensity": 15.46,
+    "short_bursts_le2w": 0
+   },
+   "WenyuChiou/awesome-agentic-ai-zh": {
+    "n_weeks": 25,
+    "lam0": 230.0,
+    "lam1": 877.67,
+    "burst_segments": 4,
+    "burst_week_share": 20.0,
+    "max_intensity": 4.25,
+    "short_bursts_le2w": 4
+   },
+   "XiaoMaColtAI/math-modeling-skill": {
+    "n_weeks": 40,
+    "lam0": 22.5,
+    "lam1": 226.75,
+    "burst_segments": 1,
+    "burst_week_share": 15.0,
+    "max_intensity": 8.36,
+    "short_bursts_le2w": 0
+   },
+   "YaoApp/yao": {
+    "n_weeks": 268,
+    "lam0": 12.0,
+    "lam1": 190.31,
+    "burst_segments": 7,
+    "burst_week_share": 7.8,
+    "max_intensity": 34.97,
+    "short_bursts_le2w": 5
+   },
+   "ZhuLinsen/daily_stock_analysis": {
+    "n_weeks": 42,
+    "lam0": 1322.5,
+    "lam1": 4406.25,
+    "burst_segments": 3,
+    "burst_week_share": 11.9,
+    "max_intensity": 4.03,
+    "short_bursts_le2w": 3
+   },
+   "a5c-ai/babysitter": {
+    "n_weeks": 42,
+    "lam0": 31.5,
+    "lam1": 181.5,
+    "burst_segments": 2,
+    "burst_week_share": 7.1,
+    "max_intensity": 7.27,
+    "short_bursts_le2w": 2
+   },
+   "activeloopai/hivemind": {
+    "n_weeks": 30,
+    "lam0": 14.5,
+    "lam1": 372.33,
+    "burst_segments": 2,
+    "burst_week_share": 10.0,
+    "max_intensity": 32.66,
+    "short_bursts_le2w": 2
+   },
+   "addyosmani/agent-skills": {
+    "n_weeks": 36,
+    "lam0": 2163.0,
+    "lam1": 10074.0,
+    "burst_segments": 5,
+    "burst_week_share": 16.7,
+    "max_intensity": 4.75,
+    "short_bursts_le2w": 5
+   },
+   "addyosmani/web-quality-skills": {
+    "n_weeks": 40,
+    "lam0": 38.5,
+    "lam1": 320.5,
+    "burst_segments": 4,
+    "burst_week_share": 12.5,
+    "max_intensity": 17.71,
+    "short_bursts_le2w": 4
+   },
+   "aden-hive/hive": {
+    "n_weeks": 41,
+    "lam0": 69.0,
+    "lam1": 1715.25,
+    "burst_segments": 1,
+    "burst_week_share": 9.8,
+    "max_intensity": 24.86,
+    "short_bursts_le2w": 0
+   },
+   "affaan-m/ECC": {
+    "n_weeks": 41,
+    "lam0": 5246.0,
+    "lam1": 21358.75,
+    "burst_segments": 2,
+    "burst_week_share": 12.2,
+    "max_intensity": 4.71,
+    "short_bursts_le2w": 1
+   },
+   "agentscope-ai/QwenPaw": {
+    "n_weeks": 35,
+    "lam0": 376.0,
+    "lam1": 4900.67,
+    "burst_segments": 3,
+    "burst_week_share": 17.1,
+    "max_intensity": 10.77,
+    "short_bursts_le2w": 2
+   },
+   "agentskills/agentskills": {
+    "n_weeks": 45,
+    "lam0": 476.0,
+    "lam1": 1510.0,
+    "burst_segments": 4,
+    "burst_week_share": 17.8,
+    "max_intensity": 3.89,
+    "short_bursts_le2w": 3
+   },
+   "aipoch/open-science": {
+    "n_weeks": 17,
+    "lam0": 254.0,
+    "lam1": 635.0,
+    "burst_segments": 4,
+    "burst_week_share": 29.4,
+    "max_intensity": 2.22,
+    "short_bursts_le2w": 4
+   },
+   "alexgreensh/attention-span": {
+    "n_weeks": 12,
+    "lam0": 53.5,
+    "lam1": 344.33,
+    "burst_segments": 2,
+    "burst_week_share": 25.0,
+    "max_intensity": 7.45,
+    "short_bursts_le2w": 2
+   },
+   "alibaba/nacos": {
+    "n_weeks": 437,
+    "lam0": 70.0,
+    "lam1": 175.0,
+    "burst_segments": 24,
+    "burst_week_share": 15.1,
+    "max_intensity": 4.8,
+    "short_bursts_le2w": 17
+   },
+   "alibaba/open-code-review": {
+    "n_weeks": 23,
+    "lam0": 1336.0,
+    "lam1": 7733.0,
+    "burst_segments": 2,
+    "burst_week_share": 13.0,
+    "max_intensity": 7.04,
+    "short_bursts_le2w": 2
+   },
+   "alibaba/zvec": {
+    "n_weeks": 47,
+    "lam0": 63.0,
+    "lam1": 2686.25,
+    "burst_segments": 3,
+    "burst_week_share": 10.6,
+    "max_intensity": 41.39,
+    "short_bursts_le2w": 2
+   },
+   "alirezarezvani/claude-skills": {
+    "n_weeks": 54,
+    "lam0": 395.5,
+    "lam1": 1736.2,
+    "burst_segments": 4,
+    "burst_week_share": 20.4,
+    "max_intensity": 3.65,
+    "short_bursts_le2w": 3
+   },
+   "anbeime/skill": {
+    "n_weeks": 38,
+    "lam0": 284.0,
+    "lam1": 710.0,
+    "burst_segments": 1,
+    "burst_week_share": 5.3,
+    "max_intensity": 2.05,
+    "short_bursts_le2w": 1
+   },
+   "android/skills": {
+    "n_weeks": 32,
+    "lam0": 122.0,
+    "lam1": 1776.0,
+    "burst_segments": 2,
+    "burst_week_share": 12.5,
+    "max_intensity": 17.36,
+    "short_bursts_le2w": 2
+   },
+   "antfu/skills": {
+    "n_weeks": 39,
+    "lam0": 73.0,
+    "lam1": 1107.33,
+    "burst_segments": 1,
+    "burst_week_share": 5.1,
+    "max_intensity": 20.73,
+    "short_bursts_le2w": 1
+   },
+   "anthropics/claude-plugins-official": {
+    "n_weeks": 49,
+    "lam0": 563.0,
+    "lam1": 4104.5,
+    "burst_segments": 3,
+    "burst_week_share": 12.2,
+    "max_intensity": 8.18,
+    "short_bursts_le2w": 3
+   },
+   "anthropics/skills": {
+    "n_weeks": 57,
+    "lam0": 2752.0,
+    "lam1": 7437.8,
+    "burst_segments": 3,
+    "burst_week_share": 24.6,
+    "max_intensity": 2.51,
+    "short_bursts_le2w": 1
+   },
+   "antonbabenko/terraform-skill": {
+    "n_weeks": 41,
+    "lam0": 34.0,
+    "lam1": 282.0,
+    "burst_segments": 3,
+    "burst_week_share": 9.8,
+    "max_intensity": 12.1,
+    "short_bursts_le2w": 3
+   },
+   "antvis/mcp-server-chart": {
+    "n_weeks": 79,
+    "lam0": 35.0,
+    "lam1": 213.86,
+    "burst_segments": 2,
+    "burst_week_share": 16.5,
+    "max_intensity": 5.07,
+    "short_bursts_le2w": 1
+   },
+   "anysearch-ai/anysearch-skill": {
+    "n_weeks": 26,
+    "lam0": 194.5,
+    "lam1": 781.0,
+    "burst_segments": 2,
+    "burst_week_share": 19.2,
+    "max_intensity": 3.67,
+    "short_bursts_le2w": 1
+   },
+   "appwrite/appwrite": {
+    "n_weeks": 394,
+    "lam0": 111.0,
+    "lam1": 587.97,
+    "burst_segments": 17,
+    "burst_week_share": 7.9,
+    "max_intensity": 12.86,
+    "short_bursts_le2w": 13
+   },
+   "asgeirtj/system_prompts_leaks": {
+    "n_weeks": 78,
+    "lam0": 425.5,
+    "lam1": 4269.29,
+    "burst_segments": 6,
+    "burst_week_share": 15.4,
+    "max_intensity": 11.97,
+    "short_bursts_le2w": 5
+   },
+   "avelino/awesome-go": {
+    "n_weeks": 642,
+    "lam0": 219.5,
+    "lam1": 716.12,
+    "burst_segments": 32,
+    "burst_week_share": 22.3,
+    "max_intensity": 11.92,
+    "short_bursts_le2w": 24
+   },
+   "awesome-selfhosted/awesome-selfhosted": {
+    "n_weeks": 595,
+    "lam0": 288.0,
+    "lam1": 1595.14,
+    "burst_segments": 24,
+    "burst_week_share": 35.1,
+    "max_intensity": 8.11,
+    "short_bursts_le2w": 18
+   },
+   "awesomedata/awesome-public-datasets": {
+    "n_weeks": 623,
+    "lam0": 99.0,
+    "lam1": 426.87,
+    "burst_segments": 17,
+    "burst_week_share": 6.3,
+    "max_intensity": 14.51,
+    "short_bursts_le2w": 12
+   },
+   "ayghri/i-have-adhd": {
+    "n_weeks": 24,
+    "lam0": 1485.5,
+    "lam1": 10327.33,
+    "burst_segments": 2,
+    "burst_week_share": 16.7,
+    "max_intensity": 7.26,
+    "short_bursts_le2w": 2
+   },
+   "backnotprop/plannotator": {
+    "n_weeks": 44,
+    "lam0": 199.5,
+    "lam1": 498.75,
+    "burst_segments": 2,
+    "burst_week_share": 6.8,
+    "max_intensity": 3.83,
+    "short_bursts_le2w": 2
+   },
+   "bevibing/tutor-skills": {
+    "n_weeks": 35,
+    "lam0": 21.0,
+    "lam1": 198.67,
+    "burst_segments": 2,
+    "burst_week_share": 5.7,
+    "max_intensity": 17.67,
+    "short_bursts_le2w": 2
+   },
+   "bitjaru/styleseed": {
+    "n_weeks": 29,
+    "lam0": 16.0,
+    "lam1": 136.67,
+    "burst_segments": 3,
+    "burst_week_share": 13.8,
+    "max_intensity": 8.91,
+    "short_bursts_le2w": 3
+   },
+   "blader/humanizer": {
+    "n_weeks": 41,
+    "lam0": 1252.0,
+    "lam1": 3569.0,
+    "burst_segments": 3,
+    "burst_week_share": 14.6,
+    "max_intensity": 3.07,
+    "short_bursts_le2w": 2
+   },
+   "breaking-brake/cc-wf-studio": {
+    "n_weeks": 52,
+    "lam0": 21.0,
+    "lam1": 681.0,
+    "burst_segments": 3,
+    "burst_week_share": 13.5,
+    "max_intensity": 35.87,
+    "short_bursts_le2w": 2
+   },
+   "bregman-arie/devops-exercises": {
+    "n_weeks": 369,
+    "lam0": 120.0,
+    "lam1": 1135.36,
+    "burst_segments": 23,
+    "burst_week_share": 9.5,
+    "max_intensity": 16.82,
+    "short_bursts_le2w": 21
+   },
+   "browser-act/skills": {
+    "n_weeks": 38,
+    "lam0": 123.0,
+    "lam1": 566.0,
+    "burst_segments": 1,
+    "burst_week_share": 15.8,
+    "max_intensity": 3.7,
+    "short_bursts_le2w": 0
+   },
+   "browser-use/browser-use": {
+    "n_weeks": 104,
+    "lam0": 785.5,
+    "lam1": 3753.1,
+    "burst_segments": 4,
+    "burst_week_share": 16.3,
+    "max_intensity": 5.12,
+    "short_bursts_le2w": 3
+   },
+   "brycewang-stanford/Auto-Empirical-Research-Skills": {
+    "n_weeks": 30,
+    "lam0": 127.0,
+    "lam1": 376.33,
+    "burst_segments": 5,
+    "burst_week_share": 20.0,
+    "max_intensity": 3.94,
+    "short_bursts_le2w": 5
+   },
+   "bytedance/deer-flow": {
+    "n_weeks": 77,
+    "lam0": 398.0,
+    "lam1": 6402.86,
+    "burst_segments": 3,
+    "burst_week_share": 13.0,
+    "max_intensity": 14.24,
+    "short_bursts_le2w": 2
+   },
+   "calesthio/OpenMontage": {
+    "n_weeks": 30,
+    "lam0": 1678.0,
+    "lam1": 10067.33,
+    "burst_segments": 2,
+    "burst_week_share": 10.0,
+    "max_intensity": 7.6,
+    "short_bursts_le2w": 2
+   },
+   "career-ops-hq/career-ops": {
+    "n_weeks": 30,
+    "lam0": 1308.0,
+    "lam1": 13021.67,
+    "burst_segments": 1,
+    "burst_week_share": 6.7,
+    "max_intensity": 13.39,
+    "short_bursts_le2w": 1
+   },
+   "cassidoo/getting-a-gig": {
+    "n_weeks": 618,
+    "lam0": 9.0,
+    "lam1": 46.23,
+    "burst_segments": 39,
+    "burst_week_share": 9.4,
+    "max_intensity": 15.33,
+    "short_bursts_le2w": 35
+   },
+   "cathrynlavery/diagram-design": {
+    "n_weeks": 28,
+    "lam0": 326.0,
+    "lam1": 10071.67,
+    "burst_segments": 2,
+    "burst_week_share": 28.6,
+    "max_intensity": 21.55,
+    "short_bursts_le2w": 0
+   },
+   "cbrock84/headcount": {
+    "n_weeks": 9,
+    "lam0": 85.0,
+    "lam1": 514.67,
+    "burst_segments": 3,
+    "burst_week_share": 44.4,
+    "max_intensity": 7.5,
+    "short_bursts_le2w": 3
+   },
+   "citrolabs/ego-lite": {
+    "n_weeks": 28,
+    "lam0": 209.5,
+    "lam1": 2873.33,
+    "burst_segments": 2,
+    "burst_week_share": 25.0,
+    "max_intensity": 10.82,
+    "short_bursts_le2w": 1
+   },
+   "cline/cline": {
+    "n_weeks": 121,
+    "lam0": 409.0,
+    "lam1": 1570.17,
+    "burst_segments": 5,
+    "burst_week_share": 22.3,
+    "max_intensity": 3.3,
+    "short_bursts_le2w": 3
+   },
+   "code-yeongyu/oh-my-openagent": {
+    "n_weeks": 47,
+    "lam0": 1104.0,
+    "lam1": 5028.0,
+    "burst_segments": 3,
+    "burst_week_share": 14.9,
+    "max_intensity": 4.0,
+    "short_bursts_le2w": 2
+   },
+   "codeaashu/claude-code": {
+    "n_weeks": 30,
+    "lam0": 38.5,
+    "lam1": 704.33,
+    "burst_segments": 1,
+    "burst_week_share": 6.7,
+    "max_intensity": 25.08,
+    "short_bursts_le2w": 1
+   },
+   "colbymchenry/codegraph": {
+    "n_weeks": 40,
+    "lam0": 926.0,
+    "lam1": 11286.75,
+    "burst_segments": 1,
+    "burst_week_share": 10.0,
+    "max_intensity": 12.19,
+    "short_bursts_le2w": 0
+   },
+   "coldteadotai/pr-lens": {
+    "n_weeks": 10,
+    "lam0": 142.0,
+    "lam1": 517.67,
+    "burst_segments": 2,
+    "burst_week_share": 20.0,
+    "max_intensity": 5.7,
+    "short_bursts_le2w": 2
+   },
+   "composio-community/awesome-claude-plugins": {
+    "n_weeks": 53,
+    "lam0": 17.0,
+    "lam1": 223.8,
+    "burst_segments": 2,
+    "burst_week_share": 9.4,
+    "max_intensity": 22.21,
+    "short_bursts_le2w": 1
+   },
+   "composio-community/awesome-codex-skills": {
+    "n_weeks": 41,
+    "lam0": 148.0,
+    "lam1": 2342.5,
+    "burst_segments": 1,
+    "burst_week_share": 14.6,
+    "max_intensity": 12.8,
+    "short_bursts_le2w": 0
+   },
+   "conorluddy/ios-simulator-skill": {
+    "n_weeks": 54,
+    "lam0": 19.5,
+    "lam1": 60.8,
+    "burst_segments": 4,
+    "burst_week_share": 13.0,
+    "max_intensity": 3.21,
+    "short_bursts_le2w": 4
+   },
+   "crewAIInc/crewAI": {
+    "n_weeks": 157,
+    "lam0": 336.0,
+    "lam1": 902.93,
+    "burst_segments": 8,
+    "burst_week_share": 11.5,
+    "max_intensity": 4.29,
+    "short_bursts_le2w": 6
+   },
+   "dair-ai/Prompt-Engineering-Guide": {
+    "n_weeks": 202,
+    "lam0": 252.0,
+    "lam1": 1630.85,
+    "burst_segments": 5,
+    "burst_week_share": 7.9,
+    "max_intensity": 9.02,
+    "short_bursts_le2w": 4
+   },
+   "datawhalechina/hello-agents": {
+    "n_weeks": 59,
+    "lam0": 1474.0,
+    "lam1": 3685.0,
+    "burst_segments": 4,
+    "burst_week_share": 11.9,
+    "max_intensity": 2.36,
+    "short_bursts_le2w": 3
+   },
+   "davepoon/buildwithclaude": {
+    "n_weeks": 66,
+    "lam0": 34.0,
+    "lam1": 274.5,
+    "burst_segments": 1,
+    "burst_week_share": 3.0,
+    "max_intensity": 18.54,
+    "short_bursts_le2w": 1
+   },
+   "deanpeters/Product-Manager-Skills": {
+    "n_weeks": 38,
+    "lam0": 166.5,
+    "lam1": 584.67,
+    "burst_segments": 1,
+    "burst_week_share": 13.2,
+    "max_intensity": 3.02,
+    "short_bursts_le2w": 0
+   },
+   "didilili/ai-agents-from-zero": {
+    "n_weeks": 39,
+    "lam0": 178.0,
+    "lam1": 445.0,
+    "burst_segments": 1,
+    "burst_week_share": 2.6,
+    "max_intensity": 1.88,
+    "short_bursts_le2w": 1
+   },
+   "diegosouzapw/OmniRoute": {
+    "n_weeks": 37,
+    "lam0": 645.0,
+    "lam1": 8039.67,
+    "burst_segments": 2,
+    "burst_week_share": 35.1,
+    "max_intensity": 7.86,
+    "short_bursts_le2w": 1
+   },
+   "dmmulroy/anti-slop": {
+    "n_weeks": 11,
+    "lam0": 273.0,
+    "lam1": 1287.67,
+    "burst_segments": 1,
+    "burst_week_share": 18.2,
+    "max_intensity": 6.21,
+    "short_bursts_le2w": 1
+   },
+   "dotnet/skills": {
+    "n_weeks": 38,
+    "lam0": 83.5,
+    "lam1": 725.33,
+    "burst_segments": 3,
+    "burst_week_share": 13.2,
+    "max_intensity": 8.63,
+    "short_bursts_le2w": 3
+   },
+   "earendil-works/pi": {
+    "n_weeks": 64,
+    "lam0": 2013.5,
+    "lam1": 5033.75,
+    "burst_segments": 5,
+    "burst_week_share": 18.8,
+    "max_intensity": 2.22,
+    "short_bursts_le2w": 4
+   },
+   "eastlakeside/interpy-zh": {
+    "n_weeks": 579,
+    "lam0": 6.0,
+    "lam1": 60.47,
+    "burst_segments": 14,
+    "burst_week_share": 5.7,
+    "max_intensity": 48.54,
+    "short_bursts_le2w": 11
+   },
+   "eatmoreduck/boss-zhipin-scraper": {
+    "n_weeks": 20,
+    "lam0": 57.0,
+    "lam1": 271.0,
+    "burst_segments": 1,
+    "burst_week_share": 10.0,
+    "max_intensity": 6.2,
+    "short_bursts_le2w": 1
+   },
+   "eigent-ai/eigent": {
+    "n_weeks": 65,
+    "lam0": 78.0,
+    "lam1": 1728.67,
+    "burst_segments": 2,
+    "burst_week_share": 4.6,
+    "max_intensity": 52.85,
+    "short_bursts_le2w": 2
+   },
+   "elementalsouls/Claude-BugHunter": {
+    "n_weeks": 25,
+    "lam0": 134.0,
+    "lam1": 619.33,
+    "burst_segments": 3,
+    "burst_week_share": 20.0,
+    "max_intensity": 5.02,
+    "short_bursts_le2w": 3
+   },
+   "epoko77-ai/im-not-ai": {
+    "n_weeks": 27,
+    "lam0": 168.0,
+    "lam1": 602.0,
+    "burst_segments": 3,
+    "burst_week_share": 11.1,
+    "max_intensity": 5.65,
+    "short_bursts_le2w": 3
+   },
+   "eugeniughelbur/obsidian-second-brain": {
+    "n_weeks": 31,
+    "lam0": 128.0,
+    "lam1": 497.33,
+    "burst_segments": 2,
+    "burst_week_share": 6.5,
+    "max_intensity": 5.93,
+    "short_bursts_le2w": 2
+   },
+   "evalstate/fast-agent": {
+    "n_weeks": 93,
+    "lam0": 14.0,
+    "lam1": 212.0,
+    "burst_segments": 3,
+    "burst_week_share": 18.3,
+    "max_intensity": 11.67,
+    "short_bursts_le2w": 2
+   },
+   "fantastic-admin/basic": {
+    "n_weeks": 315,
+    "lam0": 8.0,
+    "lam1": 36.74,
+    "burst_segments": 12,
+    "burst_week_share": 11.1,
+    "max_intensity": 9.1,
+    "short_bursts_le2w": 7
+   },
+   "farion1231/cc-switch": {
+    "n_weeks": 64,
+    "lam0": 1507.5,
+    "lam1": 6993.83,
+    "burst_segments": 2,
+    "burst_week_share": 23.4,
+    "max_intensity": 3.67,
+    "short_bursts_le2w": 1
+   },
+   "fcakyon/claude-codex-settings": {
+    "n_weeks": 68,
+    "lam0": 12.0,
+    "lam1": 62.67,
+    "burst_segments": 3,
+    "burst_week_share": 10.3,
+    "max_intensity": 5.25,
+    "short_bursts_le2w": 2
+   },
+   "feiskyer/claude-code-settings": {
+    "n_weeks": 67,
+    "lam0": 17.0,
+    "lam1": 84.5,
+    "burst_segments": 3,
+    "burst_week_share": 13.4,
+    "max_intensity": 4.71,
+    "short_bursts_le2w": 1
+   },
+   "ferdinandobons/startup-skill": {
+    "n_weeks": 34,
+    "lam0": 21.0,
+    "lam1": 166.0,
+    "burst_segments": 3,
+    "burst_week_share": 8.8,
+    "max_intensity": 11.29,
+    "short_bursts_le2w": 3
+   },
+   "fffaraz/awesome-cpp": {
+    "n_weeks": 641,
+    "lam0": 115.0,
+    "lam1": 287.5,
+    "burst_segments": 18,
+    "burst_week_share": 4.2,
+    "max_intensity": 3.43,
+    "short_bursts_le2w": 15
+   },
+   "filtalgo/Filtmall-Shopping-Skill": {
+    "n_weeks": 22,
+    "lam0": 0.5,
+    "lam1": 2.67,
+    "burst_segments": 1,
+    "burst_week_share": 22.7,
+    "max_intensity": 3.6,
+    "short_bursts_le2w": 0
+   },
+   "firecrawl/firecrawl": {
+    "n_weeks": 132,
+    "lam0": 1104.5,
+    "lam1": 3956.38,
+    "burst_segments": 4,
+    "burst_week_share": 27.3,
+    "max_intensity": 3.0,
+    "short_bursts_le2w": 2
+   },
+   "flipped-aurora/gin-vue-admin": {
+    "n_weeks": 373,
+    "lam0": 63.0,
+    "lam1": 160.81,
+    "burst_segments": 14,
+    "burst_week_share": 9.9,
+    "max_intensity": 5.07,
+    "short_bursts_le2w": 9
+   },
+   "formkit/formkit": {
+    "n_weeks": 282,
+    "lam0": 9.0,
+    "lam1": 77.68,
+    "burst_segments": 10,
+    "burst_week_share": 7.8,
+    "max_intensity": 15.11,
+    "short_bursts_le2w": 8
+   },
+   "foryourhealth111-pixel/Vibe-Skills": {
+    "n_weeks": 35,
+    "lam0": 88.0,
+    "lam1": 397.67,
+    "burst_segments": 2,
+    "burst_week_share": 11.4,
+    "max_intensity": 4.52,
+    "short_bursts_le2w": 1
+   },
+   "freestylefly/awesome-gpt-image-2": {
+    "n_weeks": 27,
+    "lam0": 439.0,
+    "lam1": 6420.67,
+    "burst_segments": 2,
+    "burst_week_share": 14.8,
+    "max_intensity": 14.59,
+    "short_bursts_le2w": 1
+   },
+   "garrytan/gstack": {
+    "n_weeks": 33,
+    "lam0": 2157.0,
+    "lam1": 17597.0,
+    "burst_segments": 1,
+    "burst_week_share": 12.1,
+    "max_intensity": 7.23,
+    "short_bursts_le2w": 0
+   },
+   "geekjourneyx/md2wechat-skill": {
+    "n_weeks": 42,
+    "lam0": 63.0,
+    "lam1": 305.5,
+    "burst_segments": 5,
+    "burst_week_share": 11.9,
+    "max_intensity": 6.86,
+    "short_bursts_le2w": 5
+   },
+   "genspark-ai/genoffice": {
+    "n_weeks": 13,
+    "lam0": 689.0,
+    "lam1": 1722.5,
+    "burst_segments": 2,
+    "burst_week_share": 15.4,
+    "max_intensity": 3.24,
+    "short_bursts_le2w": 2
+   },
+   "github/awesome-copilot": {
+    "n_weeks": 72,
+    "lam0": 495.5,
+    "lam1": 1238.75,
+    "burst_segments": 4,
+    "burst_week_share": 22.2,
+    "max_intensity": 2.29,
+    "short_bursts_le2w": 2
+   },
+   "github/spec-kit": {
+    "n_weeks": 62,
+    "lam0": 1901.5,
+    "lam1": 6218.67,
+    "burst_segments": 4,
+    "burst_week_share": 12.9,
+    "max_intensity": 3.5,
+    "short_bursts_le2w": 3
+   },
+   "glitternetwork/pinme": {
+    "n_weeks": 81,
+    "lam0": 14.0,
+    "lam1": 258.75,
+    "burst_segments": 6,
+    "burst_week_share": 11.1,
+    "max_intensity": 29.07,
+    "short_bursts_le2w": 5
+   },
+   "google-antigravity/antigravity-sdk-python": {
+    "n_weeks": 26,
+    "lam0": 115.5,
+    "lam1": 489.67,
+    "burst_segments": 1,
+    "burst_week_share": 7.7,
+    "max_intensity": 5.3,
+    "short_bursts_le2w": 1
+   },
+   "google-gemini/gemini-skills": {
+    "n_weeks": 38,
+    "lam0": 46.5,
+    "lam1": 756.0,
+    "burst_segments": 2,
+    "burst_week_share": 10.5,
+    "max_intensity": 18.42,
+    "short_bursts_le2w": 2
+   },
+   "google/skills": {
+    "n_weeks": 30,
+    "lam0": 358.0,
+    "lam1": 2941.0,
+    "burst_segments": 4,
+    "burst_week_share": 20.0,
+    "max_intensity": 8.72,
+    "short_bursts_le2w": 4
+   },
+   "googleworkspace/cli": {
+    "n_weeks": 34,
+    "lam0": 228.0,
+    "lam1": 7256.0,
+    "burst_segments": 1,
+    "burst_week_share": 5.9,
+    "max_intensity": 43.71,
+    "short_bursts_le2w": 1
+   },
+   "gooseworks-ai/goose-skills": {
+    "n_weeks": 34,
+    "lam0": 22.5,
+    "lam1": 155.0,
+    "burst_segments": 3,
+    "burst_week_share": 14.7,
+    "max_intensity": 5.98,
+    "short_bursts_le2w": 3
+   },
+   "gosom/google-maps-scraper": {
+    "n_weeks": 184,
+    "lam0": 13.5,
+    "lam1": 188.06,
+    "burst_segments": 9,
+    "burst_week_share": 17.4,
+    "max_intensity": 23.63,
+    "short_bursts_le2w": 5
+   },
+   "gotalab/cc-sdd": {
+    "n_weeks": 67,
+    "lam0": 54.0,
+    "lam1": 152.83,
+    "burst_segments": 5,
+    "burst_week_share": 9.0,
+    "max_intensity": 4.2,
+    "short_bursts_le2w": 5
+   },
+   "harry0703/MoneyPrinterTurbo": {
+    "n_weeks": 137,
+    "lam0": 290.0,
+    "lam1": 5634.85,
+    "burst_segments": 10,
+    "burst_week_share": 16.1,
+    "max_intensity": 21.66,
+    "short_bursts_le2w": 8
+   },
+   "heilcheng/awesome-agent-skills": {
+    "n_weeks": 43,
+    "lam0": 164.0,
+    "lam1": 414.75,
+    "burst_segments": 1,
+    "burst_week_share": 4.7,
+    "max_intensity": 3.43,
+    "short_bursts_le2w": 1
+   },
+   "hesamsheikh/octogent": {
+    "n_weeks": 35,
+    "lam0": 7.0,
+    "lam1": 269.0,
+    "burst_segments": 2,
+    "burst_week_share": 22.9,
+    "max_intensity": 23.24,
+    "short_bursts_le2w": 1
+   },
+   "hesreallyhim/awesome-claude-code": {
+    "n_weeks": 80,
+    "lam0": 558.0,
+    "lam1": 2097.0,
+    "burst_segments": 3,
+    "burst_week_share": 16.2,
+    "max_intensity": 3.45,
+    "short_bursts_le2w": 1
+   },
+   "heygen-com/hyperframes": {
+    "n_weeks": 33,
+    "lam0": 1806.0,
+    "lam1": 5548.67,
+    "burst_segments": 3,
+    "burst_week_share": 18.2,
+    "max_intensity": 2.92,
+    "short_bursts_le2w": 2
+   },
+   "himself65/finance-skills": {
+    "n_weeks": 33,
+    "lam0": 55.0,
+    "lam1": 402.0,
+    "burst_segments": 3,
+    "burst_week_share": 18.2,
+    "max_intensity": 8.7,
+    "short_bursts_le2w": 2
+   },
+   "hoangsonww/Claude-Code-Agent-Monitor": {
+    "n_weeks": 34,
+    "lam0": 21.5,
+    "lam1": 153.0,
+    "burst_segments": 2,
+    "burst_week_share": 8.8,
+    "max_intensity": 10.0,
+    "short_bursts_le2w": 2
+   },
+   "hoochanlon/hamuleite": {
+    "n_weeks": 454,
+    "lam0": 8.0,
+    "lam1": 125.49,
+    "burst_segments": 10,
+    "burst_week_share": 8.8,
+    "max_intensity": 61.0,
+    "short_bursts_le2w": 6
+   },
+   "htdt/godogen": {
+    "n_weeks": 38,
+    "lam0": 104.5,
+    "lam1": 1039.0,
+    "burst_segments": 3,
+    "burst_week_share": 10.5,
+    "max_intensity": 9.96,
+    "short_bursts_le2w": 3
+   },
+   "htmlstreamofficial/preline": {
+    "n_weeks": 232,
+    "lam0": 23.0,
+    "lam1": 90.57,
+    "burst_segments": 11,
+    "burst_week_share": 9.1,
+    "max_intensity": 5.02,
+    "short_bursts_le2w": 8
+   },
+   "huangjia2019/claude-code-engineering": {
+    "n_weeks": 39,
+    "lam0": 30.0,
+    "lam1": 75.0,
+    "burst_segments": 1,
+    "burst_week_share": 10.3,
+    "max_intensity": 1.78,
+    "short_bursts_le2w": 0
+   },
+   "hugohe3/ppt-master": {
+    "n_weeks": 46,
+    "lam0": 1469.0,
+    "lam1": 3696.5,
+    "burst_segments": 5,
+    "burst_week_share": 23.9,
+    "max_intensity": 2.66,
+    "short_bursts_le2w": 4
+   },
+   "iOfficeAI/AionUi": {
+    "n_weeks": 64,
+    "lam0": 340.5,
+    "lam1": 2178.83,
+    "burst_segments": 3,
+    "burst_week_share": 7.8,
+    "max_intensity": 8.53,
+    "short_bursts_le2w": 2
+   },
+   "iOfficeAI/OfficeCLI": {
+    "n_weeks": 32,
+    "lam0": 505.0,
+    "lam1": 4542.67,
+    "burst_segments": 1,
+    "burst_week_share": 15.6,
+    "max_intensity": 7.26,
+    "short_bursts_le2w": 0
+   },
+   "ibelick/ui-skills": {
+    "n_weeks": 42,
+    "lam0": 150.5,
+    "lam1": 1040.0,
+    "burst_segments": 2,
+    "burst_week_share": 9.5,
+    "max_intensity": 9.27,
+    "short_bursts_le2w": 2
+   },
+   "iflytek/skillhub": {
+    "n_weeks": 33,
+    "lam0": 84.0,
+    "lam1": 606.67,
+    "burst_segments": 3,
+    "burst_week_share": 18.2,
+    "max_intensity": 6.55,
+    "short_bursts_le2w": 2
+   },
+   "ikaijua/Awesome-AITools": {
+    "n_weeks": 187,
+    "lam0": 22.0,
+    "lam1": 137.39,
+    "burst_segments": 5,
+    "burst_week_share": 7.0,
+    "max_intensity": 12.24,
+    "short_bursts_le2w": 3
+   },
+   "infiniflow/ragflow": {
+    "n_weeks": 150,
+    "lam0": 536.5,
+    "lam1": 1813.93,
+    "burst_segments": 5,
+    "burst_week_share": 8.7,
+    "max_intensity": 3.99,
+    "short_bursts_le2w": 4
+   },
+   "inkeep/open-knowledge": {
+    "n_weeks": 21,
+    "lam0": 113.0,
+    "lam1": 859.67,
+    "burst_segments": 1,
+    "burst_week_share": 14.3,
+    "max_intensity": 7.61,
+    "short_bursts_le2w": 0
+   },
+   "instavm/coderunner": {
+    "n_weeks": 70,
+    "lam0": 4.0,
+    "lam1": 73.86,
+    "burst_segments": 6,
+    "burst_week_share": 12.9,
+    "max_intensity": 20.0,
+    "short_bursts_le2w": 5
+   },
+   "internet-court/internet-court-skill": {
+    "n_weeks": 19,
+    "lam0": 270.0,
+    "lam1": 1170.0,
+    "burst_segments": 2,
+    "burst_week_share": 10.5,
+    "max_intensity": 8.5,
+    "short_bursts_le2w": 2
+   },
+   "irinabuht12-oss/marketing-skills": {
+    "n_weeks": 40,
+    "lam0": 16.0,
+    "lam1": 836.5,
+    "burst_segments": 1,
+    "burst_week_share": 20.0,
+    "max_intensity": 38.71,
+    "short_bursts_le2w": 0
+   },
+   "itsmostafa/aws-agent-skills": {
+    "n_weeks": 389,
+    "lam0": 2.0,
+    "lam1": 9.68,
+    "burst_segments": 6,
+    "burst_week_share": 7.5,
+    "max_intensity": 11.33,
+    "short_bursts_le2w": 3
+   },
+   "jamiepine/voicebox": {
+    "n_weeks": 39,
+    "lam0": 866.0,
+    "lam1": 5827.33,
+    "burst_segments": 4,
+    "burst_week_share": 17.9,
+    "max_intensity": 9.3,
+    "short_bursts_le2w": 3
+   },
+   "jangviktor-web/nihaixia": {
+    "n_weeks": 28,
+    "lam0": 75.0,
+    "lam1": 562.33,
+    "burst_segments": 3,
+    "burst_week_share": 14.3,
+    "max_intensity": 8.46,
+    "short_bursts_le2w": 3
+   },
+   "jaywcjlove/awesome-mac": {
+    "n_weeks": 536,
+    "lam0": 157.5,
+    "lam1": 759.62,
+    "burst_segments": 20,
+    "burst_week_share": 11.8,
+    "max_intensity": 11.28,
+    "short_bursts_le2w": 16
+   },
+   "jeecgboot/JeecgBoot": {
+    "n_weeks": 413,
+    "lam0": 95.0,
+    "lam1": 328.66,
+    "burst_segments": 19,
+    "burst_week_share": 11.1,
+    "max_intensity": 4.03,
+    "short_bursts_le2w": 14
+   },
+   "jezweb/claude-skills": {
+    "n_weeks": 53,
+    "lam0": 15.0,
+    "lam1": 73.4,
+    "burst_segments": 2,
+    "burst_week_share": 9.4,
+    "max_intensity": 5.43,
+    "short_bursts_le2w": 1
+   },
+   "jihe520/MathModelAgent": {
+    "n_weeks": 91,
+    "lam0": 19.0,
+    "lam1": 370.89,
+    "burst_segments": 3,
+    "burst_week_share": 16.5,
+    "max_intensity": 16.75,
+    "short_bursts_le2w": 2
+   },
+   "jlevy/the-art-of-command-line": {
+    "n_weeks": 597,
+    "lam0": 134.0,
+    "lam1": 1405.03,
+    "burst_segments": 27,
+    "burst_week_share": 9.4,
+    "max_intensity": 23.51,
+    "short_bursts_le2w": 20
+   },
+   "jnMetaCode/superpowers-zh": {
+    "n_weeks": 32,
+    "lam0": 214.0,
+    "lam1": 634.67,
+    "burst_segments": 1,
+    "burst_week_share": 25.0,
+    "max_intensity": 2.42,
+    "short_bursts_le2w": 0
+   },
+   "josephmisiti/awesome-machine-learning": {
+    "n_weeks": 641,
+    "lam0": 96.0,
+    "lam1": 275.34,
+    "burst_segments": 37,
+    "burst_week_share": 12.3,
+    "max_intensity": 7.81,
+    "short_bursts_le2w": 28
+   },
+   "karpathy/autoresearch": {
+    "n_weeks": 34,
+    "lam0": 1097.0,
+    "lam1": 18217.0,
+    "burst_segments": 1,
+    "burst_week_share": 8.8,
+    "max_intensity": 16.61,
+    "short_bursts_le2w": 0
+   },
+   "kepano/obsidian-skills": {
+    "n_weeks": 43,
+    "lam0": 1031.0,
+    "lam1": 3153.75,
+    "burst_segments": 4,
+    "burst_week_share": 14.0,
+    "max_intensity": 3.28,
+    "short_bursts_le2w": 4
+   },
+   "koala73/worldmonitor": {
+    "n_weeks": 42,
+    "lam0": 900.5,
+    "lam1": 10266.25,
+    "burst_segments": 3,
+    "burst_week_share": 14.3,
+    "max_intensity": 13.54,
+    "short_bursts_le2w": 2
+   },
+   "krillinai/OpenCreator": {
+    "n_weeks": 97,
+    "lam0": 51.0,
+    "lam1": 948.56,
+    "burst_segments": 5,
+    "burst_week_share": 9.3,
+    "max_intensity": 28.07,
+    "short_bursts_le2w": 4
+   },
+   "kubesphere/kubesphere": {
+    "n_weeks": 445,
+    "lam0": 33.0,
+    "lam1": 112.3,
+    "burst_segments": 17,
+    "burst_week_share": 13.5,
+    "max_intensity": 6.23,
+    "short_bursts_le2w": 8
+   },
+   "kucherenko/jscpd": {
+    "n_weeks": 700,
+    "lam0": 5.0,
+    "lam1": 45.13,
+    "burst_segments": 17,
+    "burst_week_share": 8.9,
+    "max_intensity": 67.6,
+    "short_bursts_le2w": 13
+   },
+   "kunal-kushwaha/Competitive-Programming-Resources": {
+    "n_weeks": 324,
+    "lam0": 9.0,
+    "lam1": 44.5,
+    "burst_segments": 4,
+    "burst_week_share": 4.3,
+    "max_intensity": 20.7,
+    "short_bursts_le2w": 2
+   },
+   "lackeyjb/playwright-skill": {
+    "n_weeks": 53,
+    "lam0": 39.0,
+    "lam1": 201.0,
+    "burst_segments": 3,
+    "burst_week_share": 9.4,
+    "max_intensity": 13.85,
+    "short_bursts_le2w": 2
+   },
+   "langgenius/dify": {
+    "n_weeks": 185,
+    "lam0": 776.0,
+    "lam1": 2508.44,
+    "burst_segments": 7,
+    "burst_week_share": 9.7,
+    "max_intensity": 3.5,
+    "short_bursts_le2w": 6
+   },
+   "larashero3-dotcom/lieflat-charts": {
+    "n_weeks": 15,
+    "lam0": 243.0,
+    "lam1": 1288.0,
+    "burst_segments": 1,
+    "burst_week_share": 6.7,
+    "max_intensity": 11.3,
+    "short_bursts_le2w": 1
+   },
+   "laravel/laravel": {
+    "n_weeks": 803,
+    "lam0": 97.0,
+    "lam1": 243.01,
+    "burst_segments": 33,
+    "burst_week_share": 13.9,
+    "max_intensity": 14.4,
+    "short_bursts_le2w": 24
+   },
+   "latent-spaces/brag": {
+    "n_weeks": 19,
+    "lam0": 46.0,
+    "lam1": 4027.67,
+    "burst_segments": 1,
+    "burst_week_share": 31.6,
+    "max_intensity": 62.41,
+    "short_bursts_le2w": 0
+   },
+   "libukai/awesome-agent-skills": {
+    "n_weeks": 44,
+    "lam0": 59.0,
+    "lam1": 469.5,
+    "burst_segments": 2,
+    "burst_week_share": 22.7,
+    "max_intensity": 6.81,
+    "short_bursts_le2w": 0
+   },
+   "liustack/modlens": {
+    "n_weeks": 36,
+    "lam0": 0.5,
+    "lam1": 1114.0,
+    "burst_segments": 2,
+    "burst_week_share": 13.9,
+    "max_intensity": 1800.0,
+    "short_bursts_le2w": 1
+   },
+   "ljagiello/ctf-skills": {
+    "n_weeks": 38,
+    "lam0": 68.5,
+    "lam1": 346.67,
+    "burst_segments": 1,
+    "burst_week_share": 13.2,
+    "max_intensity": 4.31,
+    "short_bursts_le2w": 0
+   },
+   "lobehub/lobehub": {
+    "n_weeks": 179,
+    "lam0": 323.0,
+    "lam1": 1696.88,
+    "burst_segments": 14,
+    "burst_week_share": 11.2,
+    "max_intensity": 7.9,
+    "short_bursts_le2w": 13
+   },
+   "mattpocock/skills": {
+    "n_weeks": 38,
+    "lam0": 8324.5,
+    "lam1": 22618.33,
+    "burst_segments": 2,
+    "burst_week_share": 7.9,
+    "max_intensity": 4.08,
+    "short_bursts_le2w": 2
+   },
+   "maziyarpanahi/openmed": {
+    "n_weeks": 56,
+    "lam0": 39.0,
+    "lam1": 651.4,
+    "burst_segments": 4,
+    "burst_week_share": 7.1,
+    "max_intensity": 51.82,
+    "short_bursts_le2w": 4
+   },
+   "mcp-use/mcp-use": {
+    "n_weeks": 83,
+    "lam0": 71.0,
+    "lam1": 638.12,
+    "burst_segments": 2,
+    "burst_week_share": 9.6,
+    "max_intensity": 12.34,
+    "short_bursts_le2w": 0
+   },
+   "mem0ai/mem0": {
+    "n_weeks": 175,
+    "lam0": 303.0,
+    "lam1": 1379.59,
+    "burst_segments": 9,
+    "burst_week_share": 8.6,
+    "max_intensity": 10.43,
+    "short_bursts_le2w": 7
+   },
+   "metalbear-co/mirrord": {
+    "n_weeks": 247,
+    "lam0": 13.0,
+    "lam1": 100.25,
+    "burst_segments": 10,
+    "burst_week_share": 6.5,
+    "max_intensity": 17.98,
+    "short_bursts_le2w": 9
+   },
+   "michael-denyer/pstack-claude": {
+    "n_weeks": 22,
+    "lam0": 3.0,
+    "lam1": 784.0,
+    "burst_segments": 2,
+    "burst_week_share": 27.3,
+    "max_intensity": 229.33,
+    "short_bursts_le2w": 1
+   },
+   "microsoft/ML-For-Beginners": {
+    "n_weeks": 295,
+    "lam0": 159.0,
+    "lam1": 1608.34,
+    "burst_segments": 19,
+    "burst_week_share": 9.2,
+    "max_intensity": 19.2,
+    "short_bursts_le2w": 18
+   },
+   "microsoft/SkillOpt": {
+    "n_weeks": 25,
+    "lam0": 334.0,
+    "lam1": 2465.33,
+    "burst_segments": 4,
+    "burst_week_share": 20.0,
+    "max_intensity": 7.68,
+    "short_bursts_le2w": 4
+   },
+   "microsoft/Web-Dev-For-Beginners": {
+    "n_weeks": 311,
+    "lam0": 167.0,
+    "lam1": 1404.94,
+    "burst_segments": 27,
+    "burst_week_share": 12.5,
+    "max_intensity": 14.68,
+    "short_bursts_le2w": 25
+   },
+   "microsoft/playwright": {
+    "n_weeks": 363,
+    "lam0": 220.0,
+    "lam1": 748.42,
+    "burst_segments": 17,
+    "burst_week_share": 11.8,
+    "max_intensity": 11.4,
+    "short_bursts_le2w": 14
+   },
+   "microsoft/skill-recorder": {
+    "n_weeks": 13,
+    "lam0": 163.0,
+    "lam1": 1062.33,
+    "burst_segments": 1,
+    "burst_week_share": 15.4,
+    "max_intensity": 8.32,
+    "short_bursts_le2w": 1
+   },
+   "minsight-ai-info/AI-Search-Hub": {
+    "n_weeks": 33,
+    "lam0": 14.0,
+    "lam1": 284.33,
+    "burst_segments": 1,
+    "burst_week_share": 9.1,
+    "max_intensity": 20.31,
+    "short_bursts_le2w": 0
+   },
+   "miqdadbadjuber/anti-slop": {
+    "n_weeks": 12,
+    "lam0": 567.0,
+    "lam1": 1417.5,
+    "burst_segments": 2,
+    "burst_week_share": 16.7,
+    "max_intensity": 2.53,
+    "short_bursts_le2w": 2
+   },
+   "mksglu/context-mode": {
+    "n_weeks": 35,
+    "lam0": 555.0,
+    "lam1": 2893.67,
+    "burst_segments": 4,
+    "burst_week_share": 22.9,
+    "max_intensity": 5.21,
+    "short_bursts_le2w": 3
+   },
+   "msitarzewski/agency-agents": {
+    "n_weeks": 54,
+    "lam0": 1753.5,
+    "lam1": 14691.6,
+    "burst_segments": 2,
+    "burst_week_share": 13.0,
+    "max_intensity": 7.17,
+    "short_bursts_le2w": 1
+   },
+   "multica-ai/andrej-karpathy-skills": {
+    "n_weeks": 39,
+    "lam0": 2466.0,
+    "lam1": 30223.67,
+    "burst_segments": 2,
+    "burst_week_share": 15.4,
+    "max_intensity": 10.76,
+    "short_bursts_le2w": 1
+   },
+   "muxuuu/serenity-skill": {
+    "n_weeks": 25,
+    "lam0": 48.0,
+    "lam1": 831.33,
+    "burst_segments": 1,
+    "burst_week_share": 20.0,
+    "max_intensity": 13.23,
+    "short_bursts_le2w": 0
+   },
+   "mvanhorn/last30days-skill": {
+    "n_weeks": 40,
+    "lam0": 741.5,
+    "lam1": 7352.25,
+    "burst_segments": 3,
+    "burst_week_share": 12.5,
+    "max_intensity": 10.66,
+    "short_bursts_le2w": 3
+   },
+   "mvschwarz/openrig": {
+    "n_weeks": 30,
+    "lam0": 2.0,
+    "lam1": 2379.0,
+    "burst_segments": 1,
+    "burst_week_share": 16.7,
+    "max_intensity": 810.0,
+    "short_bursts_le2w": 0
+   },
+   "nanocoai/nanoclaw": {
+    "n_weeks": 39,
+    "lam0": 129.0,
+    "lam1": 4844.67,
+    "burst_segments": 1,
+    "burst_week_share": 17.9,
+    "max_intensity": 26.55,
+    "short_bursts_le2w": 0
+   },
+   "nexscope-ai/eCommerce-Skills": {
+    "n_weeks": 32,
+    "lam0": 35.0,
+    "lam1": 87.5,
+    "burst_segments": 2,
+    "burst_week_share": 34.4,
+    "max_intensity": 1.9,
+    "short_bursts_le2w": 0
+   },
+   "nextlevelbuilder/ui-ux-pro-max-skill": {
+    "n_weeks": 47,
+    "lam0": 2922.0,
+    "lam1": 7305.0,
+    "burst_segments": 2,
+    "burst_week_share": 8.5,
+    "max_intensity": 2.05,
+    "short_bursts_le2w": 2
+   },
+   "nexu-io/html-anything": {
+    "n_weeks": 24,
+    "lam0": 141.5,
+    "lam1": 1790.67,
+    "burst_segments": 1,
+    "burst_week_share": 16.7,
+    "max_intensity": 10.79,
+    "short_bursts_le2w": 0
+   },
+   "nexu-io/open-design": {
+    "n_weeks": 26,
+    "lam0": 2333.5,
+    "lam1": 14088.0,
+    "burst_segments": 1,
+    "burst_week_share": 15.4,
+    "max_intensity": 5.3,
+    "short_bursts_le2w": 0
+   },
+   "nidhinjs/prompt-master": {
+    "n_weeks": 33,
+    "lam0": 326.0,
+    "lam1": 1476.0,
+    "burst_segments": 2,
+    "burst_week_share": 12.1,
+    "max_intensity": 4.46,
+    "short_bursts_le2w": 1
+   },
+   "ningzimu/codex-ppt-skill": {
+    "n_weeks": 26,
+    "lam0": 266.0,
+    "lam1": 665.0,
+    "burst_segments": 1,
+    "burst_week_share": 11.5,
+    "max_intensity": 2.11,
+    "short_bursts_le2w": 0
+   },
+   "nowork-studio/notfair-plugin": {
+    "n_weeks": 31,
+    "lam0": 66.0,
+    "lam1": 591.0,
+    "burst_segments": 3,
+    "burst_week_share": 16.1,
+    "max_intensity": 8.09,
+    "short_bursts_le2w": 2
+   },
+   "obra/superpowers": {
+    "n_weeks": 55,
+    "lam0": 4408.0,
+    "lam1": 14807.6,
+    "burst_segments": 4,
+    "burst_week_share": 23.6,
+    "max_intensity": 2.88,
+    "short_bursts_le2w": 2
+   },
+   "odysseus-dev/odysseus": {
+    "n_weeks": 21,
+    "lam0": 825.0,
+    "lam1": 24491.67,
+    "burst_segments": 1,
+    "burst_week_share": 9.5,
+    "max_intensity": 41.55,
+    "short_bursts_le2w": 1
+   },
+   "olistic/warriorjs": {
+    "n_weeks": 600,
+    "lam0": 4.0,
+    "lam1": 126.62,
+    "burst_segments": 7,
+    "burst_week_share": 3.3,
+    "max_intensity": 176.42,
+    "short_bursts_le2w": 4
+   },
+   "op7418/guizang-ppt-skill": {
+    "n_weeks": 27,
+    "lam0": 624.0,
+    "lam1": 2684.67,
+    "burst_segments": 1,
+    "burst_week_share": 29.6,
+    "max_intensity": 3.35,
+    "short_bursts_le2w": 0
+   },
+   "open-webui/open-webui": {
+    "n_weeks": 160,
+    "lam0": 854.0,
+    "lam1": 2490.81,
+    "burst_segments": 6,
+    "burst_week_share": 8.8,
+    "max_intensity": 3.74,
+    "short_bursts_le2w": 5
+   },
+   "openclaw/openclaw": {
+    "n_weeks": 48,
+    "lam0": 1489.5,
+    "lam1": 56034.75,
+    "burst_segments": 1,
+    "burst_week_share": 16.7,
+    "max_intensity": 25.56,
+    "short_bursts_le2w": 0
+   },
+   "opendatalab/MinerU": {
+    "n_weeks": 139,
+    "lam0": 493.0,
+    "lam1": 1836.46,
+    "burst_segments": 9,
+    "burst_week_share": 12.2,
+    "max_intensity": 5.32,
+    "short_bursts_le2w": 7
+   },
+   "openinterpreter/openinterpreter": {
+    "n_weeks": 172,
+    "lam0": 127.0,
+    "lam1": 2534.29,
+    "burst_segments": 8,
+    "burst_week_share": 8.7,
+    "max_intensity": 41.08,
+    "short_bursts_le2w": 7
+   },
+   "pacifio/atlas": {
+    "n_weeks": 24,
+    "lam0": 25.0,
+    "lam1": 2029.33,
+    "burst_segments": 3,
+    "burst_week_share": 25.0,
+    "max_intensity": 72.24,
+    "short_bursts_le2w": 2
+   },
+   "paperclipai/paperclip": {
+    "n_weeks": 34,
+    "lam0": 1730.0,
+    "lam1": 10943.33,
+    "burst_segments": 2,
+    "burst_week_share": 20.6,
+    "max_intensity": 5.32,
+    "short_bursts_le2w": 1
+   },
+   "parcadei/Continuous-Claude-v3": {
+    "n_weeks": 44,
+    "lam0": 16.0,
+    "lam1": 786.0,
+    "burst_segments": 1,
+    "burst_week_share": 9.1,
+    "max_intensity": 49.12,
+    "short_bursts_le2w": 0
+   },
+   "pascalorg/editor": {
+    "n_weeks": 54,
+    "lam0": 119.0,
+    "lam1": 3491.2,
+    "burst_segments": 4,
+    "burst_week_share": 11.1,
+    "max_intensity": 37.72,
+    "short_bursts_le2w": 4
+   },
+   "pbakaus/impeccable": {
+    "n_weeks": 50,
+    "lam0": 1872.0,
+    "lam1": 4680.0,
+    "burst_segments": 5,
+    "burst_week_share": 16.0,
+    "max_intensity": 2.84,
+    "short_bursts_le2w": 5
+   },
+   "phuryn/pm-skills": {
+    "n_weeks": 34,
+    "lam0": 314.5,
+    "lam1": 4291.67,
+    "burst_segments": 2,
+    "burst_week_share": 11.8,
+    "max_intensity": 12.56,
+    "short_bursts_le2w": 2
+   },
+   "plannotator/effective-html": {
+    "n_weeks": 20,
+    "lam0": 82.5,
+    "lam1": 696.0,
+    "burst_segments": 2,
+    "burst_week_share": 15.0,
+    "max_intensity": 12.27,
+    "short_bursts_le2w": 2
+   },
+   "plugin87/ux-ui-agent-skills": {
+    "n_weeks": 32,
+    "lam0": 12.0,
+    "lam1": 575.0,
+    "burst_segments": 4,
+    "burst_week_share": 18.8,
+    "max_intensity": 59.17,
+    "short_bursts_le2w": 4
+   },
+   "prakhar1989/awesome-courses": {
+    "n_weeks": 624,
+    "lam0": 90.0,
+    "lam1": 338.85,
+    "burst_segments": 16,
+    "burst_week_share": 5.1,
+    "max_intensity": 16.28,
+    "short_bursts_le2w": 13
+   },
+   "public-apis/public-apis": {
+    "n_weeks": 553,
+    "lam0": 653.0,
+    "lam1": 3041.84,
+    "burst_segments": 46,
+    "burst_week_share": 16.1,
+    "max_intensity": 6.19,
+    "short_bursts_le2w": 39
+   },
+   "punkpeye/awesome-mcp-servers": {
+    "n_weeks": 100,
+    "lam0": 527.0,
+    "lam1": 4321.8,
+    "burst_segments": 3,
+    "burst_week_share": 10.0,
+    "max_intensity": 9.22,
+    "short_bursts_le2w": 2
+   },
+   "rampstackco/claude-skills": {
+    "n_weeks": 26,
+    "lam0": 25.5,
+    "lam1": 129.67,
+    "burst_segments": 3,
+    "burst_week_share": 11.5,
+    "max_intensity": 8.31,
+    "short_bursts_le2w": 3
+   },
+   "reactive-resume/reactive-resume": {
+    "n_weeks": 344,
+    "lam0": 69.5,
+    "lam1": 646.38,
+    "burst_segments": 19,
+    "burst_week_share": 12.2,
+    "max_intensity": 14.91,
+    "short_bursts_le2w": 15
+   },
+   "rebelytics/one-skill-to-rule-them-all": {
+    "n_weeks": 36,
+    "lam0": 80.5,
+    "lam1": 279.67,
+    "burst_segments": 3,
+    "burst_week_share": 22.2,
+    "max_intensity": 3.88,
+    "short_bursts_le2w": 2
+   },
+   "refly-ai/refly": {
+    "n_weeks": 140,
+    "lam0": 16.0,
+    "lam1": 321.79,
+    "burst_segments": 6,
+    "burst_week_share": 14.3,
+    "max_intensity": 18.84,
+    "short_bursts_le2w": 4
+   },
+   "remotion-dev/remotion": {
+    "n_weeks": 331,
+    "lam0": 58.0,
+    "lam1": 1294.73,
+    "burst_segments": 3,
+    "burst_week_share": 13.3,
+    "max_intensity": 46.62,
+    "short_bursts_le2w": 2
+   },
+   "reticlehq/reticle": {
+    "n_weeks": 20,
+    "lam0": 36.0,
+    "lam1": 219.67,
+    "burst_segments": 1,
+    "burst_week_share": 15.0,
+    "max_intensity": 6.1,
+    "short_bursts_le2w": 0
+   },
+   "ripienaar/free-for-dev": {
+    "n_weeks": 606,
+    "lam0": 127.0,
+    "lam1": 1087.07,
+    "burst_segments": 40,
+    "burst_week_share": 12.4,
+    "max_intensity": 12.78,
+    "short_bursts_le2w": 34
+   },
+   "rohitg00/ai-engineering-from-scratch": {
+    "n_weeks": 32,
+    "lam0": 1418.5,
+    "lam1": 7299.67,
+    "burst_segments": 3,
+    "burst_week_share": 21.9,
+    "max_intensity": 4.99,
+    "short_bursts_le2w": 1
+   },
+   "rohitg00/awesome-claude-design": {
+    "n_weeks": 27,
+    "lam0": 28.0,
+    "lam1": 170.67,
+    "burst_segments": 1,
+    "burst_week_share": 7.4,
+    "max_intensity": 7.95,
+    "short_bursts_le2w": 1
+   },
+   "rohitg00/pro-workflow": {
+    "n_weeks": 38,
+    "lam0": 34.0,
+    "lam1": 393.67,
+    "burst_segments": 4,
+    "burst_week_share": 15.8,
+    "max_intensity": 12.35,
+    "short_bursts_le2w": 4
+   },
+   "romainsimon/paperasse": {
+    "n_weeks": 38,
+    "lam0": 18.5,
+    "lam1": 489.33,
+    "burst_segments": 2,
+    "burst_week_share": 13.2,
+    "max_intensity": 20.68,
+    "short_bursts_le2w": 1
+   },
+   "rust-unofficial/awesome-rust": {
+    "n_weeks": 641,
+    "lam0": 90.0,
+    "lam1": 225.0,
+    "burst_segments": 26,
+    "burst_week_share": 18.4,
+    "max_intensity": 2.41,
+    "short_bursts_le2w": 13
+   },
+   "ruvnet/RuView": {
+    "n_weeks": 73,
+    "lam0": 609.0,
+    "lam1": 7321.57,
+    "burst_segments": 7,
+    "burst_week_share": 15.1,
+    "max_intensity": 15.5,
+    "short_bursts_le2w": 5
+   },
+   "ruvnet/ruflo": {
+    "n_weeks": 73,
+    "lam0": 600.0,
+    "lam1": 4619.29,
+    "burst_segments": 4,
+    "burst_week_share": 12.3,
+    "max_intensity": 9.24,
+    "short_bursts_le2w": 3
+   },
+   "samber/cc-skills-golang": {
+    "n_weeks": 32,
+    "lam0": 89.0,
+    "lam1": 370.33,
+    "burst_segments": 1,
+    "burst_week_share": 6.2,
+    "max_intensity": 5.32,
+    "short_bursts_le2w": 1
+   },
+   "sdmg15/Best-websites-a-programmer-should-visit": {
+    "n_weeks": 503,
+    "lam0": 63.0,
+    "lam1": 875.72,
+    "burst_segments": 19,
+    "burst_week_share": 8.2,
+    "max_intensity": 38.17,
+    "short_bursts_le2w": 15
+   },
+   "sergebulaev/linkedin-skills": {
+    "n_weeks": 28,
+    "lam0": 44.5,
+    "lam1": 813.0,
+    "burst_segments": 1,
+    "burst_week_share": 28.6,
+    "max_intensity": 12.76,
+    "short_bursts_le2w": 0
+   },
+   "shanraisshan/claude-code-best-practice": {
+    "n_weeks": 52,
+    "lam0": 448.5,
+    "lam1": 6438.6,
+    "burst_segments": 3,
+    "burst_week_share": 19.2,
+    "max_intensity": 11.83,
+    "short_bursts_le2w": 2
+   },
+   "shareAI-lab/learn-claude-code": {
+    "n_weeks": 69,
+    "lam0": 684.0,
+    "lam1": 5293.17,
+    "burst_segments": 2,
+    "burst_week_share": 13.0,
+    "max_intensity": 7.23,
+    "short_bursts_le2w": 1
+   },
+   "sickn33/agentic-awesome-skills": {
+    "n_weeks": 41,
+    "lam0": 734.0,
+    "lam1": 3891.5,
+    "burst_segments": 3,
+    "burst_week_share": 19.5,
+    "max_intensity": 4.64,
+    "short_bursts_le2w": 2
+   },
+   "sindresorhus/awesome": {
+    "n_weeks": 642,
+    "lam0": 562.5,
+    "lam1": 2444.52,
+    "burst_segments": 13,
+    "burst_week_share": 13.9,
+    "max_intensity": 4.12,
+    "short_bursts_le2w": 11
+   },
+   "sourcerer-io/sourcerer-app": {
+    "n_weeks": 486,
+    "lam0": 3.0,
+    "lam1": 81.29,
+    "burst_segments": 16,
+    "burst_week_share": 17.5,
+    "max_intensity": 67.17,
+    "short_bursts_le2w": 9
+   },
+   "suboss87/FDEOps": {
+    "n_weeks": 18,
+    "lam0": 6.5,
+    "lam1": 235.0,
+    "burst_segments": 2,
+    "burst_week_share": 22.2,
+    "max_intensity": 36.15,
+    "short_bursts_le2w": 1
+   },
+   "taishi-i/awesome-ChatGPT-repositories": {
+    "n_weeks": 186,
+    "lam0": 16.0,
+    "lam1": 44.94,
+    "burst_segments": 6,
+    "burst_week_share": 12.4,
+    "max_intensity": 3.07,
+    "short_bursts_le2w": 3
+   },
+   "tech-leads-club/agent-skills": {
+    "n_weeks": 40,
+    "lam0": 66.5,
+    "lam1": 1051.5,
+    "burst_segments": 3,
+    "burst_week_share": 10.0,
+    "max_intensity": 27.47,
+    "short_bursts_le2w": 3
+   },
+   "teng-lin/notebooklm-py": {
+    "n_weeks": 42,
+    "lam0": 274.0,
+    "lam1": 1518.75,
+    "burst_segments": 3,
+    "burst_week_share": 21.4,
+    "max_intensity": 5.47,
+    "short_bursts_le2w": 2
+   },
+   "thedaviddias/Front-End-Checklist": {
+    "n_weeks": 471,
+    "lam0": 83.0,
+    "lam1": 829.11,
+    "burst_segments": 16,
+    "burst_week_share": 6.4,
+    "max_intensity": 26.14,
+    "short_bursts_le2w": 15
+   },
+   "thedotmack/claude-mem": {
+    "n_weeks": 60,
+    "lam0": 1113.0,
+    "lam1": 6674.67,
+    "burst_segments": 6,
+    "burst_week_share": 15.0,
+    "max_intensity": 6.74,
+    "short_bursts_le2w": 5
+   },
+   "tigerless-labs/autoharness": {
+    "n_weeks": 20,
+    "lam0": 186.5,
+    "lam1": 2224.33,
+    "burst_segments": 1,
+    "burst_week_share": 25.0,
+    "max_intensity": 9.08,
+    "short_bursts_le2w": 0
+   },
+   "timescale/pg-aiguide": {
+    "n_weeks": 66,
+    "lam0": 8.0,
+    "lam1": 225.5,
+    "burst_segments": 1,
+    "burst_week_share": 3.0,
+    "max_intensity": 71.75,
+    "short_bursts_le2w": 1
+   },
+   "tinyplex/tinybase": {
+    "n_weeks": 252,
+    "lam0": 12.0,
+    "lam1": 92.04,
+    "burst_segments": 16,
+    "burst_week_share": 10.7,
+    "max_intensity": 21.44,
+    "short_bursts_le2w": 13
+   },
+   "titanwings/distilly": {
+    "n_weeks": 30,
+    "lam0": 280.5,
+    "lam1": 4858.67,
+    "burst_segments": 2,
+    "burst_week_share": 16.7,
+    "max_intensity": 14.45,
+    "short_bursts_le2w": 1
+   },
+   "tmstack/awesome-persona-skills": {
+    "n_weeks": 29,
+    "lam0": 105.0,
+    "lam1": 465.33,
+    "burst_segments": 1,
+    "burst_week_share": 17.2,
+    "max_intensity": 3.63,
+    "short_bursts_le2w": 0
+   },
+   "topoteretes/cognee": {
+    "n_weeks": 167,
+    "lam0": 49.0,
+    "lam1": 1236.06,
+    "burst_segments": 8,
+    "burst_week_share": 13.2,
+    "max_intensity": 33.83,
+    "short_bursts_le2w": 4
+   },
+   "tradecatlabs/vibe-coding-cn": {
+    "n_weeks": 49,
+    "lam0": 246.0,
+    "lam1": 1430.0,
+    "burst_segments": 3,
+    "burst_week_share": 12.2,
+    "max_intensity": 5.81,
+    "short_bursts_le2w": 2
+   },
+   "trailofbits/skills": {
+    "n_weeks": 41,
+    "lam0": 138.0,
+    "lam1": 653.75,
+    "burst_segments": 2,
+    "burst_week_share": 9.8,
+    "max_intensity": 5.37,
+    "short_bursts_le2w": 1
+   },
+   "travisvn/awesome-claude-skills": {
+    "n_weeks": 54,
+    "lam0": 217.5,
+    "lam1": 728.8,
+    "burst_segments": 4,
+    "burst_week_share": 25.9,
+    "max_intensity": 5.03,
+    "short_bursts_le2w": 2
+   },
+   "trimstray/test-your-sysadmin-skills": {
+    "n_weeks": 429,
+    "lam0": 12.0,
+    "lam1": 169.71,
+    "burst_segments": 8,
+    "burst_week_share": 3.5,
+    "max_intensity": 69.18,
+    "short_bursts_le2w": 7
+   },
+   "trimstray/the-book-of-secret-knowledge": {
+    "n_weeks": 436,
+    "lam0": 534.5,
+    "lam1": 1699.05,
+    "burst_segments": 24,
+    "burst_week_share": 14.4,
+    "max_intensity": 6.58,
+    "short_bursts_le2w": 23
+   },
+   "tripleyak/SkillForge": {
+    "n_weeks": 43,
+    "lam0": 9.0,
+    "lam1": 134.5,
+    "burst_segments": 3,
+    "burst_week_share": 7.0,
+    "max_intensity": 26.0,
+    "short_bursts_le2w": 3
+   },
+   "tt-a1i/archify": {
+    "n_weeks": 28,
+    "lam0": 1329.5,
+    "lam1": 14872.67,
+    "burst_segments": 1,
+    "burst_week_share": 14.3,
+    "max_intensity": 9.86,
+    "short_bursts_le2w": 0
+   },
+   "tw93/Pake": {
+    "n_weeks": 211,
+    "lam0": 174.0,
+    "lam1": 1255.48,
+    "burst_segments": 13,
+    "burst_week_share": 10.4,
+    "max_intensity": 16.8,
+    "short_bursts_le2w": 10
+   },
+   "tw93/Waza": {
+    "n_weeks": 33,
+    "lam0": 122.0,
+    "lam1": 1056.67,
+    "burst_segments": 1,
+    "burst_week_share": 6.1,
+    "max_intensity": 11.24,
+    "short_bursts_le2w": 1
+   },
+   "twentyhq/twenty": {
+    "n_weeks": 204,
+    "lam0": 119.0,
+    "lam1": 1502.15,
+    "burst_segments": 17,
+    "burst_week_share": 11.8,
+    "max_intensity": 25.69,
+    "short_bursts_le2w": 16
+   },
+   "ultraworkers/claw-code": {
+    "n_weeks": 30,
+    "lam0": 331.0,
+    "lam1": 60402.33,
+    "burst_segments": 1,
+    "burst_week_share": 6.7,
+    "max_intensity": 266.84,
+    "short_bursts_le2w": 1
+   },
+   "upstash/context7": {
+    "n_weeks": 83,
+    "lam0": 731.0,
+    "lam1": 1844.38,
+    "burst_segments": 3,
+    "burst_week_share": 12.0,
+    "max_intensity": 2.83,
+    "short_bursts_le2w": 1
+   },
+   "usestrix/strix": {
+    "n_weeks": 64,
+    "lam0": 364.0,
+    "lam1": 5083.0,
+    "burst_segments": 4,
+    "burst_week_share": 20.3,
+    "max_intensity": 14.61,
+    "short_bursts_le2w": 1
+   },
+   "vinta/awesome-python": {
+    "n_weeks": 644,
+    "lam0": 322.0,
+    "lam1": 1331.16,
+    "burst_segments": 28,
+    "burst_week_share": 28.4,
+    "max_intensity": 5.47,
+    "short_bursts_le2w": 16
+   },
+   "virgiliojr94/book-to-skill": {
+    "n_weeks": 26,
+    "lam0": 992.0,
+    "lam1": 3996.0,
+    "burst_segments": 1,
+    "burst_week_share": 19.2,
+    "max_intensity": 3.46,
+    "short_bursts_le2w": 0
+   },
+   "vuejs/awesome-vue": {
+    "n_weeks": 575,
+    "lam0": 99.0,
+    "lam1": 316.0,
+    "burst_segments": 11,
+    "burst_week_share": 24.7,
+    "max_intensity": 3.15,
+    "short_bursts_le2w": 7
+   },
+   "wesammustafa/Claude-Code-Everything-You-Need-to-Know": {
+    "n_weeks": 62,
+    "lam0": 41.5,
+    "lam1": 194.33,
+    "burst_segments": 6,
+    "burst_week_share": 12.9,
+    "max_intensity": 6.31,
+    "short_bursts_le2w": 6
+   },
+   "wondelai/skills": {
+    "n_weeks": 39,
+    "lam0": 64.0,
+    "lam1": 160.0,
+    "burst_segments": 1,
+    "burst_week_share": 7.7,
+    "max_intensity": 1.74,
+    "short_bursts_le2w": 0
+   },
+   "wshobson/agents": {
+    "n_weeks": 66,
+    "lam0": 500.0,
+    "lam1": 2221.67,
+    "burst_segments": 3,
+    "burst_week_share": 7.6,
+    "max_intensity": 7.34,
+    "short_bursts_le2w": 3
+   },
+   "wuyoscar/GPT-Image2-Skill": {
+    "n_weeks": 27,
+    "lam0": 167.0,
+    "lam1": 589.0,
+    "burst_segments": 2,
+    "burst_week_share": 14.8,
+    "max_intensity": 3.53,
+    "short_bursts_le2w": 1
+   },
+   "x-hw/amazing-qr": {
+    "n_weeks": 531,
+    "lam0": 14.0,
+    "lam1": 77.51,
+    "burst_segments": 18,
+    "burst_week_share": 5.6,
+    "max_intensity": 27.0,
+    "short_bursts_le2w": 15
+   },
+   "xianyu110/awesome-openclaw-tutorial": {
+    "n_weeks": 37,
+    "lam0": 18.0,
+    "lam1": 906.67,
+    "burst_segments": 1,
+    "burst_week_share": 16.2,
+    "max_intensity": 33.17,
+    "short_bursts_le2w": 0
+   },
+   "xixu-me/awesome-persona-distill-skills": {
+    "n_weeks": 29,
+    "lam0": 31.0,
+    "lam1": 1324.0,
+    "burst_segments": 1,
+    "burst_week_share": 6.9,
+    "max_intensity": 61.98,
+    "short_bursts_le2w": 1
+   },
+   "xixu-me/xget": {
+    "n_weeks": 104,
+    "lam0": 11.0,
+    "lam1": 568.2,
+    "burst_segments": 4,
+    "burst_week_share": 15.4,
+    "max_intensity": 50.95,
+    "short_bursts_le2w": 2
+   },
+   "yusufkaraaslan/Skill_Seekers": {
+    "n_weeks": 54,
+    "lam0": 180.5,
+    "lam1": 999.4,
+    "burst_segments": 3,
+    "burst_week_share": 14.8,
+    "max_intensity": 5.05,
+    "short_bursts_le2w": 1
+   },
+   "zanwei/design-dna": {
+    "n_weeks": 31,
+    "lam0": 49.0,
+    "lam1": 204.33,
+    "burst_segments": 5,
+    "burst_week_share": 19.4,
+    "max_intensity": 6.14,
+    "short_bursts_le2w": 5
+   },
+   "zenbu-labs/terminal-browser": {
+    "n_weeks": 16,
+    "lam0": 222.5,
+    "lam1": 679.67,
+    "burst_segments": 2,
+    "burst_week_share": 18.8,
+    "max_intensity": 3.13,
+    "short_bursts_le2w": 2
+   },
+   "zenstory-ai/drama-skills": {
+    "n_weeks": 15,
+    "lam0": 233.0,
+    "lam1": 582.5,
+    "burst_segments": 2,
+    "burst_week_share": 13.3,
+    "max_intensity": 1.78,
+    "short_bursts_le2w": 2
+   },
+   "zenstory-ai/oh-story-claudecode": {
+    "n_weeks": 27,
+    "lam0": 295.0,
+    "lam1": 737.5,
+    "burst_segments": 1,
+    "burst_week_share": 3.7,
+    "max_intensity": 2.17,
+    "short_bursts_le2w": 1
+   },
+   "zgsm-ai/costrict": {
+    "n_weeks": 81,
+    "lam0": 37.0,
+    "lam1": 185.25,
+    "burst_segments": 6,
+    "burst_week_share": 18.5,
+    "max_intensity": 7.22,
+    "short_bursts_le2w": 4
+   },
+   "zhayujie/CowAgent": {
+    "n_weeks": 220,
+    "lam0": 161.5,
+    "lam1": 696.41,
+    "burst_segments": 11,
+    "burst_week_share": 11.8,
+    "max_intensity": 4.82,
+    "short_bursts_le2w": 10
+   },
+   "zylon-ai/private-gpt": {
+    "n_weeks": 182,
+    "lam0": 75.0,
+    "lam1": 2180.61,
+    "burst_segments": 5,
+    "burst_week_share": 7.7,
+    "max_intensity": 45.31,
+    "short_bursts_le2w": 4
+   }
+  },
+  "aggregate": {
+   "n_repos": 337,
+   "bursts_per_repo_median": 3.0,
+   "bursts_per_repo_p90": 14.0,
+   "repos_with_zero_burst": 1,
+   "median_burst_week_share_pct": 13.2,
+   "short_burst_share_pct": 74.3,
+   "top_intensity": [
+    [
+     "liustack/modlens",
+     1800.0
+    ],
+    [
+     "mvschwarz/openrig",
+     810.0
+    ],
+    [
+     "ChenLiu-1996/figures4papers",
+     503.0
+    ],
+    [
+     "ultraworkers/claw-code",
+     266.84
+    ],
+    [
+     "michael-denyer/pstack-claude",
+     229.33
+    ]
+   ]
+  }
+ },
+ "M2_preferential_attachment": {
+  "n_pairs": 34888,
+  "n_bins": 12,
+  "pa_exponent": 0.61,
+  "se": 0.044,
+  "p": 0.0,
+  "r2": 0.951,
+  "note": "ΔS(t+1) ~ S(t) 的对数斜率；≈1 为线性优先连接"
+ },
+ "M3_omori_response": {
+  "n_burst_days": 12586,
+  "n_taus": 21,
+  "omori_p": 0.235,
+  "se": 0.006,
+  "r2": 0.986,
+  "p_value": 0.0,
+  "decay_curve": {
+   "1": 0.839,
+   "2": 0.737,
+   "3": 0.675,
+   "5": 0.613,
+   "7": 0.554,
+   "10": 0.485,
+   "14": 0.478,
+   "21": 0.426
+  },
+  "note": "爆发日后的归一化日速率 R(τ)；p≈0.7–1.0 为典型 Omori 衰减"
+ },
+ "M4_louvain": {
+  "n_nodes": 2484,
+  "n_edges": 35136,
+  "n_pairs_used": 105673,
+  "modularity": 0.39,
+  "n_communities": 197,
+  "size_median": 2,
+  "size_p90": 5,
+  "size_max": 452,
+  "largest_communities": [
+   {
+    "n": 452,
+    "examples": [
+     "numman-ali/n-skills",
+     "AbdullahMalik17/My_skills",
+     "cskiro/claudex",
+     "skillcreatorai/Ai-Agent-Skills"
+    ]
+   },
+   {
+    "n": 396,
+    "examples": [
+     "plastic-labs/honcho",
+     "mcclowes/vague-playground",
+     "monmacllcapp/skill-forks",
+     "QQHKX/Immersive-clock"
+    ]
+   },
+   {
+    "n": 240,
+    "examples": [
+     "toanalien/ezdevsecops",
+     "aztr0nutzs/NET_NiNjA.v1.2",
+     "HaoNgo232/agent-bridge-kit",
+     "yunaamelia/vps-rdp-workstation"
+    ]
+   }
+  ]
+ },
+ "M5_nodf": {
+  "n_repos": 135,
+  "n_commenters": 278,
+  "fill_pct": 2.07,
+  "row_nodf": 8.6,
+  "col_nodf": 16.8,
+  "nodf": 15.1,
+  "row_degree_median": 2.0,
+  "col_degree_median": 2.0,
+  "note": "NODF 高=嵌套（小参与者是最大参与者子集）；低=模块化/专业化"
+ },
+ "M6_lda_skills": {
+  "n_docs": 39544,
+  "n_topics": 12,
+  "topics": [
+   {
+    "topic": 0,
+    "top_terms": [
+     "bash",
+     "scripts",
+     "file",
+     "json",
+     "python",
+     "output",
+     "use",
+     "path",
+     "run",
+     "text"
+    ]
+   },
+   {
+    "topic": 1,
+    "top_terms": [
+     "task",
+     "plan",
+     "phase",
+     "use",
+     "user",
+     "context",
+     "tasks",
+     "implementation",
+     "description",
+     "requirements"
+    ]
+   },
+   {
+    "topic": 2,
+    "top_terms": [
+     "use",
+     "content",
+     "analysis",
+     "data",
+     "skill",
+     "research",
+     "description",
+     "user",
+     "product",
+     "time"
+    ]
+   },
+   {
+    "topic": 3,
+    "top_terms": [
+     "data",
+     "use",
+     "search",
+     "python",
+     "model",
+     "skill",
+     "query",
+     "deployment",
+     "docker",
+     "bash"
+    ]
+   },
+   {
+    "topic": 4,
+    "top_terms": [
+     "use",
+     "components",
+     "component",
+     "react",
+     "tsx",
+     "page",
+     "button",
+     "text",
+     "css",
+     "div"
+    ]
+   },
+   {
+    "topic": 5,
+    "top_terms": [
+     "api",
+     "use",
+     "database",
+     "user",
+     "server",
+     "app",
+     "patterns",
+     "references",
+     "auth",
+     "data"
+    ]
+   },
+   {
+    "topic": 6,
+    "top_terms": [
+     "skill",
+     "claude",
+     "use",
+     "agent",
+     "skills",
+     "code",
+     "description",
+     "context",
+     "project",
+     "documentation"
+    ]
+   },
+   {
+    "topic": 7,
+    "top_terms": [
+     "const",
+     "string",
+     "data",
+     "return",
+     "import",
+     "error",
+     "await",
+     "type",
+     "user",
+     "async"
+    ]
+   },
+   {
+    "topic": 8,
+    "top_terms": [
+     "git",
+     "code",
+     "changes",
+     "bash",
+     "review",
+     "commit",
+     "use",
+     "security",
+     "check",
+     "version"
+    ]
+   },
+   {
+    "topic": 9,
+    "top_terms": [
+     "test",
+     "run",
+     "check",
+     "use",
+     "fix",
+     "bash",
+     "page",
+     "verify",
+     "error",
+     "step"
+    ]
+   },
+   {
+    "topic": 10,
+    "top_terms": [
+     "bash",
+     "json",
+     "list",
+     "user",
+     "use",
+     "issue",
+     "description",
+     "search",
+     "api",
+     "key"
+    ]
+   },
+   {
+    "topic": 11,
+    "top_terms": [
+     "test",
+     "tests",
+     "code",
+     "testing",
+     "run",
+     "use",
+     "coverage",
+     "file",
+     "src",
+     "unit"
+    ]
+   }
+  ],
+  "doc_share_pct": {
+   "0": 8.5,
+   "1": 11.8,
+   "2": 12.4,
+   "3": 7.5,
+   "4": 7.0,
+   "5": 9.6,
+   "6": 10.0,
+   "7": 8.8,
+   "8": 9.9,
+   "9": 4.0,
+   "10": 6.5,
+   "11": 4.2
+  },
+  "perplexity": 1677.3
+ }
+}

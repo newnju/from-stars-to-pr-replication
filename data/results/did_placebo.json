@@ -1,0 +1,22 @@
+{
+  "placebo": {
+    "true_trend2": -276.08496518216975,
+    "true_p": 6.92109297470982e-13,
+    "n_placebo": 200,
+    "placebo_mean": -154.73224867231664,
+    "placebo_sd": 178.04995507548227,
+    "perm_p": 0.17,
+    "true_percentile": 0.17
+  },
+  "did": {
+    "n_destructive": 49,
+    "n_benign": 24,
+    "delta_destructive": 39.322322570410506,
+    "delta_benign": -13.32894442487261,
+    "did": 52.65126699528316,
+    "did_se": 28.80805978728823,
+    "did_p": 0.06760096789490778,
+    "did_ancova": 55.64785521551796,
+    "did_ancova_p": 0.03504595151672973
+  }
+}

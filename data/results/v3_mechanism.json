@@ -1,0 +1,164 @@
+{
+  "frontmatter": {
+    "n_with_skillmd": 185,
+    "n_has_fm": 176,
+    "share_safety_any": 0.3081081081081081,
+    "median_fields": 2.0,
+    "share_minimal_fields": 0.5081081081081081,
+    "median_l1_tokens": 49.0,
+    "median_body_tokens": 12894.0,
+    "median_cost_ratio": 246.1818181818182,
+    "p10_cost_ratio": 34.4399889380531,
+    "p90_cost_ratio": 1598.4503496503494,
+    "field_prevalence": {
+      "0": 9,
+      "1": 1,
+      "2": 84,
+      "3": 40,
+      "4": 26,
+      "5": 6,
+      "6": 10,
+      "7": 3,
+      "8": 2,
+      "9": 2,
+      "11": 1,
+      "17": 1
+    }
+  },
+  "models": {
+    "att_l1": {
+      "formula": "stars_per_day ~ log_l1 + log_age",
+      "family": "Poisson(计数=日均星标)",
+      "n": 175,
+      "coef": {
+        "log_l1": -0.3753159012885811
+      },
+      "se": {
+        "log_l1": 0.5413304760119482
+      },
+      "p": {
+        "log_l1": 0.4881079946134834
+      },
+      "irr": {
+        "log_l1": 0.6870721975121072
+      }
+    },
+    "att_safety": {
+      "formula": "stars_per_day ~ safety_any + log_l1 + log_age",
+      "family": "Poisson(计数=日均星标)",
+      "n": 175,
+      "coef": {
+        "safety_any": 0.2638231184989399,
+        "log_l1": -0.4047654351128892
+      },
+      "se": {
+        "safety_any": 0.29679129730267767,
+        "log_l1": 0.56389289616576
+      },
+      "p": {
+        "safety_any": 0.37404716522351633,
+        "log_l1": 0.47287720762463925
+      },
+      "irr": {
+        "safety_any": 1.3018978942796438,
+        "log_l1": 0.6671332785490146
+      }
+    },
+    "conv_l1": {
+      "formula": "forks ~ log_l1 + log_age",
+      "family": "Poisson(offset=log星标事件)",
+      "n": 175,
+      "coef": {
+        "log_l1": -0.07522631020423812
+      },
+      "se": {
+        "log_l1": 0.1401607506711394
+      },
+      "p": {
+        "log_l1": 0.5914648238539439
+      },
+      "irr": {
+        "log_l1": 0.9275335522666875
+      }
+    },
+    "conv_safety": {
+      "formula": "forks ~ safety_any + log_l1 + log_age",
+      "family": "Poisson(offset=log星标事件)",
+      "n": 175,
+      "coef": {
+        "safety_any": 0.0028112562522609186,
+        "log_l1": -0.07533585963181401
+      },
+      "se": {
+        "safety_any": 0.07360189155438365,
+        "log_l1": 0.140425002228583
+      },
+      "p": {
+        "safety_any": 0.9695318607193125,
+        "log_l1": 0.5916236346493327
+      },
+      "irr": {
+        "safety_any": 1.0028152115386917,
+        "log_l1": 0.9274319470624769
+      }
+    },
+    "conv_cost": {
+      "formula": "forks ~ log_cost + log_age",
+      "family": "Poisson(offset=log星标事件)",
+      "n": 175,
+      "coef": {
+        "log_cost": 0.03336348091923713
+      },
+      "se": {
+        "log_cost": 0.05742064075759095
+      },
+      "p": {
+        "log_cost": 0.5612159386330922
+      },
+      "irr": {
+        "log_cost": 1.0339262834251708
+      }
+    },
+    "conv_fields": {
+      "formula": "forks ~ n_fields + log_age",
+      "family": "Poisson(offset=log星标事件)",
+      "n": 175,
+      "coef": {
+        "n_fields": -0.00644098280519893
+      },
+      "se": {
+        "n_fields": 0.013221075844167157
+      },
+      "p": {
+        "n_fields": 0.6261340426173969
+      },
+      "irr": {
+        "n_fields": 0.9935797158607894
+      }
+    }
+  },
+  "lag_models": {
+    "stars_t_to_forks_t+1": {
+      "n": 25593,
+      "log_cum": -0.05041484745627925,
+      "se": 0.045087030295483284,
+      "p": 0.2634955045169114
+    },
+    "stars_t_to_forks_t+7": {
+      "n": 24447,
+      "log_cum": -0.06148791288090871,
+      "se": 0.053134594887690116,
+      "p": 0.24718635532798905
+    },
+    "forks_t_to_stars_t+1": {
+      "n": 17532,
+      "forks_t": 0.024062036266144803,
+      "se": 0.003151804908158804,
+      "p": 2.2693212602181716e-14
+    }
+  },
+  "same_day_within_corr_median": 0.7335820268412627,
+  "same_day_within_corr_p25": 0.5912830074821107,
+  "same_day_within_corr_p75": 0.8332663832182474,
+  "n_repos_mechanism": 175
+}

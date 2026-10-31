@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-10-12T12:37:44",
+  "n_clean": 203,
+  "coverage": {
+    "skills_sh": {
+      "hit": 104,
+      "share": 0.5123152709359606
+    },
+    "clawhub": {
+      "hit": 75,
+      "share": 0.3694581280788177
+    },
+    "either": {
+      "hit": 136,
+      "share": 0.6699507389162561
+    },
+    "both": {
+      "hit": 43,
+      "share": 0.21182266009852216
+    }
+  },
+  "installs": {
+    "n": 203,
+    "sum": 18443682.0,
+    "median": 6.0,
+    "p75": 7040.5,
+    "p90": 113345.2000000002,
+    "max": 3427899.0,
+    "share_of_zero": 0.4876847290640394
+  },
+  "downloads": {
+    "n": 203,
+    "sum": 8710094.0,
+    "median": 0.0,
+    "p75": 8924.0,
+    "p90": 40112.800000000025,
+    "max": 2201752.0,
+    "share_of_zero": 0.6305418719211823
+  },
+  "consistency": {
+    "installs_x_stars": {
+      "rho": 0.3147871545929799,
+      "p": 0.0011356539846018425,
+      "n": 104
+    },
+    "installs_x_forks": {
+      "rho": 0.2222115531190468,
+      "p": 0.02338062405664915,
+      "n": 104
+    },
+    "downloads_x_stars": {
+      "rho": 0.3170412517780939,
+      "p": 0.005581148348210594,
+      "n": 75
+    },
+    "downloads_x_forks": {
+      "rho": 0.3304172179170413,
+      "p": 0.0037888689975262187,
+      "n": 75
+    },
+    "installs_x_forks_all": {
+      "rho": 0.07594434871617221,
+      "p": 0.2815183810065779,
+      "n": 203
+    }
+  },
+  "divergent_install_over_fork": [
+    {
+      "repo": "samber/cc-skills-golang",
+      "installs": 1617369,
+      "forks": 225,
+      "stars": 3385,
+      "pct_installs": 0.9711538461538461,
+      "pct_forks": 0.21182266009852216
+    },
+    {
+      "repo": "jezweb/claude-skills",
+      "installs": 116788,
+      "forks": 106,
+      "stars": 1034,
+      "pct_installs": 0.8076923076923077,
+      "pct_forks": 0.06896551724137931
+    },
+    {
+      "repo": "wondelai/skills",
+      "installs": 276774,
+      "forks": 235,
+      "stars": 2333,
+      "pct_installs": 0.8942307692307693,
+      "pct_forks": 0.22167487684729065
+    },
+    {
+      "repo": "bitjaru/styleseed",
+      "installs": 18824,
+      "forks": 89,
+      "stars": 967,
+      "pct_installs": 0.6442307692307693,
+      "pct_forks": 0.024630541871921183
+    },
+    {
+      "repo": "addyosmani/web-quality-skills",
+      "installs": 235666,
+      "forks": 253,
+      "stars": 2875,
+      "pct_installs": 0.8653846153846154,
+      "pct_forks": 0.2512315270935961
+    },
+    {
+      "repo": "michael-denyer/pstack-claude",
+      "installs": 32058,
+      "forks": 123,
+      "stars": 1061,
+      "pct_installs": 0.7211538461538461,
+      "pct_forks": 0.10837438423645321
+    },
+    {
+      "repo": "antfu/skills",
+      "installs": 298116,
+      "forks": 335,
+      "stars": 5940,
+      "pct_installs": 0.9134615384615384,
+      "pct_forks": 0.3251231527093596
+    },
+    {
+      "repo": "rampstackco/claude-skills",
+      "installs": 24910,
+      "forks": 126,
+      "stars": 930,
+      "pct_installs": 0.6826923076923077,
+      "pct_forks": 0.11822660098522167
+    },
+    {
+      "repo": "browser-act/skills",
+      "installs": 195220,
+      "forks": 305,
+      "stars": 6093,
+      "pct_installs": 0.8461538461538461,
+      "pct_forks": 0.3054187192118227
+    },
+    {
+      "repo": "dmmulroy/anti-slop",
+      "installs": 12270,
+      "forks": 120,
+      "stars": 5133,
+      "pct_installs": 0.6057692307692307,
+      "pct_forks": 0.10344827586206896
+    },
+    {
+      "repo": "dotnet/skills",
+      "installs": 244402,
+      "forks": 423,
+      "stars": 5549,
+      "pct_installs": 0.875,
+      "pct_forks": 0.4088669950738916
+    },
+    {
+      "repo": "ljagiello/ctf-skills",
+      "installs": 91980,
+      "forks": 393,
+      "stars": 3388,
+      "pct_installs": 0.7884615384615384,
+      "pct_forks": 0.37438423645320196
+    },
+    {
+      "repo": "himself65/finance-skills",
+      "installs": 61788,
+      "forks": 386,
+      "stars": 3365,
+      "pct_installs": 0.7788461538461539,
+      "pct_forks": 0.3694581280788177
+    },
+    {
+      "repo": "plannotator/effective-html",
+      "installs": 15504,
+      "forks": 238,
+      "stars": 3528,
+      "pct_installs": 0.625,
+      "pct_forks": 0.22660098522167488
+    },
+    {
+      "repo": "miqdadbadjuber/anti-slop",
+      "installs": 26841,
+      "forks": 305,
+      "stars": 4387,
+      "pct_installs": 0.7019230769230769,
+      "pct_forks": 0.3054187192118227
+    }
+  ],
+  "note": "installs/downloads 为抓取快照（2026-10-11）的累计值，站点统计口径（去重、时间窗）由各站自行定义，故只作第二信号的方向性佐证，不并入正文主测量。"
+}

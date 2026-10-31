@@ -1,0 +1,5345 @@
+{
+  "n_clean": 203,
+  "n_with_skillmd": 185,
+  "n_without_skillmd": 18,
+  "classifiers": {
+    "old_any_kw": {
+      "n_high": 128,
+      "share_of_all": 0.6305418719211823,
+      "share_of_with_md": 0.6918918918918919
+    },
+    "new_reach2": {
+      "n_high": 132,
+      "share_of_all": 0.6502463054187192,
+      "share_of_with_md": 0.7135135135135136
+    },
+    "core_desc_kw": {
+      "n_high": 14,
+      "share_of_all": 0.06896551724137931
+    }
+  },
+  "agreement": {
+    "jaccard_old_new": 0.8181818181818182,
+    "jaccard_old_core": 0.10077519379844961,
+    "jaccard_new_core": 0.09774436090225563,
+    "kappa_old_new": 0.7220349694543924,
+    "kappa_old_core": 0.06711037160288406,
+    "kappa_new_core": 0.060982191041554265
+  },
+  "keyword_prevalence_old": {
+    "credential": 81,
+    "password": 55,
+    "api_key": 62,
+    "api key": 71,
+    "access token": 12,
+    "private key": 7,
+    "reverse shell": 1,
+    "backdoor": 4,
+    "keylogger": 2,
+    "exfiltrat": 13,
+    "rm -rf": 21,
+    "drop table": 6,
+    "drop database": 2,
+    "sudo ": 25,
+    "chmod 777": 4,
+    "session hijack": 2,
+    "phish": 3,
+    "decrypt": 12,
+    "bypass": 57,
+    "unlock": 25
+  },
+  "drop_one_sensitivity_old": {
+    "credential": 114,
+    "password": 126,
+    "api_key": 126,
+    "api key": 124,
+    "access token": 128,
+    "private key": 128,
+    "reverse shell": 128,
+    "backdoor": 128,
+    "keylogger": 128,
+    "exfiltrat": 128,
+    "rm -rf": 126,
+    "drop table": 127,
+    "drop database": 128,
+    "sudo ": 128,
+    "chmod 777": 128,
+    "session hijack": 128,
+    "phish": 128,
+    "decrypt": 128,
+    "bypass": 122,
+    "unlock": 126
+  },
+  "reach_index_desc": {
+    "median": 3.797796809312855,
+    "mean": 3.6582471073039278,
+    "p10": 0.0,
+    "p90": 6.7580118645615395
+  },
+  "disclosure_desc": {
+    "median": 3.0,
+    "share_zero": 0.07027027027027027,
+    "share_all5": 0.14594594594594595,
+    "by_item": {
+      "allowed_tools": 0.21621621621621623,
+      "permission_scope": 0.7837837837837838,
+      "security_note": 0.7027027027027027,
+      "sandbox": 0.6054054054054054,
+      "audit_badge": 0.7837837837837838
+    }
+  },
+  "external_benchmark": {
+    "snyk_severe_share": 0.134,
+    "snyk_all_severity_share": 0.3682,
+    "note": "Snyk 的 36.82% 是在 ClawHub/skills.sh 市场 3,984 个技能上的审计判定；本文样本为 GitHub 仓库且以文本可观测性为代理，两者抽样框不同，不可直接相减，但 62.1% 与 36.8% 的落差说明关键词口径明显偏宽。"
+  },
+  "repos": {
+    "0x0funky/agent-sprite-forge": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 92312,
+      "n_code_blocks": 22,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 98
+    },
+    "0xNyk/awesome-hermes-agent": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "Agents365-ai/drawio-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.358351893845611,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 11007,
+      "n_code_blocks": 14,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 19
+    },
+    "AgriciDaniel/claude-ads": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 5.437077403116083,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 16,
+      "core_kw_hit": 0,
+      "text_len": 74311,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 103
+    },
+    "AgriciDaniel/claude-obsidian": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 2,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.3559843814944506,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 6,
+      "core_kw_hit": 0,
+      "text_len": 75105,
+      "n_code_blocks": 112,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 166
+    },
+    "AlephAITech/WorkBuddyGuide": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "Appllama/appllama-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.138629436111989,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 26549,
+      "n_code_blocks": 2,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 34
+    },
+    "Ar9av/obsidian-wiki": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 7,
+        "破坏性操作": 1,
+        "网络出站": 3,
+        "远程执行": 2,
+        "文件系统写入": 7
+      },
+      "reach_index": 7.575721774437199,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 30,
+      "core_kw_hit": 0,
+      "text_len": 443249,
+      "n_code_blocks": 627,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 1324
+    },
+    "BayramAnnakov/claude-reflect": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 2508,
+      "n_code_blocks": 2,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 13
+    },
+    "Bhanunamikaze/Agentic-SEO-Skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.358351893845611,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 19764,
+      "n_code_blocks": 24,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 30
+    },
+    "BuilderIO/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 8,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.3918911476060645,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 25,
+      "core_kw_hit": 0,
+      "text_len": 211395,
+      "n_code_blocks": 70,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 592
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.512536249344377,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 24,
+      "core_kw_hit": 0,
+      "text_len": 106739,
+      "n_code_blocks": 232,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 327
+    },
+    "ConardLi/garden-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 1,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 2
+      },
+      "reach_index": 5.196282842250897,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 7,
+      "core_kw_hit": 0,
+      "text_len": 90842,
+      "n_code_blocks": 44,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 114
+    },
+    "DietrichGebert/ponytail": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 1,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.5780743515792333,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 37090,
+      "n_code_blocks": 14,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 74
+    },
+    "Egonex-AI/Understand-Anything": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 1,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.163422231992641,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 10,
+      "core_kw_hit": 0,
+      "text_len": 106822,
+      "n_code_blocks": 144,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 254
+    },
+    "EverMind-AI/EverOS": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.4969813299576002,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 19847,
+      "n_code_blocks": 46,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 76
+    },
+    "EvoMap/evolver": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.541610040220442,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 8965,
+      "n_code_blocks": 44,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 18
+    },
+    "FireRedTeam/FireRed-OpenStoryline": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.274322369446372,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 14,
+      "core_kw_hit": 0,
+      "text_len": 22595,
+      "n_code_blocks": 64,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 80
+    },
+    "Forward-Future/loopy": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.3218875824868201,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 31125,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 115
+    },
+    "Gabberflast/academic-pptx-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 7481,
+      "n_code_blocks": 2,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 10
+    },
+    "GargantuaX/gemini-watermark-remover": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.2772588722239782,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 1232,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 6
+    },
+    "Gentleman-Programming/gentle-ai": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 2
+      },
+      "reach_index": 4.365742414328337,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 13,
+      "core_kw_hit": 0,
+      "text_len": 136815,
+      "n_code_blocks": 92,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 533
+    },
+    "Graphify-Labs/graphify": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.955824698622306,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 16,
+      "core_kw_hit": 0,
+      "text_len": 41672,
+      "n_code_blocks": 44,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 159
+    },
+    "HKUSTDial/Supervisor-Skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.4158883083359672,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 131752,
+      "n_code_blocks": 14,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 300
+    },
+    "HughYau/qiushi-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 19216,
+      "n_code_blocks": 18,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 9
+    },
+    "JCodesMore/ai-website-cloner-template": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 36215,
+      "n_code_blocks": 8,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 57
+    },
+    "Jakeschincariol/linkedin-agent-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 37919,
+      "n_code_blocks": 32,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 82
+    },
+    "Jeffallan/claude-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 5,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.611859154787351,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 25,
+      "core_kw_hit": 0,
+      "text_len": 178420,
+      "n_code_blocks": 198,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 604
+    },
+    "JimLiu/baoyu-design": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 2
+      },
+      "reach_index": 2.4969813299576002,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 30600,
+      "n_code_blocks": 42,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 131
+    },
+    "JimLiu/baoyu-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 9,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 1,
+        "文件系统写入": 3
+      },
+      "reach_index": 6.515066019333766,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 52,
+      "core_kw_hit": 0,
+      "text_len": 332264,
+      "n_code_blocks": 248,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 977
+    },
+    "JuliusBrussee/caveman": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.944033099081718,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 21,
+      "core_kw_hit": 0,
+      "text_len": 91276,
+      "n_code_blocks": 64,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 301
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 7,
+        "破坏性操作": 0,
+        "网络出站": 6,
+        "远程执行": 2,
+        "文件系统写入": 4
+      },
+      "reach_index": 7.236201131857687,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 133,
+      "core_kw_hit": 0,
+      "text_len": 426135,
+      "n_code_blocks": 470,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 755
+    },
+    "KKKKhazix/human-writing": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 5731,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 2
+    },
+    "KKKKhazix/khazix-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.8439015410352213,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 38136,
+      "n_code_blocks": 20,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 20
+    },
+    "Kaelio/ktx": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 2
+      },
+      "reach_index": 4.015034763046765,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 7,
+      "core_kw_hit": 0,
+      "text_len": 202441,
+      "n_code_blocks": 150,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 167
+    },
+    "Klotzkette/claude-fuer-deutsches-recht": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 303555,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 0
+    },
+    "Leonxlnx/taste-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.1339761845961043,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 301815,
+      "n_code_blocks": 18,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 205
+    },
+    "NVIDIA/SkillSpector": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 2,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.8286269452783066,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 1,
+      "n_old_kw": 8,
+      "core_kw_hit": 1,
+      "text_len": 20925,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 100
+    },
+    "NVIDIA/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 1,
+        "文件系统写入": 5
+      },
+      "reach_index": 7.577398537691899,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 196,
+      "core_kw_hit": 0,
+      "text_len": 301729,
+      "n_code_blocks": 362,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 1014
+    },
+    "Natively-AI-assistant/natively-cluely-ai-assistant": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "Observal/Observal": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 5.537782667372959,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 9,
+      "core_kw_hit": 0,
+      "text_len": 40277,
+      "n_code_blocks": 24,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 152
+    },
+    "Ontos-AI/knowhere": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "OpenRaiser/NanoResearch": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 2,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.631874947355085,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 15,
+      "core_kw_hit": 0,
+      "text_len": 195293,
+      "n_code_blocks": 342,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 187
+    },
+    "OpenSenseNova/SenseNova-Skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.138629436111989,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 99200,
+      "n_code_blocks": 214,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 31
+    },
+    "Orchestra-Research/AI-Research-SKILLs": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 2,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.885412671097494,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 7,
+      "core_kw_hit": 0,
+      "text_len": 292510,
+      "n_code_blocks": 880,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 827
+    },
+    "OthmanAdi/planning-with-files": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.096127784668399,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 287111,
+      "n_code_blocks": 256,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 693
+    },
+    "Panniantong/Agent-Reach": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.899961934066053,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 5782,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 13
+    },
+    "ParthJadhav/app-store-screenshots": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 3.797796809312855,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 54494,
+      "n_code_blocks": 26,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 87
+    },
+    "Prat011/awesome-llm-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.629225902005081,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 29,
+      "core_kw_hit": 0,
+      "text_len": 269202,
+      "n_code_blocks": 516,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 449
+    },
+    "Q00/ouroboros": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 2,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.934058733073684,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 11,
+      "core_kw_hit": 0,
+      "text_len": 344282,
+      "n_code_blocks": 500,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 1037
+    },
+    "Ryze-AI-Adgent/open-seo-mcp-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.6516193076042964,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 18818,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 27
+    },
+    "SawyerHood/dev-browser": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.138629436111989,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 1818,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 4
+    },
+    "ScrapeCreators/social-media-research-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.734085833463019,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 29,
+      "core_kw_hit": 0,
+      "text_len": 55825,
+      "n_code_blocks": 30,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 141
+    },
+    "Shanyin-ai/shanyin-screenwriting-master": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "SnailSploit/Claude-Red": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 16,
+        "破坏性操作": 2,
+        "网络出站": 11,
+        "远程执行": 10,
+        "文件系统写入": 8
+      },
+      "reach_index": 10.622151959482228,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1144,
+      "core_kw_hit": 1,
+      "text_len": 1643124,
+      "n_code_blocks": 2318,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 4136
+    },
+    "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.297232157788818,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 39,
+      "core_kw_hit": 1,
+      "text_len": 489605,
+      "n_code_blocks": 24,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 782
+    },
+    "TokenRhythm/opensquilla": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.186978839123918,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 12,
+      "core_kw_hit": 0,
+      "text_len": 86946,
+      "n_code_blocks": 152,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 162
+    },
+    "Untrivial-ai/agent-orchestrator": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 26748,
+      "n_code_blocks": 18,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 122
+    },
+    "VoltAgent/awesome-agent-skills": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "VoltAgent/awesome-openclaw-skills": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "WenyuChiou/awesome-agentic-ai-zh": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.479579054559674,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 5941,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 9
+    },
+    "XiaoMaColtAI/math-modeling-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.108252709031685,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 1,
+      "n_old_kw": 22,
+      "core_kw_hit": 0,
+      "text_len": 84827,
+      "n_code_blocks": 192,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 92
+    },
+    "a5c-ai/babysitter": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 3
+      },
+      "reach_index": 5.153664199158754,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 0,
+      "text_len": 103604,
+      "n_code_blocks": 94,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 159
+    },
+    "activeloopai/hivemind": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 2
+      },
+      "reach_index": 4.3831446897262625,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 5,
+      "core_kw_hit": 0,
+      "text_len": 54107,
+      "n_code_blocks": 52,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 263
+    },
+    "addyosmani/agent-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 0,
+        "网络出站": 5,
+        "远程执行": 2,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.173393433442548,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 25,
+      "core_kw_hit": 0,
+      "text_len": 336145,
+      "n_code_blocks": 434,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 884
+    },
+    "addyosmani/web-quality-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.2445152536142743,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 7,
+      "core_kw_hit": 0,
+      "text_len": 74803,
+      "n_code_blocks": 178,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 121
+    },
+    "aden-hive/hive": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 2,
+        "网络出站": 4,
+        "远程执行": 3,
+        "文件系统写入": 3
+      },
+      "reach_index": 8.17539957659679,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 52,
+      "core_kw_hit": 0,
+      "text_len": 239577,
+      "n_code_blocks": 290,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 500
+    },
+    "affaan-m/ECC": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.768318569360636,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 17,
+      "core_kw_hit": 1,
+      "text_len": 215345,
+      "n_code_blocks": 380,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 517
+    },
+    "agentscope-ai/QwenPaw": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 1,
+        "文件系统写入": 4
+      },
+      "reach_index": 6.311954176440347,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 81,
+      "core_kw_hit": 0,
+      "text_len": 212390,
+      "n_code_blocks": 368,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 570
+    },
+    "agentskills/agentskills": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "aipoch/open-science": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 4,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.015151754695317,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 13,
+      "core_kw_hit": 0,
+      "text_len": 235070,
+      "n_code_blocks": 176,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 379
+    },
+    "alexgreensh/attention-span": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.3218875824868201,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 16591,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 11
+    },
+    "alibaba/open-code-review": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.418015367155219,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 1,
+      "n_old_kw": 9,
+      "core_kw_hit": 0,
+      "text_len": 60685,
+      "n_code_blocks": 82,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 186
+    },
+    "alibaba/zvec": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "alirezarezvani/claude-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 7,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 3,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.8400580072245365,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 26,
+      "core_kw_hit": 0,
+      "text_len": 263036,
+      "n_code_blocks": 302,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 591
+    },
+    "anbeime/skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 1,
+        "网络出站": 2,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 7.319041133516792,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 44,
+      "core_kw_hit": 0,
+      "text_len": 170027,
+      "n_code_blocks": 389,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 326
+    },
+    "android/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 6.635042771749342,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 294,
+      "core_kw_hit": 0,
+      "text_len": 348133,
+      "n_code_blocks": 153,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 682
+    },
+    "antfu/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.427773399989105,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 45447,
+      "n_code_blocks": 24,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 69
+    },
+    "anthropics/claude-plugins-official": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 8,
+        "破坏性操作": 2,
+        "网络出站": 4,
+        "远程执行": 4,
+        "文件系统写入": 4
+      },
+      "reach_index": 7.916842076184978,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 36,
+      "core_kw_hit": 0,
+      "text_len": 366065,
+      "n_code_blocks": 490,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 764
+    },
+    "anthropics/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 0,
+        "网络出站": 5,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.824956496722907,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 41,
+      "core_kw_hit": 0,
+      "text_len": 284698,
+      "n_code_blocks": 136,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 702
+    },
+    "antonbabenko/terraform-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.138629436111989,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 20248,
+      "n_code_blocks": 8,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 12
+    },
+    "anysearch-ai/anysearch-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.1058858175022848,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 27,
+      "core_kw_hit": 0,
+      "text_len": 12615,
+      "n_code_blocks": 12,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 48
+    },
+    "ayghri/i-have-adhd": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 1,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 14415,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 38
+    },
+    "backnotprop/plannotator": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 5.393958133980318,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 107655,
+      "n_code_blocks": 118,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 298
+    },
+    "bevibing/tutor-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 12997,
+      "n_code_blocks": 12,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 28
+    },
+    "bitjaru/styleseed": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.680239476332431,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 14231,
+      "n_code_blocks": 10,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 51
+    },
+    "blader/humanizer": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.358351893845611,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 32309,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 54
+    },
+    "breaking-brake/cc-wf-studio": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 3.659167373200866,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 61657,
+      "n_code_blocks": 35,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 235
+    },
+    "browser-act/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 5.028752700518128,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 75,
+      "core_kw_hit": 0,
+      "text_len": 256453,
+      "n_code_blocks": 140,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 585
+    },
+    "brycewang-stanford/Auto-Empirical-Research-Skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 1,
+        "网络出站": 5,
+        "远程执行": 0,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.207853433109136,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 16,
+      "core_kw_hit": 1,
+      "text_len": 1321119,
+      "n_code_blocks": 1347,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 928
+    },
+    "career-ops-hq/career-ops": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.9210340371976184,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 0,
+      "text_len": 136967,
+      "n_code_blocks": 82,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 163
+    },
+    "cathrynlavery/diagram-design": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 29529,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 26
+    },
+    "cbrock84/headcount": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.358351893845611,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 124723,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 107
+    },
+    "citrolabs/ego-lite": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.737775890822787,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 24396,
+      "n_code_blocks": 44,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 68
+    },
+    "code-yeongyu/oh-my-openagent": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 1,
+        "网络出站": 3,
+        "远程执行": 3,
+        "文件系统写入": 2
+      },
+      "reach_index": 7.375224617979631,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 19,
+      "core_kw_hit": 0,
+      "text_len": 373244,
+      "n_code_blocks": 414,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 1157
+    },
+    "codeaashu/claude-code": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.737775890822787,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 10760,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 27
+    },
+    "coldteadotai/pr-lens": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 12485,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 13
+    },
+    "composio-community/awesome-claude-plugins": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 3.599146454710798,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 42688,
+      "n_code_blocks": 58,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 86
+    },
+    "composio-community/awesome-codex-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.512536249344377,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 24,
+      "core_kw_hit": 0,
+      "text_len": 102953,
+      "n_code_blocks": 246,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 328
+    },
+    "conorluddy/ios-simulator-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 2,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.5780743515792333,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 22815,
+      "n_code_blocks": 8,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 57
+    },
+    "deanpeters/Product-Manager-Skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.507911765860206,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 6,
+      "core_kw_hit": 0,
+      "text_len": 575827,
+      "n_code_blocks": 124,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 545
+    },
+    "didilili/ai-agents-from-zero": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "diegosouzapw/OmniRoute": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 10,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 3
+      },
+      "reach_index": 6.844377450090624,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 68,
+      "core_kw_hit": 0,
+      "text_len": 118769,
+      "n_code_blocks": 954,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 462
+    },
+    "dmmulroy/anti-slop": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 8696,
+      "n_code_blocks": 8,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 20
+    },
+    "dotnet/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.040718428997293,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 13,
+      "core_kw_hit": 0,
+      "text_len": 301993,
+      "n_code_blocks": 490,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 565
+    },
+    "eatmoreduck/boss-zhipin-scraper": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.9021719013033698,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 10510,
+      "n_code_blocks": 26,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 19
+    },
+    "elementalsouls/Claude-BugHunter": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 12,
+        "破坏性操作": 2,
+        "网络出站": 9,
+        "远程执行": 6,
+        "文件系统写入": 3
+      },
+      "reach_index": 9.31297487676764,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 819,
+      "core_kw_hit": 1,
+      "text_len": 615609,
+      "n_code_blocks": 826,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 2935
+    },
+    "epoko77-ai/im-not-ai": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 32784,
+      "n_code_blocks": 30,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 12
+    },
+    "eugeniughelbur/obsidian-second-brain": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 2,
+        "文件系统写入": 2
+      },
+      "reach_index": 5.49461381760644,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 8,
+      "core_kw_hit": 0,
+      "text_len": 84951,
+      "n_code_blocks": 52,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 126
+    },
+    "ferdinandobons/startup-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.2772588722239782,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 0,
+      "text_len": 92780,
+      "n_code_blocks": 14,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 120
+    },
+    "filtalgo/Filtmall-Shopping-Skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 4268,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 6
+    },
+    "foryourhealth111-pixel/Vibe-Skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 7,
+        "破坏性操作": 2,
+        "网络出站": 5,
+        "远程执行": 1,
+        "文件系统写入": 3
+      },
+      "reach_index": 7.429900458808357,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 37,
+      "core_kw_hit": 0,
+      "text_len": 420592,
+      "n_code_blocks": 632,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 1007
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 2407,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 12
+    },
+    "geekjourneyx/md2wechat-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.0694215061434935,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 20,
+      "core_kw_hit": 0,
+      "text_len": 30548,
+      "n_code_blocks": 32,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 117
+    },
+    "genspark-ai/genoffice": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 2
+      },
+      "reach_index": 2.635610766069589,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 0,
+      "text_len": 77893,
+      "n_code_blocks": 8,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 87
+    },
+    "google-antigravity/antigravity-sdk-python": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.6516193076042964,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 11,
+      "core_kw_hit": 0,
+      "text_len": 8284,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 45
+    },
+    "google-gemini/gemini-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.4067012968575394,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 10,
+      "core_kw_hit": 0,
+      "text_len": 64503,
+      "n_code_blocks": 124,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 115
+    },
+    "google/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 3,
+        "文件系统写入": 2
+      },
+      "reach_index": 7.275528389736891,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 103,
+      "core_kw_hit": 0,
+      "text_len": 347751,
+      "n_code_blocks": 294,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 1173
+    },
+    "googleworkspace/cli": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.8813438494528507,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 1,
+      "text_len": 82716,
+      "n_code_blocks": 120,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 395
+    },
+    "gooseworks-ai/goose-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.389395198427084,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 18,
+      "core_kw_hit": 0,
+      "text_len": 174308,
+      "n_code_blocks": 60,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 232
+    },
+    "heilcheng/awesome-agent-skills": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "hesamsheikh/octogent": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "himself65/finance-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 2,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.839991259769673,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 42,
+      "core_kw_hit": 0,
+      "text_len": 254089,
+      "n_code_blocks": 244,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 444
+    },
+    "hoangsonww/Claude-Code-Agent-Monitor": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.063623998768843,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 0,
+      "text_len": 140666,
+      "n_code_blocks": 124,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 740
+    },
+    "htdt/godogen": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 11219,
+      "n_code_blocks": 10,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 4
+    },
+    "huangjia2019/claude-code-engineering": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 3.599146454710798,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 4,
+      "core_kw_hit": 0,
+      "text_len": 24659,
+      "n_code_blocks": 46,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 89
+    },
+    "iOfficeAI/OfficeCLI": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 2,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.704316707943506,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 12,
+      "core_kw_hit": 0,
+      "text_len": 482904,
+      "n_code_blocks": 534,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 869
+    },
+    "ibelick/ui-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.277258872223978,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 43573,
+      "n_code_blocks": 28,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 92
+    },
+    "iflytek/skillhub": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 8,
+        "破坏性操作": 0,
+        "网络出站": 6,
+        "远程执行": 2,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.437029037169435,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 27,
+      "core_kw_hit": 0,
+      "text_len": 178326,
+      "n_code_blocks": 170,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 562
+    },
+    "inkeep/open-knowledge": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.686327060610918,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 0,
+      "text_len": 192404,
+      "n_code_blocks": 76,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 276
+    },
+    "internet-court/internet-court-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 12,
+        "破坏性操作": 0,
+        "网络出站": 6,
+        "远程执行": 1,
+        "文件系统写入": 3
+      },
+      "reach_index": 7.296939119739364,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 129,
+      "core_kw_hit": 0,
+      "text_len": 283486,
+      "n_code_blocks": 406,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 964
+    },
+    "irinabuht12-oss/marketing-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.90217190130337,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 104733,
+      "n_code_blocks": 40,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 50
+    },
+    "jangviktor-web/nihaixia": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 62481,
+      "n_code_blocks": 22,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 5
+    },
+    "jezweb/claude-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 8,
+        "破坏性操作": 2,
+        "网络出站": 5,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 7.767529738227256,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 52,
+      "core_kw_hit": 0,
+      "text_len": 318466,
+      "n_code_blocks": 492,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 921
+    },
+    "jnMetaCode/superpowers-zh": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 7,
+        "破坏性操作": 2,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.8077680107627625,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 8,
+      "core_kw_hit": 0,
+      "text_len": 120184,
+      "n_code_blocks": 384,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 192
+    },
+    "kaankiziltug/logo-design-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 17491,
+      "n_code_blocks": 8,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 16
+    },
+    "kepano/obsidian-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.8764053269347762,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 33950,
+      "n_code_blocks": 122,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 26
+    },
+    "lackeyjb/playwright-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.8050703381470297,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 4,
+      "core_kw_hit": 0,
+      "text_len": 7741,
+      "n_code_blocks": 24,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 18
+    },
+    "larashero3-dotcom/lieflat-charts": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.3218875824868201,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 18193,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 14
+    },
+    "latent-spaces/brag": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.138629436111989,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 16791,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 19
+    },
+    "libukai/awesome-agent-skills": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "liustack/modlens": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.358351893845611,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 5359,
+      "n_code_blocks": 2,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 13
+    },
+    "ljagiello/ctf-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 9,
+        "破坏性操作": 0,
+        "网络出站": 8,
+        "远程执行": 5,
+        "文件系统写入": 5
+      },
+      "reach_index": 7.247602801039683,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 225,
+      "core_kw_hit": 1,
+      "text_len": 189451,
+      "n_code_blocks": 190,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 406
+    },
+    "maziyarpanahi/openmed": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.279839339928378,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 1,
+      "text_len": 223645,
+      "n_code_blocks": 144,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 256
+    },
+    "michael-denyer/pstack-claude": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 2.4158883083359672,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 0,
+      "text_len": 112142,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 238
+    },
+    "microsoft/SkillOpt": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 5.038591370178042,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 5,
+      "core_kw_hit": 0,
+      "text_len": 89790,
+      "n_code_blocks": 38,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 189
+    },
+    "microsoft/skill-recorder": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "minsight-ai-info/AI-Search-Hub": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 5344,
+      "n_code_blocks": 2,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 20
+    },
+    "miqdadbadjuber/anti-slop": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 3.8861633597686627,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 5,
+      "core_kw_hit": 0,
+      "text_len": 146304,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 172
+    },
+    "mksglu/context-mode": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 5,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.051499074405556,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 54837,
+      "n_code_blocks": 36,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 151
+    },
+    "mohitagw15856/pm-claude-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.27938593104323,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 13,
+      "core_kw_hit": 0,
+      "text_len": 178818,
+      "n_code_blocks": 38,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 295
+    },
+    "muxuuu/serenity-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 7471,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 10
+    },
+    "mvanhorn/last30days-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 8,
+        "破坏性操作": 1,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 3
+      },
+      "reach_index": 7.661623806186514,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 123,
+      "core_kw_hit": 1,
+      "text_len": 259344,
+      "n_code_blocks": 106,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 472
+    },
+    "mvschwarz/openrig": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.131470693626156,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 18,
+      "core_kw_hit": 1,
+      "text_len": 316002,
+      "n_code_blocks": 202,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 664
+    },
+    "nanocoai/nanoclaw": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 9,
+        "破坏性操作": 0,
+        "网络出站": 5,
+        "远程执行": 2,
+        "文件系统写入": 5
+      },
+      "reach_index": 7.987670976927327,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 203,
+      "core_kw_hit": 1,
+      "text_len": 276342,
+      "n_code_blocks": 817,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 754
+    },
+    "nexscope-ai/eCommerce-Skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.72957410301157,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 10,
+      "core_kw_hit": 0,
+      "text_len": 175915,
+      "n_code_blocks": 264,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 169
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.13874642776054,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 8,
+      "core_kw_hit": 0,
+      "text_len": 106050,
+      "n_code_blocks": 174,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 223
+    },
+    "nexu-io/html-anything": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.4605170185988092,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 43275,
+      "n_code_blocks": 12,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 16
+    },
+    "nexu-io/open-design": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.112904081464539,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 156310,
+      "n_code_blocks": 86,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 282
+    },
+    "nidhinjs/prompt-master": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.358351893845611,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 5,
+      "core_kw_hit": 0,
+      "text_len": 31910,
+      "n_code_blocks": 2,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 80
+    },
+    "ningzimu/codex-ppt-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.578074351579233,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 1,
+      "n_old_kw": 4,
+      "core_kw_hit": 0,
+      "text_len": 10391,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 12
+    },
+    "nowork-studio/notfair-plugin": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 1,
+        "网络出站": 2,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.4909439898728,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 5,
+      "core_kw_hit": 0,
+      "text_len": 135480,
+      "n_code_blocks": 46,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 255
+    },
+    "obra/superpowers": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 1,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.578074351579233,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 169299,
+      "n_code_blocks": 186,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 338
+    },
+    "op7418/guizang-ppt-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 25146,
+      "n_code_blocks": 16,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 4
+    },
+    "pacifio/atlas": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 3.912869638293567,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 3,
+      "core_kw_hit": 0,
+      "text_len": 37728,
+      "n_code_blocks": 46,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 131
+    },
+    "parcadei/Continuous-Claude-v3": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 5.795832929792942,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 19,
+      "core_kw_hit": 0,
+      "text_len": 130222,
+      "n_code_blocks": 420,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 570
+    },
+    "pascalorg/editor": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.449985107343598,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 19,
+      "core_kw_hit": 0,
+      "text_len": 60399,
+      "n_code_blocks": 14,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 135
+    },
+    "phuryn/pm-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.8286269452783066,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 133245,
+      "n_code_blocks": 38,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 263
+    },
+    "plannotator/effective-html": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 1.2772588722239782,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 33509,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 80
+    },
+    "plugin87/ux-ui-agent-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 57811,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 188
+    },
+    "rampstackco/claude-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.527811465923052,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 5,
+      "core_kw_hit": 0,
+      "text_len": 439174,
+      "n_code_blocks": 14,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 611
+    },
+    "rebelytics/one-skill-to-rule-them-all": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 1.3218875824868201,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 48830,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 111
+    },
+    "reticlehq/reticle": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.796386598197375,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 11,
+      "core_kw_hit": 1,
+      "text_len": 130712,
+      "n_code_blocks": 214,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 360
+    },
+    "rohitg00/awesome-claude-design": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "rohitg00/pro-workflow": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 4,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 3
+      },
+      "reach_index": 5.804319649475861,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 23,
+      "core_kw_hit": 0,
+      "text_len": 117214,
+      "n_code_blocks": 202,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 419
+    },
+    "romainsimon/paperasse": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.765728279297819,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 80670,
+      "n_code_blocks": 54,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 60
+    },
+    "samber/cc-skills-golang": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 1,
+        "文件系统写入": 2
+      },
+      "reach_index": 6.060022742395418,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 8,
+      "core_kw_hit": 0,
+      "text_len": 327843,
+      "n_code_blocks": 262,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 612
+    },
+    "sergebulaev/linkedin-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.546122813212748,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 20,
+      "core_kw_hit": 0,
+      "text_len": 241811,
+      "n_code_blocks": 20,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 586
+    },
+    "shanraisshan/claude-code-best-practice": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 2.947239689678899,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 5,
+      "core_kw_hit": 0,
+      "text_len": 41271,
+      "n_code_blocks": 60,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 94
+    },
+    "sickn33/agentic-awesome-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 5,
+        "破坏性操作": 0,
+        "网络出站": 4,
+        "远程执行": 1,
+        "文件系统写入": 3
+      },
+      "reach_index": 6.300138185460378,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 62,
+      "core_kw_hit": 0,
+      "text_len": 231603,
+      "n_code_blocks": 238,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 593
+    },
+    "suboss87/FDEOps": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 189520,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 0
+    },
+    "tech-leads-club/agent-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 6,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 6.053626133224808,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 37,
+      "core_kw_hit": 0,
+      "text_len": 396984,
+      "n_code_blocks": 574,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 739
+    },
+    "teng-lin/notebooklm-py": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.038591370178042,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 1,
+      "n_old_kw": 7,
+      "core_kw_hit": 0,
+      "text_len": 16376,
+      "n_code_blocks": 16,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 78
+    },
+    "tigerless-labs/autoharness": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 1119,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 5
+    },
+    "titanwings/distilly": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 1,
+        "网络出站": 2,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.542846228969817,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 9,
+      "core_kw_hit": 0,
+      "text_len": 58315,
+      "n_code_blocks": 140,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 208
+    },
+    "tmstack/awesome-persona-skills": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "tradecatlabs/vibe-coding-cn": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 1100546,
+      "n_code_blocks": 0,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 0
+    },
+    "trailofbits/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 1,
+        "网络出站": 5,
+        "远程执行": 1,
+        "文件系统写入": 4
+      },
+      "reach_index": 6.871924414938388,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 5.0,
+      "any_old_kw": 1,
+      "n_old_kw": 21,
+      "core_kw_hit": 1,
+      "text_len": 291554,
+      "n_code_blocks": 294,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 505
+    },
+    "travisvn/awesome-claude-skills": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "tripleyak/SkillForge": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 10580,
+      "n_code_blocks": 6,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 17
+    },
+    "tt-a1i/archify": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 13296,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 48
+    },
+    "tw93/Waza": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 4,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 3
+      },
+      "reach_index": 4.386098953190325,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 36,
+      "core_kw_hit": 0,
+      "text_len": 243177,
+      "n_code_blocks": 44,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 738
+    },
+    "undefined-ui/second-brain-os": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 1
+      },
+      "reach_index": 5.236416981343327,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 0,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 10,
+      "core_kw_hit": 0,
+      "text_len": 53635,
+      "n_code_blocks": 46,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 135
+    },
+    "virgiliojr94/book-to-skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 2,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.9939626599152005,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 1,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 1,
+      "core_kw_hit": 0,
+      "text_len": 54516,
+      "n_code_blocks": 33,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 179
+    },
+    "wondelai/skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 2,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.2173549453824615,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 1
+      },
+      "disclosure_index": 4.0,
+      "any_old_kw": 1,
+      "n_old_kw": 21,
+      "core_kw_hit": 0,
+      "text_len": 579111,
+      "n_code_blocks": 12,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 966
+    },
+    "wuyoscar/GPT-Image2-Skill": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 2
+      },
+      "reach_index": 3.936426245424844,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 1,
+      "n_old_kw": 6,
+      "core_kw_hit": 0,
+      "text_len": 17560,
+      "n_code_blocks": 2,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 44
+    },
+    "xianyu110/awesome-openclaw-tutorial": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 1,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 3.0211890947801163,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 1,
+      "n_old_kw": 9,
+      "core_kw_hit": 0,
+      "text_len": 11010,
+      "n_code_blocks": 82,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 5
+    },
+    "xixu-me/awesome-persona-distill-skills": {
+      "has_skillmd": false,
+      "reach_index": null,
+      "reach_binary": null,
+      "family_hits": null,
+      "disclosure": null,
+      "disclosure_index": null,
+      "any_old_kw": null,
+      "n_old_kw": null,
+      "core_kw_hit": null,
+      "text_len": 0,
+      "n_code_blocks": 0,
+      "benign_hits": 0
+    },
+    "yusufkaraaslan/Skill_Seekers": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 1,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 1,
+        "文件系统写入": 0
+      },
+      "reach_index": 4.2022534348808325,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 1,
+        "audit_badge": 0
+      },
+      "disclosure_index": 3.0,
+      "any_old_kw": 1,
+      "n_old_kw": 2,
+      "core_kw_hit": 0,
+      "text_len": 94648,
+      "n_code_blocks": 300,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 119
+    },
+    "zanwei/design-dna": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 0.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 8389,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 16
+    },
+    "zenbu-labs/terminal-browser": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 0
+      },
+      "reach_index": 0.0,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 0,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 1.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 4082,
+      "n_code_blocks": 4,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 2
+    },
+    "zenstory-ai/drama-skills": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 0,
+        "破坏性操作": 0,
+        "网络出站": 0,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 1.219722457733622,
+      "reach_binary": 0,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 0,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 1
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 0,
+      "n_old_kw": 0,
+      "core_kw_hit": 0,
+      "text_len": 64704,
+      "n_code_blocks": 48,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 24
+    },
+    "zenstory-ai/oh-story-claudecode": {
+      "has_skillmd": true,
+      "family_hits": {
+        "凭证与密钥": 3,
+        "破坏性操作": 0,
+        "网络出站": 3,
+        "远程执行": 0,
+        "文件系统写入": 1
+      },
+      "reach_index": 4.524141017367652,
+      "reach_binary": 1,
+      "disclosure": {
+        "allowed_tools": 0,
+        "permission_scope": 1,
+        "security_note": 1,
+        "sandbox": 0,
+        "audit_badge": 0
+      },
+      "disclosure_index": 2.0,
+      "any_old_kw": 1,
+      "n_old_kw": 15,
+      "core_kw_hit": 0,
+      "text_len": 102541,
+      "n_code_blocks": 74,
+      "benign_sensitive_overlap": 3,
+      "benign_hits": 103
+    }
+  }
+}

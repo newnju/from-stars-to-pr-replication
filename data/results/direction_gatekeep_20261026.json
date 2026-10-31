@@ -1,0 +1,386 @@
+{
+ "generated_at": "2026-10-26T13:12:49",
+ "A_direction_test": {
+  "n_pairs_analyzed": 272,
+  "n_sides": 544,
+  "direction_evidence": {
+   "fork_directed_pairs": 3,
+   "attr_order_vs_direction_agree": 68,
+   "attr_order_vs_direction_comparable": 68,
+   "attr_order_vs_direction_agree_pct": 1.0,
+   "attr_order_vs_direction_agree_wilson95": [
+    0.9465,
+    1.0
+   ],
+   "attr_order_comparable_trivial_both_birth": 60,
+   "attr_order_comparable_nontrivial": 8,
+   "attr_order_nontrivial_agree": 8,
+   "attr_order_nontrivial_agree_pct": 1.0,
+   "old_vs_history_agree": 116,
+   "old_vs_history_comparable": 116,
+   "old_vs_history_agree_pct": 1.0,
+   "attr_written_before_child_copy": 68,
+   "attr_written_before_child_copy_comparable": 70,
+   "attr_written_before_child_copy_pct": 0.9714,
+   "attr_written_before_child_copy_wilson95": [
+    0.9017,
+    0.9921
+   ]
+  },
+  "attr_write_timing": {
+   "at_birth": 146,
+   "at_birth_pct": 0.2684,
+   "added_later": 10,
+   "added_later_pct": 0.0184,
+   "never": 388,
+   "never_pct": 0.7132
+  },
+  "retention_along_direction": {
+   "parent_has_attr_pairs": 70,
+   "child_keeps_attr_pairs": 68,
+   "child_keep_pct": 0.9714,
+   "child_keep_wilson95": [
+    0.9017,
+    0.9921
+   ],
+   "copy_lag_days_median": 17.95,
+   "copy_lag_days_p90": 61.19,
+   "n_lags": 225
+  },
+  "status_mix": {
+   "ok_no_attr_ever": 425,
+   "ok_attr_at_birth": 162,
+   "no_history": 86,
+   "ok_attr_added_later": 11
+  },
+  "_detail_sample": [
+   {
+    "pair_id": "d0",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": null,
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "ruvnet/ruvector",
+     "first": "2025-11-20T20:26:39Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    },
+    "b": {
+     "repo": "chatman-media/timeline-studio",
+     "first": "2025-12-31T06:24:36Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    }
+   },
+   {
+    "pair_id": "d1",
+    "fork_dir": null,
+    "hist_dir": null,
+    "attr_order": null,
+    "old_verdict": "same_sha",
+    "a": {
+     "repo": "HomericIntelligence/ProjectOdyssey",
+     "first": "2025-11-08T23:59:42Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    },
+    "b": {
+     "repo": "mvillmow/ProjectOdyssey",
+     "first": "2025-11-08T23:59:42Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    }
+   },
+   {
+    "pair_id": "d10",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": null,
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "mrgoonie/claudekit-skills",
+     "first": "2025-10-23T04:49:51Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    },
+    "b": {
+     "repo": "GGPrompts/my-gg-plugins",
+     "first": "2025-12-16T20:56:59Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    }
+   },
+   {
+    "pair_id": "d100",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": "a_parent",
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "invariantlabs-ai/mcp-scan",
+     "first": "2026-02-03T18:00:12Z",
+     "attr_write": "2026-02-03T18:00:12Z",
+     "attr_birth": [
+      "license"
+     ],
+     "attr_now": null
+    },
+    "b": {
+     "repo": "ZhanlinCui/Agent-Skills-Hunter",
+     "first": "2026-02-25T08:51:04Z",
+     "attr_write": "2026-02-25T08:51:04Z",
+     "attr_birth": [
+      "license"
+     ],
+     "attr_now": null
+    }
+   },
+   {
+    "pair_id": "d101",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": null,
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "HoangNguyen0403/agent-skills-standard",
+     "first": "2026-01-23T08:54:17Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    },
+    "b": {
+     "repo": "fierzone/agent-skills-standard",
+     "first": "2026-02-04T06:03:54Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    }
+   },
+   {
+    "pair_id": "d102",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": null,
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "revokslab/ShipFree",
+     "first": "2026-01-15T14:55:18Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    },
+    "b": {
+     "repo": "wonderslife/college-major4hs",
+     "first": "2026-01-23T23:50:17Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    }
+   },
+   {
+    "pair_id": "d104",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": null,
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "xi-guan/vendure",
+     "first": "2025-10-20T09:47:26Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    },
+    "b": {
+     "repo": "phuong-nam-dev/Vendure_Platform",
+     "first": "2025-12-09T03:41:56Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    }
+   },
+   {
+    "pair_id": "d105",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": "a_parent",
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "nicksp/dotfiles",
+     "first": "2025-12-19T23:33:28Z",
+     "attr_write": "2025-12-19T23:33:28Z",
+     "attr_birth": [
+      "license"
+     ],
+     "attr_now": null
+    },
+    "b": {
+     "repo": "aiskillstore/marketplace",
+     "first": "2026-01-13T06:32:44Z",
+     "attr_write": "2026-01-13T06:32:44Z",
+     "attr_birth": [
+      "license"
+     ],
+     "attr_now": null
+    }
+   },
+   {
+    "pair_id": "d107",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": "a_parent",
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "modu-ai/moai-adk",
+     "first": "2026-02-03T00:56:34Z",
+     "attr_write": "2026-02-03T00:56:34Z",
+     "attr_birth": [
+      "license"
+     ],
+     "attr_now": null
+    },
+    "b": {
+     "repo": "taewook486/DashBoard",
+     "first": "2026-02-04T03:46:05Z",
+     "attr_write": "2026-02-09T10:29:46Z",
+     "attr_birth": [],
+     "attr_now": [
+      "license"
+     ]
+    }
+   },
+   {
+    "pair_id": "d108",
+    "fork_dir": null,
+    "hist_dir": "b_parent",
+    "attr_order": "b_parent",
+    "old_verdict": "b_first",
+    "a": {
+     "repo": "lattice-technologies-inc/harness-engineering",
+     "first": "2026-02-17T04:34:08Z",
+     "attr_write": "2026-02-17T04:34:08Z",
+     "attr_birth": [
+      "license"
+     ],
+     "attr_now": null
+    },
+    "b": {
+     "repo": "chuanminglu/courses-teacher",
+     "first": "2025-12-29T07:08:14Z",
+     "attr_write": "2025-12-29T07:08:14Z",
+     "attr_birth": [
+      "license"
+     ],
+     "attr_now": null
+    }
+   },
+   {
+    "pair_id": "d11",
+    "fork_dir": null,
+    "hist_dir": null,
+    "attr_order": null,
+    "old_verdict": "same_sha",
+    "a": {
+     "repo": "hoodini/ai-agents-skills",
+     "first": "2026-01-07T15:46:23Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    },
+    "b": {
+     "repo": "Makiya1202/ai-agents-skills",
+     "first": "2026-01-07T15:46:23Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    }
+   },
+   {
+    "pair_id": "d112",
+    "fork_dir": null,
+    "hist_dir": "a_parent",
+    "attr_order": null,
+    "old_verdict": "a_first",
+    "a": {
+     "repo": "CommandCodeAI/agent-skills",
+     "first": "2025-12-24T20:51:31Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    },
+    "b": {
+     "repo": "onurkanbakirci/awesome-skills",
+     "first": "2026-01-02T17:19:49Z",
+     "attr_write": null,
+     "attr_birth": [],
+     "attr_now": []
+    }
+   }
+  ]
+ },
+ "B_comment_gatekeeping": {
+  "n_repos": 162,
+  "n_repos_error": 2,
+  "prs_total": 45360,
+  "merged": 24134,
+  "closed_unmerged": 14385,
+  "prs_with_any_comment": 24902,
+  "prs_with_any_comment_pct": 0.549,
+  "prs_with_pre_comment": 23631,
+  "prs_with_pre_comment_pct": 0.521,
+  "prs_with_any_review": 15054,
+  "prs_with_any_review_pct": 0.3319,
+  "merged_with_pre_comment": 9168,
+  "merged_with_pre_comment_pct": 0.3799,
+  "comment_only_no_review": 12958,
+  "comment_only_no_review_pct": 0.2857,
+  "merged_gatekeeping_mix": {
+   "both_comment_and_review": 5497,
+   "comment_only": 3671,
+   "review_only": 3772,
+   "neither": 11194,
+   "both_pct": 0.2278,
+   "comment_only_pct": 0.1521,
+   "review_only_pct": 0.1563,
+   "neither_pct": 0.4638
+  },
+  "total_comments": 61078,
+  "pre_merge_comments": 22860,
+  "pre_merge_comments_pct": 0.3743,
+  "bot_comments": 6605,
+  "bot_comments_pct": 0.1081,
+  "human_comments": 54473,
+  "first_comment_lag_days_median": 0.081,
+  "first_comment_lag_days_p90": 20.391,
+  "truncated_flags": {
+   "comments": 152,
+   "reviews": 508
+  },
+  "comment_rate_by_repo_size_tertile": {
+   "small": {
+    "n_repos": 54,
+    "prs": 754,
+    "commented_prs": 269,
+    "comment_rate": 0.3568
+   },
+   "mid": {
+    "n_repos": 54,
+    "prs": 4350,
+    "commented_prs": 1744,
+    "comment_rate": 0.4009
+   },
+   "large": {
+    "n_repos": 54,
+    "prs": 40256,
+    "commented_prs": 21618,
+    "comment_rate": 0.537
+   }
+  }
+ }
+}

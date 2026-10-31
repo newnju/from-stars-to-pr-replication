@@ -1,0 +1,161 @@
+{
+ "license_values": {
+  "n_licenses": 19731,
+  "top_values": [
+   [
+    "MIT",
+    12965
+   ],
+   [
+    "Apache-2.0",
+    2104
+   ],
+   [
+    "Complete terms in LICENSE.txt",
+    2016
+   ],
+   [
+    "Proprietary. LICENSE.txt has complete te",
+    659
+   ],
+   [
+    "Unknown",
+    259
+   ],
+   [
+    "MIT license",
+    258
+   ],
+   [
+    "Proprietary",
+    202
+   ],
+   [
+    "Apache 2.0",
+    110
+   ],
+   [
+    "AGPL-3.0",
+    101
+   ],
+   [
+    "BSD-3-Clause license",
+    94
+   ],
+   [
+    "Apache-2.0 license",
+    86
+   ],
+   [
+    "GPL-3.0",
+    61
+   ]
+  ],
+  "note": "写了 license 字段的文档的值分布"
+ },
+ "doc_style": {
+  "n_docs": 2947,
+  "opening_structure": {
+   "starts_with_heading": 0.985,
+   "starts_with_list": 0.0,
+   "starts_with_code": 0.001,
+   "starts_with_prose": 0.013
+  },
+  "shell_command_doc_pct": 0.074,
+  "emoji_doc_pct": 0.086,
+  "note": "正文首段结构与命令/emoji密度（面板仓文档）"
+ },
+ "fork_rename": {
+  "kept_same_name": 20491,
+  "renamed": 1482,
+  "rename_rate": 0.067,
+  "note": "回流 fork 的仓名保留率（fork 默认同名，改名=有意区分）"
+ },
+ "dual_vs_single": {
+  "n_dual": 51,
+  "n_only_sh": 121,
+  "median_stars_dual": 43610,
+  "median_stars_only_sh": 5839,
+  "mwu_p": 0.0,
+  "note": "双平台收录仓与仅skills.sh收录仓的星标差"
+ },
+ "name_length": {
+  "n_repos": 62,
+  "median_len": 13,
+  "len_to_stars_rho": 0.175,
+  "len_to_stars_p": 0.1749,
+  "len_to_installs_rho": 0.194,
+  "note": "每仓首文档名长度→星标/安装"
+ },
+ "slug_prefix": {
+  "n_slugs": 83215,
+  "top_prefixes": [
+   [
+    "alibabacloud",
+    340
+   ],
+   [
+    "work-product",
+    297
+   ],
+   [
+    "huawei-cloud",
+    231
+   ],
+   [
+    "xiaohongshu-",
+    167
+   ],
+   [
+    "self-improvi",
+    103
+   ],
+   [
+    "nano-banana-",
+    89
+   ],
+   [
+    "guaikei-douy",
+    89
+   ],
+   [
+    "guaikei-xhs-",
+    79
+   ],
+   [
+    "wechat-artic",
+    76
+   ],
+   [
+    "agent-browse",
+    75
+   ]
+  ],
+  "note": "ClawHub slug 首段前缀——平台品牌化命名"
+ },
+ "star_autocorr": [
+  {
+   "lag1_weeks_median_rho": 0.748,
+   "lag2_weeks_median_rho": 0.628,
+   "lag4_weeks_median_rho": 0.513
+  }
+ ],
+ "star_autocorr_n": {
+  "lag1": 318,
+  "lag2": 318,
+  "lag4": 318
+ },
+ "cluster_star_span": {
+  "n_hashes_ge3": 6,
+  "median_span": 177804,
+  "p90_span": 177804,
+  "pct_zero_span": 0.0,
+  "note": "同SHA≥3仓的星标跨度（同内容在注意力上的离散度）"
+ },
+ "fm_body_name": {
+  "name_vs_h1_match": 887,
+  "mismatch": 2011,
+  "match_rate": 0.306,
+  "note": "frontmatter name 与正文首个 H1 的一致率"
+ }
+}

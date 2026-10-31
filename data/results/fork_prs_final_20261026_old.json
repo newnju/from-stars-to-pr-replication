@@ -1,0 +1,1665 @@
+{
+ "generated_at": "2026-10-28T11:16:53",
+ "source_files": [
+  "fork_prs.jsonl",
+  "fork_prs_fix.jsonl",
+  "fork_prs_retry1.jsonl",
+  "fork_prs_retry2.jsonl",
+  "fork_prs_retry3.jsonl"
+ ],
+ "coverage": {
+  "parents_total": 228,
+  "parents_complete": 213,
+  "parents_missing": 15,
+  "missing_deleted_404": [
+   "awesome-selfhosted/awesome-selfhosted",
+   "google-antigravity/antigravity-sdk-python",
+   "mksglu/context-mode"
+  ],
+  "missing_open": [
+   "NousResearch/hermes-agent",
+   "diegosouzapw/OmniRoute",
+   "langgenius/dify",
+   "laravel/laravel",
+   "lobehub/lobehub",
+   "microsoft/playwright",
+   "open-webui/open-webui",
+   "openclaw/openclaw",
+   "paperclipai/paperclip",
+   "public-apis/public-apis",
+   "punkpeye/awesome-mcp-servers",
+   "twentyhq/twenty"
+  ],
+  "missing_open_detail": [
+   {
+    "parent": "NousResearch/hermes-agent",
+    "partial_max_pages": false,
+    "partial_n_matched": null,
+    "errors": [
+     [
+      "fork_prs_retry3.jsonl",
+      "network retries exhausted: URLError: <urlopen error [WinError 10065] 套接字操作尝试一个无法"
+     ]
+    ]
+   },
+   {
+    "parent": "diegosouzapw/OmniRoute",
+    "partial_max_pages": true,
+    "partial_n_matched": 2178,
+    "errors": [
+     [
+      "fork_prs_fix.jsonl",
+      "HTTP 499: "
+     ],
+     [
+      "fork_prs_retry1.jsonl",
+      "IncompleteRead(2007346 bytes read, 51453 more expected)"
+     ]
+    ]
+   },
+   {
+    "parent": "langgenius/dify",
+    "partial_max_pages": true,
+    "partial_n_matched": 3949,
+    "errors": []
+   },
+   {
+    "parent": "laravel/laravel",
+    "partial_max_pages": true,
+    "partial_n_matched": 2451,
+    "errors": []
+   },
+   {
+    "parent": "lobehub/lobehub",
+    "partial_max_pages": true,
+    "partial_n_matched": 2306,
+    "errors": []
+   },
+   {
+    "parent": "microsoft/playwright",
+    "partial_max_pages": true,
+    "partial_n_matched": 17468,
+    "errors": [
+     [
+      "fork_prs_retry2.jsonl",
+      "IncompleteRead(1084900 bytes read, 11706 more expected)"
+     ]
+    ]
+   },
+   {
+    "parent": "open-webui/open-webui",
+    "partial_max_pages": true,
+    "partial_n_matched": 4092,
+    "errors": []
+   },
+   {
+    "parent": "openclaw/openclaw",
+    "partial_max_pages": true,
+    "partial_n_matched": 4223,
+    "errors": []
+   },
+   {
+    "parent": "paperclipai/paperclip",
+    "partial_max_pages": true,
+    "partial_n_matched": 4337,
+    "errors": []
+   },
+   {
+    "parent": "public-apis/public-apis",
+    "partial_max_pages": false,
+    "partial_n_matched": null,
+    "errors": [
+     [
+      "fork_prs_retry3.jsonl",
+      "network retries exhausted: URLError: <urlopen error [WinError 10065] 套接字操作尝试一个无法"
+     ]
+    ]
+   },
+   {
+    "parent": "punkpeye/awesome-mcp-servers",
+    "partial_max_pages": true,
+    "partial_n_matched": 4310,
+    "errors": []
+   },
+   {
+    "parent": "twentyhq/twenty",
+    "partial_max_pages": true,
+    "partial_n_matched": 10926,
+    "errors": [
+     [
+      "fork_prs_retry2.jsonl",
+      "IncompleteRead(1531700 bytes read, 56094 more expected)"
+     ]
+    ]
+   }
+  ]
+ },
+ "p2_final": {
+  "parents_n": 213,
+  "fork_total": 1486375,
+  "returning_forks": 65708,
+  "fork_conversion_pct": 4.42,
+  "fork_conversion_wilson95": [
+   0.0439,
+   0.0445
+  ],
+  "parent_conversion_median_pct": 3.26,
+  "parent_conversion_q25_pct": 1.54,
+  "parent_conversion_q75_pct": 7.08,
+  "pr_events": 186507,
+  "pr_per_returning_fork": 2.84,
+  "timing": {
+   "resolved_events": 149602,
+   "lag_le_24h_pct": 45.0,
+   "lag_median_days": 2.92,
+   "lag_p90_days": 217.5,
+   "lag_negative_events_ignored": 0
+  },
+  "bot_author_pct": 0.0
+ },
+ "p2_snapshot_108_for_compare": {
+  "fork_total": 188588,
+  "returning_forks": 8161,
+  "fork_conversion_pct": 4.3,
+  "pr_events": 22325,
+  "pr_per_returning_fork": 2.74,
+  "timing_le_24h_pct": 41.2,
+  "lag_median_days": 6.6,
+  "lag_p90_days": 349,
+  "bot_author_pct": 0.9,
+  "note": "108 已解析父仓快照（大修稿 5 正文口径）"
+ },
+ "per_parent": [
+  {
+   "parent": "1c7/chinese-independent-developer",
+   "n_forks": 5440,
+   "returning_forks": 411,
+   "pr_events": 623,
+   "conversion": 0.07555
+  },
+  {
+   "parent": "Agents365-ai/drawio-skill",
+   "n_forks": 720,
+   "returning_forks": 13,
+   "pr_events": 14,
+   "conversion": 0.01806
+  },
+  {
+   "parent": "AgriciDaniel/claude-ads",
+   "n_forks": 1482,
+   "returning_forks": 19,
+   "pr_events": 22,
+   "conversion": 0.01282
+  },
+  {
+   "parent": "AgriciDaniel/claude-obsidian",
+   "n_forks": 1553,
+   "returning_forks": 71,
+   "pr_events": 84,
+   "conversion": 0.04572
+  },
+  {
+   "parent": "ChenLiu-1996/figures4papers",
+   "n_forks": 587,
+   "returning_forks": 2,
+   "pr_events": 2,
+   "conversion": 0.00341
+  },
+  {
+   "parent": "CherryHQ/cherry-studio",
+   "n_forks": 5125,
+   "returning_forks": 647,
+   "pr_events": 7749,
+   "conversion": 0.12624
+  },
+  {
+   "parent": "ComposioHQ/awesome-claude-skills",
+   "n_forks": 9134,
+   "returning_forks": 1468,
+   "pr_events": 1720,
+   "conversion": 0.16072
+  },
+  {
+   "parent": "ConardLi/garden-skills",
+   "n_forks": 1554,
+   "returning_forks": 16,
+   "pr_events": 17,
+   "conversion": 0.0103
+  },
+  {
+   "parent": "D4Vinci/Scrapling",
+   "n_forks": 9000,
+   "returning_forks": 97,
+   "pr_events": 161,
+   "conversion": 0.01078
+  },
+  {
+   "parent": "Devin-AXIS/iPolloWork",
+   "n_forks": 1436,
+   "returning_forks": 10,
+   "pr_events": 192,
+   "conversion": 0.00696
+  },
+  {
+   "parent": "DietrichGebert/ponytail",
+   "n_forks": 8753,
+   "returning_forks": 335,
+   "pr_events": 603,
+   "conversion": 0.03827
+  },
+  {
+   "parent": "Ebazhanov/linkedin-skill-assessments-quizzes",
+   "n_forks": 12675,
+   "returning_forks": 1184,
+   "pr_events": 2881,
+   "conversion": 0.09341
+  },
+  {
+   "parent": "Egonex-AI/Understand-Anything",
+   "n_forks": 7284,
+   "returning_forks": 205,
+   "pr_events": 352,
+   "conversion": 0.02814
+  },
+  {
+   "parent": "EverMind-AI/EverOS",
+   "n_forks": 981,
+   "returning_forks": 59,
+   "pr_events": 321,
+   "conversion": 0.06014
+  },
+  {
+   "parent": "EvoMap/evolver",
+   "n_forks": 1040,
+   "returning_forks": 46,
+   "pr_events": 66,
+   "conversion": 0.04423
+  },
+  {
+   "parent": "Fission-AI/OpenSpec",
+   "n_forks": 4806,
+   "returning_forks": 269,
+   "pr_events": 635,
+   "conversion": 0.05597
+  },
+  {
+   "parent": "FoundationAgents/OpenManus",
+   "n_forks": 10016,
+   "returning_forks": 292,
+   "pr_events": 459,
+   "conversion": 0.02915
+  },
+  {
+   "parent": "GargantuaX/gemini-watermark-remover",
+   "n_forks": 1051,
+   "returning_forks": 10,
+   "pr_events": 11,
+   "conversion": 0.00951
+  },
+  {
+   "parent": "Gentleman-Programming/gentle-ai",
+   "n_forks": 846,
+   "returning_forks": 222,
+   "pr_events": 1226,
+   "conversion": 0.26241
+  },
+  {
+   "parent": "Graphify-Labs/graphify",
+   "n_forks": 12180,
+   "returning_forks": 895,
+   "pr_events": 2297,
+   "conversion": 0.07348
+  },
+  {
+   "parent": "JCodesMore/ai-website-cloner-template",
+   "n_forks": 5501,
+   "returning_forks": 48,
+   "pr_events": 57,
+   "conversion": 0.00873
+  },
+  {
+   "parent": "Jeffallan/claude-skills",
+   "n_forks": 1122,
+   "returning_forks": 36,
+   "pr_events": 48,
+   "conversion": 0.03209
+  },
+  {
+   "parent": "JimLiu/baoyu-skills",
+   "n_forks": 2942,
+   "returning_forks": 58,
+   "pr_events": 71,
+   "conversion": 0.01971
+  },
+  {
+   "parent": "JuliusBrussee/caveman",
+   "n_forks": 6594,
+   "returning_forks": 326,
+   "pr_events": 530,
+   "conversion": 0.04944
+  },
+  {
+   "parent": "K-Dense-AI/scientific-agent-skills",
+   "n_forks": 4392,
+   "returning_forks": 111,
+   "pr_events": 186,
+   "conversion": 0.02527
+  },
+  {
+   "parent": "KKKKhazix/khazix-skills",
+   "n_forks": 2282,
+   "returning_forks": 31,
+   "pr_events": 35,
+   "conversion": 0.01358
+  },
+  {
+   "parent": "Leonxlnx/taste-skill",
+   "n_forks": 6536,
+   "returning_forks": 46,
+   "pr_events": 53,
+   "conversion": 0.00704
+  },
+  {
+   "parent": "MemPalace/mempalace",
+   "n_forks": 7594,
+   "returning_forks": 473,
+   "pr_events": 1736,
+   "conversion": 0.06229
+  },
+  {
+   "parent": "MemTensor/MemOS",
+   "n_forks": 1095,
+   "returning_forks": 166,
+   "pr_events": 1763,
+   "conversion": 0.1516
+  },
+  {
+   "parent": "Mintplex-Labs/anything-llm",
+   "n_forks": 7652,
+   "returning_forks": 479,
+   "pr_events": 778,
+   "conversion": 0.0626
+  },
+  {
+   "parent": "MycroftAI/mycroft-core",
+   "n_forks": 1262,
+   "returning_forks": 166,
+   "pr_events": 1541,
+   "conversion": 0.13154
+  },
+  {
+   "parent": "NVIDIA/SkillSpector",
+   "n_forks": 1787,
+   "returning_forks": 136,
+   "pr_events": 409,
+   "conversion": 0.07611
+  },
+  {
+   "parent": "NanmiCoder/MediaCrawler",
+   "n_forks": 11599,
+   "returning_forks": 151,
+   "pr_events": 225,
+   "conversion": 0.01302
+  },
+  {
+   "parent": "Natively-AI-assistant/natively-cluely-ai-assistant",
+   "n_forks": 635,
+   "returning_forks": 68,
+   "pr_events": 145,
+   "conversion": 0.10709
+  },
+  {
+   "parent": "NevaMind-AI/memU",
+   "n_forks": 1122,
+   "returning_forks": 74,
+   "pr_events": 260,
+   "conversion": 0.06595
+  },
+  {
+   "parent": "Observal/Observal",
+   "n_forks": 1161,
+   "returning_forks": 104,
+   "pr_events": 1194,
+   "conversion": 0.08958
+  },
+  {
+   "parent": "Orchestra-Research/AI-Research-SKILLs",
+   "n_forks": 967,
+   "returning_forks": 23,
+   "pr_events": 38,
+   "conversion": 0.02378
+  },
+  {
+   "parent": "OthmanAdi/planning-with-files",
+   "n_forks": 2306,
+   "returning_forks": 61,
+   "pr_events": 110,
+   "conversion": 0.02645
+  },
+  {
+   "parent": "Panniantong/Agent-Reach",
+   "n_forks": 8715,
+   "returning_forks": 211,
+   "pr_events": 349,
+   "conversion": 0.02421
+  },
+  {
+   "parent": "ParthJadhav/app-store-screenshots",
+   "n_forks": 543,
+   "returning_forks": 17,
+   "pr_events": 24,
+   "conversion": 0.03131
+  },
+  {
+   "parent": "Q00/ouroboros",
+   "n_forks": 635,
+   "returning_forks": 110,
+   "pr_events": 884,
+   "conversion": 0.17323
+  },
+  {
+   "parent": "RyanFitzgerald/devportfolio",
+   "n_forks": 4063,
+   "returning_forks": 114,
+   "pr_events": 127,
+   "conversion": 0.02806
+  },
+  {
+   "parent": "Shubhamsaboo/awesome-llm-apps",
+   "n_forks": 20799,
+   "returning_forks": 444,
+   "pr_events": 719,
+   "conversion": 0.02135
+  },
+  {
+   "parent": "SnailSploit/Claude-Red",
+   "n_forks": 991,
+   "returning_forks": 12,
+   "pr_events": 14,
+   "conversion": 0.01211
+  },
+  {
+   "parent": "Snailclimb/JavaGuide",
+   "n_forks": 46183,
+   "returning_forks": 684,
+   "pr_events": 1173,
+   "conversion": 0.01481
+  },
+  {
+   "parent": "ThinkInAIXYZ/deepchat",
+   "n_forks": 761,
+   "returning_forks": 99,
+   "pr_events": 1353,
+   "conversion": 0.13009
+  },
+  {
+   "parent": "TokenRhythm/opensquilla",
+   "n_forks": 600,
+   "returning_forks": 79,
+   "pr_events": 382,
+   "conversion": 0.13167
+  },
+  {
+   "parent": "Untrivial-ai/agent-orchestrator",
+   "n_forks": 1826,
+   "returning_forks": 375,
+   "pr_events": 3700,
+   "conversion": 0.20537
+  },
+  {
+   "parent": "VoltAgent/awesome-agent-skills",
+   "n_forks": 3870,
+   "returning_forks": 732,
+   "pr_events": 858,
+   "conversion": 0.18915
+  },
+  {
+   "parent": "VoltAgent/awesome-openclaw-skills",
+   "n_forks": 5136,
+   "returning_forks": 293,
+   "pr_events": 377,
+   "conversion": 0.05705
+  },
+  {
+   "parent": "WenyuChiou/awesome-agentic-ai-zh",
+   "n_forks": 1012,
+   "returning_forks": 33,
+   "pr_events": 39,
+   "conversion": 0.03261
+  },
+  {
+   "parent": "YaoApp/yao",
+   "n_forks": 756,
+   "returning_forks": 18,
+   "pr_events": 1376,
+   "conversion": 0.02381
+  },
+  {
+   "parent": "ZhuLinsen/daily_stock_analysis",
+   "n_forks": 54776,
+   "returning_forks": 519,
+   "pr_events": 998,
+   "conversion": 0.00947
+  },
+  {
+   "parent": "addyosmani/agent-skills",
+   "n_forks": 11019,
+   "returning_forks": 207,
+   "pr_events": 493,
+   "conversion": 0.01879
+  },
+  {
+   "parent": "aden-hive/hive",
+   "n_forks": 5768,
+   "returning_forks": 1295,
+   "pr_events": 3588,
+   "conversion": 0.22451
+  },
+  {
+   "parent": "affaan-m/ECC",
+   "n_forks": 40891,
+   "returning_forks": 736,
+   "pr_events": 1595,
+   "conversion": 0.018
+  },
+  {
+   "parent": "agentscope-ai/QwenPaw",
+   "n_forks": 3162,
+   "returning_forks": 470,
+   "pr_events": 3919,
+   "conversion": 0.14864
+  },
+  {
+   "parent": "agentskills/agentskills",
+   "n_forks": 2183,
+   "returning_forks": 117,
+   "pr_events": 190,
+   "conversion": 0.0536
+  },
+  {
+   "parent": "alibaba/nacos",
+   "n_forks": 13353,
+   "returning_forks": 753,
+   "pr_events": 5065,
+   "conversion": 0.05639
+  },
+  {
+   "parent": "alibaba/open-code-review",
+   "n_forks": 3383,
+   "returning_forks": 331,
+   "pr_events": 996,
+   "conversion": 0.09784
+  },
+  {
+   "parent": "alibaba/zvec",
+   "n_forks": 1026,
+   "returning_forks": 60,
+   "pr_events": 595,
+   "conversion": 0.05848
+  },
+  {
+   "parent": "alirezarezvani/claude-skills",
+   "n_forks": 4131,
+   "returning_forks": 139,
+   "pr_events": 228,
+   "conversion": 0.03365
+  },
+  {
+   "parent": "anbeime/skill",
+   "n_forks": 725,
+   "returning_forks": 12,
+   "pr_events": 13,
+   "conversion": 0.01655
+  },
+  {
+   "parent": "android/skills",
+   "n_forks": 519,
+   "returning_forks": 7,
+   "pr_events": 11,
+   "conversion": 0.01349
+  },
+  {
+   "parent": "anthropics/claude-plugins-official",
+   "n_forks": 4278,
+   "returning_forks": 871,
+   "pr_events": 1388,
+   "conversion": 0.2036
+  },
+  {
+   "parent": "anthropics/skills",
+   "n_forks": 21555,
+   "returning_forks": 852,
+   "pr_events": 1229,
+   "conversion": 0.03953
+  },
+  {
+   "parent": "appwrite/appwrite",
+   "n_forks": 6006,
+   "returning_forks": 779,
+   "pr_events": 5451,
+   "conversion": 0.1297
+  },
+  {
+   "parent": "asgeirtj/system_prompts_leaks",
+   "n_forks": 11554,
+   "returning_forks": 75,
+   "pr_events": 94,
+   "conversion": 0.00649
+  },
+  {
+   "parent": "avelino/awesome-go",
+   "n_forks": 13740,
+   "returning_forks": 2521,
+   "pr_events": 3888,
+   "conversion": 0.18348
+  },
+  {
+   "parent": "awesomedata/awesome-public-datasets",
+   "n_forks": 11351,
+   "returning_forks": 216,
+   "pr_events": 251,
+   "conversion": 0.01903
+  },
+  {
+   "parent": "ayghri/i-have-adhd",
+   "n_forks": 3248,
+   "returning_forks": 117,
+   "pr_events": 164,
+   "conversion": 0.03602
+  },
+  {
+   "parent": "backnotprop/plannotator",
+   "n_forks": 709,
+   "returning_forks": 204,
+   "pr_events": 384,
+   "conversion": 0.28773
+  },
+  {
+   "parent": "blader/humanizer",
+   "n_forks": 4428,
+   "returning_forks": 101,
+   "pr_events": 142,
+   "conversion": 0.02281
+  },
+  {
+   "parent": "breaking-brake/cc-wf-studio",
+   "n_forks": 527,
+   "returning_forks": 6,
+   "pr_events": 7,
+   "conversion": 0.01139
+  },
+  {
+   "parent": "bregman-arie/devops-exercises",
+   "n_forks": 19506,
+   "returning_forks": 252,
+   "pr_events": 354,
+   "conversion": 0.01292
+  },
+  {
+   "parent": "browser-use/browser-use",
+   "n_forks": 13129,
+   "returning_forks": 978,
+   "pr_events": 3372,
+   "conversion": 0.07449
+  },
+  {
+   "parent": "brycewang-stanford/Auto-Empirical-Research-Skills",
+   "n_forks": 555,
+   "returning_forks": 11,
+   "pr_events": 15,
+   "conversion": 0.01982
+  },
+  {
+   "parent": "bytedance/deer-flow",
+   "n_forks": 11787,
+   "returning_forks": 821,
+   "pr_events": 4233,
+   "conversion": 0.06965
+  },
+  {
+   "parent": "calesthio/OpenMontage",
+   "n_forks": 8795,
+   "returning_forks": 260,
+   "pr_events": 486,
+   "conversion": 0.02956
+  },
+  {
+   "parent": "career-ops-hq/career-ops",
+   "n_forks": 14036,
+   "returning_forks": 731,
+   "pr_events": 3198,
+   "conversion": 0.05208
+  },
+  {
+   "parent": "cassidoo/getting-a-gig",
+   "n_forks": 683,
+   "returning_forks": 34,
+   "pr_events": 39,
+   "conversion": 0.04978
+  },
+  {
+   "parent": "cathrynlavery/diagram-design",
+   "n_forks": 2999,
+   "returning_forks": 68,
+   "pr_events": 204,
+   "conversion": 0.02267
+  },
+  {
+   "parent": "citrolabs/ego-lite",
+   "n_forks": 946,
+   "returning_forks": 41,
+   "pr_events": 73,
+   "conversion": 0.04334
+  },
+  {
+   "parent": "cline/cline",
+   "n_forks": 7611,
+   "returning_forks": 948,
+   "pr_events": 4830,
+   "conversion": 0.12456
+  },
+  {
+   "parent": "code-yeongyu/oh-my-openagent",
+   "n_forks": 5608,
+   "returning_forks": 725,
+   "pr_events": 2676,
+   "conversion": 0.12928
+  },
+  {
+   "parent": "codeaashu/claude-code",
+   "n_forks": 3659,
+   "returning_forks": 5,
+   "pr_events": 7,
+   "conversion": 0.00137
+  },
+  {
+   "parent": "colbymchenry/codegraph",
+   "n_forks": 4779,
+   "returning_forks": 374,
+   "pr_events": 746,
+   "conversion": 0.07826
+  },
+  {
+   "parent": "composio-community/awesome-claude-plugins",
+   "n_forks": 810,
+   "returning_forks": 403,
+   "pr_events": 437,
+   "conversion": 0.49753
+  },
+  {
+   "parent": "composio-community/awesome-codex-skills",
+   "n_forks": 1707,
+   "returning_forks": 233,
+   "pr_events": 275,
+   "conversion": 0.1365
+  },
+  {
+   "parent": "crewAIInc/crewAI",
+   "n_forks": 8826,
+   "returning_forks": 1185,
+   "pr_events": 3518,
+   "conversion": 0.13426
+  },
+  {
+   "parent": "dair-ai/Prompt-Engineering-Guide",
+   "n_forks": 8735,
+   "returning_forks": 282,
+   "pr_events": 431,
+   "conversion": 0.03228
+  },
+  {
+   "parent": "datawhalechina/hello-agents",
+   "n_forks": 10273,
+   "returning_forks": 271,
+   "pr_events": 438,
+   "conversion": 0.02638
+  },
+  {
+   "parent": "davepoon/buildwithclaude",
+   "n_forks": 593,
+   "returning_forks": 193,
+   "pr_events": 330,
+   "conversion": 0.32546
+  },
+  {
+   "parent": "deanpeters/Product-Manager-Skills",
+   "n_forks": 885,
+   "returning_forks": 9,
+   "pr_events": 11,
+   "conversion": 0.01017
+  },
+  {
+   "parent": "didilili/ai-agents-from-zero",
+   "n_forks": 725,
+   "returning_forks": 5,
+   "pr_events": 6,
+   "conversion": 0.0069
+  },
+  {
+   "parent": "earendil-works/pi",
+   "n_forks": 14569,
+   "returning_forks": 1474,
+   "pr_events": 2993,
+   "conversion": 0.10117
+  },
+  {
+   "parent": "eastlakeside/interpy-zh",
+   "n_forks": 1329,
+   "returning_forks": 20,
+   "pr_events": 30,
+   "conversion": 0.01505
+  },
+  {
+   "parent": "eigent-ai/eigent",
+   "n_forks": 1885,
+   "returning_forks": 80,
+   "pr_events": 743,
+   "conversion": 0.04244
+  },
+  {
+   "parent": "elementalsouls/Claude-BugHunter",
+   "n_forks": 780,
+   "returning_forks": 12,
+   "pr_events": 21,
+   "conversion": 0.01538
+  },
+  {
+   "parent": "epoko77-ai/im-not-ai",
+   "n_forks": 665,
+   "returning_forks": 46,
+   "pr_events": 59,
+   "conversion": 0.06917
+  },
+  {
+   "parent": "eugeniughelbur/obsidian-second-brain",
+   "n_forks": 597,
+   "returning_forks": 51,
+   "pr_events": 97,
+   "conversion": 0.08543
+  },
+  {
+   "parent": "farion1231/cc-switch",
+   "n_forks": 9601,
+   "returning_forks": 1100,
+   "pr_events": 2275,
+   "conversion": 0.11457
+  },
+  {
+   "parent": "fffaraz/awesome-cpp",
+   "n_forks": 8415,
+   "returning_forks": 419,
+   "pr_events": 805,
+   "conversion": 0.04979
+  },
+  {
+   "parent": "firecrawl/firecrawl",
+   "n_forks": 10205,
+   "returning_forks": 440,
+   "pr_events": 1740,
+   "conversion": 0.04312
+  },
+  {
+   "parent": "flipped-aurora/gin-vue-admin",
+   "n_forks": 7078,
+   "returning_forks": 369,
+   "pr_events": 919,
+   "conversion": 0.05213
+  },
+  {
+   "parent": "freestylefly/awesome-gpt-image-2",
+   "n_forks": 3292,
+   "returning_forks": 13,
+   "pr_events": 18,
+   "conversion": 0.00395
+  },
+  {
+   "parent": "garrytan/gstack",
+   "n_forks": 20303,
+   "returning_forks": 874,
+   "pr_events": 1573,
+   "conversion": 0.04305
+  },
+  {
+   "parent": "genspark-ai/genoffice",
+   "n_forks": 1237,
+   "returning_forks": 66,
+   "pr_events": 1249,
+   "conversion": 0.05335
+  },
+  {
+   "parent": "github/awesome-copilot",
+   "n_forks": 5123,
+   "returning_forks": 779,
+   "pr_events": 1612,
+   "conversion": 0.15206
+  },
+  {
+   "parent": "github/spec-kit",
+   "n_forks": 12557,
+   "returning_forks": 570,
+   "pr_events": 2128,
+   "conversion": 0.04539
+  },
+  {
+   "parent": "google/skills",
+   "n_forks": 1798,
+   "returning_forks": 26,
+   "pr_events": 35,
+   "conversion": 0.01446
+  },
+  {
+   "parent": "googleworkspace/cli",
+   "n_forks": 1903,
+   "returning_forks": 141,
+   "pr_events": 374,
+   "conversion": 0.07409
+  },
+  {
+   "parent": "gosom/google-maps-scraper",
+   "n_forks": 1023,
+   "returning_forks": 49,
+   "pr_events": 71,
+   "conversion": 0.0479
+  },
+  {
+   "parent": "harry0703/MoneyPrinterTurbo",
+   "n_forks": 20826,
+   "returning_forks": 268,
+   "pr_events": 651,
+   "conversion": 0.01287
+  },
+  {
+   "parent": "heilcheng/awesome-agent-skills",
+   "n_forks": 790,
+   "returning_forks": 401,
+   "pr_events": 440,
+   "conversion": 0.50759
+  },
+  {
+   "parent": "hesreallyhim/awesome-claude-code",
+   "n_forks": 4852,
+   "returning_forks": 135,
+   "pr_events": 150,
+   "conversion": 0.02782
+  },
+  {
+   "parent": "heygen-com/hyperframes",
+   "n_forks": 5540,
+   "returning_forks": 224,
+   "pr_events": 795,
+   "conversion": 0.04043
+  },
+  {
+   "parent": "hoochanlon/hamuleite",
+   "n_forks": 1868,
+   "returning_forks": 5,
+   "pr_events": 5,
+   "conversion": 0.00268
+  },
+  {
+   "parent": "htdt/godogen",
+   "n_forks": 667,
+   "returning_forks": 12,
+   "pr_events": 13,
+   "conversion": 0.01799
+  },
+  {
+   "parent": "hugohe3/ppt-master",
+   "n_forks": 4839,
+   "returning_forks": 56,
+   "pr_events": 94,
+   "conversion": 0.01157
+  },
+  {
+   "parent": "iOfficeAI/AionUi",
+   "n_forks": 3532,
+   "returning_forks": 250,
+   "pr_events": 1055,
+   "conversion": 0.07078
+  },
+  {
+   "parent": "iOfficeAI/OfficeCLI",
+   "n_forks": 2214,
+   "returning_forks": 65,
+   "pr_events": 215,
+   "conversion": 0.02936
+  },
+  {
+   "parent": "iflytek/skillhub",
+   "n_forks": 1100,
+   "returning_forks": 53,
+   "pr_events": 508,
+   "conversion": 0.04818
+  },
+  {
+   "parent": "ikaijua/Awesome-AITools",
+   "n_forks": 899,
+   "returning_forks": 464,
+   "pr_events": 561,
+   "conversion": 0.51613
+  },
+  {
+   "parent": "infiniflow/ragflow",
+   "n_forks": 11049,
+   "returning_forks": 1100,
+   "pr_events": 12197,
+   "conversion": 0.09956
+  },
+  {
+   "parent": "instavm/coderunner",
+   "n_forks": 40,
+   "returning_forks": 2,
+   "pr_events": 2,
+   "conversion": 0.05
+  },
+  {
+   "parent": "irinabuht12-oss/marketing-skills",
+   "n_forks": 556,
+   "returning_forks": 0,
+   "pr_events": 0,
+   "conversion": 0.0
+  },
+  {
+   "parent": "itsmostafa/aws-agent-skills",
+   "n_forks": 385,
+   "returning_forks": 23,
+   "pr_events": 29,
+   "conversion": 0.05974
+  },
+  {
+   "parent": "jamiepine/voicebox",
+   "n_forks": 7164,
+   "returning_forks": 196,
+   "pr_events": 301,
+   "conversion": 0.02736
+  },
+  {
+   "parent": "jangviktor-web/nihaixia",
+   "n_forks": 648,
+   "returning_forks": 1,
+   "pr_events": 1,
+   "conversion": 0.00154
+  },
+  {
+   "parent": "jaywcjlove/awesome-mac",
+   "n_forks": 9432,
+   "returning_forks": 1684,
+   "pr_events": 2177,
+   "conversion": 0.17854
+  },
+  {
+   "parent": "jeecgboot/JeecgBoot",
+   "n_forks": 16390,
+   "returning_forks": 173,
+   "pr_events": 287,
+   "conversion": 0.01056
+  },
+  {
+   "parent": "jlevy/the-art-of-command-line",
+   "n_forks": 15360,
+   "returning_forks": 270,
+   "pr_events": 438,
+   "conversion": 0.01758
+  },
+  {
+   "parent": "jnMetaCode/superpowers-zh",
+   "n_forks": 777,
+   "returning_forks": 9,
+   "pr_events": 10,
+   "conversion": 0.01158
+  },
+  {
+   "parent": "josephmisiti/awesome-machine-learning",
+   "n_forks": 14826,
+   "returning_forks": 606,
+   "pr_events": 760,
+   "conversion": 0.04087
+  },
+  {
+   "parent": "karpathy/autoresearch",
+   "n_forks": 13040,
+   "returning_forks": 220,
+   "pr_events": 353,
+   "conversion": 0.01687
+  },
+  {
+   "parent": "kepano/obsidian-skills",
+   "n_forks": 3536,
+   "returning_forks": 50,
+   "pr_events": 69,
+   "conversion": 0.01414
+  },
+  {
+   "parent": "koala73/worldmonitor",
+   "n_forks": 13589,
+   "returning_forks": 291,
+   "pr_events": 984,
+   "conversion": 0.02141
+  },
+  {
+   "parent": "krillinai/OpenCreator",
+   "n_forks": 1349,
+   "returning_forks": 35,
+   "pr_events": 84,
+   "conversion": 0.02595
+  },
+  {
+   "parent": "kubesphere/kubesphere",
+   "n_forks": 2716,
+   "returning_forks": 155,
+   "pr_events": 1788,
+   "conversion": 0.05707
+  },
+  {
+   "parent": "kunal-kushwaha/Competitive-Programming-Resources",
+   "n_forks": 982,
+   "returning_forks": 30,
+   "pr_events": 33,
+   "conversion": 0.03055
+  },
+  {
+   "parent": "latent-spaces/brag",
+   "n_forks": 1161,
+   "returning_forks": 23,
+   "pr_events": 30,
+   "conversion": 0.01981
+  },
+  {
+   "parent": "mattpocock/skills",
+   "n_forks": 24154,
+   "returning_forks": 25,
+   "pr_events": 30,
+   "conversion": 0.00104
+  },
+  {
+   "parent": "maziyarpanahi/openmed",
+   "n_forks": 738,
+   "returning_forks": 97,
+   "pr_events": 544,
+   "conversion": 0.13144
+  },
+  {
+   "parent": "mcp-use/mcp-use",
+   "n_forks": 1429,
+   "returning_forks": 205,
+   "pr_events": 971,
+   "conversion": 0.14346
+  },
+  {
+   "parent": "mem0ai/mem0",
+   "n_forks": 8365,
+   "returning_forks": 1225,
+   "pr_events": 3997,
+   "conversion": 0.14644
+  },
+  {
+   "parent": "microsoft/ML-For-Beginners",
+   "n_forks": 22539,
+   "returning_forks": 208,
+   "pr_events": 473,
+   "conversion": 0.00923
+  },
+  {
+   "parent": "microsoft/SkillOpt",
+   "n_forks": 1751,
+   "returning_forks": 80,
+   "pr_events": 211,
+   "conversion": 0.04569
+  },
+  {
+   "parent": "microsoft/Web-Dev-For-Beginners",
+   "n_forks": 16209,
+   "returning_forks": 430,
+   "pr_events": 780,
+   "conversion": 0.02653
+  },
+  {
+   "parent": "msitarzewski/agency-agents",
+   "n_forks": 26041,
+   "returning_forks": 303,
+   "pr_events": 758,
+   "conversion": 0.01164
+  },
+  {
+   "parent": "multica-ai/andrej-karpathy-skills",
+   "n_forks": 22059,
+   "returning_forks": 125,
+   "pr_events": 143,
+   "conversion": 0.00567
+  },
+  {
+   "parent": "muxuuu/serenity-skill",
+   "n_forks": 637,
+   "returning_forks": 2,
+   "pr_events": 2,
+   "conversion": 0.00314
+  },
+  {
+   "parent": "mvanhorn/last30days-skill",
+   "n_forks": 5826,
+   "returning_forks": 254,
+   "pr_events": 700,
+   "conversion": 0.0436
+  },
+  {
+   "parent": "nanocoai/nanoclaw",
+   "n_forks": 12647,
+   "returning_forks": 808,
+   "pr_events": 2784,
+   "conversion": 0.06389
+  },
+  {
+   "parent": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "n_forks": 14447,
+   "returning_forks": 173,
+   "pr_events": 242,
+   "conversion": 0.01197
+  },
+  {
+   "parent": "nexu-io/html-anything",
+   "n_forks": 888,
+   "returning_forks": 45,
+   "pr_events": 66,
+   "conversion": 0.05068
+  },
+  {
+   "parent": "nexu-io/open-design",
+   "n_forks": 11764,
+   "returning_forks": 878,
+   "pr_events": 3912,
+   "conversion": 0.07463
+  },
+  {
+   "parent": "nidhinjs/prompt-master",
+   "n_forks": 1684,
+   "returning_forks": 25,
+   "pr_events": 33,
+   "conversion": 0.01485
+  },
+  {
+   "parent": "obra/superpowers",
+   "n_forks": 26779,
+   "returning_forks": 632,
+   "pr_events": 922,
+   "conversion": 0.0236
+  },
+  {
+   "parent": "odysseus-dev/odysseus",
+   "n_forks": 1521,
+   "returning_forks": 238,
+   "pr_events": 1193,
+   "conversion": 0.15648
+  },
+  {
+   "parent": "olistic/warriorjs",
+   "n_forks": 544,
+   "returning_forks": 15,
+   "pr_events": 17,
+   "conversion": 0.02757
+  },
+  {
+   "parent": "op7418/guizang-ppt-skill",
+   "n_forks": 1881,
+   "returning_forks": 23,
+   "pr_events": 28,
+   "conversion": 0.01223
+  },
+  {
+   "parent": "opendatalab/MinerU",
+   "n_forks": 6837,
+   "returning_forks": 205,
+   "pr_events": 1852,
+   "conversion": 0.02998
+  },
+  {
+   "parent": "openinterpreter/openinterpreter",
+   "n_forks": 6081,
+   "returning_forks": 245,
+   "pr_events": 556,
+   "conversion": 0.04029
+  },
+  {
+   "parent": "pascalorg/editor",
+   "n_forks": 3103,
+   "returning_forks": 88,
+   "pr_events": 235,
+   "conversion": 0.02836
+  },
+  {
+   "parent": "pbakaus/impeccable",
+   "n_forks": 4964,
+   "returning_forks": 103,
+   "pr_events": 305,
+   "conversion": 0.02075
+  },
+  {
+   "parent": "phuryn/pm-skills",
+   "n_forks": 3021,
+   "returning_forks": 22,
+   "pr_events": 24,
+   "conversion": 0.00728
+  },
+  {
+   "parent": "prakhar1989/awesome-courses",
+   "n_forks": 7728,
+   "returning_forks": 118,
+   "pr_events": 159,
+   "conversion": 0.01527
+  },
+  {
+   "parent": "reactive-resume/reactive-resume",
+   "n_forks": 4921,
+   "returning_forks": 283,
+   "pr_events": 483,
+   "conversion": 0.05751
+  },
+  {
+   "parent": "refly-ai/refly",
+   "n_forks": 748,
+   "returning_forks": 34,
+   "pr_events": 1171,
+   "conversion": 0.04545
+  },
+  {
+   "parent": "remotion-dev/remotion",
+   "n_forks": 5051,
+   "returning_forks": 455,
+   "pr_events": 2086,
+   "conversion": 0.09008
+  },
+  {
+   "parent": "ripienaar/free-for-dev",
+   "n_forks": 14713,
+   "returning_forks": 2411,
+   "pr_events": 3238,
+   "conversion": 0.16387
+  },
+  {
+   "parent": "rohitg00/ai-engineering-from-scratch",
+   "n_forks": 11892,
+   "returning_forks": 154,
+   "pr_events": 212,
+   "conversion": 0.01295
+  },
+  {
+   "parent": "rust-unofficial/awesome-rust",
+   "n_forks": 3736,
+   "returning_forks": 1199,
+   "pr_events": 1834,
+   "conversion": 0.32093
+  },
+  {
+   "parent": "ruvnet/RuView",
+   "n_forks": 12909,
+   "returning_forks": 175,
+   "pr_events": 472,
+   "conversion": 0.01356
+  },
+  {
+   "parent": "ruvnet/ruflo",
+   "n_forks": 8932,
+   "returning_forks": 293,
+   "pr_events": 830,
+   "conversion": 0.0328
+  },
+  {
+   "parent": "sdmg15/Best-websites-a-programmer-should-visit",
+   "n_forks": 7947,
+   "returning_forks": 1024,
+   "pr_events": 1332,
+   "conversion": 0.12885
+  },
+  {
+   "parent": "sergebulaev/linkedin-skills",
+   "n_forks": 779,
+   "returning_forks": 20,
+   "pr_events": 29,
+   "conversion": 0.02567
+  },
+  {
+   "parent": "shanraisshan/claude-code-best-practice",
+   "n_forks": 6750,
+   "returning_forks": 40,
+   "pr_events": 48,
+   "conversion": 0.00593
+  },
+  {
+   "parent": "shareAI-lab/learn-claude-code",
+   "n_forks": 12577,
+   "returning_forks": 188,
+   "pr_events": 325,
+   "conversion": 0.01495
+  },
+  {
+   "parent": "sickn33/agentic-awesome-skills",
+   "n_forks": 6952,
+   "returning_forks": 412,
+   "pr_events": 751,
+   "conversion": 0.05926
+  },
+  {
+   "parent": "sindresorhus/awesome",
+   "n_forks": 38101,
+   "returning_forks": 1243,
+   "pr_events": 1507,
+   "conversion": 0.03262
+  },
+  {
+   "parent": "tech-leads-club/agent-skills",
+   "n_forks": 568,
+   "returning_forks": 28,
+   "pr_events": 66,
+   "conversion": 0.0493
+  },
+  {
+   "parent": "teng-lin/notebooklm-py",
+   "n_forks": 2557,
+   "returning_forks": 70,
+   "pr_events": 112,
+   "conversion": 0.02738
+  },
+  {
+   "parent": "thedaviddias/Front-End-Checklist",
+   "n_forks": 5997,
+   "returning_forks": 137,
+   "pr_events": 169,
+   "conversion": 0.02284
+  },
+  {
+   "parent": "thedotmack/claude-mem",
+   "n_forks": 8852,
+   "returning_forks": 496,
+   "pr_events": 1460,
+   "conversion": 0.05603
+  },
+  {
+   "parent": "tigerless-labs/autoharness",
+   "n_forks": 765,
+   "returning_forks": 36,
+   "pr_events": 112,
+   "conversion": 0.04706
+  },
+  {
+   "parent": "titanwings/distilly",
+   "n_forks": 2225,
+   "returning_forks": 17,
+   "pr_events": 25,
+   "conversion": 0.00764
+  },
+  {
+   "parent": "topoteretes/cognee",
+   "n_forks": 3505,
+   "returning_forks": 566,
+   "pr_events": 1890,
+   "conversion": 0.16148
+  },
+  {
+   "parent": "tradecatlabs/vibe-coding-cn",
+   "n_forks": 1760,
+   "returning_forks": 14,
+   "pr_events": 18,
+   "conversion": 0.00795
+  },
+  {
+   "parent": "trailofbits/skills",
+   "n_forks": 664,
+   "returning_forks": 48,
+   "pr_events": 66,
+   "conversion": 0.07229
+  },
+  {
+   "parent": "travisvn/awesome-claude-skills",
+   "n_forks": 2061,
+   "returning_forks": 915,
+   "pr_events": 1002,
+   "conversion": 0.44396
+  },
+  {
+   "parent": "trimstray/test-your-sysadmin-skills",
+   "n_forks": 1711,
+   "returning_forks": 32,
+   "pr_events": 37,
+   "conversion": 0.0187
+  },
+  {
+   "parent": "trimstray/the-book-of-secret-knowledge",
+   "n_forks": 14491,
+   "returning_forks": 274,
+   "pr_events": 314,
+   "conversion": 0.01891
+  },
+  {
+   "parent": "tt-a1i/archify",
+   "n_forks": 5759,
+   "returning_forks": 154,
+   "pr_events": 446,
+   "conversion": 0.02674
+  },
+  {
+   "parent": "tw93/Pake",
+   "n_forks": 12935,
+   "returning_forks": 155,
+   "pr_events": 279,
+   "conversion": 0.01198
+  },
+  {
+   "parent": "ultraworkers/claw-code",
+   "n_forks": 104407,
+   "returning_forks": 64,
+   "pr_events": 413,
+   "conversion": 0.00061
+  },
+  {
+   "parent": "upstash/context7",
+   "n_forks": 3118,
+   "returning_forks": 173,
+   "pr_events": 404,
+   "conversion": 0.05548
+  },
+  {
+   "parent": "usestrix/strix",
+   "n_forks": 7746,
+   "returning_forks": 252,
+   "pr_events": 575,
+   "conversion": 0.03253
+  },
+  {
+   "parent": "vinta/awesome-python",
+   "n_forks": 29338,
+   "returning_forks": 1425,
+   "pr_events": 1760,
+   "conversion": 0.04857
+  },
+  {
+   "parent": "virgiliojr94/book-to-skill",
+   "n_forks": 3646,
+   "returning_forks": 71,
+   "pr_events": 163,
+   "conversion": 0.01947
+  },
+  {
+   "parent": "vuejs/awesome-vue",
+   "n_forks": 9436,
+   "returning_forks": 1909,
+   "pr_events": 2823,
+   "conversion": 0.20231
+  },
+  {
+   "parent": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+   "n_forks": 375,
+   "returning_forks": 16,
+   "pr_events": 19,
+   "conversion": 0.04267
+  },
+  {
+   "parent": "wshobson/agents",
+   "n_forks": 4333,
+   "returning_forks": 119,
+   "pr_events": 171,
+   "conversion": 0.02746
+  },
+  {
+   "parent": "x-hw/amazing-qr",
+   "n_forks": 1589,
+   "returning_forks": 19,
+   "pr_events": 20,
+   "conversion": 0.01196
+  },
+  {
+   "parent": "xianyu110/awesome-openclaw-tutorial",
+   "n_forks": 623,
+   "returning_forks": 11,
+   "pr_events": 14,
+   "conversion": 0.01766
+  },
+  {
+   "parent": "xixu-me/awesome-persona-distill-skills",
+   "n_forks": 511,
+   "returning_forks": 3,
+   "pr_events": 3,
+   "conversion": 0.00587
+  },
+  {
+   "parent": "xixu-me/xget",
+   "n_forks": 1295,
+   "returning_forks": 19,
+   "pr_events": 19,
+   "conversion": 0.01467
+  },
+  {
+   "parent": "yusufkaraaslan/Skill_Seekers",
+   "n_forks": 1580,
+   "returning_forks": 68,
+   "pr_events": 108,
+   "conversion": 0.04304
+  },
+  {
+   "parent": "zenstory-ai/drama-skills",
+   "n_forks": 597,
+   "returning_forks": 2,
+   "pr_events": 2,
+   "conversion": 0.00335
+  },
+  {
+   "parent": "zenstory-ai/oh-story-claudecode",
+   "n_forks": 1071,
+   "returning_forks": 20,
+   "pr_events": 27,
+   "conversion": 0.01867
+  },
+  {
+   "parent": "zhayujie/CowAgent",
+   "n_forks": 9954,
+   "returning_forks": 264,
+   "pr_events": 1164,
+   "conversion": 0.02652
+  },
+  {
+   "parent": "zylon-ai/private-gpt",
+   "n_forks": 7693,
+   "returning_forks": 232,
+   "pr_events": 442,
+   "conversion": 0.03016
+  }
+ ]
+}

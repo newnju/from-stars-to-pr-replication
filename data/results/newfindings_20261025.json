@@ -1,0 +1,53 @@
+{
+ "A_risk_diffusion": {
+  "flagged_n": 4636,
+  "flagged_fanout_median": 1.0,
+  "unflagged_fanout_median": 1.0,
+  "MWU_p": 9.986753333546386e-06,
+  "flagged_crossrepo_share": 0.1784,
+  "unflagged_crossrepo_share": 0.1502
+ },
+ "B_clone_wave_saturation": {
+  "note": "有≥3 skill 且在内容层的普查仓，按创建月的 share_cross 均值",
+  "series": {}
+ },
+ "C_install_drivers": {
+  "n": 47,
+  "log_nskills_coef": 0.32,
+  "p": 0.2901,
+  "share_cross_coef": 0.343,
+  "p2": 0.6777,
+  "age_coef": 0.049,
+  "p3": 0.2778
+ },
+ "D_fork_star_leadlag": {
+  "n_repos": 110,
+  "median_rho_by_lag_weeks": {
+   "-8": 0.119,
+   "-7": 0.128,
+   "-6": 0.125,
+   "-5": 0.154,
+   "-4": 0.212,
+   "-3": 0.273,
+   "-2": 0.289,
+   "-1": 0.351,
+   "0": 0.498,
+   "1": 0.71,
+   "2": 0.489,
+   "3": 0.363,
+   "4": 0.29,
+   "5": 0.271,
+   "6": 0.239,
+   "7": 0.18,
+   "8": 0.145
+  },
+  "note": "lag>0: fork 晚于 star 的对齐（star 领先）"
+ },
+ "E_copy_vs_listed": {
+  "listed_n": 25,
+  "listed_median_share": 0.25,
+  "unlisted_n": 9,
+  "unlisted_median_share": 0.083,
+  "MWU_p": 0.9509280582964932
+ }
+}

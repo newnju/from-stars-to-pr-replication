@@ -1,0 +1,102 @@
+{
+ "A_quality_signals": {
+  "n_repos": 62,
+  "avg_fields_range": [
+   2.0,
+   7.1
+  ],
+  "fields_to_installs_rho": 0.149,
+  "desc_rate_to_installs_rho": -0.185,
+  "fields_to_stars_rho": -0.178,
+  "fields_to_survival_rho": -0.21,
+  "desc_len_to_installs_rho": 0.132,
+  "note": "字段完整度=frontmatter平均字段数；安装取log10；命中子集内的相关"
+ },
+ "B_fork_star_daily": {
+  "n_common_days": 1815,
+  "level_rho": 0.75,
+  "level_p": null,
+  "diff_rho": 0.096,
+  "diff_p": 4.2125578237084666e-05,
+  "top20_overlap": 2,
+  "top20_expected": 0.22038567493112948,
+  "hypergeom_p": 0.018308511858714734
+ },
+ "C_contributor_concentration": {
+  "n_repos_ge10": 140,
+  "median_top_author_share": 0.299,
+  "mean_top_author_share": 0.382,
+  "top5_cross_repo_authors": [
+   [
+    "code-yeongyu",
+    3557
+   ],
+   [
+    "backnotprop",
+    1034
+   ],
+   [
+    "Alan-TheGentleman",
+    1029
+   ],
+   [
+    "Open-Squilla",
+    901
+   ],
+   [
+    "aniruddhaadak80",
+    786
+   ]
+  ],
+  "note": "跨仓头部贡献者按其在各仓内的PR数合计"
+ },
+ "D_copy_community_survival": {
+  "n_in_copy": 21,
+  "n_no_copy": 16,
+  "active_rate_in_copy": 0.667,
+  "active_rate_no_copy": 0.688,
+  "mwu_p": 0.9097,
+  "median_stars_in_copy": 12832,
+  "median_stars_no_copy": 2703
+ },
+ "E_name_evolution": {
+  "n_changed": 621,
+  "shorter_pct": 49.9,
+  "longer_pct": 33.8,
+  "more_generic_pct": 3.5,
+  "note": "方向以 b 相对 a 判定（b 为复制体或修改体）；泛化词表含 skill/tool/helper 等"
+ },
+ "F_multichannel": {
+  "n": 341,
+  "pct_3plus": 0.141,
+  "logstars_coef": 1.103,
+  "logstars_CI": [
+   -3.976,
+   1.606
+  ],
+  "logstars_p": 0.0,
+  "age_p": 0.0636,
+  "awesome_coef": -1.745,
+  "awesome_p": 0.0948
+ },
+ "G_cold_start": {
+  "n_star": 340,
+  "star_median_days": 0,
+  "star_pct_sameday": 0.703,
+  "star_pct_within_week": 0.838,
+  "n_fork": 115,
+  "fork_median_days": 2,
+  "fork_pct_sameday": 0.322,
+  "note": "面板仓创建→首次星标/fork 的天数；fork≤500 仓"
+ },
+ "H_conversion_predictors": {
+  "n_parents": 106,
+  "r_squared": 0.026,
+  "logstars_coef": -0.1092,
+  "logstars_p": 0.1776,
+  "age_coef": 0.0006,
+  "age_p": 0.5665,
+  "official_coef": -0.0737,
+  "official_p": 0.7447
+ }
+}

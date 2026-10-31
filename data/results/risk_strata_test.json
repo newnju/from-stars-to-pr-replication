@@ -1,0 +1,10 @@
+{
+  "n_destructive": 126,
+  "n_benign": 77,
+  "ratio_d_median": 0.10103651976874226,
+  "ratio_b_median": 0.08881163084702907,
+  "theta_D_d_median": 6256,
+  "theta_D_b_median": 4448,
+  "theta_D_d_mean": 28367.688565864788,
+  "theta_D_b_mean": 12814.63123941327
+}

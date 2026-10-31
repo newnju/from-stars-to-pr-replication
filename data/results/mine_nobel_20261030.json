@@ -1,0 +1,1015 @@
+{
+ "generated_at": "2026-10-30T09:35:07",
+ "D1_hall_random_walk": {
+  "n_obs": 37323,
+  "n_repos": 340,
+  "coef_level_lag": 0.00196,
+  "se_cluster": 0.00034,
+  "p_level_lag": 7.98038598709973e-09,
+  "coef_dL_lag": 0.6261,
+  "p_dL_lag": 1.5328730381375347e-41,
+  "r2": 0.4759,
+  "verdict": "拒绝随机游走",
+  "note": "Hall(1978) RW：ΔL_t 不可由 L_{t-1}、ΔL_{t-1} 预测（系数≈0）。β>0 表示规模越大周增越快（优先连接），β<0 为均值回归"
+ },
+ "D2_institutions_regression": {
+  "n_repos": 61,
+  "coefs": {
+   "bot_share": -0.07,
+   "review_share": 0.64,
+   "top1_share": 0.385,
+   "log_stars": -0.12
+  },
+  "p_values": {
+   "bot_share": 0.781,
+   "review_share": 0.012,
+   "top1_share": 0.027,
+   "log_stars": 0.0582
+  },
+  "r2": 0.257,
+  "note": "合并率（fork→PR 事件中已合并占比）~ 自动化+审查覆盖+把关集中度+规模；HC3 稳健 SE；截面相关非因果"
+ },
+ "D3_deaton_metric_audit": {
+  "n_repos": 341,
+  "metrics": [
+   "stars",
+   "forks",
+   "skills_sh_installs",
+   "clawhub_downloads",
+   "release_downloads"
+  ],
+  "nonzero_share": {
+   "stars": 100.0,
+   "forks": 100.0,
+   "installs": 42.8,
+   "clawhub": 22.9,
+   "release": 38.4
+  },
+  "spearman_matrix": [
+   [
+    1.0,
+    0.939,
+    -0.039,
+    0.287,
+    0.177
+   ],
+   [
+    0.939,
+    1.0,
+    -0.066,
+    0.222,
+    0.16
+   ],
+   [
+    -0.039,
+    -0.066,
+    1.0,
+    0.295,
+    0.005
+   ],
+   [
+    0.287,
+    0.222,
+    0.295,
+    1.0,
+    0.043
+   ],
+   [
+    0.177,
+    0.16,
+    0.005,
+    0.043,
+    1.0
+   ]
+  ],
+  "pairwise_nonzero_n": {
+   "stars~installs": 146,
+   "stars~clawhub": 78,
+   "installs~clawhub": 44
+  }
+ },
+ "D4_granger": {
+  "per_repo": {
+   "1c7/chinese-independent-developer": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "Agents365-ai/drawio-skill": {
+    "p_fork_to_star": 0.0224,
+    "p_star_to_fork": 0.0
+   },
+   "AgriciDaniel/claude-ads": {
+    "p_fork_to_star": 0.4928,
+    "p_star_to_fork": 0.0
+   },
+   "AgriciDaniel/claude-obsidian": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "ChenLiu-1996/figures4papers": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "CherryHQ/cherry-studio": {
+    "p_fork_to_star": 0.0288,
+    "p_star_to_fork": 0.0
+   },
+   "ComposioHQ/awesome-claude-skills": {
+    "p_fork_to_star": 0.0057,
+    "p_star_to_fork": 0.0
+   },
+   "ConardLi/garden-skills": {
+    "p_fork_to_star": 0.0047,
+    "p_star_to_fork": 0.0
+   },
+   "D4Vinci/Scrapling": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "Devin-AXIS/iPolloWork": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "DietrichGebert/ponytail": {
+    "p_fork_to_star": 0.0632,
+    "p_star_to_fork": 0.0
+   },
+   "Ebazhanov/linkedin-skill-assessments-quizzes": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "Egonex-AI/Understand-Anything": {
+    "p_fork_to_star": 0.0163,
+    "p_star_to_fork": 0.0
+   },
+   "EverMind-AI/EverOS": {
+    "p_fork_to_star": 0.0026,
+    "p_star_to_fork": 0.0
+   },
+   "EvoMap/evolver": {
+    "p_fork_to_star": 0.0112,
+    "p_star_to_fork": 0.0
+   },
+   "Fission-AI/OpenSpec": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "FoundationAgents/OpenManus": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "GargantuaX/gemini-watermark-remover": {
+    "p_fork_to_star": 0.9194,
+    "p_star_to_fork": 0.0051
+   },
+   "Gentleman-Programming/gentle-ai": {
+    "p_fork_to_star": 0.2585,
+    "p_star_to_fork": 0.0
+   },
+   "Graphify-Labs/graphify": {
+    "p_fork_to_star": 0.0002,
+    "p_star_to_fork": 0.0
+   },
+   "JCodesMore/ai-website-cloner-template": {
+    "p_fork_to_star": 0.1706,
+    "p_star_to_fork": 0.0
+   },
+   "Jeffallan/claude-skills": {
+    "p_fork_to_star": 0.0193,
+    "p_star_to_fork": 0.0
+   },
+   "JimLiu/baoyu-skills": {
+    "p_fork_to_star": 0.0254,
+    "p_star_to_fork": 0.0
+   },
+   "JuliusBrussee/caveman": {
+    "p_fork_to_star": 0.037,
+    "p_star_to_fork": 0.0
+   },
+   "K-Dense-AI/scientific-agent-skills": {
+    "p_fork_to_star": 0.0266,
+    "p_star_to_fork": 0.0
+   },
+   "KKKKhazix/khazix-skills": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "Leonxlnx/taste-skill": {
+    "p_fork_to_star": 0.1023,
+    "p_star_to_fork": 0.0
+   },
+   "MemPalace/mempalace": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "MemTensor/MemOS": {
+    "p_fork_to_star": 0.0103,
+    "p_star_to_fork": 0.0
+   },
+   "Mintplex-Labs/anything-llm": {
+    "p_fork_to_star": 0.0365,
+    "p_star_to_fork": 0.0
+   },
+   "MycroftAI/mycroft-core": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "NVIDIA/SkillSpector": {
+    "p_fork_to_star": 0.6484,
+    "p_star_to_fork": 0.0
+   },
+   "NanmiCoder/MediaCrawler": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "Natively-AI-assistant/natively-cluely-ai-assistant": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "NevaMind-AI/memU": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "NousResearch/hermes-agent": {
+    "p_fork_to_star": 0.001,
+    "p_star_to_fork": 0.0
+   },
+   "Observal/Observal": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.2994
+   },
+   "Orchestra-Research/AI-Research-SKILLs": {
+    "p_fork_to_star": 0.0639,
+    "p_star_to_fork": 0.0
+   },
+   "OthmanAdi/planning-with-files": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "Panniantong/Agent-Reach": {
+    "p_fork_to_star": 0.0153,
+    "p_star_to_fork": 0.0
+   },
+   "ParthJadhav/app-store-screenshots": {
+    "p_fork_to_star": 0.0574,
+    "p_star_to_fork": 0.0
+   },
+   "Q00/ouroboros": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "RyanFitzgerald/devportfolio": {
+    "p_fork_to_star": 0.0238,
+    "p_star_to_fork": 0.0
+   },
+   "Shubhamsaboo/awesome-llm-apps": {
+    "p_fork_to_star": 0.0008,
+    "p_star_to_fork": 0.0
+   },
+   "SnailSploit/Claude-Red": {
+    "p_fork_to_star": 0.1006,
+    "p_star_to_fork": 0.0
+   },
+   "Snailclimb/JavaGuide": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "ThinkInAIXYZ/deepchat": {
+    "p_fork_to_star": 0.0208,
+    "p_star_to_fork": 0.0
+   },
+   "TokenRhythm/opensquilla": {
+    "p_fork_to_star": 0.0069,
+    "p_star_to_fork": 0.0
+   },
+   "Untrivial-ai/agent-orchestrator": {
+    "p_fork_to_star": 0.0008,
+    "p_star_to_fork": 0.0
+   },
+   "VoltAgent/awesome-agent-skills": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "VoltAgent/awesome-openclaw-skills": {
+    "p_fork_to_star": 0.0379,
+    "p_star_to_fork": 0.0
+   },
+   "WenyuChiou/awesome-agentic-ai-zh": {
+    "p_fork_to_star": 0.682,
+    "p_star_to_fork": 0.0
+   },
+   "YaoApp/yao": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "ZhuLinsen/daily_stock_analysis": {
+    "p_fork_to_star": 0.1179,
+    "p_star_to_fork": 0.0
+   },
+   "addyosmani/agent-skills": {
+    "p_fork_to_star": 0.1844,
+    "p_star_to_fork": 0.0
+   },
+   "aden-hive/hive": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0171
+   },
+   "affaan-m/ECC": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "agentscope-ai/QwenPaw": {
+    "p_fork_to_star": 0.1483,
+    "p_star_to_fork": 0.0
+   },
+   "agentskills/agentskills": {
+    "p_fork_to_star": 0.0701,
+    "p_star_to_fork": 0.0
+   },
+   "alibaba/nacos": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "alibaba/open-code-review": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "alibaba/zvec": {
+    "p_fork_to_star": 0.0065,
+    "p_star_to_fork": 0.0
+   },
+   "alirezarezvani/claude-skills": {
+    "p_fork_to_star": 0.0134,
+    "p_star_to_fork": 0.0
+   },
+   "anbeime/skill": {
+    "p_fork_to_star": 0.0074,
+    "p_star_to_fork": 0.0
+   },
+   "android/skills": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "anthropics/claude-plugins-official": {
+    "p_fork_to_star": 0.133,
+    "p_star_to_fork": 0.0
+   },
+   "anthropics/skills": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "appwrite/appwrite": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "asgeirtj/system_prompts_leaks": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "avelino/awesome-go": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "awesome-selfhosted/awesome-selfhosted": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "awesomedata/awesome-public-datasets": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "ayghri/i-have-adhd": {
+    "p_fork_to_star": 0.3814,
+    "p_star_to_fork": 0.0
+   },
+   "backnotprop/plannotator": {
+    "p_fork_to_star": 0.0034,
+    "p_star_to_fork": 0.0
+   },
+   "blader/humanizer": {
+    "p_fork_to_star": 0.0002,
+    "p_star_to_fork": 0.0
+   },
+   "breaking-brake/cc-wf-studio": {
+    "p_fork_to_star": 0.0107,
+    "p_star_to_fork": 0.0
+   },
+   "bregman-arie/devops-exercises": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "browser-use/browser-use": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "brycewang-stanford/Auto-Empirical-Research-Skills": {
+    "p_fork_to_star": 0.0095,
+    "p_star_to_fork": 0.0
+   },
+   "bytedance/deer-flow": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "calesthio/OpenMontage": {
+    "p_fork_to_star": 0.0011,
+    "p_star_to_fork": 0.0
+   },
+   "career-ops-hq/career-ops": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "cassidoo/getting-a-gig": {
+    "p_fork_to_star": 0.0293,
+    "p_star_to_fork": 0.0
+   },
+   "cathrynlavery/diagram-design": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "citrolabs/ego-lite": {
+    "p_fork_to_star": 0.0096,
+    "p_star_to_fork": 0.0
+   },
+   "cline/cline": {
+    "p_fork_to_star": 0.321,
+    "p_star_to_fork": 0.0
+   },
+   "code-yeongyu/oh-my-openagent": {
+    "p_fork_to_star": 0.0162,
+    "p_star_to_fork": 0.0
+   },
+   "codeaashu/claude-code": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "colbymchenry/codegraph": {
+    "p_fork_to_star": 0.0378,
+    "p_star_to_fork": 0.0
+   },
+   "composio-community/awesome-claude-plugins": {
+    "p_fork_to_star": 0.1872,
+    "p_star_to_fork": 0.0
+   },
+   "composio-community/awesome-codex-skills": {
+    "p_fork_to_star": 0.1721,
+    "p_star_to_fork": 0.0
+   },
+   "crewAIInc/crewAI": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "dair-ai/Prompt-Engineering-Guide": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "datawhalechina/hello-agents": {
+    "p_fork_to_star": 0.0005,
+    "p_star_to_fork": 0.0
+   },
+   "davepoon/buildwithclaude": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "deanpeters/Product-Manager-Skills": {
+    "p_fork_to_star": 0.0115,
+    "p_star_to_fork": 0.0
+   },
+   "didilili/ai-agents-from-zero": {
+    "p_fork_to_star": 0.0343,
+    "p_star_to_fork": 0.0
+   },
+   "diegosouzapw/OmniRoute": {
+    "p_fork_to_star": 0.8081,
+    "p_star_to_fork": 0.0
+   },
+   "earendil-works/pi": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "eastlakeside/interpy-zh": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "eigent-ai/eigent": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "elementalsouls/Claude-BugHunter": {
+    "p_fork_to_star": 0.2551,
+    "p_star_to_fork": 0.0
+   },
+   "epoko77-ai/im-not-ai": {
+    "p_fork_to_star": 0.5374,
+    "p_star_to_fork": 0.0
+   },
+   "eugeniughelbur/obsidian-second-brain": {
+    "p_fork_to_star": 0.5342,
+    "p_star_to_fork": 0.0017
+   },
+   "farion1231/cc-switch": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "fffaraz/awesome-cpp": {
+    "p_fork_to_star": 0.0743,
+    "p_star_to_fork": 0.0
+   },
+   "firecrawl/firecrawl": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "flipped-aurora/gin-vue-admin": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "freestylefly/awesome-gpt-image-2": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "garrytan/gstack": {
+    "p_fork_to_star": 0.3211,
+    "p_star_to_fork": 0.0
+   },
+   "genspark-ai/genoffice": {
+    "p_fork_to_star": 0.1177,
+    "p_star_to_fork": 0.0003
+   },
+   "github/awesome-copilot": {
+    "p_fork_to_star": 0.0553,
+    "p_star_to_fork": 0.0
+   },
+   "github/spec-kit": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "google-antigravity/antigravity-sdk-python": {
+    "p_fork_to_star": 0.451,
+    "p_star_to_fork": 0.0
+   },
+   "google/skills": {
+    "p_fork_to_star": 0.0256,
+    "p_star_to_fork": 0.0
+   },
+   "googleworkspace/cli": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "gosom/google-maps-scraper": {
+    "p_fork_to_star": 0.11,
+    "p_star_to_fork": 0.0
+   },
+   "harry0703/MoneyPrinterTurbo": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "heilcheng/awesome-agent-skills": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "hesreallyhim/awesome-claude-code": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "heygen-com/hyperframes": {
+    "p_fork_to_star": 0.1041,
+    "p_star_to_fork": 0.0
+   },
+   "hoochanlon/hamuleite": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "htdt/godogen": {
+    "p_fork_to_star": 0.0002,
+    "p_star_to_fork": 0.0
+   },
+   "hugohe3/ppt-master": {
+    "p_fork_to_star": 0.3793,
+    "p_star_to_fork": 0.0
+   },
+   "iOfficeAI/AionUi": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "iOfficeAI/OfficeCLI": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "iflytek/skillhub": {
+    "p_fork_to_star": 0.6214,
+    "p_star_to_fork": 0.0281
+   },
+   "ikaijua/Awesome-AITools": {
+    "p_fork_to_star": 0.3293,
+    "p_star_to_fork": 0.0
+   },
+   "infiniflow/ragflow": {
+    "p_fork_to_star": 0.001,
+    "p_star_to_fork": 0.0
+   },
+   "instavm/coderunner": {
+    "p_fork_to_star": 0.6685,
+    "p_star_to_fork": 0.0
+   },
+   "irinabuht12-oss/marketing-skills": {
+    "p_fork_to_star": 0.4448,
+    "p_star_to_fork": 0.6592
+   },
+   "itsmostafa/aws-agent-skills": {
+    "p_fork_to_star": 0.2849,
+    "p_star_to_fork": 0.0001
+   },
+   "jamiepine/voicebox": {
+    "p_fork_to_star": 0.1777,
+    "p_star_to_fork": 0.0
+   },
+   "jangviktor-web/nihaixia": {
+    "p_fork_to_star": 0.0002,
+    "p_star_to_fork": 0.0
+   },
+   "jaywcjlove/awesome-mac": {
+    "p_fork_to_star": 0.0003,
+    "p_star_to_fork": 0.0
+   },
+   "jeecgboot/JeecgBoot": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "jlevy/the-art-of-command-line": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "jnMetaCode/superpowers-zh": {
+    "p_fork_to_star": 0.0283,
+    "p_star_to_fork": 0.0
+   },
+   "josephmisiti/awesome-machine-learning": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "karpathy/autoresearch": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "kepano/obsidian-skills": {
+    "p_fork_to_star": 0.0004,
+    "p_star_to_fork": 0.0
+   },
+   "koala73/worldmonitor": {
+    "p_fork_to_star": 0.0023,
+    "p_star_to_fork": 0.0
+   },
+   "krillinai/OpenCreator": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "kubesphere/kubesphere": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "kunal-kushwaha/Competitive-Programming-Resources": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "langgenius/dify": {
+    "p_fork_to_star": 0.0391,
+    "p_star_to_fork": 0.0
+   },
+   "laravel/laravel": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.4039
+   },
+   "latent-spaces/brag": {
+    "p_fork_to_star": 0.0036,
+    "p_star_to_fork": 0.0
+   },
+   "lobehub/lobehub": {
+    "p_fork_to_star": 0.0298,
+    "p_star_to_fork": 0.0
+   },
+   "mattpocock/skills": {
+    "p_fork_to_star": 0.0002,
+    "p_star_to_fork": 0.0
+   },
+   "maziyarpanahi/openmed": {
+    "p_fork_to_star": 0.0013,
+    "p_star_to_fork": 0.0
+   },
+   "mcp-use/mcp-use": {
+    "p_fork_to_star": 0.5937,
+    "p_star_to_fork": 0.0
+   },
+   "mem0ai/mem0": {
+    "p_fork_to_star": 0.0014,
+    "p_star_to_fork": 0.0
+   },
+   "microsoft/ML-For-Beginners": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "microsoft/SkillOpt": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "microsoft/Web-Dev-For-Beginners": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "microsoft/playwright": {
+    "p_fork_to_star": 0.538,
+    "p_star_to_fork": 0.0006
+   },
+   "mksglu/context-mode": {
+    "p_fork_to_star": 0.005,
+    "p_star_to_fork": 0.0
+   },
+   "msitarzewski/agency-agents": {
+    "p_fork_to_star": 0.0774,
+    "p_star_to_fork": 0.0
+   },
+   "multica-ai/andrej-karpathy-skills": {
+    "p_fork_to_star": 0.0011,
+    "p_star_to_fork": 0.0
+   },
+   "muxuuu/serenity-skill": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "mvanhorn/last30days-skill": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "nanocoai/nanoclaw": {
+    "p_fork_to_star": 0.0008,
+    "p_star_to_fork": 0.0
+   },
+   "nextlevelbuilder/ui-ux-pro-max-skill": {
+    "p_fork_to_star": 0.2472,
+    "p_star_to_fork": 0.0
+   },
+   "nexu-io/html-anything": {
+    "p_fork_to_star": 0.0687,
+    "p_star_to_fork": 0.0
+   },
+   "nexu-io/open-design": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "nidhinjs/prompt-master": {
+    "p_fork_to_star": 0.0071,
+    "p_star_to_fork": 0.0
+   },
+   "obra/superpowers": {
+    "p_fork_to_star": 0.1086,
+    "p_star_to_fork": 0.0
+   },
+   "odysseus-dev/odysseus": {
+    "p_fork_to_star": 0.0095,
+    "p_star_to_fork": 0.1217
+   },
+   "olistic/warriorjs": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "op7418/guizang-ppt-skill": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "open-webui/open-webui": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "openclaw/openclaw": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "opendatalab/MinerU": {
+    "p_fork_to_star": 0.0175,
+    "p_star_to_fork": 0.0
+   },
+   "openinterpreter/openinterpreter": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "paperclipai/paperclip": {
+    "p_fork_to_star": 0.1791,
+    "p_star_to_fork": 0.0
+   },
+   "pascalorg/editor": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "pbakaus/impeccable": {
+    "p_fork_to_star": 0.5636,
+    "p_star_to_fork": 0.0
+   },
+   "phuryn/pm-skills": {
+    "p_fork_to_star": 0.0139,
+    "p_star_to_fork": 0.0
+   },
+   "prakhar1989/awesome-courses": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "public-apis/public-apis": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "punkpeye/awesome-mcp-servers": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "reactive-resume/reactive-resume": {
+    "p_fork_to_star": 0.0002,
+    "p_star_to_fork": 0.0
+   },
+   "refly-ai/refly": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "remotion-dev/remotion": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "ripienaar/free-for-dev": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "rohitg00/ai-engineering-from-scratch": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "rust-unofficial/awesome-rust": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "ruvnet/RuView": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "ruvnet/ruflo": {
+    "p_fork_to_star": 0.0162,
+    "p_star_to_fork": 0.0
+   },
+   "sdmg15/Best-websites-a-programmer-should-visit": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "sergebulaev/linkedin-skills": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "shanraisshan/claude-code-best-practice": {
+    "p_fork_to_star": 0.0031,
+    "p_star_to_fork": 0.0
+   },
+   "shareAI-lab/learn-claude-code": {
+    "p_fork_to_star": 0.0012,
+    "p_star_to_fork": 0.0
+   },
+   "sickn33/agentic-awesome-skills": {
+    "p_fork_to_star": 0.128,
+    "p_star_to_fork": 0.0
+   },
+   "sindresorhus/awesome": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "tech-leads-club/agent-skills": {
+    "p_fork_to_star": 0.0145,
+    "p_star_to_fork": 0.0
+   },
+   "teng-lin/notebooklm-py": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "thedaviddias/Front-End-Checklist": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "thedotmack/claude-mem": {
+    "p_fork_to_star": 0.0862,
+    "p_star_to_fork": 0.0
+   },
+   "tigerless-labs/autoharness": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.5874
+   },
+   "titanwings/distilly": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "topoteretes/cognee": {
+    "p_fork_to_star": 0.0134,
+    "p_star_to_fork": 0.0
+   },
+   "tradecatlabs/vibe-coding-cn": {
+    "p_fork_to_star": 0.0058,
+    "p_star_to_fork": 0.0
+   },
+   "trailofbits/skills": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "travisvn/awesome-claude-skills": {
+    "p_fork_to_star": 0.6285,
+    "p_star_to_fork": 0.0
+   },
+   "trimstray/test-your-sysadmin-skills": {
+    "p_fork_to_star": 0.0166,
+    "p_star_to_fork": 0.0
+   },
+   "trimstray/the-book-of-secret-knowledge": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "tt-a1i/archify": {
+    "p_fork_to_star": 0.0009,
+    "p_star_to_fork": 0.0
+   },
+   "tw93/Pake": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "twentyhq/twenty": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "ultraworkers/claw-code": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "upstash/context7": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "usestrix/strix": {
+    "p_fork_to_star": 0.0014,
+    "p_star_to_fork": 0.0
+   },
+   "vinta/awesome-python": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "virgiliojr94/book-to-skill": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "vuejs/awesome-vue": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "wesammustafa/Claude-Code-Everything-You-Need-to-Know": {
+    "p_fork_to_star": 0.4627,
+    "p_star_to_fork": 0.0
+   },
+   "wshobson/agents": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   },
+   "x-hw/amazing-qr": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "xianyu110/awesome-openclaw-tutorial": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "xixu-me/awesome-persona-distill-skills": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "xixu-me/xget": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "yusufkaraaslan/Skill_Seekers": {
+    "p_fork_to_star": 0.0135,
+    "p_star_to_fork": 0.0
+   },
+   "zenstory-ai/drama-skills": {
+    "p_fork_to_star": 0.132,
+    "p_star_to_fork": 0.1706
+   },
+   "zenstory-ai/oh-story-claudecode": {
+    "p_fork_to_star": 0.0045,
+    "p_star_to_fork": 0.0
+   },
+   "zhayujie/CowAgent": {
+    "p_fork_to_star": 0.0,
+    "p_star_to_fork": 0.0
+   },
+   "zylon-ai/private-gpt": {
+    "p_fork_to_star": 0.0001,
+    "p_star_to_fork": 0.0
+   }
+  },
+  "summary": {
+   "n_repos": 228,
+   "share_star_granger_fork_5pct": 97.4,
+   "share_fork_granger_star_5pct": 77.6,
+   "median_p_star_to_fork": 0.0,
+   "median_p_fork_to_star": 0.0004,
+   "note": "日度 VAR(3) F 检验；双侧方向各自检验；样本=星标与 fork 日序列均≥60/30 天"
+  }
+ }
+}

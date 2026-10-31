@@ -1,0 +1,290 @@
+{
+ "generated_at": "2026-10-30T19:43:40",
+ "cutoff": "2026-10-24",
+ "n_parents_with_forks": 228,
+ "overall": {
+  "n_forks": 1851928,
+  "n_events": 117169,
+  "event_share_pct": 6.327,
+  "cumulative_incidence_pct": {
+   "1": 4.82,
+   "24": 5.552,
+   "168": 5.873,
+   "720": 6.085,
+   "4320": 6.293,
+   "8760": 6.36
+  },
+  "curve": {
+   "times_h": [
+    0.1,
+    0.3,
+    1,
+    3,
+    6,
+    12,
+    24,
+    48,
+    72,
+    168,
+    336,
+    720,
+    2160,
+    4320,
+    8760
+   ],
+   "cum_pct": [
+    2.95,
+    4.045,
+    4.82,
+    5.179,
+    5.312,
+    5.412,
+    5.552,
+    5.673,
+    5.741,
+    5.873,
+    5.978,
+    6.085,
+    6.219,
+    6.293,
+    6.36
+   ]
+  },
+  "median_days_among_events": 0.01,
+  "share_events_within_24h_pct": 87.75,
+  "hazard_bins": [
+   {
+    "bin": "<1h",
+    "at_risk": 1851928,
+    "events": 89261,
+    "hazard_pct": 4.8199
+   },
+   {
+    "bin": "1–24h",
+    "at_risk": 1762667,
+    "events": 13549,
+    "hazard_pct": 0.7687
+   },
+   {
+    "bin": "1–7d",
+    "at_risk": 1749118,
+    "events": 5962,
+    "hazard_pct": 0.3409
+   },
+   {
+    "bin": "7–30d",
+    "at_risk": 1743156,
+    "events": 3892,
+    "hazard_pct": 0.2233
+   },
+   {
+    "bin": "30–90d",
+    "at_risk": 1690564,
+    "events": 2317,
+    "hazard_pct": 0.1371
+   },
+   {
+    "bin": "90–365d",
+    "at_risk": 1516095,
+    "events": 1638,
+    "hazard_pct": 0.108
+   },
+   {
+    "bin": ">365d",
+    "at_risk": 589694,
+    "events": 550,
+    "hazard_pct": 0.0933
+   }
+  ]
+ },
+ "list": {
+  "n_forks": 304789,
+  "n_events": 29366,
+  "event_share_pct": 9.635,
+  "cumulative_incidence_pct": {
+   "1": 8.739,
+   "24": 9.23,
+   "168": 9.387,
+   "720": 9.477,
+   "4320": 9.571,
+   "8760": 9.615
+  },
+  "curve": {
+   "times_h": [
+    0.1,
+    0.3,
+    1,
+    3,
+    6,
+    12,
+    24,
+    48,
+    72,
+    168,
+    336,
+    720,
+    2160,
+    4320,
+    8760
+   ],
+   "cum_pct": [
+    5.496,
+    7.728,
+    8.739,
+    9.0,
+    9.079,
+    9.144,
+    9.23,
+    9.292,
+    9.322,
+    9.387,
+    9.432,
+    9.477,
+    9.538,
+    9.571,
+    9.615
+   ]
+  },
+  "median_days_among_events": 0.0,
+  "share_events_within_24h_pct": 95.8,
+  "hazard_bins": [
+   {
+    "bin": "<1h",
+    "at_risk": 304789,
+    "events": 26632,
+    "hazard_pct": 8.7378
+   },
+   {
+    "bin": "1–24h",
+    "at_risk": 278157,
+    "events": 1501,
+    "hazard_pct": 0.5396
+   },
+   {
+    "bin": "1–7d",
+    "at_risk": 276656,
+    "events": 478,
+    "hazard_pct": 0.1728
+   },
+   {
+    "bin": "7–30d",
+    "at_risk": 276178,
+    "events": 272,
+    "hazard_pct": 0.0985
+   },
+   {
+    "bin": "30–90d",
+    "at_risk": 270725,
+    "events": 177,
+    "hazard_pct": 0.0654
+   },
+   {
+    "bin": "90–365d",
+    "at_risk": 250523,
+    "events": 180,
+    "hazard_pct": 0.0718
+   },
+   {
+    "bin": ">365d",
+    "at_risk": 173544,
+    "events": 126,
+    "hazard_pct": 0.0726
+   }
+  ]
+ },
+ "non_list": {
+  "n_forks": 1547139,
+  "n_events": 87803,
+  "event_share_pct": 5.675,
+  "cumulative_incidence_pct": {
+   "1": 4.048,
+   "24": 4.827,
+   "168": 5.181,
+   "720": 5.417,
+   "4320": 5.648,
+   "8760": 5.724
+  },
+  "curve": {
+   "times_h": [
+    0.1,
+    0.3,
+    1,
+    3,
+    6,
+    12,
+    24,
+    48,
+    72,
+    168,
+    336,
+    720,
+    2160,
+    4320,
+    8760
+   ],
+   "cum_pct": [
+    2.448,
+    3.319,
+    4.048,
+    4.427,
+    4.57,
+    4.676,
+    4.827,
+    4.96,
+    5.035,
+    5.181,
+    5.298,
+    5.417,
+    5.566,
+    5.648,
+    5.724
+   ]
+  },
+  "median_days_among_events": 0.01,
+  "share_events_within_24h_pct": 85.05,
+  "hazard_bins": [
+   {
+    "bin": "<1h",
+    "at_risk": 1547139,
+    "events": 62629,
+    "hazard_pct": 4.0481
+   },
+   {
+    "bin": "1–24h",
+    "at_risk": 1484510,
+    "events": 12048,
+    "hazard_pct": 0.8116
+   },
+   {
+    "bin": "1–7d",
+    "at_risk": 1472462,
+    "events": 5484,
+    "hazard_pct": 0.3724
+   },
+   {
+    "bin": "7–30d",
+    "at_risk": 1466978,
+    "events": 3620,
+    "hazard_pct": 0.2468
+   },
+   {
+    "bin": "30–90d",
+    "at_risk": 1419839,
+    "events": 2140,
+    "hazard_pct": 0.1507
+   },
+   {
+    "bin": "90–365d",
+    "at_risk": 1265572,
+    "events": 1458,
+    "hazard_pct": 0.1152
+   },
+   {
+    "bin": ">365d",
+    "at_risk": 416150,
+    "events": 424,
+    "hazard_pct": 0.1019
+   }
+  ]
+ }
+}

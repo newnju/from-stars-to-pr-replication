@@ -1,0 +1,625 @@
+{
+ "generated_at": "2026-10-29T22:05:45",
+ "P1_heavy_tails": {
+  "parent_returning_forks": {
+   "n": 224,
+   "powerlaw": {
+    "alpha": 2.405,
+    "xmin": 647.0,
+    "ks": 0.084,
+    "n_tail": 47,
+    "loglik": -368.7
+   },
+   "lognormal": {
+    "mu_sigma": [
+     7.184,
+     0.721
+    ],
+    "loglik": -389.0
+   },
+   "exponential": {
+    "loglik": -404.9
+   },
+   "best_by_loglik": "powerlaw",
+   "delta_ll_ln_minus_pl": -20.3
+  },
+  "parent_pr_events": {
+   "n": 224,
+   "powerlaw": {
+    "alpha": 1.989,
+    "xmin": 1226.0,
+    "ks": 0.0564,
+    "n_tail": 60,
+    "loglik": -548.1
+   },
+   "lognormal": {
+    "mu_sigma": [
+     8.123,
+     0.914
+    ],
+    "loglik": -567.1
+   },
+   "exponential": {
+    "loglik": -587.8
+   },
+   "best_by_loglik": "powerlaw",
+   "delta_ll_ln_minus_pl": -19.1
+  },
+  "comment_thread_len": {
+   "n": 24902,
+   "powerlaw": {
+    "alpha": 3.187,
+    "xmin": 9.0,
+    "ks": 0.1284,
+    "n_tail": 888,
+    "loglik": -2550.5
+   },
+   "lognormal": {
+    "mu_sigma": [
+     2.655,
+     0.367
+    ],
+    "loglik": -2726.1
+   },
+   "exponential": {
+    "loglik": -3306.6
+   },
+   "best_by_loglik": "powerlaw",
+   "delta_ll_ln_minus_pl": -175.6
+  },
+  "comment_chars": {
+   "n": 61078,
+   "powerlaw": {
+    "alpha": 3.39,
+    "xmin": 13644.0,
+    "ks": 0.0245,
+    "n_tail": 1457,
+    "loglik": -14669.2
+   },
+   "lognormal": {
+    "mu_sigma": [
+     9.939,
+     0.421
+    ],
+    "loglik": -15289.7
+   },
+   "exponential": {
+    "loglik": -16108.3
+   },
+   "best_by_loglik": "powerlaw",
+   "delta_ll_ln_minus_pl": -620.4
+  },
+  "author_pr_events": {
+   "n": 99797,
+   "powerlaw": {
+    "alpha": 2.026,
+    "xmin": 39.0,
+    "ks": 0.033,
+    "n_tail": 1184,
+    "loglik": -6646.1
+   },
+   "lognormal": {
+    "mu_sigma": [
+     4.639,
+     0.877
+    ],
+    "loglik": -7016.9
+   },
+   "exponential": {
+    "loglik": -7349.5
+   },
+   "best_by_loglik": "powerlaw",
+   "delta_ll_ln_minus_pl": -370.8
+  }
+ },
+ "P2_point_process": {
+  "daily_series": {
+   "from": "2025-01-01",
+   "to": "2026-10-29",
+   "days": 667,
+   "mean": 569.4,
+   "fano_factor": 615.2,
+   "burstiness_B": 0.019
+  },
+  "daily_autocorr_lag1_14": [
+   0.978,
+   0.954,
+   0.946,
+   0.941,
+   0.941,
+   0.953,
+   0.962,
+   0.947,
+   0.929,
+   0.923,
+   0.92,
+   0.922,
+   0.933,
+   0.941
+  ],
+  "inter_event_top_repos": {
+   "NousResearch/hermes-agent": {
+    "n_events": 80691,
+    "gap_median_h": 0.037,
+    "cv": 103.21,
+    "burstiness_B": 0.981
+   },
+   "openclaw/openclaw": {
+    "n_events": 79821,
+    "gap_median_h": 0.047,
+    "cv": 8.99,
+    "burstiness_B": 0.8
+   },
+   "microsoft/playwright": {
+    "n_events": 18851,
+    "gap_median_h": 1.123,
+    "cv": 1.98,
+    "burstiness_B": 0.329
+   },
+   "langgenius/dify": {
+    "n_events": 16005,
+    "gap_median_h": 0.554,
+    "cv": 2.47,
+    "burstiness_B": 0.423
+   },
+   "punkpeye/awesome-mcp-servers": {
+    "n_events": 14071,
+    "gap_median_h": 0.331,
+    "cv": 3.68,
+    "burstiness_B": 0.573
+   }
+  },
+  "seasonality": {
+   "hour_pct": {
+    "0": 3.1,
+    "1": 3.5,
+    "2": 4.0,
+    "3": 4.3,
+    "4": 3.7,
+    "5": 3.9,
+    "6": 4.5,
+    "7": 4.9,
+    "8": 4.9,
+    "9": 5.0,
+    "10": 4.6,
+    "11": 4.4,
+    "12": 4.4,
+    "13": 4.6,
+    "14": 4.8,
+    "15": 5.0,
+    "16": 4.8,
+    "17": 4.4,
+    "18": 4.1,
+    "19": 3.9,
+    "20": 3.6,
+    "21": 3.4,
+    "22": 3.2,
+    "23": 3.0
+   },
+   "weekday_pct": {
+    "0": 15.0,
+    "1": 16.0,
+    "2": 15.8,
+    "3": 16.0,
+    "4": 15.0,
+    "5": 11.2,
+    "6": 11.1
+   },
+   "chi2_hour_df23": 9900.0,
+   "chi2_week_df6": 9018.0,
+   "peak_hour_utc": 9,
+   "trough_hour_utc": 23,
+   "peak_weekday": "Tue"
+  },
+  "merge_latency_fit": {
+   "n": 24134,
+   "powerlaw": {
+    "alpha": 2.207,
+    "xmin": 222.74183333333335,
+    "ks": 0.0688,
+    "n_tail": 1500,
+    "loglik": -10570.7
+   },
+   "lognormal": {
+    "mu_sigma": [
+     6.235,
+     0.636
+    ],
+    "loglik": -10801.1
+   },
+   "exponential": {
+    "loglik": -11201.0
+   },
+   "best_by_loglik": "powerlaw",
+   "delta_ll_ln_minus_pl": -230.4
+  }
+ },
+ "P3_survival": {
+  "n": 45360,
+  "events": 24134,
+  "median_merge_h_all": 63.17,
+  "comment": {
+   "logrank_chi2_p": [
+    2700.8,
+    0.0
+   ],
+   "km_median_h_group0": 5.43,
+   "km_median_h_group1": 367.13,
+   "n1": 24902
+  },
+  "review": {
+   "logrank_chi2_p": [
+    158.24,
+    0.0
+   ],
+   "km_median_h_group0": 70.37,
+   "km_median_h_group1": 52.0,
+   "n1": 5953
+  },
+  "bot_author": {
+   "logrank_chi2_p": [
+    41.27,
+    0.0
+   ],
+   "km_median_h_group0": 66.08,
+   "km_median_h_group1": 20.92,
+   "n1": 1086
+  },
+  "cox": {
+   "coef_has_comment": -0.689,
+   "coef_has_review": 0.309,
+   "p_has_comment": 0.0,
+   "p_has_review": 0.0,
+   "note": "按仓聚类稳健 SE；时间单位=小时"
+  }
+ },
+ "P4_prediction": {
+  "predict_merge": {
+   "n": 38519,
+   "merged": 24134,
+   "auc_static_only": {
+    "mean": 0.531,
+    "folds": [
+     0.483,
+     0.517,
+     0.574,
+     0.575,
+     0.506
+    ]
+   },
+   "auc_static_plus_24h": {
+    "mean": 0.59,
+    "folds": [
+     0.513,
+     0.709,
+     0.561,
+     0.601,
+     0.565
+    ]
+   },
+   "note": "GroupKFold(仓)；静态=编号/标题/标签/账号类型；24h=+创建后24h内评论与审查数"
+  },
+  "permutation_importance": {
+   "num": 0.2117,
+   "title_len": 0.0605,
+   "has_cjk_title": 0.0037,
+   "conv_prefix": 0.0272,
+   "n_labels": 0.0684,
+   "is_bot": 0.0171,
+   "nc24": 0.1444,
+   "nr24": 0.0696
+  }
+ },
+ "P5_clustering": {
+  "n_repos": 225,
+  "k_search": [
+   {
+    "k": 2,
+    "silhouette": 0.247,
+    "inertia": 1239.0
+   },
+   {
+    "k": 3,
+    "silhouette": 0.279,
+    "inertia": 961.1
+   },
+   {
+    "k": 4,
+    "silhouette": 0.294,
+    "inertia": 830.1
+   },
+   {
+    "k": 5,
+    "silhouette": 0.296,
+    "inertia": 715.2
+   },
+   {
+    "k": 6,
+    "silhouette": 0.309,
+    "inertia": 625.6
+   },
+   {
+    "k": 7,
+    "silhouette": 0.295,
+    "inertia": 553.7
+   }
+  ],
+  "best_k": 6,
+  "clusters": [
+   {
+    "cluster": 0,
+    "n": 77,
+    "mean_features": {
+     "log10_stars": 3.9,
+     "log10_forks": 3.01,
+     "conversion": 0.05,
+     "merge_rate": 0.47,
+     "log10_installs": 0.73,
+     "share_cross": 0.0,
+     "log10_skills": 0.02
+    },
+    "examples": [
+     "instavm/coderunner",
+     "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+     "xixu-me/awesome-persona-distill-skills"
+    ]
+   },
+   {
+    "cluster": 1,
+    "n": 42,
+    "mean_features": {
+     "log10_stars": 4.72,
+     "log10_forks": 3.73,
+     "conversion": 0.05,
+     "merge_rate": 0.39,
+     "log10_installs": 4.36,
+     "share_cross": 0.03,
+     "log10_skills": 0.05
+    },
+    "examples": [
+     "citrolabs/ego-lite",
+     "latent-spaces/brag",
+     "mcp-use/mcp-use"
+    ]
+   },
+   {
+    "cluster": 2,
+    "n": 76,
+    "mean_features": {
+     "log10_stars": 4.94,
+     "log10_forks": 4.04,
+     "conversion": 0.06,
+     "merge_rate": 0.49,
+     "log10_installs": 0.19,
+     "share_cross": 0.01,
+     "log10_skills": 0.01
+    },
+    "examples": [
+     "odysseus-dev/odysseus",
+     "CherryHQ/cherry-studio",
+     "appwrite/appwrite"
+    ]
+   },
+   {
+    "cluster": 3,
+    "n": 7,
+    "mean_features": {
+     "log10_stars": 4.32,
+     "log10_forks": 3.52,
+     "conversion": 0.46,
+     "merge_rate": 0.19,
+     "log10_installs": 0.63,
+     "share_cross": 0.0,
+     "log10_skills": 0.0
+    },
+    "examples": [
+     "heilcheng/awesome-agent-skills",
+     "composio-community/awesome-claude-plugins",
+     "ikaijua/Awesome-AITools"
+    ]
+   },
+   {
+    "cluster": 4,
+    "n": 13,
+    "mean_features": {
+     "log10_stars": 4.59,
+     "log10_forks": 3.69,
+     "conversion": 0.06,
+     "merge_rate": 0.26,
+     "log10_installs": 3.57,
+     "share_cross": 0.92,
+     "log10_skills": 0.96
+    },
+    "examples": [
+     "itsmostafa/aws-agent-skills",
+     "breaking-brake/cc-wf-studio",
+     "trailofbits/skills"
+    ]
+   },
+   {
+    "cluster": 5,
+    "n": 10,
+    "mean_features": {
+     "log10_stars": 4.5,
+     "log10_forks": 3.58,
+     "conversion": 0.08,
+     "merge_rate": 0.6,
+     "log10_installs": 2.08,
+     "share_cross": 0.07,
+     "log10_skills": 1.53
+    },
+    "examples": [
+     "davepoon/buildwithclaude",
+     "Jeffallan/claude-skills",
+     "OthmanAdi/planning-with-files"
+    ]
+   }
+  ],
+  "anomalies_top8": [
+   "openclaw/openclaw",
+   "itsmostafa/aws-agent-skills",
+   "davepoon/buildwithclaude",
+   "instavm/coderunner",
+   "obra/superpowers",
+   "github/awesome-copilot",
+   "ComposioHQ/awesome-claude-skills",
+   "anthropics/skills"
+  ]
+ },
+ "P6_network": {
+  "commenter": {
+   "n_commenters": 4538,
+   "degree_median": 1,
+   "degree_p90": 1,
+   "degree_max": 28,
+   "single_repo_pct": 93.9,
+   "fit_degree": {
+    "n": 4538,
+    "powerlaw": {
+     "alpha": 3.782,
+     "xmin": 4.0,
+     "ks": 0.5135,
+     "n_tail": 37,
+     "loglik": -63.7
+    },
+    "lognormal": {
+     "mu_sigma": [
+      1.746,
+      0.475
+     ],
+     "loglik": -89.5
+    },
+    "exponential": {
+     "loglik": -106.8
+    },
+    "best_by_loglik": "powerlaw",
+    "delta_ll_ln_minus_pl": -25.8
+   }
+  },
+  "return_hhi": {
+   "n": 198,
+   "median": 0.032,
+   "p90": 0.126
+  }
+ },
+ "P7_text": {
+  "n_texts": 30000,
+  "k": 6,
+  "clusters": [
+   {
+    "cluster": 0,
+    "n": 930,
+    "share_pct": 3.1,
+    "top_terms": [
+     "cla",
+     "hereby",
+     "sign",
+     "document",
+     "have",
+     "assistant",
+     "read",
+     "signed",
+     "the",
+     "pullrequest"
+    ]
+   },
+   {
+    "cluster": 1,
+    "n": 9166,
+    "share_pct": 30.6,
+    "top_terms": [
+     "the",
+     "and",
+     "test",
+     "that",
+     "with",
+     "this",
+     "for",
+     "not",
+     "only",
+     "are"
+    ]
+   },
+   {
+    "cluster": 2,
+    "n": 1014,
+    "share_pct": 3.4,
+    "top_terms": [
+     "bundle",
+     "skipping",
+     "tracked",
+     "generation",
+     "another",
+     "already",
+     "repository",
+     "ecc",
+     "files",
+     "are"
+    ]
+   },
+   {
+    "cluster": 3,
+    "n": 3246,
+    "share_pct": 10.8,
+    "top_terms": [
+     "tools",
+     "evidence",
+     "ecc",
+     "owner",
+     "must",
+     "security",
+     "audit",
+     "changed",
+     "detected",
+     "corpus"
+    ]
+   },
+   {
+    "cluster": 4,
+    "n": 10420,
+    "share_pct": 34.7,
+    "top_terms": [
+     "the",
+     "thanks",
+     "this",
+     "closing",
+     "for",
+     "you",
+     "and",
+     "review",
+     "please",
+     "main"
+    ]
+   },
+   {
+    "cluster": 5,
+    "n": 5224,
+    "share_pct": 17.4,
+    "top_terms": [
+     "summary",
+     "details",
+     "coderabbit",
+     "review",
+     "https",
+     "walkthrough",
+     "commits",
+     "stack",
+     "generated",
+     "comment"
+    ]
+   }
+  ]
+ },
+ "P8_matched_estimate": {
+  "n_pairs": 3668,
+  "n_repos": 96,
+  "median_delta_log_latency": 1.621,
+  "mean_delta": 2.169,
+  "ci95_median": [
+   1.47,
+   1.742
+  ],
+  "exp_median_ratio": 5.06,
+  "note": "Δ=log(时滞)_有评论−log(时滞)_无评论；仓内按 PR 编号近邻 1:1 配对；正=评论使合并更慢"
+ }
+}

@@ -1,0 +1,495 @@
+{
+ "sha_archaeology": {
+  "n_multi_sha": 29,
+  "birth_by_year": {
+   "2025": 29
+  },
+  "top_birth_months": [
+   [
+    "2025-10",
+    18
+   ],
+   [
+    "2025-09",
+    7
+   ],
+   [
+    "2025-07",
+    3
+   ],
+   [
+    "2025-06",
+    1
+   ]
+  ],
+  "note": "多仓SHA的内容\"诞生月\"（最早含它的仓创建月）；n_read=2950"
+ },
+ "name_collision": {
+  "n_names_ge3": 28,
+  "top10": [
+   {
+    "name": "mcp-builder",
+    "n_repos": 7,
+    "max_star": 179582,
+    "median_star": 10714,
+    "star_ratio": 173.7
+   },
+   {
+    "name": "skill-creator",
+    "n_repos": 6,
+    "max_star": 391275,
+    "median_star": 54882,
+    "star_ratio": 220.1
+   },
+   {
+    "name": "pdf",
+    "n_repos": 6,
+    "max_star": 179582,
+    "median_star": 54882,
+    "star_ratio": 101.0
+   },
+   {
+    "name": "xlsx",
+    "n_repos": 5,
+    "max_star": 179582,
+    "median_star": 33306,
+    "star_ratio": 101.0
+   },
+   {
+    "name": "docx",
+    "n_repos": 5,
+    "max_star": 179582,
+    "median_star": 33306,
+    "star_ratio": 101.0
+   },
+   {
+    "name": "pptx",
+    "n_repos": 5,
+    "max_star": 179582,
+    "median_star": 33306,
+    "star_ratio": 101.0
+   },
+   {
+    "name": "webapp-testing",
+    "n_repos": 5,
+    "max_star": 179582,
+    "median_star": 39680,
+    "star_ratio": 101.0
+   },
+   {
+    "name": "internal-comms",
+    "n_repos": 4,
+    "max_star": 179582,
+    "median_star": 40023,
+    "star_ratio": 101.0
+   },
+   {
+    "name": "theme-factory",
+    "n_repos": 4,
+    "max_star": 179582,
+    "median_star": 40023,
+    "star_ratio": 101.0
+   },
+   {
+    "name": "slack-gif-creator",
+    "n_repos": 4,
+    "max_star": 179582,
+    "median_star": 40023,
+    "star_ratio": 101.0
+   }
+  ],
+  "median_max_over_median_ratio": 43.0,
+  "note": "同名技能≥3仓的星标差异"
+ },
+ "pr_urgency": {
+  "n_titles": 45203,
+  "urgency_counts": {
+   "urgent": 3,
+   "asap": 2,
+   "breaking": 11,
+   "critical": 31,
+   "hotfix": 16,
+   "security": 607,
+   "vulnerab": 58,
+   "cve": 18,
+   "malicious": 0
+  },
+  "urgency_share": {
+   "urgent": 0.0001,
+   "asap": 0.0,
+   "breaking": 0.0002,
+   "critical": 0.0007,
+   "hotfix": 0.0004,
+   "security": 0.0134,
+   "vulnerab": 0.0013,
+   "cve": 0.0004,
+   "malicious": 0.0
+  },
+  "note": "PR标题中的紧急/安全词汇占比"
+ },
+ "dow_by_type": {
+  "types": {
+   "relay": {
+    "total": 799180,
+    "weekend_share": 0.251,
+    "peak_day": 0
+   },
+   "original": {
+    "total": 334880,
+    "weekend_share": 0.266,
+    "peak_day": 0
+   },
+   "official": {
+    "total": 743123,
+    "weekend_share": 0.252,
+    "peak_day": 3
+   }
+  },
+  "note": "官方/转发/原创仓的星标周内节律（weekend_share 越高越像个人行为）"
+ },
+ "pareto": {
+  "skillssh_installs": {
+   "n": 172,
+   "top1": 0.395,
+   "top5": 0.755,
+   "top10": 0.888,
+   "top50": 0.992
+  },
+  "clawhub_downloads": {
+   "n": 83212,
+   "top1": 0.005,
+   "top5": 0.013,
+   "top10": 0.022,
+   "top50": 0.053
+  },
+  "npm_monthly": {
+   "n": 84,
+   "top1": 0.799,
+   "top5": 0.963,
+   "top10": 0.988,
+   "top50": 1.0
+  },
+  "release": {
+   "n": 131,
+   "top1": 0.356,
+   "top5": 0.769,
+   "top10": 0.862,
+   "top50": 0.994
+  },
+  "github_stars": {
+   "n": 341,
+   "top1": 0.036,
+   "top5": 0.141,
+   "top10": 0.234,
+   "top50": 0.582
+  },
+  "note": "各渠道 top1/5/10/50 份额——帕累托陡峭度对比"
+ },
+ "frontmatter_combos": {
+  "n_with_fm": 154292,
+  "top_fields": [
+   [
+    "description",
+    154186
+   ],
+   [
+    "name",
+    154072
+   ],
+   [
+    "version",
+    30162
+   ],
+   [
+    "allowed-tools",
+    28576
+   ],
+   [
+    "license",
+    19731
+   ],
+   [
+    "metadata",
+    17751
+   ],
+   [
+    "author",
+    15604
+   ],
+   [
+    "tags",
+    9004
+   ],
+   [
+    "category",
+    8830
+   ],
+   [
+    "user-invocable",
+    5862
+   ],
+   [
+    "triggers",
+    5356
+   ],
+   [
+    "compatibility",
+    3959
+   ],
+   [
+    "argument-hint",
+    3942
+   ],
+   [
+    "source",
+    3552
+   ],
+   [
+    "model",
+    2854
+   ]
+  ],
+  "top_pairs": [
+   {
+    "pair": [
+     "description",
+     "name"
+    ],
+    "n": 153997,
+    "support": 0.998
+   },
+   {
+    "pair": [
+     "name",
+     "version"
+    ],
+    "n": 30140,
+    "support": 0.195
+   },
+   {
+    "pair": [
+     "description",
+     "version"
+    ],
+    "n": 30133,
+    "support": 0.195
+   },
+   {
+    "pair": [
+     "allowed-tools",
+     "description"
+    ],
+    "n": 28565,
+    "support": 0.185
+   },
+   {
+    "pair": [
+     "allowed-tools",
+     "name"
+    ],
+    "n": 28541,
+    "support": 0.185
+   },
+   {
+    "pair": [
+     "description",
+     "license"
+    ],
+    "n": 19731,
+    "support": 0.128
+   },
+   {
+    "pair": [
+     "license",
+     "name"
+    ],
+    "n": 19729,
+    "support": 0.128
+   },
+   {
+    "pair": [
+     "metadata",
+     "name"
+    ],
+    "n": 17751,
+    "support": 0.115
+   },
+   {
+    "pair": [
+     "description",
+     "metadata"
+    ],
+    "n": 17743,
+    "support": 0.115
+   },
+   {
+    "pair": [
+     "author",
+     "description"
+    ],
+    "n": 15597,
+    "support": 0.101
+   },
+   {
+    "pair": [
+     "author",
+     "name"
+    ],
+    "n": 15595,
+    "support": 0.101
+   },
+   {
+    "pair": [
+     "author",
+     "version"
+    ],
+    "n": 14725,
+    "support": 0.095
+   }
+  ],
+  "note": "frontmatter 字段的单频与二元共现支持度"
+ },
+ "install_per_star": {
+  "n": 172,
+  "median": 0.52,
+  "p10": 0.002,
+  "p90": 28.43,
+  "pct_above_10": 0.157,
+  "pct_below_1": 0.587,
+  "note": "星标≥100仓的每星安装数分布——代理换算的离散度"
+ },
+ "version_depth": {
+  "n_items_with_versions": 82839,
+  "zero_version_items": 376,
+  "median": 1.0,
+  "pct_single_version": 0.556,
+  "pct_ge5": 0.146,
+  "note": "ClawHub 条目的版本数分布——单版本即弃置的比例"
+ },
+ "desc_themes": {
+  "n_desc": 337,
+  "top30": [
+   [
+    "codex",
+    63
+   ],
+   [
+    "open",
+    43
+   ],
+   [
+    "source",
+    41
+   ],
+   [
+    "coding",
+    36
+   ],
+   [
+    "cursor",
+    27
+   ],
+   [
+    "design",
+    24
+   ],
+   [
+    "gemini",
+    23
+   ],
+   [
+    "curated",
+    21
+   ],
+   [
+    "memory",
+    20
+   ],
+   [
+    "research",
+    20
+   ],
+   [
+    "free",
+    19
+   ],
+   [
+    "workflows",
+    19
+   ],
+   [
+    "self",
+    19
+   ],
+   [
+    "context",
+    19
+   ],
+   [
+    "list",
+    18
+   ],
+   [
+    "first",
+    18
+   ],
+   [
+    "built",
+    18
+   ],
+   [
+    "data",
+    18
+   ],
+   [
+    "harness",
+    17
+   ],
+   [
+    "opencode",
+    17
+   ],
+   [
+    "multi",
+    17
+   ],
+   [
+    "across",
+    16
+   ],
+   [
+    "local",
+    16
+   ],
+   [
+    "copilot",
+    16
+   ],
+   [
+    "agentic",
+    15
+   ],
+   [
+    "real",
+    15
+   ],
+   [
+    "html",
+    15
+   ],
+   [
+    "build",
+    14
+   ],
+   [
+    "engineering",
+    14
+   ],
+   [
+    "awesome",
+    13
+   ]
+  ],
+  "note": "35,947普查仓描述的词频（去除通用停用词与领域专名）"
+ }
+}

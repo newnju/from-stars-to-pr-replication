@@ -1,0 +1,331 @@
+{
+ "A_typology": {
+  "n_docs": 155547,
+  "n_desc_used": 136664,
+  "clusters": [
+   {
+    "cluster": 0,
+    "n": 1,
+    "top_terms": [
+     "wants",
+     "generate",
+     "mvp",
+     "written",
+     "directly",
+     "case",
+     "scaffold",
+     "story"
+    ]
+   },
+   {
+    "cluster": 1,
+    "n": 5,
+    "top_terms": [
+     "strategy",
+     "test",
+     "testing",
+     "targets",
+     "defining",
+     "template",
+     "coverage",
+     "following"
+    ]
+   },
+   {
+    "cluster": 2,
+    "n": 12,
+    "top_terms": [
+     "skills",
+     "roles",
+     "para",
+     "usa",
+     "todos",
+     "sh",
+     "creator",
+     "base"
+    ]
+   },
+   {
+    "cluster": 3,
+    "n": 3,
+    "top_terms": [
+     "requirements",
+     "minimum",
+     "test",
+     "testing",
+     "80",
+     "enforcing",
+     "coordinates",
+     "e2e"
+    ]
+   },
+   {
+    "cluster": 4,
+    "n": 11,
+    "top_terms": [
+     "stunning",
+     "abstract",
+     "pitch",
+     "talk",
+     "powerpoint",
+     "aesthetic",
+     "rich",
+     "choices"
+    ]
+   },
+   {
+    "cluster": 5,
+    "n": 136618,
+    "top_terms": [
+     "use",
+     "skill",
+     "code",
+     "user",
+     "patterns",
+     "create",
+     "using",
+     "design"
+    ]
+   },
+   {
+    "cluster": 6,
+    "n": 7,
+    "top_terms": [
+     "dead",
+     "tests",
+     "static",
+     "coverage",
+     "check",
+     "test",
+     "analysis",
+     "suites"
+    ]
+   },
+   {
+    "cluster": 7,
+    "n": 7,
+    "top_terms": [
+     "team",
+     "agent",
+     "presets",
+     "sizing",
+     "selecting",
+     "deciding",
+     "optimal",
+     "size"
+    ]
+   }
+  ],
+  "zh_share_among_desc": 0.0435008487970497,
+  "allowed_tools_declared_pct": 14.84
+ },
+ "B_copy_network": {
+  "nodes": 4601,
+  "edges": 8917,
+  "powerlaw_alpha": 1.814,
+  "ks_p": 0.0,
+  "n_communities": 463,
+  "top_com_sizes": [
+   1385,
+   1125,
+   527,
+   257,
+   101,
+   87,
+   26,
+   20
+  ],
+  "top_hubs": [
+   {
+    "repo": "NeverSight/skills_feed",
+    "deg": 1908,
+    "stars": 62
+   },
+   {
+    "repo": "majiayu000/claude-skill-registry",
+    "deg": 1305,
+    "stars": 107
+   },
+   {
+    "repo": "aiskillstore/marketplace",
+    "deg": 438,
+    "stars": 203
+   },
+   {
+    "repo": "davila7/claude-code-templates",
+    "deg": 193,
+    "stars": 22482
+   },
+   {
+    "repo": "openclaw/skills",
+    "deg": 173,
+    "stars": 2330
+   },
+   {
+    "repo": "Microck/ordinary-claude-skills",
+    "deg": 161,
+    "stars": 133
+   },
+   {
+    "repo": "diegosouzapw/awesome-omni-skill",
+    "deg": 160,
+    "stars": 3
+   },
+   {
+    "repo": "NeverSight/learn-skills.dev",
+    "deg": 144,
+    "stars": 66
+   },
+   {
+    "repo": "Sdkwork-Cloud/skills-repository",
+    "deg": 109,
+    "stars": 0
+   },
+   {
+    "repo": "ovachiever/droid-tings",
+    "deg": 106,
+    "stars": 25
+   },
+   {
+    "repo": "onurkanbakirci/awesome-skills",
+    "deg": 89,
+    "stars": 12
+   },
+   {
+    "repo": "whodaniel/fuse",
+    "deg": 86,
+    "stars": 4
+   }
+  ],
+  "gini_degree": 0.6644200956162725
+ },
+ "C_registry_supply": {
+  "n_items": 83215,
+  "n_owners": 24781,
+  "top_owners_by_downloads": [
+   [
+    "ivangdavila",
+    3099163
+   ],
+   [
+    "steipete",
+    2333441
+   ],
+   [
+    "byungkyu",
+    1272003
+   ],
+   [
+    "oomol",
+    1017388
+   ],
+   [
+    "thcjp",
+    843958
+   ],
+   [
+    "1kalin",
+    504589
+   ],
+   [
+    "pskoett",
+    493173
+   ],
+   [
+    "dlazyai",
+    464246
+   ]
+  ],
+  "versions_downloads_spearman": 0.26,
+  "p": 0.0,
+  "n_names_shared_by_3plus_owners": 227,
+  "top_collisions": [
+   [
+    "skill",
+    14
+   ],
+   [
+    "code-review",
+    8
+   ],
+   [
+    "weather",
+    8
+   ],
+   [
+    "skill-creator",
+    7
+   ],
+   [
+    "obsidian",
+    7
+   ],
+   [
+    "github",
+    7
+   ],
+   [
+    "humanizer",
+    7
+   ],
+   [
+    "find-skills",
+    6
+   ]
+  ]
+ },
+ "D_merged_by": {
+  "n_repos_ge20": 108,
+  "median_top_merger_share": 1.0,
+  "mean_top_merger_share": 0.863,
+  "share_ge90": 0.648
+ },
+ "E_event_window": {
+  "note": "描述性前后对比+基线bootstrap；非因果",
+  "shocks": [
+   {
+    "shock": "ClawHavoc",
+    "date": "2026-02-03",
+    "pre28_mean": 20469.8,
+    "post14_mean": 17705.4,
+    "ratio": 0.865,
+    "ci95": [
+     16008.7,
+     25481.1
+    ]
+   },
+   {
+    "shock": "Snyk ToxicSkills",
+    "date": "2026-02-05",
+    "pre28_mean": 21163.3,
+    "post14_mean": 16893.9,
+    "ratio": 0.798,
+    "ci95": [
+     16938.3,
+     25599.6
+    ]
+   },
+   {
+    "shock": "Silverfort",
+    "date": "2026-03-24",
+    "pre28_mean": 38812.0,
+    "post14_mean": 51570.5,
+    "ratio": 1.329,
+    "ci95": [
+     34780.6,
+     42524.8
+    ]
+   }
+  ]
+ },
+ "F_traj_v2": {
+  "n": 332,
+  "clusters": {
+   "type1": 119,
+   "type2": 69,
+   "type3": 29,
+   "type4": 115
+  },
+  "note": "fig5 已用 v2 修正时序重做（替换旧缺陷时序版）"
+ }
+}

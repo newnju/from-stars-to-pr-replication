@@ -1,0 +1,41 @@
+{
+ "P1_rho_CI": [
+  0.204,
+  0.047,
+  0.34
+ ],
+ "P4_bot_merge": {
+  "bot": "1215/1898=0.640",
+  "human": "22773/36421=0.625",
+  "diff": 0.0149,
+  "CI95": [
+   -0.0073,
+   0.037
+  ],
+  "chi2_p": 0.2
+ },
+ "P4_auc_folds": [
+  0.734,
+  0.622,
+  0.575,
+  0.494,
+  0.483,
+  "mean",
+  0.581,
+  "sd",
+  0.092
+ ],
+ "P5_logit": {
+  "n": 266,
+  "const_p": 0.664,
+  "logstars_coef": -0.063,
+  "logstars_p": 0.734,
+  "quarter_p": 0.037
+ },
+ "P3_attribution_baseline_noncopied": 0.1705,
+ "P2_bot_share": {
+  "return_prs_bot": 0.0093,
+  "return_n": 21973,
+  "all_prs_bot": 0.0495
+ }
+}

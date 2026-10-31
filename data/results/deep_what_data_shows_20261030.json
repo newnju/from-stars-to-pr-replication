@@ -1,0 +1,348 @@
+{
+ "generated_at": "2026-10-30T18:56:37",
+ "n_parents": 225,
+ "n_events": 447495,
+ "D1_conversion_mixture": {
+  "bic_logit": {
+   "1": 649.4,
+   "2": 655.5,
+   "3": 668.2,
+   "4": 685.4
+  },
+  "bic_log10": {
+   "1": 649.4,
+   "2": 657.3,
+   "3": 664.5,
+   "4": 680.9
+  },
+  "best_k_logit": 1,
+  "best_k_log10": 1,
+  "components_logit": [
+   {
+    "weight": 1.0,
+    "mean_logit": 0.0,
+    "mean_conv_pct": 50.0
+   }
+  ],
+  "kde_local_modes": 1,
+  "kde_mode_positions_logit": [
+   -3.33
+  ],
+  "bimodality_coefficient": 0.742,
+  "threshold_note": "BC>0.555 提示双峰；GMM 分别在 logit 与 log10 尺度拟合；KDE 峰数按密度>10% 最大值计；三者一致支持'单峰重尾'而非混合分布",
+  "share_ge20pct": 0.0533,
+  "n_ge20pct": 12,
+  "conv_median_pct": 3.9,
+  "conv_q90_pct": 14.34
+ },
+ "D2_regime_coupling": {
+  "low": {
+   "n_repos": 213,
+   "n_weeks": 30565,
+   "contemporaneous": {
+    "n_repos": 212,
+    "median_rho": 0.374,
+    "share_sig_p05": 0.712,
+    "share_pos": 0.943
+   },
+   "stars_lead_1w": {
+    "n_repos": 212,
+    "median_rho": 0.306,
+    "share_sig_p05": 0.623,
+    "share_pos": 0.906
+   },
+   "elasticity_within_repo": {
+    "beta": 0.319,
+    "se": 0.0215,
+    "p": 7.568788990423311e-50,
+    "n": 30565
+   }
+  },
+  "high": {
+   "n_repos": 12,
+   "n_weeks": 1379,
+   "contemporaneous": {
+    "n_repos": 12,
+    "median_rho": 0.169,
+    "share_sig_p05": 0.583,
+    "share_pos": 0.667
+   },
+   "stars_lead_1w": {
+    "n_repos": 12,
+    "median_rho": 0.15,
+    "share_sig_p05": 0.583,
+    "share_pos": 0.667
+   },
+   "elasticity_within_repo": {
+    "beta": 0.6039,
+    "se": 0.1398,
+    "p": 1.561510431639549e-05,
+    "n": 1379
+   }
+  }
+ },
+ "D3_mutual_information": {
+  "n_repos": 225,
+  "bins": 4,
+  "mutual_information": {
+   "attention|adoption": 0.7251,
+   "attention|contribution_rate": 0.0121,
+   "attention|visibility": 0.1214,
+   "adoption|attention": 0.7251,
+   "adoption|contribution_rate": 0.03,
+   "adoption|visibility": 0.1565,
+   "contribution_rate|attention": 0.0121,
+   "contribution_rate|adoption": 0.03,
+   "contribution_rate|visibility": 0.0169,
+   "visibility|attention": 0.1214,
+   "visibility|adoption": 0.1565,
+   "visibility|contribution_rate": 0.0169
+  },
+  "normalized_mi": {
+   "attention|attention": 1.0,
+   "attention|adoption": 0.5231,
+   "attention|contribution_rate": 0.0087,
+   "attention|visibility": 0.0876,
+   "adoption|attention": 0.5231,
+   "adoption|adoption": 1.0,
+   "adoption|contribution_rate": 0.0216,
+   "adoption|visibility": 0.1129,
+   "contribution_rate|attention": 0.0087,
+   "contribution_rate|adoption": 0.0216,
+   "contribution_rate|contribution_rate": 1.0,
+   "contribution_rate|visibility": 0.0122,
+   "visibility|attention": 0.0876,
+   "visibility|adoption": 0.1129,
+   "visibility|contribution_rate": 0.0122,
+   "visibility|visibility": 1.0
+  },
+  "perm_p": {
+   "attention|attention": 0.0,
+   "attention|adoption": 0.002,
+   "attention|contribution_rate": 0.802,
+   "attention|visibility": 0.002,
+   "adoption|attention": 0.002,
+   "adoption|adoption": 0.0,
+   "adoption|contribution_rate": 0.156,
+   "adoption|visibility": 0.002,
+   "contribution_rate|attention": 0.818,
+   "contribution_rate|adoption": 0.162,
+   "contribution_rate|contribution_rate": 0.0,
+   "contribution_rate|visibility": 0.591,
+   "visibility|attention": 0.002,
+   "visibility|adoption": 0.002,
+   "visibility|contribution_rate": 0.569,
+   "visibility|visibility": 0.0
+  },
+  "note": "各变量四分位离散；NMI=MI/min(H)，置换 500 次；NMI<0.05 视为近乎独立"
+ },
+ "D4_burst_hazard": {
+  "n_repo_weeks": 10837,
+  "n_burst_onsets": 1658,
+  "base_rate": 0.153,
+  "auc_mean": 0.6616,
+  "auc_folds": [
+   0.672,
+   0.669,
+   0.696,
+   0.625,
+   0.647
+  ],
+  "coef_standardized": {
+   "log_cum": -1.181,
+   "log_last": -0.147,
+   "log_mean4": 0.977,
+   "age_idx": 0.615,
+   "log_forks": 0.371
+  },
+  "note": "burst = 增量 >= 该仓 t 之前正增量的 90 分位（且 >=5），仅用历史信息；onset 定义为一连串爆发周的第一周；非爆发周按 1/3 抽样控制样本量"
+ },
+ "D5_simon_novelty": {
+  "n_authors": 99798,
+  "n_events": 447495,
+  "share_authors_single_pr": 0.6241,
+  "share_events_by_single_pr_authors": 0.1392,
+  "species_token_ratio": 0.223,
+  "simon_p_from_alpha_auth": 0.5074,
+  "simon_p_from_alpha_fork": 0.5851,
+  "alpha_implied_by_species_ratio": 1.287,
+  "top1pct_author_event_share": 0.4653,
+  "top10_author_event_share": 0.0709,
+  "share_authors_ge100_events": 0.0048,
+  "bot_like_author_event_share": 0.0097,
+  "top10_authors": [
+   {
+    "author": "vincentkoc",
+    "events": 6594,
+    "repos": 6
+   },
+   {
+    "author": "liuhao1024",
+    "events": 3692,
+    "repos": 2
+   },
+   {
+    "author": "pavelfeldman",
+    "events": 3644,
+    "repos": 1
+   },
+   {
+    "author": "dgozman",
+    "events": 3612,
+    "repos": 1
+   },
+   {
+    "author": "yury-s",
+    "events": 3056,
+    "repos": 1
+   },
+   {
+    "author": "RomneyDa",
+    "events": 2546,
+    "repos": 1
+   },
+   {
+    "author": "cryppadotta",
+    "events": 2374,
+    "repos": 2
+   },
+   {
+    "author": "roboclaw-bot",
+    "events": 2183,
+    "repos": 1
+   },
+   {
+    "author": "mxschmitt",
+    "events": 2067,
+    "repos": 3
+   },
+   {
+    "author": "OutThisLife",
+    "events": 1967,
+    "repos": 1
+   }
+  ],
+  "conv_max_pct": 54.64,
+  "verdict": "Simon 单一过程被拒绝：若 α=2.03 由'每次抽取以 p≈0.51 引入新人'产生，则应有约 51% 事件来自首次贡献者、物种/事件比≈0.51；实测仅 13.9% 与 0.223（隐含 α≈1.29）——重尾由少数高频贡献者撑起（top1% 作者占 46.5% 事件），不是持续新人流入"
+ },
+ "D6_top_converters": [
+  {
+   "parent": "punkpeye/awesome-mcp-servers",
+   "conv_pct": 54.6,
+   "n_forks": 17607,
+   "stars": 95811,
+   "description": "A collection of MCP servers."
+  },
+  {
+   "parent": "ikaijua/Awesome-AITools",
+   "conv_pct": 51.1,
+   "n_forks": 899,
+   "stars": 6207,
+   "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull "
+  },
+  {
+   "parent": "heilcheng/awesome-agent-skills",
+   "conv_pct": 49.6,
+   "n_forks": 790,
+   "stars": 6258,
+   "description": "Tutorials, Guides and Agent Skills Directories"
+  },
+  {
+   "parent": "composio-community/awesome-claude-plugins",
+   "conv_pct": 49.3,
+   "n_forks": 810,
+   "stars": 1930,
+   "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, ho"
+  },
+  {
+   "parent": "travisvn/awesome-claude-skills",
+   "conv_pct": 43.7,
+   "n_forks": 2061,
+   "stars": 15259,
+   "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI wo"
+  },
+  {
+   "parent": "NousResearch/hermes-agent",
+   "conv_pct": 34.3,
+   "n_forks": 54093,
+   "stars": 251073,
+   "description": "The agent that grows with you"
+  },
+  {
+   "parent": "davepoon/buildwithclaude",
+   "conv_pct": 31.5,
+   "n_forks": 593,
+   "stars": 3588,
+   "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace coll"
+  },
+  {
+   "parent": "rust-unofficial/awesome-rust",
+   "conv_pct": 30.7,
+   "n_forks": 3736,
+   "stars": 59672,
+   "description": "A curated list of Rust code and resources."
+  },
+  {
+   "parent": "backnotprop/plannotator",
+   "conv_pct": 28.2,
+   "n_forks": 709,
+   "stars": 9131,
+   "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send"
+  },
+  {
+   "parent": "Gentleman-Programming/gentle-ai",
+   "conv_pct": 25.5,
+   "n_forks": 846,
+   "stars": 7526,
+   "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, "
+  },
+  {
+   "parent": "aden-hive/hive",
+   "conv_pct": 22.1,
+   "n_forks": 5768,
+   "stars": 11091,
+   "description": "Multi-Agent Harness for Production AI"
+  },
+  {
+   "parent": "anthropics/claude-plugins-official",
+   "conv_pct": 20.1,
+   "n_forks": 4278,
+   "stars": 37366,
+   "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+  }
+ ],
+ "D7_repo_type_conversion": {
+  "list": {
+   "n": 38,
+   "conv_median_pct": 3.57,
+   "conv_weighted_pct": 10.19,
+   "share_ge20pct": 0.211
+  },
+  "non_list": {
+   "n": 187,
+   "conv_median_pct": 3.9,
+   "conv_weighted_pct": 5.71,
+   "share_ge20pct": 0.021
+  },
+  "share_lists_among_top12": 8
+ },
+ "D8_concentration_baseline": {
+  "top5_parent_event_share": 0.468,
+  "top5_parents": [
+   "NousResearch/hermes-agent",
+   "openclaw/openclaw",
+   "microsoft/playwright",
+   "langgenius/dify",
+   "punkpeye/awesome-mcp-servers"
+  ],
+  "authors_ge100_events": 483,
+  "share_events_from_authors_ge100": 0.3892,
+  "conv_all_weighted_pct": 6.41,
+  "conv_all_median_pct": 3.9,
+  "conv_excl_top12_weighted_pct": 4.79,
+  "conv_excl_top12_median_pct": 3.16,
+  "conv_excl_top5event_weighted_pct": 4.53,
+  "conv_excl_top5event_median_pct": 3.4,
+  "note": "头部剔除用于回答：6.67%/6.41% 是生态常态还是少数大工程的加权结果"
+ }
+}

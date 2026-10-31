@@ -1,0 +1,325 @@
+{
+ "generated": "2026-10-24T21:58:53",
+ "B_fanout": {
+  "n_docs": 155547,
+  "n_hashes_multi_repo": 19079,
+  "docs_in_multi_repo_hashes": 45155,
+  "share_of_docs": 0.2902981092531518,
+  "top10_hash_share_of_shared": 0.008814084818956926,
+  "top50_hash_share_of_shared": 0.024028346805447902,
+  "top200_hash_share_of_shared": 0.04852175838777544,
+  "gini_fanout": 0.13286317247876148,
+  "max_fanout": 58,
+  "top_hashes": [
+   {
+    "hash": "b3ab45c714a7",
+    "n_repos": 58,
+    "name": "ui-ux-pro-max",
+    "example_repo": "openclaw/skills"
+   },
+   {
+    "hash": "b2e3d83f6042",
+    "n_repos": 55,
+    "name": "skill-creator",
+    "example_repo": "openclaw/skills"
+   },
+   {
+    "hash": "0bd90681fcab",
+    "n_repos": 38,
+    "name": "docx",
+    "example_repo": "ComposioHQ/awesome-claude-skills"
+   },
+   {
+    "hash": "38d8559d4899",
+    "n_repos": 38,
+    "name": "pdf",
+    "example_repo": "ComposioHQ/awesome-claude-skills"
+   },
+   {
+    "hash": "51b7349e77ec",
+    "n_repos": 37,
+    "name": "webapp-testing",
+    "example_repo": "anthropics/skills"
+   },
+   {
+    "hash": "c35893e221e2",
+    "n_repos": 36,
+    "name": "theme-factory",
+    "example_repo": "anthropics/skills"
+   },
+   {
+    "hash": "b6f25545bfb3",
+    "n_repos": 35,
+    "name": "pptx",
+    "example_repo": "ComposioHQ/awesome-claude-skills"
+   },
+   {
+    "hash": "067b7587a344",
+    "n_repos": 34,
+    "name": "internal-comms",
+    "example_repo": "anthropics/skills"
+   },
+   {
+    "hash": "a1f288079624",
+    "n_repos": 34,
+    "name": "canvas-design",
+    "example_repo": "anthropics/skills"
+   },
+   {
+    "hash": "020ccdb59322",
+    "n_repos": 33,
+    "name": "xlsx",
+    "example_repo": "ComposioHQ/awesome-claude-skills"
+   },
+   {
+    "hash": "3bc4092c0980",
+    "n_repos": 31,
+    "name": "algorithmic-art",
+    "example_repo": "anthropics/skills"
+   },
+   {
+    "hash": "1120b3769e29",
+    "n_repos": 30,
+    "name": "brand-guidelines",
+    "example_repo": "anthropics/skills"
+   },
+   {
+    "hash": "fff024e58ee4",
+    "n_repos": 28,
+    "name": "ui-ux-pro-max",
+    "example_repo": "davila7/claude-code-templates"
+   },
+   {
+    "hash": "0f4592dcb53c",
+    "n_repos": 26,
+    "name": "mcp-builder",
+    "example_repo": "anthropics/skills"
+   },
+   {
+    "hash": "b81e2ff87ed8",
+    "n_repos": 24,
+    "name": "frontend-design",
+    "example_repo": "anthropics/skills"
+   }
+  ]
+ },
+ "A_retention": {
+  "n_pairs_sampled": 4000,
+  "name_verbatim": 3134,
+  "name_verbatim_pct": 0.7835,
+  "name_modified": 866,
+  "name_modified_pct": 0.2165,
+  "name_dropped": 0,
+  "name_dropped_pct": 0.0,
+  "description_verbatim": 2411,
+  "description_verbatim_pct": 0.6028,
+  "description_modified": 1589,
+  "description_modified_pct": 0.3972,
+  "description_dropped": 0,
+  "description_dropped_pct": 0.0,
+  "attrib_both": 2108,
+  "attrib_both_pct": 0.527,
+  "attrib_one": 600,
+  "attrib_one_pct": 0.15,
+  "attrib_none": 1292,
+  "attrib_none_pct": 0.323,
+  "any_attrib_field_pct": 0.677
+ },
+ "C_survival": {
+  "2011-10": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2019-08": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2022-02": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2022-05": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2023-01": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2023-03": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2023-12": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2024-03": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2024-12": {
+   "n": 1,
+   "zero_star_pct": 1.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2025-07": {
+   "n": 2,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2025-08": {
+   "n": 1,
+   "zero_star_pct": 0.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2025-10": {
+   "n": 2,
+   "zero_star_pct": 1.0,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2025-11": {
+   "n": 3,
+   "zero_star_pct": 0.3333,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2025-12": {
+   "n": 4,
+   "zero_star_pct": 0.25,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2026-01": {
+   "n": 11,
+   "zero_star_pct": 0.1818,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  },
+  "2026-02": {
+   "n": 20,
+   "zero_star_pct": 0.25,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 0.85,
+   "active_90d_pct": 0.85
+  },
+  "2026-03": {
+   "n": 32,
+   "zero_star_pct": 0.3438,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 0.7812,
+   "active_90d_pct": 0.7812
+  },
+  "2026-04": {
+   "n": 352,
+   "zero_star_pct": 0.5682,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 0.5966,
+   "active_90d_pct": 0.6364
+  },
+  "2026-05": {
+   "n": 494,
+   "zero_star_pct": 0.4413,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 0.3401,
+   "active_90d_pct": 0.4879
+  },
+  "2026-06": {
+   "n": 62,
+   "zero_star_pct": 0.7097,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 0.9194,
+   "active_90d_pct": 0.9516
+  },
+  "2026-07": {
+   "n": 324,
+   "zero_star_pct": 0.642,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 0.3395,
+   "active_90d_pct": 0.9877
+  },
+  "2026-08": {
+   "n": 2931,
+   "zero_star_pct": 0.61,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 0.2873,
+   "active_90d_pct": 1.0
+  },
+  "2026-09": {
+   "n": 3213,
+   "zero_star_pct": 0.5724,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 0.5973,
+   "active_90d_pct": 1.0
+  },
+  "2026-10": {
+   "n": 3633,
+   "zero_star_pct": 0.7217,
+   "is_fork_pct": 0.0,
+   "active_30d_pct": 1.0,
+   "active_90d_pct": 1.0
+  }
+ },
+ "D_merge_predict": {
+  "n_prs": 38319,
+  "merge_rate": 0.626,
+  "auc_logistic_groupkfold": 0.5945,
+  "auc_histgbm_groupkfold": 0.5466,
+  "logistic_coefs": {
+   "is_bot": -0.041,
+   "title_len": 0.124,
+   "n_labels": 0.306,
+   "is_draft": -0.553,
+   "weekend": -0.079,
+   "daypart": -0.031,
+   "log_repo_prs": -0.36,
+   "log_repo_stars": -0.164
+  },
+  "features": [
+   "is_bot",
+   "title_len",
+   "n_labels",
+   "is_draft",
+   "weekend",
+   "daypart",
+   "log_repo_prs",
+   "log_repo_stars"
+  ],
+  "note": "GroupKFold by repo；预测非因果"
+ }
+}

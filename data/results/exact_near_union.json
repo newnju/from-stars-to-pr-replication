@@ -1,0 +1,153 @@
+{
+  "n_docs_rows": 155547,
+  "exact_docs_rows": 47973,
+  "exact_keys": 45155,
+  "exact_key_share": 0.2902981092531518,
+  "near_pairs": 121127,
+  "near_pairs_cross": 105673,
+  "near_keys_all": 19507,
+  "near_keys_cross": 17647,
+  "near_cross_key_share": 0.11345123981819,
+  "union_keys": 53398,
+  "union_key_share": 0.3432917381884575,
+  "overlap_exact_near_cross": 9404,
+  "near_meta": {
+    "type": "meta",
+    "generated": "2026-10-24T10:45:51",
+    "n_read": 155547,
+    "n_kept": 154922,
+    "n_skipped": 625,
+    "n_candidates": 995209,
+    "n_near_pairs": 121127,
+    "n_clusters": 4707,
+    "n_docs_in_clusters": 21755,
+    "max_cluster": 182,
+    "n_exact_hashes": 20279,
+    "n_exact_docs": 50887,
+    "hamming_max": 3,
+    "elapsed_sec": 651.8
+  },
+  "top_clusters": [
+    {
+      "size": 182,
+      "n_repos_in_members": 17,
+      "sample_repos": [
+        "EveryInc/compound-engineering-plugin",
+        "Microck/ordinary-claude-skills",
+        "aiskillstore/marketplace",
+        "am-will/codex-skills",
+        "anthropics/claude-code",
+        "anthropics/claude-plugins-official",
+        "anthropics/skills",
+        "buildermethods/design-os"
+      ]
+    },
+    {
+      "size": 172,
+      "n_repos_in_members": 1,
+      "sample_repos": [
+        "teachingai/full-stack-skills"
+      ]
+    },
+    {
+      "size": 135,
+      "n_repos_in_members": 10,
+      "sample_repos": [
+        "Project-N-E-K-O/N.E.K.O",
+        "ServiceStack/llms",
+        "aiskillstore/marketplace",
+        "davila7/claude-code-templates",
+        "finos/morphir",
+        "iOfficeAI/AionUi",
+        "invariantlabs-ai/mcp-scan",
+        "khaneliman/khanelinix"
+      ]
+    },
+    {
+      "size": 109,
+      "n_repos_in_members": 13,
+      "sample_repos": [
+        "Chen-zexi/open-ptc-agent",
+        "ComposioHQ/awesome-claude-skills",
+        "OpenCoworkAI/open-cowork",
+        "Prat011/awesome-llm-skills",
+        "Prorise-cool/Claude-Code-Multi-Agent",
+        "aiskillstore/marketplace",
+        "davepoon/buildwithclaude",
+        "davila7/claude-code-templates"
+      ]
+    },
+    {
+      "size": 102,
+      "n_repos_in_members": 14,
+      "sample_repos": [
+        "Chen-zexi/open-ptc-agent",
+        "ComposioHQ/awesome-claude-skills",
+        "Prat011/awesome-llm-skills",
+        "Prorise-cool/Claude-Code-Multi-Agent",
+        "aiskillstore/marketplace",
+        "benchflow-ai/skillsbench",
+        "davepoon/buildwithclaude",
+        "davila7/claude-code-templates"
+      ]
+    },
+    {
+      "size": 98,
+      "n_repos_in_members": 13,
+      "sample_repos": [
+        "Chen-zexi/open-ptc-agent",
+        "ComposioHQ/awesome-claude-skills",
+        "OpenCoworkAI/open-cowork",
+        "Prat011/awesome-llm-skills",
+        "Prorise-cool/Claude-Code-Multi-Agent",
+        "aiskillstore/marketplace",
+        "benchflow-ai/skillsbench",
+        "davepoon/buildwithclaude"
+      ]
+    },
+    {
+      "size": 94,
+      "n_repos_in_members": 13,
+      "sample_repos": [
+        "Chen-zexi/open-ptc-agent",
+        "ComposioHQ/awesome-claude-skills",
+        "ImGoodBai/goodable",
+        "Prat011/awesome-llm-skills",
+        "Prorise-cool/Claude-Code-Multi-Agent",
+        "aiskillstore/marketplace",
+        "benchflow-ai/skillsbench",
+        "davepoon/buildwithclaude"
+      ]
+    },
+    {
+      "size": 91,
+      "n_repos_in_members": 1,
+      "sample_repos": [
+        "sandraschi/advanced-memory-mcp"
+      ]
+    },
+    {
+      "size": 89,
+      "n_repos_in_members": 1,
+      "sample_repos": [
+        "NeverSight/skills_feed"
+      ]
+    },
+    {
+      "size": 86,
+      "n_repos_in_members": 11,
+      "sample_repos": [
+        "JiawenZhu/CareerVivid",
+        "NeverSight/learn-skills.dev",
+        "NeverSight/skills_feed",
+        "adelpro/quran-search-engine",
+        "aiskillstore/marketplace",
+        "baotoq/micro-commerce",
+        "davila7/claude-code-templates",
+        "diegosouzapw/awesome-omni-skill"
+      ]
+    }
+  ],
+  "note": "exact_keys 与 near_keys 都去重到 repo×SHA；行级 exact 47,973 / near docs 21,755 不能直接相加。",
+  "exact_docs_row_share": 0.30841481995795483
+}

@@ -1,0 +1,1229 @@
+{
+ "total_rows": 33561,
+ "repos_hit": 203,
+ "meta_forks_total": 418179,
+ "bq_fork_events_total": 33561,
+ "overall_coverage": 0.08025510606701915,
+ "median_coverage_meta10": 0.06569343065693431,
+ "verdict": "覆盖率低：GH Archive 收录缺口严重，仅作对照，不用于替换主测量；论文仍以完备窗口口径为主。",
+ "per_repo": [
+  {
+   "repo": "0x0funky/agent-sprite-forge",
+   "meta_forks": 411,
+   "bq_fork_events": 35,
+   "coverage": 0.0851581508515815
+  },
+  {
+   "repo": "0xNyk/awesome-hermes-agent",
+   "meta_forks": 430,
+   "bq_fork_events": 44,
+   "coverage": 0.10232558139534884
+  },
+  {
+   "repo": "Agents365-ai/drawio-skill",
+   "meta_forks": 689,
+   "bq_fork_events": 23,
+   "coverage": 0.033381712626995644
+  },
+  {
+   "repo": "AgriciDaniel/claude-ads",
+   "meta_forks": 1437,
+   "bq_fork_events": 153,
+   "coverage": 0.10647181628392484
+  },
+  {
+   "repo": "AgriciDaniel/claude-obsidian",
+   "meta_forks": 1529,
+   "bq_fork_events": 105,
+   "coverage": 0.06867233485938522
+  },
+  {
+   "repo": "AlephAITech/WorkBuddyGuide",
+   "meta_forks": 475,
+   "bq_fork_events": 8,
+   "coverage": 0.016842105263157894
+  },
+  {
+   "repo": "Appllama/appllama-skills",
+   "meta_forks": 111,
+   "bq_fork_events": 7,
+   "coverage": 0.06306306306306306
+  },
+  {
+   "repo": "Ar9av/obsidian-wiki",
+   "meta_forks": 350,
+   "bq_fork_events": 23,
+   "coverage": 0.06571428571428571
+  },
+  {
+   "repo": "BayramAnnakov/claude-reflect",
+   "meta_forks": 151,
+   "bq_fork_events": 27,
+   "coverage": 0.17880794701986755
+  },
+  {
+   "repo": "Bhanunamikaze/Agentic-SEO-Skill",
+   "meta_forks": 149,
+   "bq_fork_events": 17,
+   "coverage": 0.11409395973154363
+  },
+  {
+   "repo": "BuilderIO/skills",
+   "meta_forks": 227,
+   "bq_fork_events": 5,
+   "coverage": 0.022026431718061675
+  },
+  {
+   "repo": "ComposioHQ/awesome-claude-skills",
+   "meta_forks": 8943,
+   "bq_fork_events": 1607,
+   "coverage": 0.17969361511796936
+  },
+  {
+   "repo": "ConardLi/garden-skills",
+   "meta_forks": 1527,
+   "bq_fork_events": 82,
+   "coverage": 0.053700065487884745
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "meta_forks": 8292,
+   "bq_fork_events": 291,
+   "coverage": 0.03509406657018813
+  },
+  {
+   "repo": "Egonex-AI/Understand-Anything",
+   "meta_forks": 7184,
+   "bq_fork_events": 75,
+   "coverage": 0.010439866369710468
+  },
+  {
+   "repo": "EverMind-AI/EverOS",
+   "meta_forks": 926,
+   "bq_fork_events": 43,
+   "coverage": 0.04643628509719223
+  },
+  {
+   "repo": "EvoMap/evolver",
+   "meta_forks": 848,
+   "bq_fork_events": 127,
+   "coverage": 0.14976415094339623
+  },
+  {
+   "repo": "FireRedTeam/FireRed-OpenStoryline",
+   "meta_forks": 403,
+   "bq_fork_events": 56,
+   "coverage": 0.13895781637717122
+  },
+  {
+   "repo": "Forward-Future/loopy",
+   "meta_forks": 281,
+   "bq_fork_events": 2,
+   "coverage": 0.0071174377224199285
+  },
+  {
+   "repo": "Gabberflast/academic-pptx-skill",
+   "meta_forks": 115,
+   "bq_fork_events": 18,
+   "coverage": 0.1565217391304348
+  },
+  {
+   "repo": "GargantuaX/gemini-watermark-remover",
+   "meta_forks": 870,
+   "bq_fork_events": 31,
+   "coverage": 0.035632183908045977
+  },
+  {
+   "repo": "Gentleman-Programming/gentle-ai",
+   "meta_forks": 825,
+   "bq_fork_events": 85,
+   "coverage": 0.10303030303030303
+  },
+  {
+   "repo": "Graphify-Labs/graphify",
+   "meta_forks": 11920,
+   "bq_fork_events": 114,
+   "coverage": 0.009563758389261745
+  },
+  {
+   "repo": "HKUSTDial/Supervisor-Skills",
+   "meta_forks": 493,
+   "bq_fork_events": 24,
+   "coverage": 0.0486815415821501
+  },
+  {
+   "repo": "HughYau/qiushi-skill",
+   "meta_forks": 287,
+   "bq_fork_events": 29,
+   "coverage": 0.10104529616724739
+  },
+  {
+   "repo": "JCodesMore/ai-website-cloner-template",
+   "meta_forks": 5198,
+   "bq_fork_events": 386,
+   "coverage": 0.07425933051173528
+  },
+  {
+   "repo": "Jakeschincariol/linkedin-agent-skill",
+   "meta_forks": 183,
+   "bq_fork_events": 14,
+   "coverage": 0.07650273224043716
+  },
+  {
+   "repo": "Jeffallan/claude-skills",
+   "meta_forks": 1134,
+   "bq_fork_events": 182,
+   "coverage": 0.16049382716049382
+  },
+  {
+   "repo": "JimLiu/baoyu-design",
+   "meta_forks": 290,
+   "bq_fork_events": 9,
+   "coverage": 0.03103448275862069
+  },
+  {
+   "repo": "JimLiu/baoyu-skills",
+   "meta_forks": 2908,
+   "bq_fork_events": 486,
+   "coverage": 0.1671251719394773
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "meta_forks": 6344,
+   "bq_fork_events": 531,
+   "coverage": 0.08370113493064313
+  },
+  {
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "meta_forks": 4296,
+   "bq_fork_events": 154,
+   "coverage": 0.03584729981378026
+  },
+  {
+   "repo": "KKKKhazix/human-writing",
+   "meta_forks": 300,
+   "bq_fork_events": 5,
+   "coverage": 0.016666666666666666
+  },
+  {
+   "repo": "KKKKhazix/khazix-skills",
+   "meta_forks": 2241,
+   "bq_fork_events": 205,
+   "coverage": 0.09147701918786257
+  },
+  {
+   "repo": "Kaelio/ktx",
+   "meta_forks": 105,
+   "bq_fork_events": 4,
+   "coverage": 0.0380952380952381
+  },
+  {
+   "repo": "Klotzkette/claude-fuer-deutsches-recht",
+   "meta_forks": 214,
+   "bq_fork_events": 7,
+   "coverage": 0.03271028037383177
+  },
+  {
+   "repo": "Leonxlnx/taste-skill",
+   "meta_forks": 6272,
+   "bq_fork_events": 393,
+   "coverage": 0.06265943877551021
+  },
+  {
+   "repo": "NVIDIA/SkillSpector",
+   "meta_forks": 1690,
+   "bq_fork_events": 66,
+   "coverage": 0.03905325443786982
+  },
+  {
+   "repo": "NVIDIA/skills",
+   "meta_forks": 431,
+   "bq_fork_events": 18,
+   "coverage": 0.04176334106728538
+  },
+  {
+   "repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
+   "meta_forks": 598,
+   "bq_fork_events": 21,
+   "coverage": 0.03511705685618729
+  },
+  {
+   "repo": "Observal/Observal",
+   "meta_forks": 1107,
+   "bq_fork_events": 10,
+   "coverage": 0.009033423667570008
+  },
+  {
+   "repo": "Ontos-AI/knowhere",
+   "meta_forks": 336,
+   "bq_fork_events": 18,
+   "coverage": 0.05357142857142857
+  },
+  {
+   "repo": "OpenRaiser/NanoResearch",
+   "meta_forks": 90,
+   "bq_fork_events": 27,
+   "coverage": 0.3
+  },
+  {
+   "repo": "OpenSenseNova/SenseNova-Skills",
+   "meta_forks": 400,
+   "bq_fork_events": 31,
+   "coverage": 0.0775
+  },
+  {
+   "repo": "Orchestra-Research/AI-Research-SKILLs",
+   "meta_forks": 937,
+   "bq_fork_events": 93,
+   "coverage": 0.09925293489861259
+  },
+  {
+   "repo": "OthmanAdi/planning-with-files",
+   "meta_forks": 2269,
+   "bq_fork_events": 562,
+   "coverage": 0.24768620537681799
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "meta_forks": 7936,
+   "bq_fork_events": 479,
+   "coverage": 0.060357862903225805
+  },
+  {
+   "repo": "ParthJadhav/app-store-screenshots",
+   "meta_forks": 520,
+   "bq_fork_events": 52,
+   "coverage": 0.1
+  },
+  {
+   "repo": "Prat011/awesome-llm-skills",
+   "meta_forks": 320,
+   "bq_fork_events": 54,
+   "coverage": 0.16875
+  },
+  {
+   "repo": "Q00/ouroboros",
+   "meta_forks": 622,
+   "bq_fork_events": 82,
+   "coverage": 0.13183279742765272
+  },
+  {
+   "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+   "meta_forks": 362,
+   "bq_fork_events": 7,
+   "coverage": 0.019337016574585635
+  },
+  {
+   "repo": "SawyerHood/dev-browser",
+   "meta_forks": 436,
+   "bq_fork_events": 116,
+   "coverage": 0.26605504587155965
+  },
+  {
+   "repo": "ScrapeCreators/social-media-research-skills",
+   "meta_forks": 42,
+   "bq_fork_events": 2,
+   "coverage": 0.047619047619047616
+  },
+  {
+   "repo": "Shanyin-ai/shanyin-screenwriting-master",
+   "meta_forks": 178,
+   "bq_fork_events": 13,
+   "coverage": 0.07303370786516854
+  },
+  {
+   "repo": "SnailSploit/Claude-Red",
+   "meta_forks": 949,
+   "bq_fork_events": 91,
+   "coverage": 0.0958904109589041
+  },
+  {
+   "repo": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
+   "meta_forks": 183,
+   "bq_fork_events": 18,
+   "coverage": 0.09836065573770492
+  },
+  {
+   "repo": "TokenRhythm/opensquilla",
+   "meta_forks": 579,
+   "bq_fork_events": 3,
+   "coverage": 0.0051813471502590676
+  },
+  {
+   "repo": "Untrivial-ai/agent-orchestrator",
+   "meta_forks": 1753,
+   "bq_fork_events": 39,
+   "coverage": 0.022247575584711923
+  },
+  {
+   "repo": "VoltAgent/awesome-agent-skills",
+   "meta_forks": 3784,
+   "bq_fork_events": 463,
+   "coverage": 0.12235729386892177
+  },
+  {
+   "repo": "VoltAgent/awesome-openclaw-skills",
+   "meta_forks": 5046,
+   "bq_fork_events": 1147,
+   "coverage": 0.22730875941339676
+  },
+  {
+   "repo": "WenyuChiou/awesome-agentic-ai-zh",
+   "meta_forks": 984,
+   "bq_fork_events": 36,
+   "coverage": 0.036585365853658534
+  },
+  {
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "meta_forks": 100,
+   "bq_fork_events": 4,
+   "coverage": 0.04
+  },
+  {
+   "repo": "a5c-ai/babysitter",
+   "meta_forks": 113,
+   "bq_fork_events": 16,
+   "coverage": 0.1415929203539823
+  },
+  {
+   "repo": "activeloopai/hivemind",
+   "meta_forks": 112,
+   "bq_fork_events": 6,
+   "coverage": 0.05357142857142857
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "meta_forks": 10608,
+   "bq_fork_events": 813,
+   "coverage": 0.07664027149321267
+  },
+  {
+   "repo": "addyosmani/web-quality-skills",
+   "meta_forks": 253,
+   "bq_fork_events": 40,
+   "coverage": 0.15810276679841898
+  },
+  {
+   "repo": "aden-hive/hive",
+   "meta_forks": 5654,
+   "bq_fork_events": 347,
+   "coverage": 0.0613724796604174
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "meta_forks": 40688,
+   "bq_fork_events": 716,
+   "coverage": 0.017597325992921745
+  },
+  {
+   "repo": "agentscope-ai/QwenPaw",
+   "meta_forks": 3151,
+   "bq_fork_events": 99,
+   "coverage": 0.03141859727070771
+  },
+  {
+   "repo": "agentskills/agentskills",
+   "meta_forks": 1952,
+   "bq_fork_events": 347,
+   "coverage": 0.17776639344262296
+  },
+  {
+   "repo": "aipoch/open-science",
+   "meta_forks": 497,
+   "bq_fork_events": 19,
+   "coverage": 0.03822937625754527
+  },
+  {
+   "repo": "alexgreensh/attention-span",
+   "meta_forks": 40,
+   "bq_fork_events": 2,
+   "coverage": 0.05
+  },
+  {
+   "repo": "alibaba/open-code-review",
+   "meta_forks": 3147,
+   "bq_fork_events": 136,
+   "coverage": 0.04321576104226247
+  },
+  {
+   "repo": "alibaba/zvec",
+   "meta_forks": 1009,
+   "bq_fork_events": 180,
+   "coverage": 0.17839444995044598
+  },
+  {
+   "repo": "alirezarezvani/claude-skills",
+   "meta_forks": 3880,
+   "bq_fork_events": 395,
+   "coverage": 0.1018041237113402
+  },
+  {
+   "repo": "anbeime/skill",
+   "meta_forks": 684,
+   "bq_fork_events": 32,
+   "coverage": 0.04678362573099415
+  },
+  {
+   "repo": "android/skills",
+   "meta_forks": 502,
+   "bq_fork_events": 48,
+   "coverage": 0.09561752988047809
+  },
+  {
+   "repo": "antfu/skills",
+   "meta_forks": 335,
+   "bq_fork_events": 74,
+   "coverage": 0.2208955223880597
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "meta_forks": 4208,
+   "bq_fork_events": 673,
+   "coverage": 0.1599334600760456
+  },
+  {
+   "repo": "anthropics/skills",
+   "meta_forks": 21234,
+   "bq_fork_events": 3810,
+   "coverage": 0.17942921729302064
+  },
+  {
+   "repo": "antonbabenko/terraform-skill",
+   "meta_forks": 218,
+   "bq_fork_events": 35,
+   "coverage": 0.16055045871559634
+  },
+  {
+   "repo": "anysearch-ai/anysearch-skill",
+   "meta_forks": 368,
+   "bq_fork_events": 14,
+   "coverage": 0.03804347826086957
+  },
+  {
+   "repo": "ayghri/i-have-adhd",
+   "meta_forks": 3068,
+   "bq_fork_events": 179,
+   "coverage": 0.05834419817470665
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "meta_forks": 683,
+   "bq_fork_events": 103,
+   "coverage": 0.15080527086383602
+  },
+  {
+   "repo": "bevibing/tutor-skills",
+   "meta_forks": 124,
+   "bq_fork_events": 2,
+   "coverage": 0.016129032258064516
+  },
+  {
+   "repo": "bitjaru/styleseed",
+   "meta_forks": 89,
+   "bq_fork_events": 4,
+   "coverage": 0.0449438202247191
+  },
+  {
+   "repo": "blader/humanizer",
+   "meta_forks": 4281,
+   "bq_fork_events": 496,
+   "coverage": 0.11586078019154403
+  },
+  {
+   "repo": "breaking-brake/cc-wf-studio",
+   "meta_forks": 569,
+   "bq_fork_events": 175,
+   "coverage": 0.30755711775043937
+  },
+  {
+   "repo": "browser-act/skills",
+   "meta_forks": 305,
+   "bq_fork_events": 19,
+   "coverage": 0.06229508196721312
+  },
+  {
+   "repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
+   "meta_forks": 533,
+   "bq_fork_events": 8,
+   "coverage": 0.0150093808630394
+  },
+  {
+   "repo": "career-ops-hq/career-ops",
+   "meta_forks": 13798,
+   "bq_fork_events": 66,
+   "coverage": 0.004783301927815626
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "meta_forks": 2789,
+   "bq_fork_events": 136,
+   "coverage": 0.048762997490139834
+  },
+  {
+   "repo": "cbrock84/headcount",
+   "meta_forks": 305,
+   "bq_fork_events": 8,
+   "coverage": 0.02622950819672131
+  },
+  {
+   "repo": "citrolabs/ego-lite",
+   "meta_forks": 899,
+   "bq_fork_events": 17,
+   "coverage": 0.018909899888765295
+  },
+  {
+   "repo": "code-yeongyu/oh-my-openagent",
+   "meta_forks": 5745,
+   "bq_fork_events": 319,
+   "coverage": 0.055526544821583985
+  },
+  {
+   "repo": "codeaashu/claude-code",
+   "meta_forks": 3673,
+   "bq_fork_events": 528,
+   "coverage": 0.14375170160631637
+  },
+  {
+   "repo": "coldteadotai/pr-lens",
+   "meta_forks": 66,
+   "bq_fork_events": 4,
+   "coverage": 0.06060606060606061
+  },
+  {
+   "repo": "composio-community/awesome-claude-plugins",
+   "meta_forks": 613,
+   "bq_fork_events": 4,
+   "coverage": 0.0065252854812398045
+  },
+  {
+   "repo": "composio-community/awesome-codex-skills",
+   "meta_forks": 1646,
+   "bq_fork_events": 8,
+   "coverage": 0.004860267314702308
+  },
+  {
+   "repo": "conorluddy/ios-simulator-skill",
+   "meta_forks": 92,
+   "bq_fork_events": 16,
+   "coverage": 0.17391304347826086
+  },
+  {
+   "repo": "deanpeters/Product-Manager-Skills",
+   "meta_forks": 852,
+   "bq_fork_events": 115,
+   "coverage": 0.13497652582159625
+  },
+  {
+   "repo": "didilili/ai-agents-from-zero",
+   "meta_forks": 702,
+   "bq_fork_events": 29,
+   "coverage": 0.04131054131054131
+  },
+  {
+   "repo": "diegosouzapw/OmniRoute",
+   "meta_forks": 10421,
+   "bq_fork_events": 417,
+   "coverage": 0.040015353612897035
+  },
+  {
+   "repo": "dmmulroy/anti-slop",
+   "meta_forks": 120,
+   "bq_fork_events": 3,
+   "coverage": 0.025
+  },
+  {
+   "repo": "dotnet/skills",
+   "meta_forks": 423,
+   "bq_fork_events": 34,
+   "coverage": 0.08037825059101655
+  },
+  {
+   "repo": "eatmoreduck/boss-zhipin-scraper",
+   "meta_forks": 193,
+   "bq_fork_events": 4,
+   "coverage": 0.02072538860103627
+  },
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "meta_forks": 715,
+   "bq_fork_events": 36,
+   "coverage": 0.05034965034965035
+  },
+  {
+   "repo": "epoko77-ai/im-not-ai",
+   "meta_forks": 649,
+   "bq_fork_events": 38,
+   "coverage": 0.05855161787365177
+  },
+  {
+   "repo": "eugeniughelbur/obsidian-second-brain",
+   "meta_forks": 579,
+   "bq_fork_events": 27,
+   "coverage": 0.046632124352331605
+  },
+  {
+   "repo": "ferdinandobons/startup-skill",
+   "meta_forks": 156,
+   "bq_fork_events": 9,
+   "coverage": 0.057692307692307696
+  },
+  {
+   "repo": "filtalgo/Filtmall-Shopping-Skill",
+   "meta_forks": 31,
+   "bq_fork_events": 1,
+   "coverage": 0.03225806451612903
+  },
+  {
+   "repo": "foryourhealth111-pixel/Vibe-Skills",
+   "meta_forks": 313,
+   "bq_fork_events": 37,
+   "coverage": 0.1182108626198083
+  },
+  {
+   "repo": "freestylefly/awesome-gpt-image-2",
+   "meta_forks": 3243,
+   "bq_fork_events": 172,
+   "coverage": 0.05303731113166821
+  },
+  {
+   "repo": "geekjourneyx/md2wechat-skill",
+   "meta_forks": 411,
+   "bq_fork_events": 56,
+   "coverage": 0.1362530413625304
+  },
+  {
+   "repo": "genspark-ai/genoffice",
+   "meta_forks": 1100,
+   "bq_fork_events": 44,
+   "coverage": 0.04
+  },
+  {
+   "repo": "google-antigravity/antigravity-sdk-python",
+   "meta_forks": 1437,
+   "bq_fork_events": 63,
+   "coverage": 0.04384133611691023
+  },
+  {
+   "repo": "google-gemini/gemini-skills",
+   "meta_forks": 449,
+   "bq_fork_events": 83,
+   "coverage": 0.18485523385300667
+  },
+  {
+   "repo": "google/skills",
+   "meta_forks": 1732,
+   "bq_fork_events": 133,
+   "coverage": 0.07678983833718245
+  },
+  {
+   "repo": "googleworkspace/cli",
+   "meta_forks": 1858,
+   "bq_fork_events": 291,
+   "coverage": 0.1566200215285253
+  },
+  {
+   "repo": "gooseworks-ai/goose-skills",
+   "meta_forks": 212,
+   "bq_fork_events": 11,
+   "coverage": 0.05188679245283019
+  },
+  {
+   "repo": "heilcheng/awesome-agent-skills",
+   "meta_forks": 733,
+   "bq_fork_events": 135,
+   "coverage": 0.18417462482946795
+  },
+  {
+   "repo": "hesamsheikh/octogent",
+   "meta_forks": 245,
+   "bq_fork_events": 36,
+   "coverage": 0.1469387755102041
+  },
+  {
+   "repo": "himself65/finance-skills",
+   "meta_forks": 386,
+   "bq_fork_events": 44,
+   "coverage": 0.11398963730569948
+  },
+  {
+   "repo": "hoangsonww/Claude-Code-Agent-Monitor",
+   "meta_forks": 245,
+   "bq_fork_events": 18,
+   "coverage": 0.07346938775510205
+  },
+  {
+   "repo": "htdt/godogen",
+   "meta_forks": 659,
+   "bq_fork_events": 60,
+   "coverage": 0.09104704097116843
+  },
+  {
+   "repo": "huangjia2019/claude-code-engineering",
+   "meta_forks": 398,
+   "bq_fork_events": 32,
+   "coverage": 0.08040201005025126
+  },
+  {
+   "repo": "iOfficeAI/OfficeCLI",
+   "meta_forks": 2146,
+   "bq_fork_events": 96,
+   "coverage": 0.04473438956197577
+  },
+  {
+   "repo": "ibelick/ui-skills",
+   "meta_forks": 430,
+   "bq_fork_events": 29,
+   "coverage": 0.06744186046511629
+  },
+  {
+   "repo": "iflytek/skillhub",
+   "meta_forks": 842,
+   "bq_fork_events": 102,
+   "coverage": 0.12114014251781473
+  },
+  {
+   "repo": "inkeep/open-knowledge",
+   "meta_forks": 290,
+   "bq_fork_events": 11,
+   "coverage": 0.03793103448275862
+  },
+  {
+   "repo": "internet-court/internet-court-skill",
+   "meta_forks": 113,
+   "bq_fork_events": 2,
+   "coverage": 0.017699115044247787
+  },
+  {
+   "repo": "irinabuht12-oss/marketing-skills",
+   "meta_forks": 540,
+   "bq_fork_events": 22,
+   "coverage": 0.040740740740740744
+  },
+  {
+   "repo": "jangviktor-web/nihaixia",
+   "meta_forks": 616,
+   "bq_fork_events": 9,
+   "coverage": 0.01461038961038961
+  },
+  {
+   "repo": "jezweb/claude-skills",
+   "meta_forks": 106,
+   "bq_fork_events": 16,
+   "coverage": 0.1509433962264151
+  },
+  {
+   "repo": "jnMetaCode/superpowers-zh",
+   "meta_forks": 771,
+   "bq_fork_events": 73,
+   "coverage": 0.0946822308690013
+  },
+  {
+   "repo": "kaankiziltug/logo-design-skill",
+   "meta_forks": 104,
+   "bq_fork_events": 2,
+   "coverage": 0.019230769230769232
+  },
+  {
+   "repo": "kepano/obsidian-skills",
+   "meta_forks": 3490,
+   "bq_fork_events": 498,
+   "coverage": 0.14269340974212033
+  },
+  {
+   "repo": "lackeyjb/playwright-skill",
+   "meta_forks": 245,
+   "bq_fork_events": 47,
+   "coverage": 0.19183673469387755
+  },
+  {
+   "repo": "larashero3-dotcom/lieflat-charts",
+   "meta_forks": 363,
+   "bq_fork_events": 27,
+   "coverage": 0.0743801652892562
+  },
+  {
+   "repo": "latent-spaces/brag",
+   "meta_forks": 940,
+   "bq_fork_events": 23,
+   "coverage": 0.02446808510638298
+  },
+  {
+   "repo": "libukai/awesome-agent-skills",
+   "meta_forks": 441,
+   "bq_fork_events": 77,
+   "coverage": 0.1746031746031746
+  },
+  {
+   "repo": "liustack/modlens",
+   "meta_forks": 129,
+   "bq_fork_events": 4,
+   "coverage": 0.031007751937984496
+  },
+  {
+   "repo": "ljagiello/ctf-skills",
+   "meta_forks": 393,
+   "bq_fork_events": 49,
+   "coverage": 0.12468193384223919
+  },
+  {
+   "repo": "maziyarpanahi/openmed",
+   "meta_forks": 697,
+   "bq_fork_events": 39,
+   "coverage": 0.05595408895265423
+  },
+  {
+   "repo": "michael-denyer/pstack-claude",
+   "meta_forks": 123,
+   "bq_fork_events": 4,
+   "coverage": 0.032520325203252036
+  },
+  {
+   "repo": "microsoft/SkillOpt",
+   "meta_forks": 1697,
+   "bq_fork_events": 50,
+   "coverage": 0.02946375957572186
+  },
+  {
+   "repo": "microsoft/skill-recorder",
+   "meta_forks": 440,
+   "bq_fork_events": 8,
+   "coverage": 0.01818181818181818
+  },
+  {
+   "repo": "minsight-ai-info/AI-Search-Hub",
+   "meta_forks": 109,
+   "bq_fork_events": 15,
+   "coverage": 0.13761467889908258
+  },
+  {
+   "repo": "miqdadbadjuber/anti-slop",
+   "meta_forks": 305,
+   "bq_fork_events": 19,
+   "coverage": 0.06229508196721312
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "meta_forks": 1812,
+   "bq_fork_events": 185,
+   "coverage": 0.1020971302428256
+  },
+  {
+   "repo": "mohitagw15856/pm-claude-skills",
+   "meta_forks": 253,
+   "bq_fork_events": 27,
+   "coverage": 0.1067193675889328
+  },
+  {
+   "repo": "muxuuu/serenity-skill",
+   "meta_forks": 625,
+   "bq_fork_events": 22,
+   "coverage": 0.0352
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "meta_forks": 5529,
+   "bq_fork_events": 457,
+   "coverage": 0.0826550913365889
+  },
+  {
+   "repo": "mvschwarz/openrig",
+   "meta_forks": 342,
+   "bq_fork_events": 9,
+   "coverage": 0.02631578947368421
+  },
+  {
+   "repo": "nanocoai/nanoclaw",
+   "meta_forks": 12781,
+   "bq_fork_events": 53,
+   "coverage": 0.004146780377122291
+  },
+  {
+   "repo": "nexscope-ai/eCommerce-Skills",
+   "meta_forks": 136,
+   "bq_fork_events": 5,
+   "coverage": 0.03676470588235294
+  },
+  {
+   "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "meta_forks": 14079,
+   "bq_fork_events": 2123,
+   "coverage": 0.15079195965622558
+  },
+  {
+   "repo": "nexu-io/html-anything",
+   "meta_forks": 868,
+   "bq_fork_events": 55,
+   "coverage": 0.06336405529953917
+  },
+  {
+   "repo": "nexu-io/open-design",
+   "meta_forks": 11493,
+   "bq_fork_events": 878,
+   "coverage": 0.076394326981641
+  },
+  {
+   "repo": "nidhinjs/prompt-master",
+   "meta_forks": 1625,
+   "bq_fork_events": 174,
+   "coverage": 0.10707692307692308
+  },
+  {
+   "repo": "ningzimu/codex-ppt-skill",
+   "meta_forks": 309,
+   "bq_fork_events": 5,
+   "coverage": 0.016181229773462782
+  },
+  {
+   "repo": "nowork-studio/notfair-plugin",
+   "meta_forks": 494,
+   "bq_fork_events": 12,
+   "coverage": 0.024291497975708502
+  },
+  {
+   "repo": "obra/superpowers",
+   "meta_forks": 26374,
+   "bq_fork_events": 3666,
+   "coverage": 0.1390005308258133
+  },
+  {
+   "repo": "op7418/guizang-ppt-skill",
+   "meta_forks": 1889,
+   "bq_fork_events": 136,
+   "coverage": 0.07199576495500265
+  },
+  {
+   "repo": "pacifio/atlas",
+   "meta_forks": 350,
+   "bq_fork_events": 12,
+   "coverage": 0.03428571428571429
+  },
+  {
+   "repo": "parcadei/Continuous-Claude-v3",
+   "meta_forks": 303,
+   "bq_fork_events": 71,
+   "coverage": 0.23432343234323433
+  },
+  {
+   "repo": "pascalorg/editor",
+   "meta_forks": 3043,
+   "bq_fork_events": 287,
+   "coverage": 0.09431482090042721
+  },
+  {
+   "repo": "phuryn/pm-skills",
+   "meta_forks": 2844,
+   "bq_fork_events": 312,
+   "coverage": 0.10970464135021098
+  },
+  {
+   "repo": "plannotator/effective-html",
+   "meta_forks": 238,
+   "bq_fork_events": 10,
+   "coverage": 0.04201680672268908
+  },
+  {
+   "repo": "plugin87/ux-ui-agent-skills",
+   "meta_forks": 163,
+   "bq_fork_events": 10,
+   "coverage": 0.06134969325153374
+  },
+  {
+   "repo": "rampstackco/claude-skills",
+   "meta_forks": 126,
+   "bq_fork_events": 5,
+   "coverage": 0.03968253968253968
+  },
+  {
+   "repo": "rebelytics/one-skill-to-rule-them-all",
+   "meta_forks": 302,
+   "bq_fork_events": 17,
+   "coverage": 0.056291390728476824
+  },
+  {
+   "repo": "reticlehq/reticle",
+   "meta_forks": 173,
+   "bq_fork_events": 4,
+   "coverage": 0.023121387283236993
+  },
+  {
+   "repo": "rohitg00/awesome-claude-design",
+   "meta_forks": 145,
+   "bq_fork_events": 11,
+   "coverage": 0.07586206896551724
+  },
+  {
+   "repo": "rohitg00/pro-workflow",
+   "meta_forks": 294,
+   "bq_fork_events": 64,
+   "coverage": 0.21768707482993196
+  },
+  {
+   "repo": "romainsimon/paperasse",
+   "meta_forks": 191,
+   "bq_fork_events": 6,
+   "coverage": 0.031413612565445025
+  },
+  {
+   "repo": "samber/cc-skills-golang",
+   "meta_forks": 225,
+   "bq_fork_events": 19,
+   "coverage": 0.08444444444444445
+  },
+  {
+   "repo": "sergebulaev/linkedin-skills",
+   "meta_forks": 678,
+   "bq_fork_events": 70,
+   "coverage": 0.10324483775811209
+  },
+  {
+   "repo": "shanraisshan/claude-code-best-practice",
+   "meta_forks": 6703,
+   "bq_fork_events": 898,
+   "coverage": 0.13396986423989257
+  },
+  {
+   "repo": "sickn33/agentic-awesome-skills",
+   "meta_forks": 6878,
+   "bq_fork_events": 30,
+   "coverage": 0.004361733061936609
+  },
+  {
+   "repo": "suboss87/FDEOps",
+   "meta_forks": 106,
+   "bq_fork_events": 17,
+   "coverage": 0.16037735849056603
+  },
+  {
+   "repo": "tech-leads-club/agent-skills",
+   "meta_forks": 559,
+   "bq_fork_events": 80,
+   "coverage": 0.14311270125223613
+  },
+  {
+   "repo": "teng-lin/notebooklm-py",
+   "meta_forks": 2610,
+   "bq_fork_events": 378,
+   "coverage": 0.14482758620689656
+  },
+  {
+   "repo": "tigerless-labs/autoharness",
+   "meta_forks": 585,
+   "bq_fork_events": 54,
+   "coverage": 0.09230769230769231
+  },
+  {
+   "repo": "titanwings/distilly",
+   "meta_forks": 2176,
+   "bq_fork_events": 7,
+   "coverage": 0.003216911764705882
+  },
+  {
+   "repo": "tmstack/awesome-persona-skills",
+   "meta_forks": 348,
+   "bq_fork_events": 38,
+   "coverage": 0.10919540229885058
+  },
+  {
+   "repo": "tradecatlabs/vibe-coding-cn",
+   "meta_forks": 1728,
+   "bq_fork_events": 7,
+   "coverage": 0.004050925925925926
+  },
+  {
+   "repo": "trailofbits/skills",
+   "meta_forks": 630,
+   "bq_fork_events": 121,
+   "coverage": 0.19206349206349208
+  },
+  {
+   "repo": "travisvn/awesome-claude-skills",
+   "meta_forks": 2018,
+   "bq_fork_events": 326,
+   "coverage": 0.16154608523290387
+  },
+  {
+   "repo": "tripleyak/SkillForge",
+   "meta_forks": 94,
+   "bq_fork_events": 29,
+   "coverage": 0.30851063829787234
+  },
+  {
+   "repo": "tt-a1i/archify",
+   "meta_forks": 5194,
+   "bq_fork_events": 277,
+   "coverage": 0.05333076626877166
+  },
+  {
+   "repo": "tw93/Waza",
+   "meta_forks": 414,
+   "bq_fork_events": 47,
+   "coverage": 0.11352657004830918
+  },
+  {
+   "repo": "undefined-ui/second-brain-os",
+   "meta_forks": 137,
+   "bq_fork_events": 9,
+   "coverage": 0.06569343065693431
+  },
+  {
+   "repo": "virgiliojr94/book-to-skill",
+   "meta_forks": 3516,
+   "bq_fork_events": 131,
+   "coverage": 0.03725824800910125
+  },
+  {
+   "repo": "wondelai/skills",
+   "meta_forks": 235,
+   "bq_fork_events": 20,
+   "coverage": 0.0851063829787234
+  },
+  {
+   "repo": "wuyoscar/GPT-Image2-Skill",
+   "meta_forks": 470,
+   "bq_fork_events": 7,
+   "coverage": 0.014893617021276596
+  },
+  {
+   "repo": "xianyu110/awesome-openclaw-tutorial",
+   "meta_forks": 677,
+   "bq_fork_events": 119,
+   "coverage": 0.1757754800590842
+  },
+  {
+   "repo": "xixu-me/awesome-persona-distill-skills",
+   "meta_forks": 506,
+   "bq_fork_events": 53,
+   "coverage": 0.10474308300395258
+  },
+  {
+   "repo": "yusufkaraaslan/Skill_Seekers",
+   "meta_forks": 1540,
+   "bq_fork_events": 264,
+   "coverage": 0.17142857142857143
+  },
+  {
+   "repo": "zanwei/design-dna",
+   "meta_forks": 99,
+   "bq_fork_events": 9,
+   "coverage": 0.09090909090909091
+  },
+  {
+   "repo": "zenbu-labs/terminal-browser",
+   "meta_forks": 172,
+   "bq_fork_events": 6,
+   "coverage": 0.03488372093023256
+  },
+  {
+   "repo": "zenstory-ai/drama-skills",
+   "meta_forks": 537,
+   "bq_fork_events": 14,
+   "coverage": 0.0260707635009311
+  },
+  {
+   "repo": "zenstory-ai/oh-story-claudecode",
+   "meta_forks": 1030,
+   "bq_fork_events": 12,
+   "coverage": 0.011650485436893204
+  }
+ ]
+}

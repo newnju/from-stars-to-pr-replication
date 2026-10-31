@@ -1,0 +1,51 @@
+{
+ "P2_contingency": {
+  "complete_parents": 108,
+  "total_forks": 188588,
+  "forks_ge1_pr": 8161,
+  "fork_level_conversion": 0.0433,
+  "pr_events": 22325,
+  "prs_per_returning_fork": 2.74
+ },
+ "P4": {
+  "merged_reviewed": 0.376,
+  "closed_unmerged_reviewed": 0.307,
+  "open_reviewed": 0.195,
+  "changes_then_merged_pct": 0.007
+ },
+ "P5_logit": {
+  "n": 266,
+  "coef": -0.061,
+  "CI": [
+   -0.424,
+   0.302
+  ],
+  "age_p": 0.034
+ },
+ "P5_top50_unlisted": {
+  "n": 50,
+  "classes": {
+   "awesome/清单": 14,
+   "技能相关未被收录": 4,
+   "其他": 22,
+   "应用/工具": 10
+  }
+ },
+ "P1_channel_logit": {
+  "n": 341,
+  "skillsh_coef": 0.736,
+  "p": 0.01,
+  "logstars_p": 0.0,
+  "age_p": 0.001
+ },
+ "P3_official": {
+  "anthropics_docs": 17,
+  "with_license_field": 14
+ },
+ "typos": {
+  "企级口径": 0,
+  "九成位": 1,
+  "同停产生产": 0,
+  "复制易，溯源难": 0
+ }
+}

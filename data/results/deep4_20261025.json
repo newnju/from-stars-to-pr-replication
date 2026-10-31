@@ -1,0 +1,612 @@
+{
+ "B": {
+  "n_anomalies": 17,
+  "top15": [
+   {
+    "repo": "openclaw/openclaw",
+    "anomaly_score": -0.67,
+    "stars": 391275,
+    "forks": 82252,
+    "installs": 192840,
+    "share_cross": 0.941,
+    "n_skills": 51
+   },
+   {
+    "repo": "itsmostafa/aws-agent-skills",
+    "anomaly_score": -0.633,
+    "stars": 1159,
+    "forks": 445,
+    "installs": 2780,
+    "share_cross": 1.0,
+    "n_skills": 18
+   },
+   {
+    "repo": "a5c-ai/babysitter",
+    "anomaly_score": -0.631,
+    "stars": 1826,
+    "forks": 113,
+    "installs": 622,
+    "share_cross": 0,
+    "n_skills": 1826
+   },
+   {
+    "repo": "ComposioHQ/awesome-claude-skills",
+    "anomaly_score": -0.624,
+    "stars": 76459,
+    "forks": 8943,
+    "installs": 0,
+    "share_cross": 1.0,
+    "n_skills": 33
+   },
+   {
+    "repo": "parcadei/Continuous-Claude-v3",
+    "anomaly_score": -0.623,
+    "stars": 3939,
+    "forks": 303,
+    "installs": 0,
+    "share_cross": 0.731,
+    "n_skills": 160
+   },
+   {
+    "repo": "public-apis/public-apis",
+    "anomaly_score": -0.615,
+    "stars": 485980,
+    "forks": 53707,
+    "installs": 0,
+    "share_cross": 0,
+    "n_skills": 0
+   },
+   {
+    "repo": "kucherenko/jscpd",
+    "anomaly_score": -0.613,
+    "stars": 6331,
+    "forks": 265,
+    "installs": 6972,
+    "share_cross": 0,
+    "n_skills": 0
+   },
+   {
+    "repo": "langgenius/dify",
+    "anomaly_score": -0.602,
+    "stars": 157809,
+    "forks": 24900,
+    "installs": 22761,
+    "share_cross": 0.25,
+    "n_skills": 4
+   },
+   {
+    "repo": "anthropics/skills",
+    "anomaly_score": -0.599,
+    "stars": 179582,
+    "forks": 21234,
+    "installs": 3549209,
+    "share_cross": 1.0,
+    "n_skills": 17
+   },
+   {
+    "repo": "wshobson/agents",
+    "anomaly_score": -0.597,
+    "stars": 40183,
+    "forks": 4285,
+    "installs": 2439522,
+    "share_cross": 0.151,
+    "n_skills": 146
+   },
+   {
+    "repo": "obra/superpowers",
+    "anomaly_score": -0.597,
+    "stars": 295076,
+    "forks": 26374,
+    "installs": 3620511,
+    "share_cross": 0.714,
+    "n_skills": 14
+   },
+   {
+    "repo": "vinta/awesome-python",
+    "anomaly_score": -0.593,
+    "stars": 325050,
+    "forks": 28863,
+    "installs": 22,
+    "share_cross": 0,
+    "n_skills": 0
+   },
+   {
+    "repo": "iOfficeAI/AionUi",
+    "anomaly_score": -0.587,
+    "stars": 33306,
+    "forks": 3464,
+    "installs": 0,
+    "share_cross": 0.615,
+    "n_skills": 13
+   },
+   {
+    "repo": "laravel/laravel",
+    "anomaly_score": -0.584,
+    "stars": 85056,
+    "forks": 26722,
+    "installs": 0,
+    "share_cross": 0,
+    "n_skills": 0
+   },
+   {
+    "repo": "tripleyak/SkillForge",
+    "anomaly_score": -0.583,
+    "stars": 905,
+    "forks": 94,
+    "installs": 0,
+    "share_cross": 1.0,
+    "n_skills": 1
+   }
+  ],
+  "note": "contamination=5%；异常=星标/安装/复制率的极端组合"
+ },
+ "C": {
+  "n": 340,
+  "n_events": 115,
+  "median_days_to_first_fork": null,
+  "q25_days": null,
+  "km_surv_at_1d": 0.8618,
+  "at_7d": 0.7853,
+  "at_30d": 0.6971,
+  "at_90d": 0.6706,
+  "km_curve_first20": [
+   [
+    0,
+    0.8912
+   ],
+   [
+    1,
+    0.8618
+   ],
+   [
+    2,
+    0.8235
+   ],
+   [
+    3,
+    0.8147
+   ],
+   [
+    4,
+    0.8059
+   ],
+   [
+    5,
+    0.8029
+   ],
+   [
+    6,
+    0.7941
+   ],
+   [
+    7,
+    0.7853
+   ],
+   [
+    8,
+    0.7735
+   ],
+   [
+    9,
+    0.7676
+   ],
+   [
+    10,
+    0.7618
+   ],
+   [
+    11,
+    0.7529
+   ],
+   [
+    12,
+    0.7441
+   ],
+   [
+    13,
+    0.7412
+   ],
+   [
+    14,
+    0.7353
+   ],
+   [
+    15,
+    0.7324
+   ],
+   [
+    16,
+    0.7294
+   ],
+   [
+    20,
+    0.7265
+   ],
+   [
+    22,
+    0.7206
+   ],
+   [
+    23,
+    0.7147
+   ]
+  ],
+  "note": "KM 估计：仓库创建→首次fork；fork>500 仓以观测终点为删失"
+ },
+ "D": {
+  "n_pairs": 13695,
+  "top_patterns": {
+   "both_low_star": {
+    "n": 13284,
+    "pct": 97.0
+   },
+   "both_high_copy": {
+    "n": 7757,
+    "pct": 56.6
+   },
+   "one_many_skills": {
+    "n": 6749,
+    "pct": 49.3
+   },
+   "one_high_copy": {
+    "n": 4995,
+    "pct": 36.5
+   },
+   "both_many_skills": {
+    "n": 3682,
+    "pct": 26.9
+   },
+   "one_low_star": {
+    "n": 408,
+    "pct": 3.0
+   },
+   "one_old_repo": {
+    "n": 378,
+    "pct": 2.8
+   },
+   "one_is_python": {
+    "n": 298,
+    "pct": 2.2
+   },
+   "one_has_clawhub": {
+    "n": 287,
+    "pct": 2.1
+   },
+   "one_high_star": {
+    "n": 274,
+    "pct": 2.0
+   },
+   "star_mismatch": {
+    "n": 274,
+    "pct": 2.0
+   },
+   "one_has_skills_platform": {
+    "n": 205,
+    "pct": 1.5
+   },
+   "platform_mismatch": {
+    "n": 205,
+    "pct": 1.5
+   },
+   "one_mid_star": {
+    "n": 138,
+    "pct": 1.0
+   },
+   "one_is_ts": {
+    "n": 38,
+    "pct": 0.3
+   }
+  },
+  "note": "共享SHA的仓库对的二元特征共现模式"
+ },
+ "E": {
+  "explained_variance": [
+   0.323,
+   0.301,
+   0.195,
+   0.182,
+   0.0
+  ],
+  "cumulative_2pc": 0.624,
+  "loadings_pc1": [
+   0.0,
+   -0.414,
+   -0.385,
+   0.634,
+   0.527
+  ],
+  "loadings_pc2": [
+   0.0,
+   0.563,
+   0.584,
+   0.312,
+   0.494
+  ],
+  "channels": [
+   "star>0",
+   "skills_sh",
+   "clawhub",
+   "release",
+   "npm"
+  ],
+  "note": "PC1/PC2 载荷揭示渠道间的结构关系"
+ },
+ "F": {
+  "n_days": 5621,
+  "mean_daily": 2673.4,
+  "trend_first_last": [
+   86.5,
+   28296.1
+  ],
+  "trend_change_pct": 32600.6,
+  "n_burst_days_3mad": 675,
+  "burst_days": [
+   [
+    "2011-06-07",
+    1390
+   ],
+   [
+    "2014-07-02",
+    466
+   ],
+   [
+    "2014-07-06",
+    1489
+   ],
+   [
+    "2014-07-07",
+    1133
+   ],
+   [
+    "2014-07-16",
+    978
+   ],
+   [
+    "2014-12-28",
+    1078
+   ],
+   [
+    "2014-12-29",
+    1292
+   ],
+   [
+    "2015-01-09",
+    1204
+   ],
+   [
+    "2015-03-31",
+    822
+   ],
+   [
+    "2015-04-01",
+    883
+   ]
+  ],
+  "day_of_week_sum": {
+   "0": 2329297,
+   "1": 2439867,
+   "2": 2309080,
+   "3": 2215774,
+   "4": 1899689,
+   "5": 1746255,
+   "6": 2087165
+  },
+  "note": "7日移动平均为趋势；resid>3×MAD 为突发日；dow 0=周一"
+ },
+ "G": {
+  "n_nodes": 4601,
+  "n_edges": 8917,
+  "top_pagerank": [
+   [
+    "NeverSight/skills_feed",
+    0.15214,
+    62
+   ],
+   [
+    "majiayu000/claude-skill-registry",
+    0.07679,
+    107
+   ],
+   [
+    "aiskillstore/marketplace",
+    0.0306,
+    203
+   ],
+   [
+    "davila7/claude-code-templates",
+    0.015,
+    22482
+   ],
+   [
+    "Microck/ordinary-claude-skills",
+    0.01242,
+    133
+   ],
+   [
+    "ovachiever/droid-tings",
+    0.0101,
+    25
+   ],
+   [
+    "openclaw/skills",
+    0.00811,
+    2330
+   ],
+   [
+    "jackspace/ClaudeSkillz",
+    0.00582,
+    9
+   ],
+   [
+    "whodaniel/fuse",
+    0.00436,
+    4
+   ],
+   [
+    "Sdkwork-Cloud/skills-repository",
+    0.00434,
+    0
+   ]
+  ],
+  "top_betweenness": [
+   [
+    "NeverSight/skills_feed",
+    0.4307,
+    62
+   ],
+   [
+    "majiayu000/claude-skill-registry",
+    0.3665,
+    107
+   ],
+   [
+    "aiskillstore/marketplace",
+    0.0658,
+    203
+   ],
+   [
+    "openclaw/skills",
+    0.0333,
+    2330
+   ],
+   [
+    "diegosouzapw/awesome-omni-skill",
+    0.027,
+    3
+   ],
+   [
+    "NeverSight/learn-skills.dev",
+    0.023,
+    66
+   ],
+   [
+    "blackzhuge/zhuge-workflow",
+    0.0119,
+    18
+   ],
+   [
+    "Microck/ordinary-claude-skills",
+    0.0115,
+    133
+   ],
+   [
+    "corvo007/MioSub",
+    0.0114,
+    394
+   ],
+   [
+    "arlenagreer/claude_configuration_docs",
+    0.0102,
+    3
+   ]
+  ],
+  "note": "PageRank α=0.85；Betweenness 采样500节点"
+ },
+ "H": {
+  "both": 51,
+  "only_skillssh": 121,
+  "only_clawhub": 27,
+  "neither": 142,
+  "jaccard": 0.256,
+  "chi2": 8.28,
+  "p": 0.004,
+  "note": "两平台收录的2×2列联表与Jaccard系数"
+ },
+ "I": {
+  "n": 172,
+  "r2_cv": 0.18,
+  "alpha": 0.078,
+  "coefs": {
+   "n_skills": -0.0,
+   "share_cross": 0.402,
+   "fm_fields": 0.0,
+   "is_python": 0.0,
+   "is_ts": -0.0347,
+   "age_months": -0.3866
+  },
+  "note": "LassoCV 5折；因变量=log10(installs+1)；特征标准化"
+ },
+ "J": {
+  "n_titles": 20000,
+  "topics": [
+   {
+    "topic": 0,
+    "terms": [
+     "docs",
+     "add",
+     "skill",
+     "readme",
+     "update",
+     "agent",
+     "skills",
+     "md"
+    ]
+   },
+   {
+    "topic": 1,
+    "terms": [
+     "fix",
+     "claude",
+     "code",
+     "release",
+     "make",
+     "check",
+     "v2",
+     "2026"
+    ]
+   },
+   {
+    "topic": 2,
+    "terms": [
+     "fix",
+     "review",
+     "mcp",
+     "bump",
+     "sdd",
+     "model",
+     "deps",
+     "pi"
+    ]
+   },
+   {
+    "topic": 3,
+    "terms": [
+     "fix",
+     "windows",
+     "ci",
+     "test",
+     "path",
+     "use",
+     "micro",
+     "remove"
+    ]
+   },
+   {
+    "topic": 4,
+    "terms": [
+     "feat",
+     "add",
+     "support",
+     "skill",
+     "cli",
+     "codex",
+     "tools",
+     "browser"
+    ]
+   },
+   {
+    "topic": 5,
+    "terms": [
+     "skills",
+     "json",
+     "chore",
+     "nemo",
+     "sync",
+     "metadata",
+     "search",
+     "runtime"
+    ]
+   }
+  ]
+ }
+}

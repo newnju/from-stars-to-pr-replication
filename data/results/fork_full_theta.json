@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-14T21:55:44",
+  "paper_estimate": {
+    "n_point_identified": 95,
+    "median_point": 6,
+    "share_le_10": 0.5894736842105263,
+    "note": "正文口径二：仅元数据分叉总数≤500 的完备记录仓库可点识别。"
+  },
+  "full_data_all": {
+    "n": 203,
+    "median": 4.0,
+    "mean": 100.51231527093596,
+    "q25": 0.0,
+    "q75": 19.5,
+    "share_le_10": 0.6551724137931034,
+    "share_zero": 0.2660098522167488
+  },
+  "full_data_previously_truncated": {
+    "n": 108,
+    "median": 3.5,
+    "mean": 162.0,
+    "q25": 0.0,
+    "q75": 12.75,
+    "share_le_10": 0.7129629629629629,
+    "share_zero": 0.3055555555555556
+  },
+  "full_data_previously_complete": {
+    "n": 95,
+    "median": 6.0,
+    "mean": 30.610526315789475,
+    "q25": 1.0,
+    "q75": 32.5,
+    "share_le_10": 0.5894736842105263,
+    "share_zero": 0.22105263157894736
+  },
+  "days_to_first_fork_previously_truncated": 2.0,
+  "n_rows": 203,
+  "n_skipped_not_yet_fetched": 0,
+  "skipped": [],
+  "note": "全量分叉列表的最早 created_at → 真实首次分叉；累计星标取star_history.json 同日值。原触顶仓库由此从区间下界升级为点识别。"
+}

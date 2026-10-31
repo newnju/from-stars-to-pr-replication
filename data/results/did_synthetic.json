@@ -1,0 +1,79 @@
+{
+  "A_did": {
+    "treated_n_repo": 195,
+    "n_obs": 6289,
+    "n_week": 56,
+    "break_week": 17,
+    "break_date": "2026-02-03",
+    "outcome": "log1p(weekly_new_stars)",
+    "treat_x_post_coef": 0.5837291938098341,
+    "treat_x_post_se": 0.5738828394236128,
+    "treat_x_post_p": 0.3090785437730129,
+    "r2": 0.5882464524622991,
+    "did_in_means": 1.1506427988272563,
+    "treat_pre_mean": 3.796366935876211,
+    "treat_post_mean": 4.772916172104149,
+    "ctrl_pre_mean": 4.497701553469065,
+    "ctrl_post_mean": 4.323607990869747
+  },
+  "B_scm": {
+    "treated": "anthropics/skills",
+    "n_donors": 26,
+    "n_positive_weights": 26,
+    "pre_period": [
+      "2025-10-01",
+      "2026-03-23"
+    ],
+    "post_period": [
+      "2026-03-24",
+      "2026-10-04"
+    ],
+    "pre_rmse": 3820.9687932533443,
+    "post_rmse": 1653.7093049263522,
+    "rmspe_ratio": 0.43279843265045614,
+    "mean_gap_post": 1459.8167120661813,
+    "total_gap_post": 40874.86793785307,
+    "top_weights": [
+      [
+        "ComposioHQ/awesome-claude-skills",
+        0.1212
+      ],
+      [
+        "code-yeongyu/oh-my-openagent",
+        0.1045
+      ],
+      [
+        "obra/superpowers",
+        0.0923
+      ],
+      [
+        "travisvn/awesome-claude-skills",
+        0.0647
+      ],
+      [
+        "yusufkaraaslan/Skill_Seekers",
+        0.0647
+      ],
+      [
+        "agentskills/agentskills",
+        0.0647
+      ],
+      [
+        "lackeyjb/playwright-skill",
+        0.0646
+      ],
+      [
+        "VoltAgent/awesome-agent-skills",
+        0.0646
+      ],
+      [
+        "tradecatlabs/vibe-coding-cn",
+        0.0646
+      ],
+      [
+        "K-Dense-AI/scientific-agent-skills",
+        0.0638
+      ]
+    ]
+  }
+}

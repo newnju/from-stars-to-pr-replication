@@ -1,0 +1,255 @@
+{
+  "first_fork_threshold": {
+    "n_complete_fork_records": 95,
+    "n_point_identified": 95,
+    "median_point": 6,
+    "mean_point": 30.610526315789475,
+    "q10": 0.0,
+    "q25": 1.0,
+    "q75": 32.5,
+    "q90": 73.20000000000002,
+    "share_at_or_below_10": 0.5894736842105263,
+    "share_zero": 0.22105263157894736,
+    "truncated_repos": {
+      "n_truncated_repos": 108,
+      "note": "左截断仓库的真实首次分叉早于可观测下界，其门槛只能给出上界（等于可观测最早分叉时点的累计星标），不进入点识别样本。"
+    }
+  },
+  "conversion_intensity": {
+    "definition": "forks / (star events × mean cumulative stars in window)",
+    "median": 2.4031177208848643e-05,
+    "mean": 6.792478431342979e-05
+  },
+  "fork_star_ratio_window": {
+    "definition": "forks / star events, same complete window (口径一致)",
+    "median": 0.09830230010952902,
+    "mean": 0.11617185571873642,
+    "overall": 0.09513364057531
+  },
+  "risk_strata": {
+    "old_kw": {
+      "conv_intensity": {
+        "n_hi": 128,
+        "n_lo": 57,
+        "median_hi": 2.205337068746562e-05,
+        "median_lo": 2.9228253638938362e-05,
+        "U": 3177.0,
+        "p_mwu": 0.16178047723028355,
+        "cliffs_delta": -0.12911184210526316,
+        "median_diff": -7.174882951472742e-06,
+        "p_perm_repo": 0.21697830216978303
+      },
+      "conv_intensity_complete_only": {
+        "n_hi": 55,
+        "n_lo": 31,
+        "median_hi": 4.9807677193888584e-05,
+        "median_lo": 5.353449611650716e-05,
+        "U": 905.0,
+        "p_mwu": 0.6399954603007438,
+        "cliffs_delta": 0.06158357771260997,
+        "median_diff": -3.7268189226185783e-06,
+        "p_perm_repo": 0.7758224177582241
+      },
+      "fork_star_ratio_win": {
+        "n_hi": 128,
+        "n_lo": 57,
+        "median_hi": 2.205337068746562e-05,
+        "median_lo": 2.9228253638938362e-05,
+        "U": 3177.0,
+        "p_mwu": 0.16178047723028355,
+        "cliffs_delta": -0.12911184210526316,
+        "median_diff": -7.174882951472742e-06,
+        "p_perm_repo": 0.22007799220077992
+      },
+      "theta_ff_point": {
+        "n_hi": 55,
+        "n_lo": 31,
+        "median_hi": 3,
+        "median_lo": 19,
+        "U": 576.5,
+        "p_mwu": 0.012708075498079232,
+        "cliffs_delta": -0.32375366568914954,
+        "median_diff": -16.0,
+        "p_perm_repo": 0.0072992700729927005
+      }
+    },
+    "reach_binary": {
+      "conv_intensity": {
+        "n_hi": 132,
+        "n_lo": 53,
+        "median_hi": 1.9707588900392148e-05,
+        "median_lo": 3.4505724573123115e-05,
+        "U": 2794.0,
+        "p_mwu": 0.0326505167333855,
+        "cliffs_delta": -0.20125786163522014,
+        "median_diff": -1.4798135672730967e-05,
+        "p_perm_repo": 0.030896910308969103
+      },
+      "conv_intensity_complete_only": {
+        "n_hi": 56,
+        "n_lo": 30,
+        "median_hi": 4.973949798479643e-05,
+        "median_lo": 5.6655836306016184e-05,
+        "U": 821.0,
+        "p_mwu": 0.8668754802263747,
+        "cliffs_delta": -0.02261904761904762,
+        "median_diff": -6.916338321219753e-06,
+        "p_perm_repo": 0.5313468653134686
+      },
+      "fork_star_ratio_win": {
+        "n_hi": 132,
+        "n_lo": 53,
+        "median_hi": 1.9707588900392148e-05,
+        "median_lo": 3.4505724573123115e-05,
+        "U": 2794.0,
+        "p_mwu": 0.0326505167333855,
+        "cliffs_delta": -0.20125786163522014,
+        "median_diff": -1.4798135672730967e-05,
+        "p_perm_repo": 0.031296870312968704
+      },
+      "theta_ff_point": {
+        "n_hi": 56,
+        "n_lo": 30,
+        "median_hi": 3.5,
+        "median_lo": 13.5,
+        "U": 639.5,
+        "p_mwu": 0.06839837704286766,
+        "cliffs_delta": -0.2386904761904762,
+        "median_diff": -10.0,
+        "p_perm_repo": 0.027797220277972202
+      }
+    },
+    "core_kw": {
+      "conv_intensity": {
+        "n_hi": 14,
+        "n_lo": 171,
+        "median_hi": 2.8838219562608198e-05,
+        "median_lo": 2.2744674587073784e-05,
+        "U": 1280.0,
+        "p_mwu": 0.6684485470662165,
+        "cliffs_delta": 0.06934001670843776,
+        "median_diff": 6.093544975534414e-06,
+        "p_perm_repo": 0.5846415358464153
+      },
+      "conv_intensity_complete_only": null,
+      "fork_star_ratio_win": {
+        "n_hi": 14,
+        "n_lo": 171,
+        "median_hi": 2.8838219562608198e-05,
+        "median_lo": 2.2744674587073784e-05,
+        "U": 1280.0,
+        "p_mwu": 0.6684485470662165,
+        "cliffs_delta": 0.06934001670843776,
+        "median_diff": 6.093544975534414e-06,
+        "p_perm_repo": 0.5826417358264173
+      },
+      "theta_ff_point": null
+    }
+  },
+  "poststratified": {
+    "target_high_share": 0.3682,
+    "weighted_median_all": 2.7929746151476708e-05,
+    "unweighted_median_all": 2.313204016714923e-05,
+    "weighted_median_hi": 1.9045965291894456e-05,
+    "weighted_median_lo": 3.4505724573123115e-05
+  },
+  "repo_level_models": {
+    "M1_old_kw": {
+      "formula": "forks ~ old_kw + log_stars + log_age + C(cls)",
+      "n": 203,
+      "coef": {
+        "old_kw": 0.008954550430241359
+      },
+      "se": {
+        "old_kw": 0.06690821124122999
+      },
+      "p": {
+        "old_kw": 0.8935343504695019
+      },
+      "irr": {
+        "old_kw": 1.0089947623538926
+      }
+    },
+    "M2_reach_cont": {
+      "formula": "forks ~ reach + log_stars + log_age + C(cls)",
+      "n": 203,
+      "coef": {
+        "reach": -0.004678836910560702
+      },
+      "se": {
+        "reach": 0.012988066436467558
+      },
+      "p": {
+        "reach": 0.7186667512719687
+      },
+      "irr": {
+        "reach": 0.9953320917956687
+      }
+    },
+    "M3_reach2": {
+      "formula": "forks ~ reach2 + log_stars + log_age + C(cls)",
+      "n": 203,
+      "coef": {
+        "reach2": -0.08927814613777152
+      },
+      "se": {
+        "reach2": 0.06709501414990421
+      },
+      "p": {
+        "reach2": 0.18331320288543018
+      },
+      "irr": {
+        "reach2": 0.9145911481968633
+      }
+    },
+    "M4_reach2_disc": {
+      "formula": "forks ~ reach2 + disclosure + log_stars + log_age + C(cls)",
+      "n": 203,
+      "coef": {
+        "reach2": -0.05181099656646413,
+        "disclosure": -0.017029679384362405
+      },
+      "se": {
+        "reach2": 0.08141318578820746,
+        "disclosure": 0.023500835553133998
+      },
+      "p": {
+        "reach2": 0.5245185812190619,
+        "disclosure": 0.46867202745697545
+      },
+      "irr": {
+        "reach2": 0.9495083102154502,
+        "disclosure": 0.9831145059686145
+      }
+    },
+    "M5_core_kw": {
+      "formula": "forks ~ core_kw + log_stars + log_age + C(cls)",
+      "n": 203,
+      "coef": {
+        "core_kw": 0.25018124199903397
+      },
+      "se": {
+        "core_kw": 0.11943615498998086
+      },
+      "p": {
+        "core_kw": 0.03619891438357341
+      },
+      "irr": {
+        "core_kw": 1.2842581571116052
+      }
+    }
+  },
+  "legacy_reproduction": {
+    "theta_L_median_repo_level": 137,
+    "theta_D_median_event_level": 5319,
+    "claimed_ratio": 38.82,
+    "theta_D_median_repo_level": 3322.0,
+    "note": "旧 θ(L) 为仓库级增速检测点、旧 θ(D) 为事件级累计水平；两者量纲不同且 θ(L) 含约 35 的数学下界，比值不构成门槛分离度证据。",
+    "like_for_like_ratio": 24.248175182481752,
+    "left_truncation_signature": {
+      "fork_records_retained_overall": 0.18792430992469733,
+      "n_repos_left_truncated": 108,
+      "direction": "left truncation of earliest fork events → observed levels biased upward"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "A_did": {
+    "risk_classification": "harm-oriented (DESTRUCTIVE/BENIGN)",
+    "n_destructive": 126,
+    "n_benign": 77,
+    "n_repo": 203,
+    "n_obs": 6522,
+    "n_week": 56,
+    "break_week": 17,
+    "break_date": "2026-02-03",
+    "outcome": "log1p(weekly_new_stars)",
+    "treat_x_post_coef": 0.5309058405033729,
+    "treat_x_post_se": 0.5068834107987996,
+    "treat_x_post_p": 0.294918627894477,
+    "r2": 0.5833128846904396,
+    "did_in_means": 0.36760719794636687,
+    "treat_pre_mean": 3.9311730606482063,
+    "treat_post_mean": 4.770684822559985,
+    "ctrl_pre_mean": 3.924505901523193,
+    "ctrl_post_mean": 4.3964104654886045
+  },
+  "B_scm": {
+    "treated": "anthropics/skills",
+    "n_donors": 26,
+    "n_positive_weights": 26,
+    "pre_period": [
+      "2025-10-01",
+      "2026-03-23"
+    ],
+    "post_period": [
+      "2026-03-24",
+      "2026-10-04"
+    ],
+    "pre_rmse": 3835.5335303830416,
+    "post_rmse": 1561.9439894152965,
+    "rmspe_ratio": 0.40722991392003566,
+    "mean_gap_post": 1370.3234300687557,
+    "total_gap_post": 38369.056041925156,
+    "top_weights": [
+      [
+        "ComposioHQ/awesome-claude-skills",
+        0.1085
+      ],
+      [
+        "obra/superpowers",
+        0.1085
+      ],
+      [
+        "K-Dense-AI/scientific-agent-skills",
+        0.0715
+      ],
+      [
+        "code-yeongyu/oh-my-openagent",
+        0.0715
+      ],
+      [
+        "nextlevelbuilder/ui-ux-pro-max-skill",
+        0.0715
+      ],
+      [
+        "shanraisshan/claude-code-best-practice",
+        0.0715
+      ],
+      [
+        "travisvn/awesome-claude-skills",
+        0.0452
+      ],
+      [
+        "agentskills/agentskills",
+        0.0452
+      ],
+      [
+        "yusufkaraaslan/Skill_Seekers",
+        0.0452
+      ],
+      [
+        "lackeyjb/playwright-skill",
+        0.0452
+      ]
+    ]
+  }
+}

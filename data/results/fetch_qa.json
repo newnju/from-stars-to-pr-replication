@@ -1,0 +1,303 @@
+{
+  "generated_at": "2026-10-14T21:58:32",
+  "forks_quality": {
+    "n_done": 228,
+    "n_errors": 0,
+    "errors": [],
+    "n_fewer_than_meta": 36,
+    "n_fewer_among_clean": 8,
+    "worst_gaps": [
+      {
+        "repo": "itsmostafa/aws-agent-skills",
+        "fetched": 385,
+        "meta": 445,
+        "gap_ratio": 0.1348,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "thedaviddias/Front-End-Checklist",
+        "fetched": 5997,
+        "meta": 6757,
+        "gap_ratio": 0.1125,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "NanmiCoder/MediaCrawler",
+        "fetched": 11599,
+        "meta": 12702,
+        "gap_ratio": 0.0868,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "prakhar1989/awesome-courses",
+        "fetched": 7728,
+        "meta": 8451,
+        "gap_ratio": 0.0856,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "xianyu110/awesome-openclaw-tutorial",
+        "fetched": 623,
+        "meta": 677,
+        "gap_ratio": 0.0798,
+        "in_clean_sample": true,
+        "side_file_ok": true
+      },
+      {
+        "repo": "sdmg15/Best-websites-a-programmer-should-visit",
+        "fetched": 7947,
+        "meta": 8589,
+        "gap_ratio": 0.0747,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "breaking-brake/cc-wf-studio",
+        "fetched": 527,
+        "meta": 569,
+        "gap_ratio": 0.0738,
+        "in_clean_sample": true,
+        "side_file_ok": true
+      },
+      {
+        "repo": "josephmisiti/awesome-machine-learning",
+        "fetched": 14826,
+        "meta": 15661,
+        "gap_ratio": 0.0533,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "kunal-kushwaha/Competitive-Programming-Resources",
+        "fetched": 982,
+        "meta": 1035,
+        "gap_ratio": 0.0512,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "awesomedata/awesome-public-datasets",
+        "fetched": 11351,
+        "meta": 11862,
+        "gap_ratio": 0.0431,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "bregman-arie/devops-exercises",
+        "fetched": 19506,
+        "meta": 20359,
+        "gap_ratio": 0.0419,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "mcp-use/mcp-use",
+        "fetched": 1429,
+        "meta": 1491,
+        "gap_ratio": 0.0416,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "cassidoo/getting-a-gig",
+        "fetched": 683,
+        "meta": 712,
+        "gap_ratio": 0.0407,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "zhayujie/CowAgent",
+        "fetched": 9954,
+        "meta": 10374,
+        "gap_ratio": 0.0405,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "karpathy/autoresearch",
+        "fetched": 13040,
+        "meta": 13540,
+        "gap_ratio": 0.0369,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "ultraworkers/claw-code",
+        "fetched": 104407,
+        "meta": 108218,
+        "gap_ratio": 0.0352,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "instavm/coderunner",
+        "fetched": 40,
+        "meta": 41,
+        "gap_ratio": 0.0244,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "code-yeongyu/oh-my-openagent",
+        "fetched": 5608,
+        "meta": 5745,
+        "gap_ratio": 0.0238,
+        "in_clean_sample": true,
+        "side_file_ok": true
+      },
+      {
+        "repo": "RyanFitzgerald/devportfolio",
+        "fetched": 4063,
+        "meta": 4161,
+        "gap_ratio": 0.0236,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      },
+      {
+        "repo": "MycroftAI/mycroft-core",
+        "fetched": 1262,
+        "meta": 1289,
+        "gap_ratio": 0.0209,
+        "in_clean_sample": false,
+        "side_file_ok": true
+      }
+    ],
+    "merged_file_mismatches": 0,
+    "note": "缺口 <2% 属改名/删除的正常抖动；>5% 需警惕翻页空洞，该仓库真实首次分叉可能晚于采得值。"
+  },
+  "star_extension": {
+    "n_repos": 341,
+    "n_with_earlier_history": 119,
+    "ext_stars_total": 14675876,
+    "ext_over_orig_median": 1.0088,
+    "ext_below_meta_count": 11,
+    "sample": [
+      {
+        "repo": "sindresorhus/awesome",
+        "ext_weeks": 641,
+        "orig_weeks": 640,
+        "ext_stars_total": 517971,
+        "orig_stars_total": 514396,
+        "meta_stars": 514409,
+        "weeks_before_orig_window": 585,
+        "ext_over_orig": 1.0069,
+        "ext_below_meta": false,
+        "earliest_week": "2014-07-06"
+      },
+      {
+        "repo": "public-apis/public-apis",
+        "ext_weeks": 552,
+        "orig_weeks": 551,
+        "ext_stars_total": 487818,
+        "orig_stars_total": 485978,
+        "meta_stars": 485980,
+        "weeks_before_orig_window": 496,
+        "ext_over_orig": 1.0038,
+        "ext_below_meta": false,
+        "earliest_week": "2016-03-20"
+      },
+      {
+        "repo": "openclaw/openclaw",
+        "ext_weeks": 47,
+        "orig_weeks": 46,
+        "ext_stars_total": 391756,
+        "orig_stars_total": 391273,
+        "meta_stars": 391275,
+        "weeks_before_orig_window": 0,
+        "ext_over_orig": 1.0012,
+        "ext_below_meta": false,
+        "earliest_week": "2025-11-23"
+      },
+      {
+        "repo": "vinta/awesome-python",
+        "ext_weeks": 643,
+        "orig_weeks": 642,
+        "ext_stars_total": 326798,
+        "orig_stars_total": 325046,
+        "meta_stars": 325050,
+        "weeks_before_orig_window": 587,
+        "ext_over_orig": 1.0054,
+        "ext_below_meta": false,
+        "earliest_week": "2014-06-22"
+      },
+      {
+        "repo": "awesome-selfhosted/awesome-selfhosted",
+        "ext_weeks": 594,
+        "orig_weeks": 593,
+        "ext_stars_total": 325775,
+        "orig_stars_total": 323753,
+        "meta_stars": 323760,
+        "weeks_before_orig_window": 538,
+        "ext_over_orig": 1.0062,
+        "ext_below_meta": false,
+        "earliest_week": "2015-05-31"
+      },
+      {
+        "repo": "obra/superpowers",
+        "ext_weeks": 54,
+        "orig_weeks": 53,
+        "ext_stars_total": 298016,
+        "orig_stars_total": 295059,
+        "meta_stars": 295076,
+        "weeks_before_orig_window": 0,
+        "ext_over_orig": 1.01,
+        "ext_below_meta": false,
+        "earliest_week": "2025-10-05"
+      },
+      {
+        "repo": "mattpocock/skills",
+        "ext_weeks": 37,
+        "orig_weeks": 36,
+        "ext_stars_total": 287365,
+        "orig_stars_total": 275633,
+        "meta_stars": 275647,
+        "weeks_before_orig_window": 0,
+        "ext_over_orig": 1.0426,
+        "ext_below_meta": false,
+        "earliest_week": "2026-02-01"
+      },
+      {
+        "repo": "affaan-m/ECC",
+        "ext_weeks": 40,
+        "orig_weeks": 39,
+        "ext_stars_total": 277607,
+        "orig_stars_total": 272533,
+        "meta_stars": 272547,
+        "weeks_before_orig_window": 0,
+        "ext_over_orig": 1.0186,
+        "ext_below_meta": false,
+        "earliest_week": "2026-01-11"
+      },
+      {
+        "repo": "NousResearch/hermes-agent",
+        "ext_weeks": 65,
+        "orig_weeks": 64,
+        "ext_stars_total": 252999,
+        "orig_stars_total": 251067,
+        "meta_stars": 251073,
+        "weeks_before_orig_window": 9,
+        "ext_over_orig": 1.0077,
+        "ext_below_meta": false,
+        "earliest_week": "2025-07-20"
+      },
+      {
+        "repo": "trimstray/the-book-of-secret-knowledge",
+        "ext_weeks": 435,
+        "orig_weeks": 434,
+        "ext_stars_total": 249455,
+        "orig_stars_total": 247760,
+        "meta_stars": 247764,
+        "weeks_before_orig_window": 379,
+        "ext_over_orig": 1.0068,
+        "ext_below_meta": false,
+        "earliest_week": "2018-06-17"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+ "P1_TOST": {
+  "rho": {
+   "type": "error",
+   "repo": "obra/superpowers",
+   "error": "network retries exhausted: IncompleteRead: IncompleteRead(384097 bytes read, 194662 more expected)",
+   "at": "2026-10-24T20:58:51"
+  },
+  "CI": [
+   0.056,
+   0.343
+  ],
+  "TOST_p_upper": 0.999996,
+  "reject_rho_ge_05": false
+ },
+ "P4_AUC": {
+  "mean": 0.595,
+  "sd": 0.036,
+  "folds": [
+   0.571,
+   0.623,
+   0.561,
+   0.651,
+   0.567
+  ],
+  "perm_p": 0.005
+ }
+}

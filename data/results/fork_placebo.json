@@ -1,0 +1,11 @@
+{
+  "true_fork_trend2": 2.357651604654542,
+  "true_p": 0.0006292752234410395,
+  "n_placebo": 200,
+  "placebo_mean": 5.708504808491348,
+  "placebo_sd": 4.5238002468112795,
+  "placebo_min": -0.08668170812239179,
+  "placebo_max": 17.929310401580135,
+  "perm_p": 0.825,
+  "true_percentile": 0.175
+}

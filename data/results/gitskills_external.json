@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-10-12T12:11:56",
+  "population": {
+    "n_repos": 282200,
+    "n_stars_valid": 281685,
+    "stars_all": {
+      "mean": 122.15080320215844,
+      "p10": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 2.0,
+      "p90": 15.0,
+      "p95": 64.0,
+      "p99": 1278.0,
+      "gini": 0.9881445832183453
+    },
+    "era_cutoff": "2025-09-22",
+    "n_same_era": 243423,
+    "stars_same_era": {
+      "mean": 42.7245617710734,
+      "p10": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 1.0,
+      "p90": 9.0,
+      "p95": 31.0,
+      "p99": 356.0,
+      "gini": 0.9854236611401501
+    },
+    "sample": {
+      "n_clean": 203,
+      "hit_in_gitskills": 152,
+      "hit_rate": 0.7487684729064039,
+      "stars_median_matched": 4577.5,
+      "stars_p25_matched": 1791.5,
+      "stars_p75_matched": 12932.25,
+      "star_pctile_median_all": 0.99547366739443,
+      "star_pctile_p25_all": 0.9918481637289881,
+      "star_pctile_p75_all": 0.9980146262669294,
+      "star_pctile_median_same_era": 0.998685415922078,
+      "share_in_pop_top10pct": 0.993421052631579,
+      "share_in_pop_top1pct": 0.8026315789473685,
+      "is_fork_share_sample": 0.0,
+      "is_fork_share_same_era_pop": 1.232422573051848e-05,
+      "stars_spearman_vs_repos_meta": 0.9099278117137709
+    },
+    "missed_sample_repos": [
+      "0xNyk/awesome-hermes-agent",
+      "AlephAITech/WorkBuddyGuide",
+      "Appllama/appllama-skills",
+      "JCodesMore/ai-website-cloner-template",
+      "Jakeschincariol/linkedin-agent-skill",
+      "KKKKhazix/human-writing",
+      "Leonxlnx/taste-skill",
+      "Natively-AI-assistant/natively-cluely-ai-assistant",
+      "Ontos-AI/knowhere",
+      "Ryze-AI-Adgent/open-seo-mcp-skills",
+      "Shanyin-ai/shanyin-screenwriting-master",
+      "TokenRhythm/opensquilla",
+      "Untrivial-ai/agent-orchestrator",
+      "VoltAgent/awesome-agent-skills",
+      "VoltAgent/awesome-openclaw-skills",
+      "agentskills/agentskills",
+      "alexgreensh/attention-span",
+      "alibaba/zvec",
+      "career-ops-hq/career-ops",
+      "cbrock84/headcount",
+      "codeaashu/claude-code",
+      "coldteadotai/pr-lens",
+      "didilili/ai-agents-from-zero",
+      "dmmulroy/anti-slop",
+      "filtalgo/Filtmall-Shopping-Skill",
+      "genspark-ai/genoffice",
+      "heilcheng/awesome-agent-skills",
+      "hesamsheikh/octogent",
+      "internet-court/internet-court-skill",
+      "irinabuht12-oss/marketing-skills",
+      "jangviktor-web/nihaixia",
+      "kaankiziltug/logo-design-skill",
+      "lackeyjb/playwright-skill",
+      "larashero3-dotcom/lieflat-charts",
+      "liustack/modlens",
+      "microsoft/skill-recorder",
+      "miqdadbadjuber/anti-slop",
+      "nowork-studio/notfair-plugin",
+      "pacifio/atlas",
+      "rohitg00/awesome-claude-design",
+      "suboss87/FDEOps",
+      "tigerless-labs/autoharness",
+      "titanwings/distilly",
+      "tmstack/awesome-persona-skills",
+      "tradecatlabs/vibe-coding-cn",
+      "travisvn/awesome-claude-skills",
+      "undefined-ui/second-brain-os",
+      "xixu-me/awesome-persona-distill-skills",
+      "zenbu-labs/terminal-browser",
+      "zenstory-ai/drama-skills",
+      "zenstory-ai/oh-story-claudecode"
+    ]
+  },
+  "copy_by_file_sha": {
+    "n_artifacts": 3797117,
+    "n_unique_file_sha": 1877981,
+    "inflation_artifacts_per_sha": 2.0219144922126477,
+    "sha_in_1_repo_share": 0.8370121955440444,
+    "sha_in_ge2_repo_share": 0.16298780445595562,
+    "sha_in_ge5_repo_share": 0.03298648921368214,
+    "sha_in_ge10_repo_share": 0.013808978898082568,
+    "max_repo_count_per_sha": 951,
+    "artifact_share_copied_ge2": 0.5491181862449853,
+    "artifact_share_copied_ge2_primary": 0.16298780445595562,
+    "artifact_share_copied_ge2_sha_ok": 0.16508198905949298,
+    "median_repos_per_copied_sha": 2.0,
+    "sample": {
+      "n_sample_in_artifacts": 152,
+      "repos_with_exact_copy": 143,
+      "share_with_exact_copy": 0.9407894736842105,
+      "median_skills_per_repo": 9.0,
+      "median_copied_skills_per_repo": 6.5,
+      "median_max_other_repos": 7.0,
+      "p90_max_other_repos": 63.900000000000006,
+      "truncated_repos": 108,
+      "truncated_with_exact_copy": 80,
+      "copied_skill_span_days_median": 0.0,
+      "copied_skill_n_sha": 3589,
+      "top_copied": [
+        {
+          "sample_repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
+          "skill_path": "skills/68-research-productivity-skills/skill-creator/SKILL.md",
+          "n_repos_with_same_content": 532,
+          "other_repos": 531
+        },
+        {
+          "sample_repo": "XiaoMaColtAI/math-modeling-skill",
+          "skill_path": "tools/pdf/SKILL.md",
+          "n_repos_with_same_content": 493,
+          "other_repos": 492
+        },
+        {
+          "sample_repo": "foryourhealth111-pixel/Vibe-Skills",
+          "skill_path": "bundled/skills/algorithmic-art/SKILL.md",
+          "n_repos_with_same_content": 458,
+          "other_repos": 457
+        },
+        {
+          "sample_repo": "foryourhealth111-pixel/Vibe-Skills",
+          "skill_path": "bundled/skills/docx/SKILL.md",
+          "n_repos_with_same_content": 367,
+          "other_repos": 366
+        },
+        {
+          "sample_repo": "anthropics/claude-plugins-official",
+          "skill_path": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+          "n_repos_with_same_content": 265,
+          "other_repos": 264
+        },
+        {
+          "sample_repo": "foryourhealth111-pixel/Vibe-Skills",
+          "skill_path": "bundled/skills/.system/skill-installer/SKILL.md",
+          "n_repos_with_same_content": 211,
+          "other_repos": 210
+        },
+        {
+          "sample_repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
+          "skill_path": "skills/33-Galaxy-Dawn-claude-scholar/skills/obsidian-markdown/SKILL.md",
+          "n_repos_with_same_content": 197,
+          "other_repos": 196
+        },
+        {
+          "sample_repo": "foryourhealth111-pixel/Vibe-Skills",
+          "skill_path": "bundled/skills/theme-factory/SKILL.md",
+          "n_repos_with_same_content": 189,
+          "other_repos": 188
+        },
+        {
+          "sample_repo": "foryourhealth111-pixel/Vibe-Skills",
+          "skill_path": "bundled/skills/subagent-driven-development/SKILL.md",
+          "n_repos_with_same_content": 171,
+          "other_repos": 170
+        },
+        {
+          "sample_repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
+          "skill_path": "skills/33-Galaxy-Dawn-claude-scholar/skills/obsidian-bases/SKILL.md",
+          "n_repos_with_same_content": 168,
+          "other_repos": 167
+        }
+      ]
+    }
+  },
+  "skillmd_138k": {
+    "note": "该语料按唯一内容构建（138,133 行哈希全部唯一），复制率为 0 属构造使然，不具备复制计数信息量；仅作样本覆盖参考。",
+    "n_artifacts": 138133,
+    "n_unique_content_hash": 138133,
+    "hash_in_1_repo_share": 1.0,
+    "hash_in_ge2_repo_share": 0.0,
+    "hash_in_ge5_repo_share": 0.0,
+    "max_repo_count_per_hash": 1,
+    "sample_hit": 33
+  }
+}

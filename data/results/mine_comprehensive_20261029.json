@@ -1,0 +1,471 @@
+{
+ "generated_at": "2026-10-29T21:54:49",
+ "A_fork_pr": {
+  "A1_outcomes": {
+   "total_events": 447495,
+   "merged": 200556,
+   "merged_pct": 44.82,
+   "closed_unmerged": 182928,
+   "closed_unmerged_pct": 40.88,
+   "open": 64011,
+   "open_pct": 14.3,
+   "merge_share_of_closed": 52.3,
+   "note": "merged 以 merged_at 非空判定；REST 与 GraphQL 的 state 约定不同（closed vs CLOSED/MERGED），不单列 raw state"
+  },
+  "A2_lifetime_hours": {
+   "merged_n": 200556,
+   "merged_median_h": 7.72,
+   "merged_p90_h": 196.08,
+   "closed_median_h": 98.91,
+   "closed_p90_h": 1674.5
+  },
+  "A3_lag_fine_bins": {
+   "n": 357630,
+   "bins": {
+    "<1h": 27.87,
+    "1-6h": 4.96,
+    "6-24h": 4.12,
+    "1-3d": 5.34,
+    "3-7d": 5.75,
+    "7-30d": 15.7,
+    "30-90d": 15.33,
+    "90-365d": 13.65,
+    ">365d": 7.27
+   }
+  },
+  "A4_author_concentration": {
+   "unique_authors": 99797,
+   "gini": 0.7185,
+   "top10_share_pct": 7.09,
+   "top10": [
+    [
+     "vincentkoc",
+     6594
+    ],
+    [
+     "liuhao1024",
+     3692
+    ],
+    [
+     "pavelfeldman",
+     3644
+    ],
+    [
+     "dgozman",
+     3612
+    ],
+    [
+     "yury-s",
+     3056
+    ],
+    [
+     "RomneyDa",
+     2546
+    ],
+    [
+     "cryppadotta",
+     2374
+    ],
+    [
+     "roboclaw-bot",
+     2183
+    ],
+    [
+     "mxschmitt",
+     2067
+    ],
+    [
+     "OutThisLife",
+     1967
+    ]
+   ]
+  },
+  "A4_parent_top1_author_share_median": 10.89,
+  "A4_parent_top1_n": 214,
+  "A5_conversion_distribution": {
+   "n_parents_forks_ge100": 224,
+   "histogram": {
+    "0-1%": 24,
+    "1-2%": 46,
+    "2-5%": 68,
+    "5-10%": 41,
+    "10-20%": 31,
+    "20-40%": 9,
+    ">40%": 5
+   },
+   "median_pct": 3.89,
+   "q90_pct": 15.21,
+   "parents_for_half_of_returns": 12,
+   "parents_pct_for_half_of_returns": 5.4
+  },
+  "A6_monthly_events": {
+   "2011-06": 2,
+   "2011-08": 4,
+   "2011-09": 3,
+   "2011-10": 7,
+   "2011-11": 7,
+   "2011-12": 2,
+   "2012-01": 7,
+   "2012-02": 15,
+   "2012-03": 26,
+   "2012-04": 30,
+   "2012-05": 36,
+   "2012-06": 52,
+   "2012-07": 51,
+   "2012-08": 38,
+   "2012-09": 44,
+   "2012-10": 26,
+   "2012-11": 27,
+   "2012-12": 18,
+   "2013-01": 21,
+   "2013-02": 23,
+   "2013-03": 18,
+   "2013-04": 22,
+   "2013-05": 29,
+   "2013-06": 9,
+   "2013-07": 3,
+   "2013-09": 2,
+   "2013-10": 10,
+   "2013-11": 11,
+   "2013-12": 6,
+   "2014-01": 17,
+   "2014-02": 3,
+   "2014-03": 8,
+   "2014-04": 6,
+   "2014-05": 5,
+   "2014-06": 11,
+   "2014-07": 196,
+   "2014-08": 60,
+   "2014-09": 59,
+   "2014-10": 64,
+   "2014-11": 55,
+   "2014-12": 86,
+   "2015-01": 74,
+   "2015-02": 58,
+   "2015-03": 125,
+   "2015-04": 189,
+   "2015-05": 156,
+   "2015-06": 164,
+   "2015-07": 135,
+   "2015-08": 133,
+   "2015-09": 69,
+   "2015-10": 141,
+   "2015-11": 93,
+   "2015-12": 111,
+   "2016-01": 152,
+   "2016-02": 152,
+   "2016-03": 129,
+   "2016-04": 157,
+   "2016-05": 132,
+   "2016-06": 191,
+   "2016-07": 177,
+   "2016-08": 182,
+   "2016-09": 105,
+   "2016-10": 195,
+   "2016-11": 126,
+   "2016-12": 149,
+   "2017-01": 164,
+   "2017-02": 130,
+   "2017-03": 212,
+   "2017-04": 198,
+   "2017-05": 156,
+   "2017-06": 240,
+   "2017-07": 205,
+   "2017-08": 218,
+   "2017-09": 216,
+   "2017-10": 353,
+   "2017-11": 218,
+   "2017-12": 187,
+   "2018-01": 198,
+   "2018-02": 179,
+   "2018-03": 220,
+   "2018-04": 183,
+   "2018-05": 236,
+   "2018-06": 255,
+   "2018-07": 187,
+   "2018-08": 199,
+   "2018-09": 197,
+   "2018-10": 348,
+   "2018-11": 262,
+   "2018-12": 252,
+   "2019-01": 274,
+   "2019-02": 236,
+   "2019-03": 228,
+   "2019-04": 255,
+   "2019-05": 256,
+   "2019-06": 231,
+   "2019-07": 253,
+   "2019-08": 205,
+   "2019-09": 288,
+   "2019-10": 553,
+   "2019-11": 341,
+   "2019-12": 437,
+   "2020-01": 596,
+   "2020-02": 454,
+   "2020-03": 541,
+   "2020-04": 582,
+   "2020-05": 523,
+   "2020-06": 566,
+   "2020-07": 794,
+   "2020-08": 705,
+   "2020-09": 606,
+   "2020-10": 898,
+   "2020-11": 564,
+   "2020-12": 541,
+   "2021-01": 618,
+   "2021-02": 703,
+   "2021-03": 692,
+   "2021-04": 649,
+   "2021-05": 701,
+   "2021-06": 814,
+   "2021-07": 798,
+   "2021-08": 798,
+   "2021-09": 784,
+   "2021-10": 1774,
+   "2021-11": 673,
+   "2021-12": 577,
+   "2022-01": 644,
+   "2022-02": 650,
+   "2022-03": 782,
+   "2022-04": 624,
+   "2022-05": 587,
+   "2022-06": 698,
+   "2022-07": 702,
+   "2022-08": 759,
+   "2022-09": 688,
+   "2022-10": 1357,
+   "2022-11": 624,
+   "2022-12": 546,
+   "2023-01": 557,
+   "2023-02": 587,
+   "2023-03": 727,
+   "2023-04": 655,
+   "2023-05": 879,
+   "2023-06": 790,
+   "2023-07": 902,
+   "2023-08": 1013,
+   "2023-09": 970,
+   "2023-10": 1489,
+   "2023-11": 883,
+   "2023-12": 812,
+   "2024-01": 1196,
+   "2024-02": 1068,
+   "2024-03": 1242,
+   "2024-04": 1555,
+   "2024-05": 1445,
+   "2024-06": 1412,
+   "2024-07": 1634,
+   "2024-08": 1611,
+   "2024-09": 1832,
+   "2024-10": 1975,
+   "2024-11": 1862,
+   "2024-12": 1823,
+   "2025-01": 1870,
+   "2025-02": 2429,
+   "2025-03": 3397,
+   "2025-04": 2881,
+   "2025-05": 2967,
+   "2025-06": 2849,
+   "2025-07": 3432,
+   "2025-08": 3603,
+   "2025-09": 3584,
+   "2025-10": 3941,
+   "2025-11": 3523,
+   "2025-12": 4167,
+   "2026-01": 9274,
+   "2026-02": 19103,
+   "2026-03": 33366,
+   "2026-04": 31815,
+   "2026-05": 34529,
+   "2026-06": 36990,
+   "2026-07": 42944,
+   "2026-08": 43204,
+   "2026-09": 52819,
+   "2026-10": 37093
+  },
+  "A7_regression": {
+   "n": 224,
+   "coef_intercept": 0.1204,
+   "coef_log10_stars": -0.0186,
+   "coef_log10_forks": 0.0078,
+   "coef_age_years": 0.0013,
+   "r2": 0.0067,
+   "spearman_stars_conversion": [
+    0.06,
+    0.3685
+   ]
+  },
+  "A8_merge_rate_by_parent": {
+   "n": 198,
+   "median_pct": 48.2,
+   "p10_pct": 7.6,
+   "p90_pct": 79.1
+  }
+ },
+ "B_pr_comments": {
+  "B1_comment_coverage": {
+   "n_repos": 162,
+   "n_prs": 45360,
+   "zero": 20458,
+   "one": 12929,
+   "two_to_five": 10054,
+   "six_plus": 1919,
+   "zero_pct": 45.1,
+   "six_plus_pct": 4.23
+  },
+  "B2_timing_hours": {
+   "first_comment_median_h": 0.03,
+   "first_comment_p90_h": 240.65,
+   "last_pre_merge_comment_to_merge_median_h": 0.87,
+   "n_last_pre_merge": 9168
+  },
+  "B3_comment_text": {
+   "n_human_comments": 54477,
+   "len_median_chars": 537,
+   "len_p90_chars": 5865,
+   "code_block_pct": 10.94,
+   "url_pct": 28.97,
+   "approval_like_pct": 54.05,
+   "request_like_pct": 60.54,
+   "cjk_pct": 1.85,
+   "very_short_pct": 4.07,
+   "question_pct": 1.35,
+   "note": "文本统计仅人类评论；机器人（含 github-actions/codecov）单列"
+  },
+  "B4_single_point_share": {
+   "n_repos_ge10": 120,
+   "median_top1_commenter_pct": 57.9,
+   "p90_pct": 84.2
+  },
+  "B5_reviews": {
+   "state_counts": {
+    "CHANGES_REQUESTED": 2065,
+    "APPROVED": 5741,
+    "COMMENTED": 26446,
+    "DISMISSED": 148
+   },
+   "review_body_len_median": 586.0,
+   "empty_review_body_pct": 32.8,
+   "prs_with_review_pct": 33.2
+  },
+  "B6_gatekeeping_effect": {
+   "merged_with_pre_comment_n": 9168,
+   "median_h_with": 6.45,
+   "merged_without_n": 14966,
+   "median_h_without": 0.59,
+   "mannwhitney_p": 0.0
+  },
+  "B7_bot_human": {
+   "bot_comments": 6601,
+   "human_comments": 54477,
+   "bot_pct": 10.81,
+   "bot_len_median": 451,
+   "human_len_median": 537,
+   "definition": "GitHub App 惯例：[bot] 后缀 / dependabot / renovate / github-actions / codecov 等（含登录名不含 bot 的 CI 账号）"
+  }
+ },
+ "C_skillmd_history": {
+  "C1_history_shape": {
+   "n_sides_total": 684,
+   "n_sides_ok": 598,
+   "commits_median": 1,
+   "commits_p90": 5,
+   "commits_max": 62,
+   "lifespan_days_median": 0.0,
+   "status_mix": {
+    "ok_no_attr_ever": 425,
+    "ok_attr_at_birth": 162,
+    "no_history": 86,
+    "ok_attr_added_later": 11
+   }
+  },
+  "C2_attribution_dynamics": {
+   "at_birth_fields": {
+    "license": 140,
+    "author": 70,
+    "source": 5
+   },
+   "added_later_fields": {
+    "author": 7,
+    "license": 6,
+    "source": 2
+   },
+   "added_later_n": 11
+  },
+  "C3_commits_by_status": {
+   "ok_no_attr_ever": {
+    "n": 425,
+    "median": 1
+   },
+   "ok_attr_at_birth": {
+    "n": 162,
+    "median": 1
+   },
+   "ok_attr_added_later": {
+    "n": 11,
+    "median": 3
+   },
+   "mannwhitney_p_birth_vs_never": 0.3103
+  },
+  "C4_parent_child_commits": {
+   "n_pairs": 272,
+   "parent_median": 1,
+   "child_median": 1,
+   "child_more_commits_pct": 13.6
+  }
+ },
+ "D_cross_layer": {
+  "D1_funnel_341": {
+   "panel": 341,
+   "stars_gt0": 341,
+   "skills_sh_hit": 146,
+   "clawhub_hit": 78,
+   "forks_ge10": 341,
+   "prs_ge1": 196,
+   "fork_pr_scanned": 225,
+   "fork_pr_returning_gt0": 224
+  },
+  "D2_copy_vs_fork": {
+   "n": 62,
+   "spearman_share_cross_vs_forks": [
+    0.185,
+    0.1491
+   ],
+   "spearman_shared_sha_vs_forks": [
+    0.256,
+    0.045
+   ],
+   "spearman_fm_author_rate_vs_stars": [
+    -0.097,
+    0.4521
+   ],
+   "share_cross_median_pct": 0.0,
+   "share_cross_p90_pct": 100.0
+  },
+  "D3_platform_vs_return": {
+   "n_hit": 88,
+   "n_miss": 136,
+   "median_conv_hit_pct": 4.66,
+   "median_conv_miss_pct": 3.01,
+   "mannwhitney_p": 0.253
+  },
+  "D4_gate_cross": {
+   "no_review|no_comment": {
+    "n": 12848,
+    "pct": 53.24
+   },
+   "review|no_comment": {
+    "n": 2118,
+    "pct": 8.78
+   },
+   "no_review|comment": {
+    "n": 6887,
+    "pct": 28.54
+   },
+   "review|comment": {
+    "n": 2281,
+    "pct": 9.45
+   }
+  }
+ }
+}

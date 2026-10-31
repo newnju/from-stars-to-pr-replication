@@ -1,0 +1,90 @@
+{
+  "generated": "2026-10-17",
+  "stage1_selfcheck": {
+    "artifacts_shards": 31,
+    "total_rows": 3797117,
+    "unique_sha": 1877981,
+    "multi_repo_sha": 306088,
+    "multi_repo_sha_pct": 16.3,
+    "rows_in_multi": 2085066,
+    "rows_in_multi_pct": 54.91
+  },
+  "record_reference": {
+    "total_rows": 3797117,
+    "unique_sha": 1877981,
+    "multi_repo_sha": 306088,
+    "multi_repo_sha_pct": 16.3,
+    "rows_in_multi": 2085066,
+    "rows_in_multi_pct": 54.91
+  },
+  "signals": {
+    "T1": 170,
+    "T3": 305589,
+    "disc": 5812,
+    "is_fork_ones": 3,
+    "fork_map": 1882661,
+    "repo_created": 281676,
+    "rows_first_commit": 458548
+  },
+  "edge_counts": {
+    "T1": 170,
+    "T2": 0,
+    "T3": 1237640,
+    "undecidable": 533,
+    "tie": 36,
+    "t1_directed_pairs": 120,
+    "t1_contradictory_unordered": 1
+  },
+  "multi_repo_sha": 306088,
+  "sha_by_evidence": {
+    "T3": 305385,
+    "T1": 170
+  },
+  "strong_edge_pct_of_multi_sha": 0.06,
+  "n_edges": 1237810,
+  "n_edges_strong_persisted": 170,
+  "n_edges_weak_T3_not_persisted": 1237640,
+  "weak_edges_reproducible": "python external_data/_build_propagation_tree.py",
+  "fork_class": {
+    "E. 父链不可见（forks_timestamps 仅覆盖面板仓）": 1237803,
+    "C. 复制方父链可见（父非本边源）": 7
+  },
+  "repo_graph": {
+    "T1_first_commit": {
+      "nodes": 226,
+      "edges": 120,
+      "acyclic": false,
+      "max_depth": 1,
+      "depth_hist": {
+        "0": 117,
+        "1": 109,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "T3_repo_created_prior": {
+      "nodes": 94461,
+      "edges": 243313,
+      "acyclic": true,
+      "max_depth": 64,
+      "depth_hist": {
+        "0": 21326,
+        "1": 25831,
+        "2": 7814,
+        "3": 4127,
+        "4": 3171,
+        "5": 2307
+      }
+    }
+  },
+  "caveats": [
+    "T3 由 repos.created_at 推出，是方向先验而非复制证据",
+    "T2 fork 父子实证实测 0 条：forks_timestamps 与 artifacts 字节同源对几乎不重叠",
+    "T1 存在方向矛盾对，见 t1_contradictory_unordered，不足以单独断定复制方向",
+    "forks_timestamps 仅覆盖 203 面板仓为父，E 类查不到父不等于非 fork",
+    "repos.is_fork 实测仅 3 个 =1，未用于任何归因",
+    "discovered_at 为爬虫批次时间，不含序信息，未用于定向"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+ "labels": {
+  "omo-senpi": {
+   "n": 1573,
+   "merge_rate": 0.865
+  },
+  "type:bug": {
+   "n": 1118,
+   "merge_rate": 0.82
+  },
+  "opencode": {
+   "n": 844,
+   "merge_rate": 0.712
+  },
+  "lazycodex": {
+   "n": 711,
+   "merge_rate": 0.838
+  },
+  "senpi-task": {
+   "n": 597,
+   "merge_rate": 0.889
+  },
+  "size:exception": {
+   "n": 527,
+   "merge_rate": 0.913
+  },
+  "pr-requirements-warning": {
+   "n": 496,
+   "merge_rate": 0.04
+  },
+  "omo-native": {
+   "n": 496,
+   "merge_rate": 0.871
+  },
+  "pr-in-review": {
+   "n": 490,
+   "merge_rate": 0.253
+  },
+  "dependencies": {
+   "n": 487,
+   "merge_rate": 0.468
+  },
+  "type:feature": {
+   "n": 388,
+   "merge_rate": 0.719
+  },
+  "documentation": {
+   "n": 384,
+   "merge_rate": 0.906
+  },
+  "bug": {
+   "n": 277,
+   "merge_rate": 0.899
+  },
+  "enhancement": {
+   "n": 275,
+   "merge_rate": 0.887
+  },
+  "good first issue": {
+   "n": 236,
+   "merge_rate": 0.919
+  },
+  "shared-skills": {
+   "n": 223,
+   "merge_rate": 0.879
+  },
+  "help wanted": {
+   "n": 209,
+   "merge_rate": 0.923
+  },
+  "review-queued": {
+   "n": 199,
+   "merge_rate": 0.899
+  },
+  "memory-core": {
+   "n": 188,
+   "merge_rate": 0.904
+  },
+  "ci:full-matrix": {
+   "n": 178,
+   "merge_rate": 0.91
+  }
+ },
+ "topics": [
+  [
+   "claude-code",
+   141,
+   0.6737588652482269,
+   6093
+  ],
+  [
+   "agent-skills",
+   129,
+   0.6511627906976745,
+   5738
+  ],
+  [
+   "skills",
+   117,
+   0.6324786324786325,
+   7138
+  ],
+  [
+   "claude-skills",
+   100,
+   0.55,
+   2580
+  ],
+  [
+   "ai-agents",
+   85,
+   0.7176470588235294,
+   7082
+  ],
+  [
+   "codex",
+   82,
+   0.6951219512195121,
+   6342
+  ],
+  [
+   "claude",
+   76,
+   0.7236842105263158,
+   7334
+  ],
+  [
+   "mcp",
+   69,
+   0.7681159420289855,
+   9128
+  ],
+  [
+   "ai",
+   67,
+   0.8208955223880597,
+   35604
+  ],
+  [
+   "llm",
+   56,
+   0.7857142857142857,
+   19103
+  ],
+  [
+   "cursor",
+   35,
+   0.8,
+   7138
+  ],
+  [
+   "agent",
+   34,
+   0.6764705882352942,
+   11393
+  ],
+  [
+   "openclaw",
+   33,
+   0.6666666666666666,
+   7082
+  ],
+  [
+   "ai-agent",
+   31,
+   0.7741935483870968,
+   16816
+  ],
+  [
+   "python",
+   30,
+   0.8,
+   63122
+  ]
+ ]
+}

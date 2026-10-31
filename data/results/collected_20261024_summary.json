@@ -1,0 +1,1607 @@
+{
+ "generated": "2026-10-24T21:06:44",
+ "collect_dir": "E:\\temp\\opencode",
+ "pr_merged": {
+  "n_repos": 164,
+  "overall": {
+   "n_repos": 164,
+   "n_prs": 45203,
+   "merged": 23988,
+   "closed_unmerged": 14331,
+   "open": 6884,
+   "merge_rate_all": 0.530672742959538,
+   "merge_rate_closed": 0.6260079855946137,
+   "bot_prs": 1964,
+   "bot_merged": 1184,
+   "latency_median_days": 0.05386574074074074,
+   "latency_p90_days": 5.069386574074074,
+   "repo_latency_median_days": 0.06068287037037037,
+   "repo_latency_p90_days": 2.6890567129629632
+  },
+  "exclude_top3": {
+   "n_repos": 161,
+   "n_prs": 31924,
+   "merged": 17609,
+   "closed_unmerged": 8358,
+   "open": 5957,
+   "merge_rate_all": 0.5515912792883098,
+   "merge_rate_closed": 0.6781299341471868,
+   "bot_prs": 1565,
+   "bot_merged": 1088,
+   "latency_median_days": 0.05935185185185185,
+   "latency_p90_days": 4.864398148148148,
+   "repo_latency_median_days": 0.05996527777777778,
+   "repo_latency_p90_days": 3.5948379629629628
+  },
+  "incomplete_repos": [],
+  "top3": [
+   "code-yeongyu/oh-my-openagent",
+   "aden-hive/hive",
+   "affaan-m/ECC"
+  ],
+  "old_new": {
+   "old_prs": 18194,
+   "new_prs": 45203,
+   "old_eq_new": 50,
+   "new_gt_old": 113,
+   "top_undercount": [
+    {
+     "repo": "Gentleman-Programming/gentle-ai",
+     "old_prs": 29,
+     "new_prs": 2325,
+     "ratio": 80.17241379310344
+    },
+    {
+     "repo": "code-yeongyu/oh-my-openagent",
+     "old_prs": 95,
+     "new_prs": 6807,
+     "ratio": 71.65263157894736
+    },
+    {
+     "repo": "TokenRhythm/opensquilla",
+     "old_prs": 74,
+     "new_prs": 1483,
+     "ratio": 20.04054054054054
+    },
+    {
+     "repo": "alibaba/open-code-review",
+     "old_prs": 63,
+     "new_prs": 1121,
+     "ratio": 17.793650793650794
+    },
+    {
+     "repo": "aden-hive/hive",
+     "old_prs": 266,
+     "new_prs": 3835,
+     "ratio": 14.417293233082706
+    },
+    {
+     "repo": "alibaba/zvec",
+     "old_prs": 75,
+     "new_prs": 623,
+     "ratio": 8.306666666666667
+    },
+    {
+     "repo": "NVIDIA/skills",
+     "old_prs": 98,
+     "new_prs": 690,
+     "ratio": 7.040816326530612
+    },
+    {
+     "repo": "Panniantong/Agent-Reach",
+     "old_prs": 79,
+     "new_prs": 546,
+     "ratio": 6.9113924050632916
+    },
+    {
+     "repo": "affaan-m/ECC",
+     "old_prs": 406,
+     "new_prs": 2637,
+     "ratio": 6.495073891625616
+    },
+    {
+     "repo": "ComposioHQ/awesome-claude-skills",
+     "old_prs": 391,
+     "new_prs": 2111,
+     "ratio": 5.398976982097187
+    },
+    {
+     "repo": "a5c-ai/babysitter",
+     "old_prs": 102,
+     "new_prs": 521,
+     "ratio": 5.107843137254902
+    },
+    {
+     "repo": "genspark-ai/genoffice",
+     "old_prs": 285,
+     "new_prs": 1291,
+     "ratio": 4.529824561403509
+    },
+    {
+     "repo": "Ontos-AI/knowhere",
+     "old_prs": 95,
+     "new_prs": 392,
+     "ratio": 4.126315789473685
+    },
+    {
+     "repo": "backnotprop/plannotator",
+     "old_prs": 425,
+     "new_prs": 1476,
+     "ratio": 3.4729411764705884
+    },
+    {
+     "repo": "JuliusBrussee/caveman",
+     "old_prs": 226,
+     "new_prs": 738,
+     "ratio": 3.265486725663717
+    }
+   ]
+  },
+  "by_star_tier": [
+   {
+    "n_repos": 6,
+    "n_prs": 329,
+    "merged": 278,
+    "closed_unmerged": 39,
+    "open": 12,
+    "merge_rate_all": 0.8449848024316109,
+    "merge_rate_closed": 0.8769716088328076,
+    "bot_prs": 38,
+    "bot_merged": 32,
+    "latency_median_days": 0.004837962962962962,
+    "latency_p90_days": 0.4030787037037037,
+    "repo_latency_median_days": 0.012604166666666666,
+    "repo_latency_p90_days": 47.030208333333334,
+    "star_tier": "201-1000"
+   },
+   {
+    "n_repos": 158,
+    "n_prs": 44874,
+    "merged": 23710,
+    "closed_unmerged": 14292,
+    "open": 6872,
+    "merge_rate_all": 0.528368320185408,
+    "merge_rate_closed": 0.6239145308141677,
+    "bot_prs": 1926,
+    "bot_merged": 1152,
+    "latency_median_days": 0.05609375,
+    "latency_p90_days": 5.151423611111111,
+    "repo_latency_median_days": 0.06641782407407407,
+    "repo_latency_p90_days": 2.673958333333333,
+    "star_tier": "1001+"
+   }
+  ],
+  "top_repos": [
+   {
+    "repo": "code-yeongyu/oh-my-openagent",
+    "n": 6807,
+    "stars": 69787
+   },
+   {
+    "repo": "aden-hive/hive",
+    "n": 3835,
+    "stars": 11091
+   },
+   {
+    "repo": "affaan-m/ECC",
+    "n": 2637,
+    "stars": 272547
+   },
+   {
+    "repo": "Gentleman-Programming/gentle-ai",
+    "n": 2325,
+    "stars": 7526
+   },
+   {
+    "repo": "ComposioHQ/awesome-claude-skills",
+    "n": 2111,
+    "stars": 76459
+   },
+   {
+    "repo": "TokenRhythm/opensquilla",
+    "n": 1483,
+    "stars": 7082
+   },
+   {
+    "repo": "backnotprop/plannotator",
+    "n": 1476,
+    "stars": 9131
+   },
+   {
+    "repo": "genspark-ai/genoffice",
+    "n": 1291,
+    "stars": 8579
+   },
+   {
+    "repo": "alibaba/open-code-review",
+    "n": 1121,
+    "stars": 43610
+   },
+   {
+    "repo": "VoltAgent/awesome-agent-skills",
+    "n": 1113,
+    "stars": 35185
+   },
+   {
+    "repo": "DietrichGebert/ponytail",
+    "n": 832,
+    "stars": 154122
+   },
+   {
+    "repo": "JuliusBrussee/caveman",
+    "n": 738,
+    "stars": 109697
+   },
+   {
+    "repo": "NVIDIA/skills",
+    "n": 690,
+    "stars": 3519
+   },
+   {
+    "repo": "alibaba/zvec",
+    "n": 623,
+    "stars": 16062
+   },
+   {
+    "repo": "Klotzkette/claude-fuer-deutsches-recht",
+    "n": 588,
+    "stars": 1655
+   }
+  ]
+ },
+ "pr_reviews": {
+  "n_repos": 182,
+  "n_prs": 88393,
+  "reviewed_prs": 35156,
+  "reviewed_share": 0.39772380165850235,
+  "review_decision": {
+   "null": 62145,
+   "CHANGES_REQUESTED": 1166,
+   "APPROVED": 9014,
+   "REVIEW_REQUIRED": 16068
+  },
+  "n_error_rows": 30,
+  "unresolved_error_repos": [
+   "Observal/Observal",
+   "agentscope-ai/QwenPaw",
+   "alibaba/zvec",
+   "career-ops-hq/career-ops",
+   "dotnet/skills",
+   "mohitagw15856/pm-claude-skills",
+   "nexu-io/open-design"
+  ],
+  "top_merged_by": [
+   [
+    null,
+    36766
+   ],
+   [
+    "diegosouzapw",
+    8184
+   ],
+   [
+    "code-yeongyu",
+    4031
+   ],
+   [
+    "bryan-anthropic",
+    2956
+   ],
+   [
+    "inkeep-oss-sync",
+    2060
+   ],
+   [
+    "maziyarpanahi",
+    1783
+   ],
+   [
+    "teng-lin",
+    1614
+   ],
+   [
+    "mvschwarz",
+    1332
+   ],
+   [
+    "backnotprop",
+    1275
+   ],
+   [
+    "sickn33",
+    1249
+   ],
+   [
+    "Alan-TheGentleman",
+    1202
+   ],
+   [
+    "Open-Squilla",
+    1047
+   ],
+   [
+    "affaan-m",
+    1007
+   ],
+   [
+    "merrick-2002",
+    999
+   ],
+   [
+    "divshekhar",
+    718
+   ]
+  ]
+ },
+ "review_pr_join": {
+  "n_joined": 44572,
+  "reviewed": 14550,
+  "reviewed_share": 0.32643812258817195,
+  "by_status": {
+   "merged": 23526,
+   "closed": 14216,
+   "open": 6830
+  },
+  "reviewed_by_status": {
+   "merged": 8848,
+   "closed": 4371,
+   "open": 1331
+  },
+  "reviewed_share_by_status": {
+   "merged": 0.37609453370738755,
+   "closed": 0.30747045582442317,
+   "open": 0.19487554904831625
+  },
+  "review_decision_by_status": {
+   "merged|None": 18828,
+   "closed|None": 12338,
+   "open|None": 4394,
+   "merged|APPROVED": 3253,
+   "closed|REVIEW_REQUIRED": 1113,
+   "merged|REVIEW_REQUIRED": 1281,
+   "open|REVIEW_REQUIRED": 2144,
+   "closed|CHANGES_REQUESTED": 401,
+   "open|CHANGES_REQUESTED": 224,
+   "merged|CHANGES_REQUESTED": 164,
+   "closed|APPROVED": 364,
+   "open|APPROVED": 68
+  },
+  "note": "只统计 pr_merged/pr_merged_retry 与 pr_reviews 的 PR number 交集；不是 189 仓全量。"
+ },
+ "fork_prs": {
+  "n_parents": 107,
+  "n_errors": 90,
+  "total_forks": 187827,
+  "head_matched": 8072,
+  "author_only": 367,
+  "union_matched": 8439,
+  "head_conversion": 0.04297571701619043,
+  "union_conversion_upper_bound": 0.04492964270312575,
+  "median_parent_head_conversion": 0.027573529411764705,
+  "zero_head_match_parents": 1,
+  "delay_median_days": 6.645775462962963,
+  "delay_p90_days": 349.709525462963,
+  "note": "head_conversion 是可用下界；union 含 author 匹配，可能 >1，只能当上界。",
+  "top_parents": [
+   {
+    "parent": "ikaijua/Awesome-AITools",
+    "n_forks": 899,
+    "head_matched": 457,
+    "author_only": 7,
+    "union_matched": 464,
+    "head_conversion": 0.5083426028921023,
+    "union_conversion": 0.5161290322580645,
+    "n_prs": 893,
+    "n_matched_prs": 561
+   },
+   {
+    "parent": "heilcheng/awesome-agent-skills",
+    "n_forks": 790,
+    "head_matched": 392,
+    "author_only": 9,
+    "union_matched": 401,
+    "head_conversion": 0.4962025316455696,
+    "union_conversion": 0.5075949367088608,
+    "n_prs": 523,
+    "n_matched_prs": 440
+   },
+   {
+    "parent": "composio-community/awesome-claude-plugins",
+    "n_forks": 810,
+    "head_matched": 399,
+    "author_only": 4,
+    "union_matched": 403,
+    "head_conversion": 0.4925925925925926,
+    "union_conversion": 0.49753086419753084,
+    "n_prs": 538,
+    "n_matched_prs": 437
+   },
+   {
+    "parent": "travisvn/awesome-claude-skills",
+    "n_forks": 2061,
+    "head_matched": 900,
+    "author_only": 15,
+    "union_matched": 915,
+    "head_conversion": 0.4366812227074236,
+    "union_conversion": 0.44395924308588064,
+    "n_prs": 1200,
+    "n_matched_prs": 1002
+   },
+   {
+    "parent": "davepoon/buildwithclaude",
+    "n_forks": 593,
+    "head_matched": 187,
+    "author_only": 6,
+    "union_matched": 193,
+    "head_conversion": 0.31534569983136596,
+    "union_conversion": 0.3254637436762226,
+    "n_prs": 474,
+    "n_matched_prs": 330
+   },
+   {
+    "parent": "backnotprop/plannotator",
+    "n_forks": 709,
+    "head_matched": 200,
+    "author_only": 4,
+    "union_matched": 204,
+    "head_conversion": 0.2820874471086037,
+    "union_conversion": 0.28772919605077574,
+    "n_prs": 1475,
+    "n_matched_prs": 384
+   },
+   {
+    "parent": "Gentleman-Programming/gentle-ai",
+    "n_forks": 846,
+    "head_matched": 215,
+    "author_only": 7,
+    "union_matched": 222,
+    "head_conversion": 0.2541371158392435,
+    "union_conversion": 0.2624113475177305,
+    "n_prs": 2325,
+    "n_matched_prs": 1214
+   },
+   {
+    "parent": "Q00/ouroboros",
+    "n_forks": 635,
+    "head_matched": 108,
+    "author_only": 6,
+    "union_matched": 114,
+    "head_conversion": 0.1700787401574803,
+    "union_conversion": 0.1795275590551181,
+    "n_prs": 1840,
+    "n_matched_prs": 882
+   },
+   {
+    "parent": "MemTensor/MemOS",
+    "n_forks": 1095,
+    "head_matched": 156,
+    "author_only": 23,
+    "union_matched": 179,
+    "head_conversion": 0.14246575342465753,
+    "union_conversion": 0.1634703196347032,
+    "n_prs": 1856,
+    "n_matched_prs": 1763
+   },
+   {
+    "parent": "mcp-use/mcp-use",
+    "n_forks": 1429,
+    "head_matched": 198,
+    "author_only": 7,
+    "union_matched": 205,
+    "head_conversion": 0.13855843247025892,
+    "union_conversion": 0.14345696291112667,
+    "n_prs": 2251,
+    "n_matched_prs": 971
+   },
+   {
+    "parent": "composio-community/awesome-codex-skills",
+    "n_forks": 1707,
+    "head_matched": 232,
+    "author_only": 1,
+    "union_matched": 233,
+    "head_conversion": 0.13591095489162272,
+    "union_conversion": 0.13649677797305212,
+    "n_prs": 341,
+    "n_matched_prs": 274
+   },
+   {
+    "parent": "maziyarpanahi/openmed",
+    "n_forks": 738,
+    "head_matched": 96,
+    "author_only": 1,
+    "union_matched": 97,
+    "head_conversion": 0.13008130081300814,
+    "union_conversion": 0.13143631436314362,
+    "n_prs": 2161,
+    "n_matched_prs": 538
+   },
+   {
+    "parent": "TokenRhythm/opensquilla",
+    "n_forks": 600,
+    "head_matched": 75,
+    "author_only": 11,
+    "union_matched": 86,
+    "head_conversion": 0.125,
+    "union_conversion": 0.14333333333333334,
+    "n_prs": 1483,
+    "n_matched_prs": 381
+   },
+   {
+    "parent": "odysseus-dev/odysseus",
+    "n_forks": 1521,
+    "head_matched": 182,
+    "author_only": 55,
+    "union_matched": 237,
+    "head_conversion": 0.11965811965811966,
+    "union_conversion": 0.15581854043392504,
+    "n_prs": 3845,
+    "n_matched_prs": 1184
+   },
+   {
+    "parent": "MycroftAI/mycroft-core",
+    "n_forks": 1262,
+    "head_matched": 148,
+    "author_only": 26,
+    "union_matched": 174,
+    "head_conversion": 0.11727416798732171,
+    "union_conversion": 0.13787638668779714,
+    "n_prs": 2080,
+    "n_matched_prs": 1541
+   },
+   {
+    "parent": "Natively-AI-assistant/natively-cluely-ai-assistant",
+    "n_forks": 635,
+    "head_matched": 65,
+    "author_only": 3,
+    "union_matched": 68,
+    "head_conversion": 0.10236220472440945,
+    "union_conversion": 0.10708661417322834,
+    "n_prs": 231,
+    "n_matched_prs": 145
+   },
+   {
+    "parent": "Observal/Observal",
+    "n_forks": 1161,
+    "head_matched": 98,
+    "author_only": 12,
+    "union_matched": 110,
+    "head_conversion": 0.08440999138673558,
+    "union_conversion": 0.09474590869939707,
+    "n_prs": 1308,
+    "n_matched_prs": 1194
+   },
+   {
+    "parent": "eugeniughelbur/obsidian-second-brain",
+    "n_forks": 597,
+    "head_matched": 50,
+    "author_only": 1,
+    "union_matched": 51,
+    "head_conversion": 0.08375209380234507,
+    "union_conversion": 0.08542713567839195,
+    "n_prs": 215,
+    "n_matched_prs": 96
+   },
+   {
+    "parent": "googleworkspace/cli",
+    "n_forks": 1903,
+    "head_matched": 139,
+    "author_only": 2,
+    "union_matched": 141,
+    "head_conversion": 0.07304256437204414,
+    "union_conversion": 0.07409353652128219,
+    "n_prs": 602,
+    "n_matched_prs": 374
+   },
+   {
+    "parent": "NVIDIA/SkillSpector",
+    "n_forks": 1787,
+    "head_matched": 128,
+    "author_only": 8,
+    "union_matched": 136,
+    "head_conversion": 0.07162842753217684,
+    "union_conversion": 0.07610520425293789,
+    "n_prs": 565,
+    "n_matched_prs": 409
+   }
+  ]
+ },
+ "market": {
+  "skills_sh": {
+   "n_repos_ok": 341,
+   "n_with_hits": 172,
+   "possible_truncation": 5,
+   "within_repo_n": 132,
+   "within_repo_gini_median": 0.3125191877034364,
+   "within_repo_top1_median": 0.21891128639594898,
+   "old_vs_new": {
+    "n": 123,
+    "median_total_ratio": 1.2,
+    "n_ratio_gt_2": 30,
+    "top": [
+     {
+      "repo": "mvschwarz/openrig",
+      "old_n": 20,
+      "new_n": 37,
+      "old_total": 61,
+      "new_total": 697,
+      "ratio": 11.426229508196721,
+      "old_gini": 0.46147540983606555,
+      "new_gini": 0.5071929892589864,
+      "old_top1": 0.4262295081967213,
+      "new_top1": 0.5064562410329986
+     },
+     {
+      "repo": "cbrock84/headcount",
+      "old_n": 20,
+      "new_n": 175,
+      "old_total": 373,
+      "new_total": 3752,
+      "ratio": 10.058981233243967,
+      "old_gini": 0.024798927613941018,
+      "new_gini": 0.0723119098385623,
+      "old_top1": 0.058981233243967826,
+      "new_top1": 0.007462686567164179
+     },
+     {
+      "repo": "nexu-io/open-design",
+      "old_n": 20,
+      "new_n": 200,
+      "old_total": 60427,
+      "new_total": 430810,
+      "ratio": 7.12942889767819,
+      "old_gini": 0.05215301107120989,
+      "new_gini": 0.2438348691998793,
+      "old_top1": 0.07610836215598987,
+      "new_top1": 0.012404540284580209
+     },
+     {
+      "repo": "alirezarezvani/claude-skills",
+      "old_n": 20,
+      "new_n": 380,
+      "old_total": 36376,
+      "new_total": 233216,
+      "ratio": 6.4112601715416755,
+      "old_gini": 0.07353749725093468,
+      "new_gini": 0.4123295684326073,
+      "old_top1": 0.06487794149989004,
+      "new_top1": 0.010230858946212952
+     },
+     {
+      "repo": "mohitagw15856/pm-claude-skills",
+      "old_n": 20,
+      "new_n": 200,
+      "old_total": 1385,
+      "new_total": 8673,
+      "ratio": 6.262093862815885,
+      "old_gini": 0.13173285198555956,
+      "new_gini": 0.1905251931280987,
+      "old_top1": 0.11985559566787003,
+      "new_top1": 0.019255159690995043
+     },
+     {
+      "repo": "davepoon/buildwithclaude",
+      "old_n": 20,
+      "new_n": 242,
+      "old_total": 3594,
+      "new_total": 21904,
+      "ratio": 6.094602114635504,
+      "old_gini": 0.2004730105731775,
+      "new_gini": 0.3607062221927087,
+      "old_top1": 0.10712298274902615,
+      "new_top1": 0.020955076698319943
+     },
+     {
+      "repo": "ruvnet/ruflo",
+      "old_n": 20,
+      "new_n": 150,
+      "old_total": 28680,
+      "new_total": 171151,
+      "ratio": 5.967608089260809,
+      "old_gini": 0.1339958158995816,
+      "new_gini": 0.06585471308961093,
+      "old_top1": 0.13134588563458857,
+      "new_top1": 0.022932965626844132
+     },
+     {
+      "repo": "github/awesome-copilot",
+      "old_n": 20,
+      "new_n": 199,
+      "old_total": 407092,
+      "new_total": 2126881,
+      "ratio": 5.22457085867568,
+      "old_gini": 0.19492596268165427,
+      "new_gini": 0.15024591214994962,
+      "old_top1": 0.11347066510764152,
+      "new_top1": 0.022160149063346752
+     },
+     {
+      "repo": "dotnet/skills",
+      "old_n": 20,
+      "new_n": 109,
+      "old_total": 64454,
+      "new_total": 317148,
+      "ratio": 4.920532472771279,
+      "old_gini": 0.11064169795513079,
+      "new_gini": 0.1667081487611549,
+      "old_top1": 0.07388214850901419,
+      "new_top1": 0.01747449140464389
+     },
+     {
+      "repo": "google/skills",
+      "old_n": 20,
+      "new_n": 121,
+      "old_total": 168273,
+      "new_total": 801542,
+      "ratio": 4.763342901119015,
+      "old_gini": 0.22803390918329144,
+      "new_gini": 0.25151677167053893,
+      "old_top1": 0.08694799522204988,
+      "new_top1": 0.02203502748452358
+     },
+     {
+      "repo": "rampstackco/claude-skills",
+      "old_n": 20,
+      "new_n": 107,
+      "old_total": 6421,
+      "new_total": 27131,
+      "ratio": 4.225354306182838,
+      "old_gini": 0.11751284846597103,
+      "new_gini": 0.12138199672960923,
+      "old_top1": 0.09640242952811089,
+      "new_top1": 0.024400132689543327
+     },
+     {
+      "repo": "michael-denyer/pstack-claude",
+      "old_n": 20,
+      "new_n": 65,
+      "old_total": 11984,
+      "new_total": 46512,
+      "ratio": 3.8811748998664886,
+      "old_gini": 0.049190587449933244,
+      "new_gini": 0.1512006827022307,
+      "old_top1": 0.06058077436582109,
+      "new_top1": 0.02197282421740626
+     },
+     {
+      "repo": "nexu-io/html-anything",
+      "old_n": 20,
+      "new_n": 81,
+      "old_total": 830,
+      "new_total": 3109,
+      "ratio": 3.7457831325301205,
+      "old_gini": 0.018674698795180723,
+      "new_gini": 0.06938041289922924,
+      "old_top1": 0.05421686746987952,
+      "new_top1": 0.014795754261820521
+     },
+     {
+      "repo": "gooseworks-ai/goose-skills",
+      "old_n": 20,
+      "new_n": 149,
+      "old_total": 2056,
+      "new_total": 7644,
+      "ratio": 3.717898832684825,
+      "old_gini": 0.37164396887159534,
+      "new_gini": 0.1975546026360983,
+      "old_top1": 0.23638132295719844,
+      "new_top1": 0.06357927786499215
+     },
+     {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "old_n": 20,
+      "new_n": 207,
+      "old_total": 370,
+      "new_total": 1357,
+      "ratio": 3.6675675675675676,
+      "old_gini": 0.1635135135135135,
+      "new_gini": 0.4513864413899658,
+      "old_top1": 0.10540540540540541,
+      "new_top1": 0.03021370670596905
+     },
+     {
+      "repo": "googleworkspace/cli",
+      "old_n": 20,
+      "new_n": 113,
+      "old_total": 1029893,
+      "new_total": 3372825,
+      "ratio": 3.2749275895651295,
+      "old_gini": 0.12699256136317075,
+      "new_gini": 0.2622806582203188,
+      "old_top1": 0.07719054309525358,
+      "new_top1": 0.024249701659588032
+     },
+     {
+      "repo": "trailofbits/skills",
+      "old_n": 20,
+      "new_n": 105,
+      "old_total": 132954,
+      "new_total": 416449,
+      "ratio": 3.1322788332806835,
+      "old_gini": 0.07777125923251652,
+      "new_gini": 0.33979076383788603,
+      "old_top1": 0.06664711103088286,
+      "new_top1": 0.02250215512583774
+     },
+     {
+      "repo": "jezweb/claude-skills",
+      "old_n": 20,
+      "new_n": 177,
+      "old_total": 44989,
+      "new_total": 140540,
+      "ratio": 3.123874724932761,
+      "old_gini": 0.14545666718531197,
+      "new_gini": 0.4366669641471676,
+      "old_top1": 0.07901931583275912,
+      "new_top1": 0.025530098192685355
+     },
+     {
+      "repo": "composio-community/awesome-codex-skills",
+      "old_n": 20,
+      "new_n": 61,
+      "old_total": 8337,
+      "new_total": 24413,
+      "ratio": 2.928271560513374,
+      "old_gini": 0.20630322658030467,
+      "new_gini": 0.26121395950692755,
+      "old_top1": 0.08000479788892888,
+      "new_top1": 0.02850940072911973
+     },
+     {
+      "repo": "sickn33/agentic-awesome-skills",
+      "old_n": 20,
+      "new_n": 148,
+      "old_total": 109630,
+      "new_total": 316811,
+      "ratio": 2.889820304661133,
+      "old_gini": 0.3328276931496853,
+      "new_gini": 0.41327250956256895,
+      "old_top1": 0.12506613153333943,
+      "new_top1": 0.08591873388234626
+     }
+    ]
+   }
+  },
+  "clawhub": {
+   "n_repos_ok": 341,
+   "n_with_hits": 78,
+   "registry_items": 83215,
+   "registry_owners": 24781,
+   "registry_downloads": 105067445,
+   "registry_gini": 0.4439698339371493,
+   "registry_top1_owner": [
+    "ivangdavila",
+    3099163
+   ]
+  }
+ },
+ "market_extra": {
+  "n_repos": 8,
+  "repos": [
+   {
+    "repo": "Brmbobo/Web2podcast",
+    "skills_sh_hits": 0,
+    "skills_sh_installs": 0,
+    "clawhub_hits": 0,
+    "clawhub_downloads": 0
+   },
+   {
+    "repo": "HelixDevelopment/HelixAgent",
+    "skills_sh_hits": 0,
+    "skills_sh_installs": 0,
+    "clawhub_hits": 0,
+    "clawhub_downloads": 0
+   },
+   {
+    "repo": "Microck/ordinary-claude-skills",
+    "skills_sh_hits": 0,
+    "skills_sh_installs": 0,
+    "clawhub_hits": 0,
+    "clawhub_downloads": 0
+   },
+   {
+    "repo": "NeverSight/skills_feed",
+    "skills_sh_hits": 0,
+    "skills_sh_installs": 0,
+    "clawhub_hits": 0,
+    "clawhub_downloads": 0
+   },
+   {
+    "repo": "aiskillstore/marketplace",
+    "skills_sh_hits": 200,
+    "skills_sh_installs": 6649,
+    "clawhub_hits": 0,
+    "clawhub_downloads": 0
+   },
+   {
+    "repo": "davila7/claude-code-templates",
+    "skills_sh_hits": 200,
+    "skills_sh_installs": 157016,
+    "clawhub_hits": 0,
+    "clawhub_downloads": 0
+   },
+   {
+    "repo": "majiayu000/claude-skill-registry",
+    "skills_sh_hits": 197,
+    "skills_sh_installs": 425,
+    "clawhub_hits": 0,
+    "clawhub_downloads": 0
+   },
+   {
+    "repo": "sickn33/antigravity-awesome-skills",
+    "skills_sh_hits": 0,
+    "skills_sh_installs": 0,
+    "clawhub_hits": 0,
+    "clawhub_downloads": 0
+   }
+  ]
+ },
+ "issue_counts": {
+  "n_repos": 202,
+  "n_errors": 2,
+  "old_prs": 34662,
+  "actual_prs": 115602,
+  "old_issues": 14523,
+  "actual_issues": 56724,
+  "pr_coverage_old_over_actual": 0.29983910312970363,
+  "issue_coverage_old_over_actual": 0.25602919399196106,
+  "median_pr_ratio": 1.0512820512820513,
+  "median_issue_ratio": 1.0160645161290323,
+  "top_undercount": [
+   {
+    "repo": "diegosouzapw/OmniRoute",
+    "old_prs": 250,
+    "actual_prs": 12084,
+    "old_issues": 50,
+    "actual_issues": 5284,
+    "pr_ratio": 48.336,
+    "issue_ratio": 105.68
+   },
+   {
+    "repo": "Gentleman-Programming/gentle-ai",
+    "old_prs": 29,
+    "actual_prs": 2325,
+    "old_issues": 71,
+    "actual_issues": 3338,
+    "pr_ratio": 80.17241379310344,
+    "issue_ratio": 47.014084507042256
+   },
+   {
+    "repo": "code-yeongyu/oh-my-openagent",
+    "old_prs": 95,
+    "actual_prs": 6806,
+    "old_issues": 105,
+    "actual_issues": 4158,
+    "pr_ratio": 71.6421052631579,
+    "issue_ratio": 39.6
+   },
+   {
+    "repo": "Untrivial-ai/agent-orchestrator",
+    "old_prs": 132,
+    "actual_prs": 4772,
+    "old_issues": 68,
+    "actual_issues": 2348,
+    "pr_ratio": 36.15151515151515,
+    "issue_ratio": 34.529411764705884
+   },
+   {
+    "repo": "NVIDIA/skills",
+    "old_prs": 98,
+    "actual_prs": 690,
+    "old_issues": 2,
+    "actual_issues": 68,
+    "pr_ratio": 7.040816326530612,
+    "issue_ratio": 34.0
+   },
+   {
+    "repo": "aden-hive/hive",
+    "old_prs": 266,
+    "actual_prs": 3835,
+    "old_issues": 134,
+    "actual_issues": 3620,
+    "pr_ratio": 14.417293233082706,
+    "issue_ratio": 27.01492537313433
+   },
+   {
+    "repo": "TokenRhythm/opensquilla",
+    "old_prs": 74,
+    "actual_prs": 1483,
+    "old_issues": 26,
+    "actual_issues": 480,
+    "pr_ratio": 20.04054054054054,
+    "issue_ratio": 18.46153846153846
+   },
+   {
+    "repo": "ComposioHQ/awesome-claude-skills",
+    "old_prs": 391,
+    "actual_prs": 2111,
+    "old_issues": 9,
+    "actual_issues": 164,
+    "pr_ratio": 5.398976982097187,
+    "issue_ratio": 18.22222222222222
+   },
+   {
+    "repo": "alibaba/open-code-review",
+    "old_prs": 63,
+    "actual_prs": 1121,
+    "old_issues": 37,
+    "actual_issues": 557,
+    "pr_ratio": 17.793650793650794,
+    "issue_ratio": 15.054054054054054
+   },
+   {
+    "repo": "Ontos-AI/knowhere",
+    "old_prs": 95,
+    "actual_prs": 392,
+    "old_issues": 5,
+    "actual_issues": 73,
+    "pr_ratio": 4.126315789473685,
+    "issue_ratio": 14.6
+   },
+   {
+    "repo": "Panniantong/Agent-Reach",
+    "old_prs": 79,
+    "actual_prs": 546,
+    "old_issues": 21,
+    "actual_issues": 252,
+    "pr_ratio": 6.9113924050632916,
+    "issue_ratio": 12.0
+   },
+   {
+    "repo": "agentscope-ai/QwenPaw",
+    "old_prs": 504,
+    "actual_prs": 4123,
+    "old_issues": 396,
+    "actual_issues": 4069,
+    "pr_ratio": 8.180555555555555,
+    "issue_ratio": 10.275252525252526
+   },
+   {
+    "repo": "nexu-io/open-design",
+    "old_prs": 776,
+    "actual_prs": 5874,
+    "old_issues": 224,
+    "actual_issues": 2233,
+    "pr_ratio": 7.569587628865979,
+    "issue_ratio": 9.96875
+   },
+   {
+    "repo": "anthropics/claude-plugins-official",
+    "old_prs": 866,
+    "actual_prs": 5532,
+    "old_issues": 134,
+    "actual_issues": 1284,
+    "pr_ratio": 6.387990762124711,
+    "issue_ratio": 9.582089552238806
+   },
+   {
+    "repo": "affaan-m/ECC",
+    "old_prs": 406,
+    "actual_prs": 2637,
+    "old_issues": 94,
+    "actual_issues": 870,
+    "pr_ratio": 6.495073891625616,
+    "issue_ratio": 9.25531914893617
+   }
+  ]
+ },
+ "local": {
+  "summary": {
+   "type": "summary",
+   "generated": "2026-10-24T10:47:05",
+   "n_docs": 155547,
+   "n_repos": 18282,
+   "bad_json": 0,
+   "n_sha": 124881,
+   "n_cross_sha": 19079,
+   "cross_sha_share": 0.15277744412680871,
+   "shared_docs_exact": 47973,
+   "shared_docs_share": 0.30841481995795483,
+   "by_type_repos": {
+    "registry": 125,
+    "mixed": 3774,
+    "mirror": 500,
+    "original": 13860,
+    "collection": 23
+   },
+   "by_type_stars": {
+    "registry": 11481,
+    "mixed": 2916706,
+    "mirror": 1279876,
+    "original": 4106108,
+    "collection": 89996
+   },
+   "total_stars": 8404167,
+   "security_flag_counts": {
+    "sudo": 2921,
+    "eval_exec": 1307,
+    "pipe_shell": 1424,
+    "chmod_777": 107,
+    "generic_secret": 374,
+    "os_system": 709,
+    "netcat_exec": 24,
+    "dev_tcp": 48,
+    "aws_key": 70,
+    "rm_rf_root": 20,
+    "private_key": 25,
+    "github_token": 11
+   },
+   "n_flagged_skills": 6298,
+   "elapsed_sec": 646.8
+  },
+  "total_stars": 8404167,
+  "share_gt_0.1": {
+   "repos": 1722,
+   "repo_share": 0.09419100754840827,
+   "stars": 2673342,
+   "star_share": 0.3180972010670421
+  },
+  "share_gt_0.3": {
+   "repos": 1260,
+   "repo_share": 0.06892024942566459,
+   "stars": 2287727,
+   "star_share": 0.27221341508325575
+  },
+  "share_gt_0.5": {
+   "repos": 1001,
+   "repo_share": 0.05475330926594465,
+   "stars": 2043703,
+   "star_share": 0.24317734285860812
+  },
+  "share_gt_0.7": {
+   "repos": 798,
+   "repo_share": 0.04364949130292091,
+   "stars": 1819598,
+   "star_share": 0.21651140440212577
+  },
+  "share_gt_0.9": {
+   "repos": 519,
+   "repo_share": 0.028388578930095176,
+   "stars": 1329800,
+   "star_share": 0.1582310299164688
+  },
+  "share_gt_0.99": {
+   "repos": 423,
+   "repo_share": 0.023137512307187396,
+   "stars": 712132,
+   "star_share": 0.08473558414534123
+  },
+  "n_repos_ge5": 5525,
+  "saturation_bins_n_ge5": {
+   "low_lt_0.1": {
+    "repos": 3773,
+    "share_of_all_repos": 0.20637785800240674,
+    "stars": 791118,
+    "star_share": 0.09413401708937959
+   },
+   "mid_0.1_lt_0.5": {
+    "repos": 700,
+    "share_of_all_repos": 0.03828902745870255,
+    "stars": 534956,
+    "star_share": 0.06365366133252706
+   },
+   "high_0.5_lt_0.9": {
+    "repos": 526,
+    "share_of_all_repos": 0.028771469204682203,
+    "stars": 810216,
+    "star_share": 0.09640646122334313
+   },
+   "very_high_ge_0.9": {
+    "repos": 526,
+    "share_of_all_repos": 0.028771469204682203,
+    "stars": 1332446,
+    "star_share": 0.15854587373144774
+   }
+  },
+  "repo_type_note": "repo_type 的 mirror/original 是 share_cross 饱和度启发式，不是 source/mirror；anthropics/skills share_cross=1.0 也被标成 mirror。不要用它算镜像占比或传播方向。"
+ },
+ "near_duplicates": {
+  "meta": {
+   "type": "meta",
+   "generated": "2026-10-24T10:45:51",
+   "n_read": 155547,
+   "n_kept": 154922,
+   "n_skipped": 625,
+   "n_candidates": 995209,
+   "n_near_pairs": 121127,
+   "n_clusters": 4707,
+   "n_docs_in_clusters": 21755,
+   "max_cluster": 182,
+   "n_exact_hashes": 20279,
+   "n_exact_docs": 50887,
+   "hamming_max": 3,
+   "elapsed_sec": 651.8
+  },
+  "pair_lines": 121127,
+  "same_repo_pairs": 15454,
+  "cross_repo_pairs": 105673,
+  "top_cluster_sizes": [
+   182,
+   172,
+   135,
+   109,
+   102,
+   98,
+   94,
+   91,
+   89,
+   86,
+   85,
+   81,
+   76,
+   75,
+   71
+  ]
+ },
+ "near_validation": {
+  "seed": 20261024,
+  "n_pairs_total": 121127,
+  "n_cross_total": 105673,
+  "n_same_total": 15454,
+  "n_sampled": 300,
+  "n_found_content": 537,
+  "jaccard_n": 300,
+  "jaccard_min": 0.8380202474690663,
+  "jaccard_p10": 0.9466840052015605,
+  "jaccard_p25": 0.9934369602763385,
+  "jaccard_median": 1.0,
+  "jaccard_p75": 1.0,
+  "jaccard_max": 1.0,
+  "shares": {
+   "0.1": 1.0,
+   "0.3": 1.0,
+   "0.5": 1.0,
+   "0.7": 1.0,
+   "0.9": 0.9966666666666667
+  },
+  "cross": {
+   "n": 200,
+   "median": 1.0,
+   "share_ge_0.5": 1.0
+  },
+  "same": {
+   "n": 100,
+   "median": 1.0,
+   "share_ge_0.5": 1.0
+  },
+  "short_lt1000_share_ge_0.5": 1.0,
+  "note": "抽样只估精确率；召回率未知。Jaccard 在去 frontmatter 后的字符 5-gram 上计算。"
+ },
+ "exact_near_union": {
+  "n_docs_rows": 155547,
+  "exact_docs_rows": 47973,
+  "exact_keys": 45155,
+  "exact_key_share": 0.2902981092531518,
+  "near_pairs": 121127,
+  "near_pairs_cross": 105673,
+  "near_keys_all": 19507,
+  "near_keys_cross": 17647,
+  "near_cross_key_share": 0.11345123981819,
+  "union_keys": 53398,
+  "union_key_share": 0.3432917381884575,
+  "overlap_exact_near_cross": 9404,
+  "near_meta": {
+   "type": "meta",
+   "generated": "2026-10-24T10:45:51",
+   "n_read": 155547,
+   "n_kept": 154922,
+   "n_skipped": 625,
+   "n_candidates": 995209,
+   "n_near_pairs": 121127,
+   "n_clusters": 4707,
+   "n_docs_in_clusters": 21755,
+   "max_cluster": 182,
+   "n_exact_hashes": 20279,
+   "n_exact_docs": 50887,
+   "hamming_max": 3,
+   "elapsed_sec": 651.8
+  },
+  "top_clusters": [
+   {
+    "size": 182,
+    "n_repos_in_members": 17,
+    "sample_repos": [
+     "EveryInc/compound-engineering-plugin",
+     "Microck/ordinary-claude-skills",
+     "aiskillstore/marketplace",
+     "am-will/codex-skills",
+     "anthropics/claude-code",
+     "anthropics/claude-plugins-official",
+     "anthropics/skills",
+     "buildermethods/design-os"
+    ]
+   },
+   {
+    "size": 172,
+    "n_repos_in_members": 1,
+    "sample_repos": [
+     "teachingai/full-stack-skills"
+    ]
+   },
+   {
+    "size": 135,
+    "n_repos_in_members": 10,
+    "sample_repos": [
+     "Project-N-E-K-O/N.E.K.O",
+     "ServiceStack/llms",
+     "aiskillstore/marketplace",
+     "davila7/claude-code-templates",
+     "finos/morphir",
+     "iOfficeAI/AionUi",
+     "invariantlabs-ai/mcp-scan",
+     "khaneliman/khanelinix"
+    ]
+   },
+   {
+    "size": 109,
+    "n_repos_in_members": 13,
+    "sample_repos": [
+     "Chen-zexi/open-ptc-agent",
+     "ComposioHQ/awesome-claude-skills",
+     "OpenCoworkAI/open-cowork",
+     "Prat011/awesome-llm-skills",
+     "Prorise-cool/Claude-Code-Multi-Agent",
+     "aiskillstore/marketplace",
+     "davepoon/buildwithclaude",
+     "davila7/claude-code-templates"
+    ]
+   },
+   {
+    "size": 102,
+    "n_repos_in_members": 14,
+    "sample_repos": [
+     "Chen-zexi/open-ptc-agent",
+     "ComposioHQ/awesome-claude-skills",
+     "Prat011/awesome-llm-skills",
+     "Prorise-cool/Claude-Code-Multi-Agent",
+     "aiskillstore/marketplace",
+     "benchflow-ai/skillsbench",
+     "davepoon/buildwithclaude",
+     "davila7/claude-code-templates"
+    ]
+   },
+   {
+    "size": 98,
+    "n_repos_in_members": 13,
+    "sample_repos": [
+     "Chen-zexi/open-ptc-agent",
+     "ComposioHQ/awesome-claude-skills",
+     "OpenCoworkAI/open-cowork",
+     "Prat011/awesome-llm-skills",
+     "Prorise-cool/Claude-Code-Multi-Agent",
+     "aiskillstore/marketplace",
+     "benchflow-ai/skillsbench",
+     "davepoon/buildwithclaude"
+    ]
+   },
+   {
+    "size": 94,
+    "n_repos_in_members": 13,
+    "sample_repos": [
+     "Chen-zexi/open-ptc-agent",
+     "ComposioHQ/awesome-claude-skills",
+     "ImGoodBai/goodable",
+     "Prat011/awesome-llm-skills",
+     "Prorise-cool/Claude-Code-Multi-Agent",
+     "aiskillstore/marketplace",
+     "benchflow-ai/skillsbench",
+     "davepoon/buildwithclaude"
+    ]
+   },
+   {
+    "size": 91,
+    "n_repos_in_members": 1,
+    "sample_repos": [
+     "sandraschi/advanced-memory-mcp"
+    ]
+   },
+   {
+    "size": 89,
+    "n_repos_in_members": 1,
+    "sample_repos": [
+     "NeverSight/skills_feed"
+    ]
+   },
+   {
+    "size": 86,
+    "n_repos_in_members": 11,
+    "sample_repos": [
+     "JiawenZhu/CareerVivid",
+     "NeverSight/learn-skills.dev",
+     "NeverSight/skills_feed",
+     "adelpro/quran-search-engine",
+     "aiskillstore/marketplace",
+     "baotoq/micro-commerce",
+     "davila7/claude-code-templates",
+     "diegosouzapw/awesome-omni-skill"
+    ]
+   }
+  ],
+  "note": "exact_keys 与 near_keys 都去重到 repo×SHA；行级 exact 47,973 / near docs 21,755 不能直接相加。",
+  "exact_docs_row_share": 0.30841481995795483
+ },
+ "topic_census": {
+  "existing": 24854,
+  "new": 11093,
+  "merged_unique": 35947,
+  "search_total_count_claim": 33512,
+  "coverage_vs_claim": 1.0726605395082358,
+  "zero_star_share_existing": 0.39349802848636034,
+  "zero_star_share_new": 0.6258000540881637,
+  "zero_star_share_merged": 0.46518485548168137,
+  "median_stars_existing": 1.0,
+  "median_stars_new": 0,
+  "year_counts": {
+   "2011": 1,
+   "2012": 3,
+   "2013": 3,
+   "2015": 4,
+   "2016": 1,
+   "2017": 3,
+   "2018": 7,
+   "2019": 8,
+   "2020": 16,
+   "2021": 11,
+   "2022": 23,
+   "2023": 22,
+   "2024": 46,
+   "2025": 385,
+   "2026": 35414
+  },
+  "coverage_note": "search_total_count 是近似值；分区补采后唯一仓数已超过该值，不能把它当精确总量或缺失分母。"
+ },
+ "direction": {
+  "n_pairs": 165,
+  "direction": {
+   "a_to_b": 75,
+   "ambiguous": 18,
+   "unresolved": 35,
+   "b_to_a": 37
+  },
+  "confidence": {
+   "high": 39,
+   "low": 53,
+   "medium": 73
+  },
+  "category_raw": {
+   "mirror_original": 140,
+   "other": 20,
+   "original_original": 5
+  },
+  "category_neutral": {
+   "at_least_one_high_saturation": 140,
+   "other_mixed": 20,
+   "both_low_saturation": 5
+  },
+  "abs_lag_median_days": 15.776643518518519,
+  "abs_lag_p90_days": 49.892986111111114,
+  "note": "category_raw 继承 local_mining 的 repo_type；该字段是复制饱和度启发式，不是 source/mirror。不要把它读成 original→mirror。meta 行是首轮 106 对的旧计数，已作废；只用 pair 行重算。"
+ },
+ "release_downloads": {
+  "n_repos": 341,
+  "github_with_downloads": 131,
+  "github_total_downloads": 80079489,
+  "npm_with_downloads": 0,
+  "top_github": [
+   {
+    "repo": "CherryHQ/cherry-studio",
+    "status": 200,
+    "n_releases": 100,
+    "n_assets": 2353,
+    "downloads": 28471696,
+    "latest_release": "2026-10-19T02:06:35Z"
+   },
+   {
+    "repo": "farion1231/cc-switch",
+    "status": 200,
+    "n_releases": 75,
+    "n_assets": 1159,
+    "downloads": 21625854,
+    "latest_release": "2026-10-23T12:49:37Z"
+   },
+   {
+    "repo": "googleworkspace/cli",
+    "status": 200,
+    "n_releases": 44,
+    "n_assets": 832,
+    "downloads": 4314846,
+    "latest_release": "2026-03-31T18:53:24Z"
+   },
+   {
+    "repo": "alibaba/nacos",
+    "status": 200,
+    "n_releases": 100,
+    "n_assets": 271,
+    "downloads": 4014848,
+    "latest_release": "2026-09-21T13:11:20Z"
+   },
+   {
+    "repo": "jamiepine/voicebox",
+    "status": 200,
+    "n_releases": 25,
+    "n_assets": 347,
+    "downloads": 3190913,
+    "latest_release": "2026-04-25T22:46:53Z"
+   },
+   {
+    "repo": "pbakaus/impeccable",
+    "status": 200,
+    "n_releases": 90,
+    "n_assets": 243,
+    "downloads": 2924699,
+    "latest_release": "2026-10-23T23:26:28Z"
+   },
+   {
+    "repo": "openclaw/openclaw",
+    "status": 200,
+    "n_releases": 100,
+    "n_assets": 570,
+    "downloads": 1178338,
+    "latest_release": "2026-10-22T12:53:10Z"
+   },
+   {
+    "repo": "metalbear-co/mirrord",
+    "status": 200,
+    "n_releases": 100,
+    "n_assets": 1800,
+    "downloads": 1126596,
+    "latest_release": "2026-10-22T22:13:20Z"
+   },
+   {
+    "repo": "Untrivial-ai/agent-orchestrator",
+    "status": 200,
+    "n_releases": 100,
+    "n_assets": 1528,
+    "downloads": 1099190,
+    "latest_release": "2026-10-24T00:57:26Z"
+   },
+   {
+    "repo": "nexu-io/open-design",
+    "status": 200,
+    "n_releases": 41,
+    "n_assets": 264,
+    "downloads": 1061118,
+    "latest_release": "2026-10-22T12:52:42Z"
+   },
+   {
+    "repo": "colbymchenry/codegraph",
+    "status": 200,
+    "n_releases": 33,
+    "n_assets": 192,
+    "downloads": 946272,
+    "latest_release": "2026-10-03T06:41:20Z"
+   },
+   {
+    "repo": "earendil-works/pi",
+    "status": 200,
+    "n_releases": 100,
+    "n_assets": 703,
+    "downloads": 836100,
+    "latest_release": "2026-10-21T22:49:48Z"
+   },
+   {
+    "repo": "iOfficeAI/OfficeCLI",
+    "status": 200,
+    "n_releases": 100,
+    "n_assets": 900,
+    "downloads": 786011,
+    "latest_release": "2026-10-20T08:10:31Z"
+   },
+   {
+    "repo": "iOfficeAI/AionUi",
+    "status": 200,
+    "n_releases": 100,
+    "n_assets": 1816,
+    "downloads": 749460,
+    "latest_release": "2026-09-09T11:29:49Z"
+   },
+   {
+    "repo": "tw93/Pake",
+    "status": 200,
+    "n_releases": 57,
+    "n_assets": 2732,
+    "downloads": 606149,
+    "latest_release": "2026-10-17T01:58:23Z"
+   }
+  ]
+ }
+}

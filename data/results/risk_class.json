@@ -1,0 +1,1637 @@
+{
+  "risk_by_repo": {
+    "didilili/ai-agents-from-zero": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "Egonex-AI/Understand-Anything": {
+      "score": 63,
+      "n_skills": 9,
+      "max": 27,
+      "mean": 7.0,
+      "n_risky": 6
+    },
+    "SawyerHood/dev-browser": {
+      "score": 2,
+      "n_skills": 1,
+      "max": 2,
+      "mean": 2.0,
+      "n_risky": 0
+    },
+    "nanocoai/nanoclaw": {
+      "score": 379,
+      "n_skills": 30,
+      "max": 22,
+      "mean": 12.633333333333333,
+      "n_risky": 29
+    },
+    "cathrynlavery/diagram-design": {
+      "score": 2,
+      "n_skills": 1,
+      "max": 2,
+      "mean": 2.0,
+      "n_risky": 0
+    },
+    "virgiliojr94/book-to-skill": {
+      "score": 22,
+      "n_skills": 1,
+      "max": 22,
+      "mean": 22.0,
+      "n_risky": 1
+    },
+    "brycewang-stanford/Auto-Empirical-Research-Skills": {
+      "score": 177,
+      "n_skills": 30,
+      "max": 29,
+      "mean": 5.9,
+      "n_risky": 20
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "score": 3,
+      "n_skills": 1,
+      "max": 3,
+      "mean": 3.0,
+      "n_risky": 1
+    },
+    "microsoft/SkillOpt": {
+      "score": 51,
+      "n_skills": 13,
+      "max": 15,
+      "mean": 3.923076923076923,
+      "n_risky": 6
+    },
+    "libukai/awesome-agent-skills": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "AgriciDaniel/claude-obsidian": {
+      "score": 94,
+      "n_skills": 16,
+      "max": 13,
+      "mean": 5.875,
+      "n_risky": 14
+    },
+    "breaking-brake/cc-wf-studio": {
+      "score": 39,
+      "n_skills": 12,
+      "max": 16,
+      "mean": 3.25,
+      "n_risky": 6
+    },
+    "Forward-Future/loopy": {
+      "score": 6,
+      "n_skills": 2,
+      "max": 3,
+      "mean": 3.0,
+      "n_risky": 2
+    },
+    "phuryn/pm-skills": {
+      "score": 28,
+      "n_skills": 30,
+      "max": 3,
+      "mean": 0.9333333333333333,
+      "n_risky": 1
+    },
+    "Orchestra-Research/AI-Research-SKILLs": {
+      "score": 225,
+      "n_skills": 30,
+      "max": 23,
+      "mean": 7.5,
+      "n_risky": 27
+    },
+    "VoltAgent/awesome-agent-skills": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "iOfficeAI/OfficeCLI": {
+      "score": 323,
+      "n_skills": 12,
+      "max": 36,
+      "mean": 26.916666666666668,
+      "n_risky": 12
+    },
+    "foryourhealth111-pixel/Vibe-Skills": {
+      "score": 166,
+      "n_skills": 30,
+      "max": 24,
+      "mean": 5.533333333333333,
+      "n_risky": 19
+    },
+    "iflytek/skillhub": {
+      "score": 175,
+      "n_skills": 30,
+      "max": 19,
+      "mean": 5.833333333333333,
+      "n_risky": 20
+    },
+    "ljagiello/ctf-skills": {
+      "score": 237,
+      "n_skills": 11,
+      "max": 47,
+      "mean": 21.545454545454547,
+      "n_risky": 11
+    },
+    "hesamsheikh/octogent": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance": {
+      "score": 106,
+      "n_skills": 30,
+      "max": 12,
+      "mean": 3.533333333333333,
+      "n_risky": 14
+    },
+    "xixu-me/awesome-persona-distill-skills": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "wondelai/skills": {
+      "score": 72,
+      "n_skills": 30,
+      "max": 6,
+      "mean": 2.4,
+      "n_risky": 8
+    },
+    "Natively-AI-assistant/natively-cluely-ai-assistant": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "Shanyin-ai/shanyin-screenwriting-master": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "jezweb/claude-skills": {
+      "score": 208,
+      "n_skills": 30,
+      "max": 22,
+      "mean": 6.933333333333334,
+      "n_risky": 21
+    },
+    "WenyuChiou/awesome-agentic-ai-zh": {
+      "score": 0,
+      "n_skills": 1,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "coldteadotai/pr-lens": {
+      "score": 6,
+      "n_skills": 3,
+      "max": 2,
+      "mean": 2.0,
+      "n_risky": 0
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "score": 80,
+      "n_skills": 30,
+      "max": 3,
+      "mean": 2.6666666666666665,
+      "n_risky": 24
+    },
+    "tt-a1i/archify": {
+      "score": 6,
+      "n_skills": 2,
+      "max": 6,
+      "mean": 3.0,
+      "n_risky": 1
+    },
+    "TokenRhythm/opensquilla": {
+      "score": 79,
+      "n_skills": 11,
+      "max": 15,
+      "mean": 7.181818181818182,
+      "n_risky": 9
+    },
+    "Klotzkette/claude-fuer-deutsches-recht": {
+      "score": 0,
+      "n_skills": 30,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "activeloopai/hivemind": {
+      "score": 67,
+      "n_skills": 11,
+      "max": 14,
+      "mean": 6.090909090909091,
+      "n_risky": 8
+    },
+    "a5c-ai/babysitter": {
+      "score": 55,
+      "n_skills": 30,
+      "max": 15,
+      "mean": 1.8333333333333333,
+      "n_risky": 8
+    },
+    "ferdinandobons/startup-skill": {
+      "score": 8,
+      "n_skills": 4,
+      "max": 5,
+      "mean": 2.0,
+      "n_risky": 1
+    },
+    "kepano/obsidian-skills": {
+      "score": 30,
+      "n_skills": 6,
+      "max": 12,
+      "mean": 5.0,
+      "n_risky": 3
+    },
+    "himself65/finance-skills": {
+      "score": 177,
+      "n_skills": 26,
+      "max": 15,
+      "mean": 6.8076923076923075,
+      "n_risky": 22
+    },
+    "inkeep/open-knowledge": {
+      "score": 58,
+      "n_skills": 18,
+      "max": 7,
+      "mean": 3.2222222222222223,
+      "n_risky": 9
+    },
+    "AgriciDaniel/claude-ads": {
+      "score": 61,
+      "n_skills": 30,
+      "max": 11,
+      "mean": 2.033333333333333,
+      "n_risky": 7
+    },
+    "teng-lin/notebooklm-py": {
+      "score": 17,
+      "n_skills": 1,
+      "max": 17,
+      "mean": 17.0,
+      "n_risky": 1
+    },
+    "KKKKhazix/human-writing": {
+      "score": 1,
+      "n_skills": 1,
+      "max": 1,
+      "mean": 1.0,
+      "n_risky": 0
+    },
+    "irinabuht12-oss/marketing-skills": {
+      "score": 12,
+      "n_skills": 30,
+      "max": 2,
+      "mean": 0.4,
+      "n_risky": 0
+    },
+    "mvanhorn/last30days-skill": {
+      "score": 43,
+      "n_skills": 1,
+      "max": 43,
+      "mean": 43.0,
+      "n_risky": 1
+    },
+    "Gabberflast/academic-pptx-skill": {
+      "score": 1,
+      "n_skills": 1,
+      "max": 1,
+      "mean": 1.0,
+      "n_risky": 0
+    },
+    "alibaba/open-code-review": {
+      "score": 62,
+      "n_skills": 9,
+      "max": 12,
+      "mean": 6.888888888888889,
+      "n_risky": 7
+    },
+    "sickn33/agentic-awesome-skills": {
+      "score": 148,
+      "n_skills": 30,
+      "max": 31,
+      "mean": 4.933333333333334,
+      "n_risky": 20
+    },
+    "anbeime/skill": {
+      "score": 132,
+      "n_skills": 30,
+      "max": 36,
+      "mean": 4.4,
+      "n_risky": 12
+    },
+    "nowork-studio/notfair-plugin": {
+      "score": 58,
+      "n_skills": 30,
+      "max": 13,
+      "mean": 1.9333333333333333,
+      "n_risky": 4
+    },
+    "Untrivial-ai/agent-orchestrator": {
+      "score": 24,
+      "n_skills": 7,
+      "max": 11,
+      "mean": 3.4285714285714284,
+      "n_risky": 3
+    },
+    "EverMind-AI/EverOS": {
+      "score": 12,
+      "n_skills": 5,
+      "max": 4,
+      "mean": 2.4,
+      "n_risky": 2
+    },
+    "tripleyak/SkillForge": {
+      "score": 5,
+      "n_skills": 2,
+      "max": 4,
+      "mean": 2.5,
+      "n_risky": 1
+    },
+    "pacifio/atlas": {
+      "score": 35,
+      "n_skills": 5,
+      "max": 11,
+      "mean": 7.0,
+      "n_risky": 4
+    },
+    "JimLiu/baoyu-design": {
+      "score": 17,
+      "n_skills": 2,
+      "max": 14,
+      "mean": 8.5,
+      "n_risky": 2
+    },
+    "JimLiu/baoyu-skills": {
+      "score": 166,
+      "n_skills": 22,
+      "max": 20,
+      "mean": 7.545454545454546,
+      "n_risky": 20
+    },
+    "backnotprop/plannotator": {
+      "score": 67,
+      "n_skills": 19,
+      "max": 14,
+      "mean": 3.526315789473684,
+      "n_risky": 9
+    },
+    "Jakeschincariol/linkedin-agent-skill": {
+      "score": 10,
+      "n_skills": 11,
+      "max": 3,
+      "mean": 0.9090909090909091,
+      "n_risky": 1
+    },
+    "huangjia2019/claude-code-engineering": {
+      "score": 57,
+      "n_skills": 17,
+      "max": 7,
+      "mean": 3.3529411764705883,
+      "n_risky": 9
+    },
+    "NVIDIA/SkillSpector": {
+      "score": 30,
+      "n_skills": 30,
+      "max": 15,
+      "mean": 1.0,
+      "n_risky": 3
+    },
+    "BuilderIO/skills": {
+      "score": 116,
+      "n_skills": 25,
+      "max": 18,
+      "mean": 4.64,
+      "n_risky": 14
+    },
+    "bevibing/tutor-skills": {
+      "score": 4,
+      "n_skills": 2,
+      "max": 3,
+      "mean": 2.0,
+      "n_risky": 1
+    },
+    "eugeniughelbur/obsidian-second-brain": {
+      "score": 22,
+      "n_skills": 1,
+      "max": 22,
+      "mean": 22.0,
+      "n_risky": 1
+    },
+    "hoangsonww/Claude-Code-Agent-Monitor": {
+      "score": 127,
+      "n_skills": 30,
+      "max": 23,
+      "mean": 4.233333333333333,
+      "n_risky": 10
+    },
+    "liustack/modlens": {
+      "score": 2,
+      "n_skills": 1,
+      "max": 2,
+      "mean": 2.0,
+      "n_risky": 0
+    },
+    "op7418/guizang-ppt-skill": {
+      "score": 8,
+      "n_skills": 1,
+      "max": 8,
+      "mean": 8.0,
+      "n_risky": 1
+    },
+    "VoltAgent/awesome-openclaw-skills": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "samber/cc-skills-golang": {
+      "score": 113,
+      "n_skills": 30,
+      "max": 10,
+      "mean": 3.7666666666666666,
+      "n_risky": 18
+    },
+    "XiaoMaColtAI/math-modeling-skill": {
+      "score": 76,
+      "n_skills": 20,
+      "max": 11,
+      "mean": 3.8,
+      "n_risky": 12
+    },
+    "titanwings/distilly": {
+      "score": 70,
+      "n_skills": 1,
+      "max": 70,
+      "mean": 70.0,
+      "n_risky": 1
+    },
+    "composio-community/awesome-claude-plugins": {
+      "score": 22,
+      "n_skills": 23,
+      "max": 3,
+      "mean": 0.9565217391304348,
+      "n_risky": 1
+    },
+    "Ontos-AI/knowhere": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "tigerless-labs/autoharness": {
+      "score": 0,
+      "n_skills": 1,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "OpenRaiser/NanoResearch": {
+      "score": 96,
+      "n_skills": 16,
+      "max": 30,
+      "mean": 6.0,
+      "n_risky": 9
+    },
+    "tmstack/awesome-persona-skills": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "KKKKhazix/khazix-skills": {
+      "score": 12,
+      "n_skills": 6,
+      "max": 4,
+      "mean": 2.0,
+      "n_risky": 3
+    },
+    "Ryze-AI-Adgent/open-seo-mcp-skills": {
+      "score": 2,
+      "n_skills": 8,
+      "max": 1,
+      "mean": 0.25,
+      "n_risky": 0
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "score": 102,
+      "n_skills": 13,
+      "max": 17,
+      "mean": 7.846153846153846,
+      "n_risky": 9
+    },
+    "michael-denyer/pstack-claude": {
+      "score": 22,
+      "n_skills": 30,
+      "max": 3,
+      "mean": 0.7333333333333333,
+      "n_risky": 2
+    },
+    "nexu-io/open-design": {
+      "score": 69,
+      "n_skills": 30,
+      "max": 20,
+      "mean": 2.3,
+      "n_risky": 5
+    },
+    "BayramAnnakov/claude-reflect": {
+      "score": 0,
+      "n_skills": 1,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "plugin87/ux-ui-agent-skills": {
+      "score": 28,
+      "n_skills": 19,
+      "max": 3,
+      "mean": 1.4736842105263157,
+      "n_risky": 2
+    },
+    "NVIDIA/skills": {
+      "score": 283,
+      "n_skills": 30,
+      "max": 26,
+      "mean": 9.433333333333334,
+      "n_risky": 23
+    },
+    "xianyu110/awesome-openclaw-tutorial": {
+      "score": 30,
+      "n_skills": 2,
+      "max": 20,
+      "mean": 15.0,
+      "n_risky": 2
+    },
+    "tradecatlabs/vibe-coding-cn": {
+      "score": 0,
+      "n_skills": 24,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "JCodesMore/ai-website-cloner-template": {
+      "score": 4,
+      "n_skills": 1,
+      "max": 4,
+      "mean": 4.0,
+      "n_risky": 1
+    },
+    "conorluddy/ios-simulator-skill": {
+      "score": 18,
+      "n_skills": 1,
+      "max": 18,
+      "mean": 18.0,
+      "n_risky": 1
+    },
+    "citrolabs/ego-lite": {
+      "score": 4,
+      "n_skills": 2,
+      "max": 3,
+      "mean": 2.0,
+      "n_risky": 1
+    },
+    "Prat011/awesome-llm-skills": {
+      "score": 88,
+      "n_skills": 30,
+      "max": 14,
+      "mean": 2.933333333333333,
+      "n_risky": 9
+    },
+    "muxuuu/serenity-skill": {
+      "score": 2,
+      "n_skills": 1,
+      "max": 2,
+      "mean": 2.0,
+      "n_risky": 0
+    },
+    "ibelick/ui-skills": {
+      "score": 18,
+      "n_skills": 7,
+      "max": 7,
+      "mean": 2.5714285714285716,
+      "n_risky": 3
+    },
+    "Jeffallan/claude-skills": {
+      "score": 127,
+      "n_skills": 30,
+      "max": 11,
+      "mean": 4.233333333333333,
+      "n_risky": 18
+    },
+    "antonbabenko/terraform-skill": {
+      "score": 8,
+      "n_skills": 1,
+      "max": 8,
+      "mean": 8.0,
+      "n_risky": 1
+    },
+    "SnailSploit/Claude-Red": {
+      "score": 1205,
+      "n_skills": 30,
+      "max": 279,
+      "mean": 40.166666666666664,
+      "n_risky": 30
+    },
+    "career-ops-hq/career-ops": {
+      "score": 37,
+      "n_skills": 14,
+      "max": 9,
+      "mean": 2.642857142857143,
+      "n_risky": 3
+    },
+    "tw93/Waza": {
+      "score": 100,
+      "n_skills": 16,
+      "max": 15,
+      "mean": 6.25,
+      "n_risky": 14
+    },
+    "elementalsouls/Claude-BugHunter": {
+      "score": 633,
+      "n_skills": 30,
+      "max": 63,
+      "mean": 21.1,
+      "n_risky": 30
+    },
+    "microsoft/skill-recorder": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "parcadei/Continuous-Claude-v3": {
+      "score": 120,
+      "n_skills": 30,
+      "max": 12,
+      "mean": 4.0,
+      "n_risky": 17
+    },
+    "ayghri/i-have-adhd": {
+      "score": 16,
+      "n_skills": 2,
+      "max": 8,
+      "mean": 8.0,
+      "n_risky": 2
+    },
+    "zanwei/design-dna": {
+      "score": 3,
+      "n_skills": 1,
+      "max": 3,
+      "mean": 3.0,
+      "n_risky": 1
+    },
+    "jangviktor-web/nihaixia": {
+      "score": 0,
+      "n_skills": 1,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "codeaashu/claude-code": {
+      "score": 3,
+      "n_skills": 1,
+      "max": 3,
+      "mean": 3.0,
+      "n_risky": 1
+    },
+    "addyosmani/web-quality-skills": {
+      "score": 15,
+      "n_skills": 6,
+      "max": 5,
+      "mean": 2.5,
+      "n_risky": 2
+    },
+    "nexu-io/html-anything": {
+      "score": 12,
+      "n_skills": 30,
+      "max": 1,
+      "mean": 0.4,
+      "n_risky": 0
+    },
+    "mohitagw15856/pm-claude-skills": {
+      "score": 50,
+      "n_skills": 30,
+      "max": 5,
+      "mean": 1.6666666666666667,
+      "n_risky": 4
+    },
+    "Graphify-Labs/graphify": {
+      "score": 26,
+      "n_skills": 1,
+      "max": 26,
+      "mean": 26.0,
+      "n_risky": 1
+    },
+    "ScrapeCreators/social-media-research-skills": {
+      "score": 71,
+      "n_skills": 13,
+      "max": 11,
+      "mean": 5.461538461538462,
+      "n_risky": 13
+    },
+    "blader/humanizer": {
+      "score": 3,
+      "n_skills": 1,
+      "max": 3,
+      "mean": 3.0,
+      "n_risky": 1
+    },
+    "Panniantong/Agent-Reach": {
+      "score": 7,
+      "n_skills": 1,
+      "max": 7,
+      "mean": 7.0,
+      "n_risky": 1
+    },
+    "rebelytics/one-skill-to-rule-them-all": {
+      "score": 8,
+      "n_skills": 1,
+      "max": 8,
+      "mean": 8.0,
+      "n_risky": 1
+    },
+    "zenstory-ai/oh-story-claudecode": {
+      "score": 39,
+      "n_skills": 13,
+      "max": 13,
+      "mean": 3.0,
+      "n_risky": 5
+    },
+    "epoko77-ai/im-not-ai": {
+      "score": 13,
+      "n_skills": 7,
+      "max": 8,
+      "mean": 1.8571428571428572,
+      "n_risky": 2
+    },
+    "OthmanAdi/planning-with-files": {
+      "score": 98,
+      "n_skills": 18,
+      "max": 13,
+      "mean": 5.444444444444445,
+      "n_risky": 14
+    },
+    "anysearch-ai/anysearch-skill": {
+      "score": 17,
+      "n_skills": 1,
+      "max": 17,
+      "mean": 17.0,
+      "n_risky": 1
+    },
+    "obra/superpowers": {
+      "score": 58,
+      "n_skills": 15,
+      "max": 11,
+      "mean": 3.8666666666666667,
+      "n_risky": 8
+    },
+    "romainsimon/paperasse": {
+      "score": 9,
+      "n_skills": 6,
+      "max": 3,
+      "mean": 1.5,
+      "n_risky": 1
+    },
+    "tech-leads-club/agent-skills": {
+      "score": 137,
+      "n_skills": 30,
+      "max": 24,
+      "mean": 4.566666666666666,
+      "n_risky": 14
+    },
+    "sergebulaev/linkedin-skills": {
+      "score": 86,
+      "n_skills": 26,
+      "max": 7,
+      "mean": 3.3076923076923075,
+      "n_risky": 12
+    },
+    "browser-act/skills": {
+      "score": 152,
+      "n_skills": 30,
+      "max": 12,
+      "mean": 5.066666666666666,
+      "n_risky": 22
+    },
+    "agentscope-ai/QwenPaw": {
+      "score": 166,
+      "n_skills": 30,
+      "max": 20,
+      "mean": 5.533333333333333,
+      "n_risky": 18
+    },
+    "zenbu-labs/terminal-browser": {
+      "score": 0,
+      "n_skills": 1,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "geekjourneyx/md2wechat-skill": {
+      "score": 36,
+      "n_skills": 2,
+      "max": 18,
+      "mean": 18.0,
+      "n_risky": 2
+    },
+    "aipoch/open-science": {
+      "score": 113,
+      "n_skills": 25,
+      "max": 11,
+      "mean": 4.52,
+      "n_risky": 15
+    },
+    "google-gemini/gemini-skills": {
+      "score": 46,
+      "n_skills": 3,
+      "max": 33,
+      "mean": 15.333333333333334,
+      "n_risky": 3
+    },
+    "yusufkaraaslan/Skill_Seekers": {
+      "score": 117,
+      "n_skills": 30,
+      "max": 24,
+      "mean": 3.9,
+      "n_risky": 8
+    },
+    "gooseworks-ai/goose-skills": {
+      "score": 84,
+      "n_skills": 30,
+      "max": 11,
+      "mean": 2.8,
+      "n_risky": 11
+    },
+    "minsight-ai-info/AI-Search-Hub": {
+      "score": 2,
+      "n_skills": 1,
+      "max": 2,
+      "mean": 2.0,
+      "n_risky": 0
+    },
+    "alibaba/zvec": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "rohitg00/awesome-claude-design": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "reticlehq/reticle": {
+      "score": 79,
+      "n_skills": 20,
+      "max": 13,
+      "mean": 3.95,
+      "n_risky": 8
+    },
+    "miqdadbadjuber/anti-slop": {
+      "score": 18,
+      "n_skills": 6,
+      "max": 6,
+      "mean": 3.0,
+      "n_risky": 4
+    },
+    "Agents365-ai/drawio-skill": {
+      "score": 10,
+      "n_skills": 2,
+      "max": 6,
+      "mean": 5.0,
+      "n_risky": 2
+    },
+    "nexscope-ai/eCommerce-Skills": {
+      "score": 89,
+      "n_skills": 30,
+      "max": 11,
+      "mean": 2.966666666666667,
+      "n_risky": 12
+    },
+    "aden-hive/hive": {
+      "score": 187,
+      "n_skills": 24,
+      "max": 28,
+      "mean": 7.791666666666667,
+      "n_risky": 19
+    },
+    "composio-community/awesome-codex-skills": {
+      "score": 90,
+      "n_skills": 30,
+      "max": 11,
+      "mean": 3.0,
+      "n_risky": 26
+    },
+    "rampstackco/claude-skills": {
+      "score": 60,
+      "n_skills": 30,
+      "max": 8,
+      "mean": 2.0,
+      "n_risky": 6
+    },
+    "nidhinjs/prompt-master": {
+      "score": 8,
+      "n_skills": 1,
+      "max": 8,
+      "mean": 8.0,
+      "n_risky": 1
+    },
+    "rohitg00/pro-workflow": {
+      "score": 100,
+      "n_skills": 30,
+      "max": 19,
+      "mean": 3.3333333333333335,
+      "n_risky": 15
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "score": 291,
+      "n_skills": 30,
+      "max": 29,
+      "mean": 9.7,
+      "n_risky": 29
+    },
+    "mksglu/context-mode": {
+      "score": 26,
+      "n_skills": 11,
+      "max": 12,
+      "mean": 2.3636363636363638,
+      "n_risky": 3
+    },
+    "EvoMap/evolver": {
+      "score": 8,
+      "n_skills": 1,
+      "max": 8,
+      "mean": 8.0,
+      "n_risky": 1
+    },
+    "FireRedTeam/FireRed-OpenStoryline": {
+      "score": 46,
+      "n_skills": 7,
+      "max": 24,
+      "mean": 6.571428571428571,
+      "n_risky": 2
+    },
+    "GargantuaX/gemini-watermark-remover": {
+      "score": 0,
+      "n_skills": 1,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "code-yeongyu/oh-my-openagent": {
+      "score": 217,
+      "n_skills": 30,
+      "max": 25,
+      "mean": 7.233333333333333,
+      "n_risky": 24
+    },
+    "0x0funky/agent-sprite-forge": {
+      "score": 12,
+      "n_skills": 3,
+      "max": 8,
+      "mean": 4.0,
+      "n_risky": 1
+    },
+    "googleworkspace/cli": {
+      "score": 118,
+      "n_skills": 30,
+      "max": 6,
+      "mean": 3.933333333333333,
+      "n_risky": 30
+    },
+    "zenstory-ai/drama-skills": {
+      "score": 26,
+      "n_skills": 12,
+      "max": 8,
+      "mean": 2.1666666666666665,
+      "n_risky": 3
+    },
+    "latent-spaces/brag": {
+      "score": 2,
+      "n_skills": 2,
+      "max": 1,
+      "mean": 1.0,
+      "n_risky": 0
+    },
+    "Q00/ouroboros": {
+      "score": 127,
+      "n_skills": 24,
+      "max": 16,
+      "mean": 5.291666666666667,
+      "n_risky": 17
+    },
+    "diegosouzapw/OmniRoute": {
+      "score": 618,
+      "n_skills": 30,
+      "max": 44,
+      "mean": 20.6,
+      "n_risky": 29
+    },
+    "heilcheng/awesome-agent-skills": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "Leonxlnx/taste-skill": {
+      "score": 22,
+      "n_skills": 13,
+      "max": 6,
+      "mean": 1.6923076923076923,
+      "n_risky": 1
+    },
+    "ningzimu/codex-ppt-skill": {
+      "score": 5,
+      "n_skills": 1,
+      "max": 5,
+      "mean": 5.0,
+      "n_risky": 1
+    },
+    "HKUSTDial/Supervisor-Skills": {
+      "score": 29,
+      "n_skills": 12,
+      "max": 10,
+      "mean": 2.4166666666666665,
+      "n_risky": 3
+    },
+    "antfu/skills": {
+      "score": 30,
+      "n_skills": 11,
+      "max": 8,
+      "mean": 2.727272727272727,
+      "n_risky": 3
+    },
+    "JuliusBrussee/caveman": {
+      "score": 80,
+      "n_skills": 28,
+      "max": 10,
+      "mean": 2.857142857142857,
+      "n_risky": 13
+    },
+    "kaankiziltug/logo-design-skill": {
+      "score": 4,
+      "n_skills": 1,
+      "max": 4,
+      "mean": 4.0,
+      "n_risky": 1
+    },
+    "htdt/godogen": {
+      "score": 8,
+      "n_skills": 1,
+      "max": 8,
+      "mean": 8.0,
+      "n_risky": 1
+    },
+    "Appllama/appllama-skills": {
+      "score": 6,
+      "n_skills": 2,
+      "max": 5,
+      "mean": 3.0,
+      "n_risky": 1
+    },
+    "ConardLi/garden-skills": {
+      "score": 33,
+      "n_skills": 5,
+      "max": 12,
+      "mean": 6.6,
+      "n_risky": 4
+    },
+    "trailofbits/skills": {
+      "score": 156,
+      "n_skills": 30,
+      "max": 37,
+      "mean": 5.2,
+      "n_risky": 16
+    },
+    "Kaelio/ktx": {
+      "score": 42,
+      "n_skills": 17,
+      "max": 17,
+      "mean": 2.4705882352941178,
+      "n_risky": 5
+    },
+    "Ar9av/obsidian-wiki": {
+      "score": 256,
+      "n_skills": 30,
+      "max": 23,
+      "mean": 8.533333333333333,
+      "n_risky": 23
+    },
+    "larashero3-dotcom/lieflat-charts": {
+      "score": 1,
+      "n_skills": 1,
+      "max": 1,
+      "mean": 1.0,
+      "n_risky": 0
+    },
+    "mvschwarz/openrig": {
+      "score": 165,
+      "n_skills": 30,
+      "max": 81,
+      "mean": 5.5,
+      "n_risky": 13
+    },
+    "Gentleman-Programming/gentle-ai": {
+      "score": 84,
+      "n_skills": 26,
+      "max": 12,
+      "mean": 3.230769230769231,
+      "n_risky": 11
+    },
+    "undefined-ui/second-brain-os": {
+      "score": 49,
+      "n_skills": 23,
+      "max": 8,
+      "mean": 2.130434782608696,
+      "n_risky": 4
+    },
+    "HughYau/qiushi-skill": {
+      "score": 0,
+      "n_skills": 11,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "OpenSenseNova/SenseNova-Skills": {
+      "score": 8,
+      "n_skills": 29,
+      "max": 4,
+      "mean": 0.27586206896551724,
+      "n_risky": 1
+    },
+    "google-antigravity/antigravity-sdk-python": {
+      "score": 11,
+      "n_skills": 1,
+      "max": 11,
+      "mean": 11.0,
+      "n_risky": 1
+    },
+    "suboss87/FDEOps": {
+      "score": 0,
+      "n_skills": 30,
+      "max": 0,
+      "mean": 0.0,
+      "n_risky": 0
+    },
+    "Bhanunamikaze/Agentic-SEO-Skill": {
+      "score": 19,
+      "n_skills": 1,
+      "max": 19,
+      "mean": 19.0,
+      "n_risky": 1
+    },
+    "travisvn/awesome-claude-skills": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "anthropics/claude-plugins-official": {
+      "score": 176,
+      "n_skills": 30,
+      "max": 27,
+      "mean": 5.866666666666666,
+      "n_risky": 19
+    },
+    "bitjaru/styleseed": {
+      "score": 13,
+      "n_skills": 3,
+      "max": 9,
+      "mean": 4.333333333333333,
+      "n_risky": 1
+    },
+    "maziyarpanahi/openmed": {
+      "score": 81,
+      "n_skills": 30,
+      "max": 6,
+      "mean": 2.7,
+      "n_risky": 12
+    },
+    "alirezarezvani/claude-skills": {
+      "score": 154,
+      "n_skills": 30,
+      "max": 19,
+      "mean": 5.133333333333334,
+      "n_risky": 24
+    },
+    "agentskills/agentskills": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "dmmulroy/anti-slop": {
+      "score": 3,
+      "n_skills": 1,
+      "max": 3,
+      "mean": 3.0,
+      "n_risky": 1
+    },
+    "filtalgo/Filtmall-Shopping-Skill": {
+      "score": 2,
+      "n_skills": 1,
+      "max": 2,
+      "mean": 2.0,
+      "n_risky": 0
+    },
+    "0xNyk/awesome-hermes-agent": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "DietrichGebert/ponytail": {
+      "score": 20,
+      "n_skills": 13,
+      "max": 6,
+      "mean": 1.5384615384615385,
+      "n_risky": 1
+    },
+    "pascalorg/editor": {
+      "score": 27,
+      "n_skills": 4,
+      "max": 11,
+      "mean": 6.75,
+      "n_risky": 4
+    },
+    "deanpeters/Product-Manager-Skills": {
+      "score": 49,
+      "n_skills": 30,
+      "max": 7,
+      "mean": 1.6333333333333333,
+      "n_risky": 7
+    },
+    "alexgreensh/attention-span": {
+      "score": 3,
+      "n_skills": 4,
+      "max": 1,
+      "mean": 0.75,
+      "n_risky": 0
+    },
+    "shanraisshan/claude-code-best-practice": {
+      "score": 26,
+      "n_skills": 10,
+      "max": 16,
+      "mean": 2.6,
+      "n_risky": 2
+    },
+    "genspark-ai/genoffice": {
+      "score": 10,
+      "n_skills": 1,
+      "max": 10,
+      "mean": 10.0,
+      "n_risky": 1
+    },
+    "internet-court/internet-court-skill": {
+      "score": 276,
+      "n_skills": 30,
+      "max": 65,
+      "mean": 9.2,
+      "n_risky": 26
+    },
+    "anthropics/skills": {
+      "score": 74,
+      "n_skills": 20,
+      "max": 17,
+      "mean": 3.7,
+      "n_risky": 6
+    },
+    "dotnet/skills": {
+      "score": 108,
+      "n_skills": 30,
+      "max": 10,
+      "mean": 3.6,
+      "n_risky": 16
+    },
+    "android/skills": {
+      "score": 87,
+      "n_skills": 25,
+      "max": 12,
+      "mean": 3.48,
+      "n_risky": 12
+    },
+    "wuyoscar/GPT-Image2-Skill": {
+      "score": 10,
+      "n_skills": 2,
+      "max": 9,
+      "mean": 5.0,
+      "n_risky": 1
+    },
+    "plannotator/effective-html": {
+      "score": 15,
+      "n_skills": 6,
+      "max": 5,
+      "mean": 2.5,
+      "n_risky": 2
+    },
+    "affaan-m/ECC": {
+      "score": 92,
+      "n_skills": 30,
+      "max": 9,
+      "mean": 3.066666666666667,
+      "n_risky": 15
+    },
+    "google/skills": {
+      "score": 280,
+      "n_skills": 30,
+      "max": 31,
+      "mean": 9.333333333333334,
+      "n_risky": 22
+    },
+    "ParthJadhav/app-store-screenshots": {
+      "score": 15,
+      "n_skills": 1,
+      "max": 15,
+      "mean": 15.0,
+      "n_risky": 1
+    },
+    "addyosmani/agent-skills": {
+      "score": 128,
+      "n_skills": 25,
+      "max": 19,
+      "mean": 5.12,
+      "n_risky": 21
+    },
+    "eatmoreduck/boss-zhipin-scraper": {
+      "score": 16,
+      "n_skills": 1,
+      "max": 16,
+      "mean": 16.0,
+      "n_risky": 1
+    },
+    "AlephAITech/WorkBuddyGuide": {
+      "score": 0,
+      "n_skills": 0,
+      "max": 0,
+      "mean": 0,
+      "n_risky": 0
+    },
+    "lackeyjb/playwright-skill": {
+      "score": 13,
+      "n_skills": 1,
+      "max": 13,
+      "mean": 13.0,
+      "n_risky": 1
+    },
+    "jnMetaCode/superpowers-zh": {
+      "score": 73,
+      "n_skills": 21,
+      "max": 16,
+      "mean": 3.4761904761904763,
+      "n_risky": 10
+    },
+    "Observal/Observal": {
+      "score": 46,
+      "n_skills": 11,
+      "max": 15,
+      "mean": 4.181818181818182,
+      "n_risky": 6
+    },
+    "cbrock84/headcount": {
+      "score": 45,
+      "n_skills": 30,
+      "max": 7,
+      "mean": 1.5,
+      "n_risky": 3
+    }
+  },
+  "high": [
+    "Egonex-AI/Understand-Anything",
+    "nanocoai/nanoclaw",
+    "virgiliojr94/book-to-skill",
+    "brycewang-stanford/Auto-Empirical-Research-Skills",
+    "freestylefly/awesome-gpt-image-2",
+    "microsoft/SkillOpt",
+    "AgriciDaniel/claude-obsidian",
+    "breaking-brake/cc-wf-studio",
+    "Forward-Future/loopy",
+    "phuryn/pm-skills",
+    "Orchestra-Research/AI-Research-SKILLs",
+    "iOfficeAI/OfficeCLI",
+    "foryourhealth111-pixel/Vibe-Skills",
+    "iflytek/skillhub",
+    "ljagiello/ctf-skills",
+    "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
+    "wondelai/skills",
+    "jezweb/claude-skills",
+    "ComposioHQ/awesome-claude-skills",
+    "tt-a1i/archify",
+    "TokenRhythm/opensquilla",
+    "activeloopai/hivemind",
+    "a5c-ai/babysitter",
+    "ferdinandobons/startup-skill",
+    "kepano/obsidian-skills",
+    "himself65/finance-skills",
+    "inkeep/open-knowledge",
+    "AgriciDaniel/claude-ads",
+    "teng-lin/notebooklm-py",
+    "mvanhorn/last30days-skill",
+    "alibaba/open-code-review",
+    "sickn33/agentic-awesome-skills",
+    "anbeime/skill",
+    "nowork-studio/notfair-plugin",
+    "Untrivial-ai/agent-orchestrator",
+    "EverMind-AI/EverOS",
+    "tripleyak/SkillForge",
+    "pacifio/atlas",
+    "JimLiu/baoyu-design",
+    "JimLiu/baoyu-skills",
+    "backnotprop/plannotator",
+    "Jakeschincariol/linkedin-agent-skill",
+    "huangjia2019/claude-code-engineering",
+    "NVIDIA/SkillSpector",
+    "BuilderIO/skills",
+    "bevibing/tutor-skills",
+    "eugeniughelbur/obsidian-second-brain",
+    "hoangsonww/Claude-Code-Agent-Monitor",
+    "op7418/guizang-ppt-skill",
+    "samber/cc-skills-golang",
+    "XiaoMaColtAI/math-modeling-skill",
+    "titanwings/distilly",
+    "composio-community/awesome-claude-plugins",
+    "OpenRaiser/NanoResearch",
+    "KKKKhazix/khazix-skills",
+    "nextlevelbuilder/ui-ux-pro-max-skill",
+    "michael-denyer/pstack-claude",
+    "nexu-io/open-design",
+    "plugin87/ux-ui-agent-skills",
+    "NVIDIA/skills",
+    "xianyu110/awesome-openclaw-tutorial",
+    "JCodesMore/ai-website-cloner-template",
+    "conorluddy/ios-simulator-skill",
+    "citrolabs/ego-lite",
+    "Prat011/awesome-llm-skills",
+    "ibelick/ui-skills",
+    "Jeffallan/claude-skills",
+    "antonbabenko/terraform-skill",
+    "SnailSploit/Claude-Red",
+    "career-ops-hq/career-ops",
+    "tw93/Waza",
+    "elementalsouls/Claude-BugHunter",
+    "parcadei/Continuous-Claude-v3",
+    "ayghri/i-have-adhd",
+    "zanwei/design-dna",
+    "codeaashu/claude-code",
+    "addyosmani/web-quality-skills",
+    "mohitagw15856/pm-claude-skills",
+    "Graphify-Labs/graphify",
+    "ScrapeCreators/social-media-research-skills",
+    "blader/humanizer",
+    "Panniantong/Agent-Reach",
+    "rebelytics/one-skill-to-rule-them-all",
+    "zenstory-ai/oh-story-claudecode",
+    "epoko77-ai/im-not-ai",
+    "OthmanAdi/planning-with-files",
+    "anysearch-ai/anysearch-skill",
+    "obra/superpowers",
+    "romainsimon/paperasse",
+    "tech-leads-club/agent-skills",
+    "sergebulaev/linkedin-skills",
+    "browser-act/skills",
+    "agentscope-ai/QwenPaw",
+    "geekjourneyx/md2wechat-skill",
+    "aipoch/open-science",
+    "google-gemini/gemini-skills",
+    "yusufkaraaslan/Skill_Seekers",
+    "gooseworks-ai/goose-skills",
+    "reticlehq/reticle",
+    "miqdadbadjuber/anti-slop",
+    "Agents365-ai/drawio-skill",
+    "nexscope-ai/eCommerce-Skills",
+    "aden-hive/hive",
+    "composio-community/awesome-codex-skills",
+    "rampstackco/claude-skills",
+    "nidhinjs/prompt-master",
+    "rohitg00/pro-workflow",
+    "K-Dense-AI/scientific-agent-skills",
+    "mksglu/context-mode",
+    "EvoMap/evolver",
+    "FireRedTeam/FireRed-OpenStoryline",
+    "code-yeongyu/oh-my-openagent",
+    "0x0funky/agent-sprite-forge",
+    "googleworkspace/cli",
+    "zenstory-ai/drama-skills",
+    "Q00/ouroboros",
+    "diegosouzapw/OmniRoute",
+    "Leonxlnx/taste-skill",
+    "ningzimu/codex-ppt-skill",
+    "HKUSTDial/Supervisor-Skills",
+    "antfu/skills",
+    "JuliusBrussee/caveman",
+    "kaankiziltug/logo-design-skill",
+    "htdt/godogen",
+    "Appllama/appllama-skills",
+    "ConardLi/garden-skills",
+    "trailofbits/skills",
+    "Kaelio/ktx",
+    "Ar9av/obsidian-wiki",
+    "mvschwarz/openrig",
+    "Gentleman-Programming/gentle-ai",
+    "undefined-ui/second-brain-os",
+    "OpenSenseNova/SenseNova-Skills",
+    "google-antigravity/antigravity-sdk-python",
+    "Bhanunamikaze/Agentic-SEO-Skill",
+    "anthropics/claude-plugins-official",
+    "bitjaru/styleseed",
+    "maziyarpanahi/openmed",
+    "alirezarezvani/claude-skills",
+    "dmmulroy/anti-slop",
+    "DietrichGebert/ponytail",
+    "pascalorg/editor",
+    "deanpeters/Product-Manager-Skills",
+    "shanraisshan/claude-code-best-practice",
+    "genspark-ai/genoffice",
+    "internet-court/internet-court-skill",
+    "anthropics/skills",
+    "dotnet/skills",
+    "android/skills",
+    "wuyoscar/GPT-Image2-Skill",
+    "plannotator/effective-html",
+    "affaan-m/ECC",
+    "google/skills",
+    "ParthJadhav/app-store-screenshots",
+    "addyosmani/agent-skills",
+    "eatmoreduck/boss-zhipin-scraper",
+    "lackeyjb/playwright-skill",
+    "jnMetaCode/superpowers-zh",
+    "Observal/Observal",
+    "cbrock84/headcount"
+  ],
+  "mid": [
+    "SawyerHood/dev-browser",
+    "cathrynlavery/diagram-design",
+    "coldteadotai/pr-lens",
+    "irinabuht12-oss/marketing-skills",
+    "liustack/modlens",
+    "muxuuu/serenity-skill",
+    "minsight-ai-info/AI-Search-Hub",
+    "filtalgo/Filtmall-Shopping-Skill"
+  ],
+  "low": [
+    "didilili/ai-agents-from-zero",
+    "libukai/awesome-agent-skills",
+    "VoltAgent/awesome-agent-skills",
+    "hesamsheikh/octogent",
+    "xixu-me/awesome-persona-distill-skills",
+    "Natively-AI-assistant/natively-cluely-ai-assistant",
+    "Shanyin-ai/shanyin-screenwriting-master",
+    "WenyuChiou/awesome-agentic-ai-zh",
+    "Klotzkette/claude-fuer-deutsches-recht",
+    "KKKKhazix/human-writing",
+    "Gabberflast/academic-pptx-skill",
+    "VoltAgent/awesome-openclaw-skills",
+    "Ontos-AI/knowhere",
+    "tigerless-labs/autoharness",
+    "tmstack/awesome-persona-skills",
+    "Ryze-AI-Adgent/open-seo-mcp-skills",
+    "BayramAnnakov/claude-reflect",
+    "tradecatlabs/vibe-coding-cn",
+    "microsoft/skill-recorder",
+    "jangviktor-web/nihaixia",
+    "nexu-io/html-anything",
+    "zenbu-labs/terminal-browser",
+    "alibaba/zvec",
+    "rohitg00/awesome-claude-design",
+    "GargantuaX/gemini-watermark-remover",
+    "latent-spaces/brag",
+    "heilcheng/awesome-agent-skills",
+    "larashero3-dotcom/lieflat-charts",
+    "HughYau/qiushi-skill",
+    "suboss87/FDEOps",
+    "travisvn/awesome-claude-skills",
+    "agentskills/agentskills",
+    "0xNyk/awesome-hermes-agent",
+    "alexgreensh/attention-span",
+    "AlephAITech/WorkBuddyGuide"
+  ],
+  "n_high": 160,
+  "n_mid": 8,
+  "n_low": 35
+}

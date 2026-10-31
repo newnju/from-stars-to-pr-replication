@@ -1,0 +1,239 @@
+{
+ "generated_at": "2026-10-30T11:55:28",
+ "R1_chetty_decomposition": {
+  "n_parents": 225,
+  "n_forks_total": 1832187,
+  "n_matched_total": 117461,
+  "n_parents_stars_known": 225,
+  "coverage_note": "仅含 complete=true 且 n_forks>=5 的父仓；星标缺失组单列不入十分位",
+  "rate_observed_weighted": 0.0641,
+  "rate_direct_matched_over_forks": 0.0641,
+  "rate_equal_weight_mean": 0.0661,
+  "rate_median_parent": 0.039,
+  "p2_reconciliation": "P2 论文值 4.3% ≈ 每仓贡献率的中位数口径（3.9%）；合并率 6.4% 为 fork 加权口径（大仓主导），两者并存不矛盾",
+  "decile_table": {
+   "1": {
+    "n_parents": 23,
+    "fork_share": 0.3947,
+    "eng_weighted": 0.0677,
+    "eng_equal_weight": 0.0591,
+    "stars_median": 188406
+   },
+   "2": {
+    "n_parents": 22,
+    "fork_share": 0.1589,
+    "eng_weighted": 0.0885,
+    "eng_equal_weight": 0.0843,
+    "stars_median": 98297
+   },
+   "3": {
+    "n_parents": 23,
+    "fork_share": 0.1346,
+    "eng_weighted": 0.0459,
+    "eng_equal_weight": 0.0514,
+    "stars_median": 78816
+   },
+   "4": {
+    "n_parents": 22,
+    "fork_share": 0.1162,
+    "eng_weighted": 0.0426,
+    "eng_equal_weight": 0.0634,
+    "stars_median": 66481
+   },
+   "5": {
+    "n_parents": 23,
+    "fork_share": 0.0802,
+    "eng_weighted": 0.0498,
+    "eng_equal_weight": 0.0497,
+    "stars_median": 53321
+   },
+   "6": {
+    "n_parents": 22,
+    "fork_share": 0.057,
+    "eng_weighted": 0.0682,
+    "eng_equal_weight": 0.0649,
+    "stars_median": 31292
+   },
+   "7": {
+    "n_parents": 22,
+    "fork_share": 0.0206,
+    "eng_weighted": 0.0684,
+    "eng_equal_weight": 0.0657,
+    "stars_median": 15759
+   },
+   "8": {
+    "n_parents": 23,
+    "fork_share": 0.0157,
+    "eng_weighted": 0.0804,
+    "eng_equal_weight": 0.0557,
+    "stars_median": 9131
+   },
+   "9": {
+    "n_parents": 22,
+    "fork_share": 0.0105,
+    "eng_weighted": 0.0997,
+    "eng_equal_weight": 0.106,
+    "stars_median": 6825
+   },
+   "10": {
+    "n_parents": 23,
+    "fork_share": 0.0116,
+    "eng_weighted": 0.0522,
+    "eng_equal_weight": 0.0632,
+    "stars_median": 4020
+   }
+  },
+  "counterfactual_top3_eng_for_all": 0.0885,
+  "counterfactual_top3_deciles": [
+   9,
+   2,
+   8
+  ],
+  "counterfactual_equal_fork_shares": 0.0663,
+  "marginal_concentration_effect": 0.0022,
+  "rearrangement_bounds": {
+   "min": 0.0509,
+   "max": 0.0843
+  },
+  "note": "Chetty(2017) 框架：观察率=边际(fork 份额)×copula(engagement)；反事实固定一边际替换另一边际；重排界给所有耦合的最好/最坏情形"
+ },
+ "R2_farber_variance": {
+  "n_obs": 38817,
+  "n_repos": 340,
+  "r2_repo_FE_permanent": 0.2316,
+  "r2_week_FE_incremental_transitory": 0.0123,
+  "residual_share_unexpected": 0.756,
+  "note": "Farber(2015) 工资方差分解的星标版，用嵌套 R²（repo FE → +week FE）；朴素三分量方差和不正交（相加=1.046>1），故以嵌套 R² 为准"
+ },
+ "R2_attention_shifts": {
+  "n_shifts": 1446,
+  "n_shifts_nonzero": 624,
+  "n_repos": 340,
+  "median_len_weeks_all": 1.0,
+  "median_len_weeks_nonzero": 25.0,
+  "share_repos_single_nonzero_shift": 0.8059,
+  "share_stars_in_top1_shift": 0.9984,
+  "median_top1_share_among_multishift_repos": 0.998,
+  "n_multishift_repos": 66,
+  "threshold_sensitivity": {
+   "thr_1w": {
+    "n_shifts": 1446,
+    "median_len_nonzero_weeks": 25.0,
+    "top1_shift_star_share": 0.9984
+   },
+   "thr_2w": {
+    "n_shifts": 1042,
+    "median_len_nonzero_weeks": 35.0,
+    "top1_shift_star_share": 0.9997
+   },
+   "thr_4w": {
+    "n_shifts": 802,
+    "median_len_nonzero_weeks": 39.0,
+    "top1_shift_star_share": 0.9999
+   }
+  },
+  "note": "切分规则：连续零增量周>=1 即开新 shift（对齐 Farber 班次边界）；80.6% 仓库仅一个非零 shift，故 top1 占比接近机械=1；条件于 66 个多段仓仍为 99.8%，结论（单一爆发窗口主导）稳健"
+ },
+ "R2_iv": {
+  "n": 340,
+  "n_langs": 24,
+  "first_stage_coef_z": 0.0493,
+  "first_stage_F_approx": 0.02,
+  "ols_beta_log1p_forks": 0.00142,
+  "iv_beta_log1p_forks": -0.05514,
+  "verdict": "弱工具（第一阶段 t²<10），IV 系数不稳定，只演示 Farber 的 leave-one-out 工具构造法，不作因果解释",
+  "iv_note": "工具=同语言同伴(不含自身)平均 log(1+fork)；弱工具风险已用第一阶段 t² 报告；示意性 IV，非因果定论"
+ },
+ "R3_gft_screening": {
+  "n_total": 340,
+  "feature_ranking": {
+   "log_forks": 0.581,
+   "log_installs": 0.3821,
+   "log_early": 0.2474,
+   "age_days": -0.1789,
+   "eng": -0.1317,
+   "n_topics": -0.0578
+  },
+  "top5": [
+   "log_forks",
+   "log_installs",
+   "log_early",
+   "age_days",
+   "eng"
+  ],
+  "n_complete_case_top5": 106,
+  "split": {
+   "n_train": 80,
+   "n_test": 26
+  },
+  "top3_model": {
+   "features": [
+    "log_forks",
+    "log_installs",
+    "log_early"
+   ],
+   "n_train": 80,
+   "n_test": 26,
+   "train_r2": 0.4582,
+   "test_r2": 0.3916,
+   "test_rmse": 1.2993
+  },
+  "top5_model": {
+   "features": [
+    "log_forks",
+    "log_installs",
+    "log_early",
+    "age_days",
+    "eng"
+   ],
+   "n_train": 80,
+   "n_test": 26,
+   "train_r2": 0.5605,
+   "test_r2": 0.2376,
+   "test_rmse": 1.4544
+  },
+  "overfit_gap_top5_minus_top3_testR2": -0.154,
+  "note": "GFT(2009) 流程：份额归一化(后 6 周增量/全体后 6 周增量) + 4 折 Fisher-Z 筛选 + fold0 留出；GFT 教训=特征越多样本外越差，看 test_r2 非 train_r2",
+  "coverage_note": "eng 仅 225 个父仓覆盖、installs 171、merge_rate 140；缺失行整行剔除不当 0，对照模型共用同一 complete-case 样本"
+ },
+ "R4_hdi_composite": {
+  "n_repos_all3plus_dims": 241,
+  "n_with_installs": 171,
+  "n_with_merge_rate": 140,
+  "spearman_stars_vs_geo_rank": 0.8676,
+  "p_value": 1.798671664567924e-74,
+  "top5_overperformers_geo_vs_stars": [
+   {
+    "repo": "codeaashu/claude-code",
+    "stars_rank": 192,
+    "geo_rank": 129,
+    "gain": 63
+   },
+   {
+    "repo": "composio-community/awesome-claude-plugins",
+    "stars_rank": 208,
+    "geo_rank": 145,
+    "gain": 63
+   },
+   {
+    "repo": "zenstory-ai/drama-skills",
+    "stars_rank": 204,
+    "geo_rank": 146,
+    "gain": 58
+   },
+   {
+    "repo": "ljagiello/ctf-skills",
+    "stars_rank": 190,
+    "geo_rank": 136,
+    "gain": 54
+   },
+   {
+    "repo": "himself65/finance-skills",
+    "stars_rank": 193,
+    "geo_rank": 142,
+    "gain": 51
+   }
+  ],
+  "note": "HDI 几何平均=四维百分位(星标/fork/安装/合并率)乘积开 4 次方；几何平均惩罚短板，排名变化即'GDP 之外'的增量信息；覆盖>=3 维才入样"
+ }
+}

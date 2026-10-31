@@ -1,0 +1,349 @@
+{
+  "truncation_diagnostics": {
+    "n_truncated": 108,
+    "n_total": 203,
+    "median_win_share_of_life_truncated": 0.4379217273954116,
+    "min_win_share_of_life_truncated": 0.023076923076923078,
+    "median_fork_share_retained_truncated": 0.29524779196144957,
+    "median_win_lo_truncated": "2026-07-02",
+    "note": "凡以分叉事件为观测单位的生态合计时序，其早期月份被系统性少计，故分叉『增速加速』不可作为结论。"
+  },
+  "monthly_ecology_all": [
+    {
+      "ym": "2025-09",
+      "stars": 0,
+      "forks": 0,
+      "days": 10,
+      "stars_per_day": 0.0,
+      "forks_per_day": 0.0,
+      "fork_per_100_stars": NaN
+    },
+    {
+      "ym": "2025-10",
+      "stars": 25571,
+      "forks": 33,
+      "days": 31,
+      "stars_per_day": 824.8709677419355,
+      "forks_per_day": 1.064516129032258,
+      "fork_per_100_stars": 0.12905244221970202
+    },
+    {
+      "ym": "2025-11",
+      "stars": 17229,
+      "forks": 19,
+      "days": 30,
+      "stars_per_day": 574.3,
+      "forks_per_day": 0.6333333333333333,
+      "fork_per_100_stars": 0.11027918045156421
+    },
+    {
+      "ym": "2025-12",
+      "stars": 55385,
+      "forks": 333,
+      "days": 31,
+      "stars_per_day": 1786.6129032258063,
+      "forks_per_day": 10.741935483870968,
+      "fork_per_100_stars": 0.601245824681773
+    },
+    {
+      "ym": "2026-01",
+      "stars": 239137,
+      "forks": 967,
+      "days": 31,
+      "stars_per_day": 7714.096774193548,
+      "forks_per_day": 31.193548387096776,
+      "fork_per_100_stars": 0.40437071636760513
+    },
+    {
+      "ym": "2026-02",
+      "stars": 217299,
+      "forks": 946,
+      "days": 28,
+      "stars_per_day": 7760.678571428572,
+      "forks_per_day": 33.785714285714285,
+      "fork_per_100_stars": 0.43534484742221546
+    },
+    {
+      "ym": "2026-03",
+      "stars": 490854,
+      "forks": 2825,
+      "days": 31,
+      "stars_per_day": 15834.0,
+      "forks_per_day": 91.12903225806451,
+      "fork_per_100_stars": 0.5755275499435677
+    },
+    {
+      "ym": "2026-04",
+      "stars": 558096,
+      "forks": 6030,
+      "days": 30,
+      "stars_per_day": 18603.2,
+      "forks_per_day": 201.0,
+      "fork_per_100_stars": 1.0804592758235143
+    },
+    {
+      "ym": "2026-05",
+      "stars": 483177,
+      "forks": 5624,
+      "days": 31,
+      "stars_per_day": 15586.354838709678,
+      "forks_per_day": 181.41935483870967,
+      "fork_per_100_stars": 1.163962688621354
+    },
+    {
+      "ym": "2026-06",
+      "stars": 545374,
+      "forks": 8729,
+      "days": 30,
+      "stars_per_day": 18179.133333333335,
+      "forks_per_day": 290.96666666666664,
+      "fork_per_100_stars": 1.600553014995214
+    },
+    {
+      "ym": "2026-07",
+      "stars": 447398,
+      "forks": 10265,
+      "days": 31,
+      "stars_per_day": 14432.193548387097,
+      "forks_per_day": 331.1290322580645,
+      "fork_per_100_stars": 2.2943777129088643
+    },
+    {
+      "ym": "2026-08",
+      "stars": 462912,
+      "forks": 13983,
+      "days": 31,
+      "stars_per_day": 14932.645161290322,
+      "forks_per_day": 451.06451612903226,
+      "fork_per_100_stars": 3.0206605143094154
+    },
+    {
+      "ym": "2026-09",
+      "stars": 458453,
+      "forks": 24432,
+      "days": 30,
+      "stars_per_day": 15281.766666666666,
+      "forks_per_day": 814.4,
+      "fork_per_100_stars": 5.329226769156271
+    },
+    {
+      "ym": "2026-10",
+      "stars": 42044,
+      "forks": 4400,
+      "days": 10,
+      "stars_per_day": 4204.4,
+      "forks_per_day": 440.0,
+      "fork_per_100_stars": 10.46522690514699
+    }
+  ],
+  "monthly_ecology_complete_only": [
+    {
+      "ym": "2025-10",
+      "stars": 771,
+      "forks": 33,
+      "days": 20,
+      "stars_per_day": 38.55,
+      "forks_per_day": 1.65,
+      "fork_per_100_stars": 4.280155642023346
+    },
+    {
+      "ym": "2025-11",
+      "stars": 288,
+      "forks": 19,
+      "days": 30,
+      "stars_per_day": 9.6,
+      "forks_per_day": 0.6333333333333333,
+      "fork_per_100_stars": 6.597222222222222
+    },
+    {
+      "ym": "2025-12",
+      "stars": 4095,
+      "forks": 233,
+      "days": 31,
+      "stars_per_day": 132.09677419354838,
+      "forks_per_day": 7.516129032258065,
+      "fork_per_100_stars": 5.68986568986569
+    },
+    {
+      "ym": "2026-01",
+      "stars": 11470,
+      "forks": 766,
+      "days": 31,
+      "stars_per_day": 370.0,
+      "forks_per_day": 24.70967741935484,
+      "fork_per_100_stars": 6.678291194420227
+    },
+    {
+      "ym": "2026-02",
+      "stars": 8977,
+      "forks": 721,
+      "days": 28,
+      "stars_per_day": 320.60714285714283,
+      "forks_per_day": 25.75,
+      "fork_per_100_stars": 8.031636404143923
+    },
+    {
+      "ym": "2026-03",
+      "stars": 18399,
+      "forks": 1695,
+      "days": 31,
+      "stars_per_day": 593.516129032258,
+      "forks_per_day": 54.67741935483871,
+      "fork_per_100_stars": 9.212457198760802
+    },
+    {
+      "ym": "2026-04",
+      "stars": 31760,
+      "forks": 3354,
+      "days": 30,
+      "stars_per_day": 1058.6666666666667,
+      "forks_per_day": 111.8,
+      "fork_per_100_stars": 10.560453400503778
+    },
+    {
+      "ym": "2026-05",
+      "stars": 31800,
+      "forks": 2784,
+      "days": 31,
+      "stars_per_day": 1025.8064516129032,
+      "forks_per_day": 89.80645161290323,
+      "fork_per_100_stars": 8.754716981132075
+    },
+    {
+      "ym": "2026-06",
+      "stars": 40336,
+      "forks": 3234,
+      "days": 30,
+      "stars_per_day": 1344.5333333333333,
+      "forks_per_day": 107.8,
+      "fork_per_100_stars": 8.017651725505752
+    },
+    {
+      "ym": "2026-07",
+      "stars": 35150,
+      "forks": 2885,
+      "days": 31,
+      "stars_per_day": 1133.8709677419354,
+      "forks_per_day": 93.06451612903226,
+      "fork_per_100_stars": 8.207681365576104
+    },
+    {
+      "ym": "2026-08",
+      "stars": 52602,
+      "forks": 3850,
+      "days": 31,
+      "stars_per_day": 1696.8387096774193,
+      "forks_per_day": 124.19354838709677,
+      "fork_per_100_stars": 7.319113341698034
+    },
+    {
+      "ym": "2026-09",
+      "stars": 59365,
+      "forks": 4441,
+      "days": 30,
+      "stars_per_day": 1978.8333333333333,
+      "forks_per_day": 148.03333333333333,
+      "fork_per_100_stars": 7.480838878126843
+    },
+    {
+      "ym": "2026-10",
+      "stars": 7219,
+      "forks": 571,
+      "days": 10,
+      "stars_per_day": 721.9,
+      "forks_per_day": 57.1,
+      "fork_per_100_stars": 7.909682781548691
+    }
+  ],
+  "n_complete_repos": 95,
+  "segments": {
+    "pre_2025-09-21_2026-02-02": {
+      "days": 135,
+      "stars_per_day": 2631.9703703703703,
+      "forks_per_day": 10.444444444444445,
+      "fork_per_100_stars": 0.39682986412095145
+    },
+    "cluster_2026-02-03_2026-03-23": {
+      "days": 49,
+      "stars_per_day": 11101.65306122449,
+      "forks_per_day": 55.44897959183673,
+      "fork_per_100_stars": 0.4994659739954153
+    },
+    "post_2026-03-24_2026-10-04": {
+      "days": 195,
+      "stars_per_day": 16121.189743589744,
+      "forks_per_day": 381.8410256410256,
+      "fork_per_100_stars": 2.368566040808848
+    }
+  },
+  "by_size_quartile": {
+    "Q1最小": {
+      "n": 51.0,
+      "median_total_stars": 1420.0,
+      "forks_per_100": 11.5705716734,
+      "median_conv": 11.0336817654
+    },
+    "Q2": {
+      "n": 51.0,
+      "median_total_stars": 4059.0,
+      "forks_per_100": 10.8411976228,
+      "median_conv": 10.2564102564
+    },
+    "Q3": {
+      "n": 50.0,
+      "median_total_stars": 7660.5,
+      "forks_per_100": 8.3099581733,
+      "median_conv": 8.6070752158
+    },
+    "Q4最大": {
+      "n": 51.0,
+      "median_total_stars": 43610.0,
+      "forks_per_100": 9.2348476069,
+      "median_conv": 9.7125097125
+    }
+  },
+  "size_elasticity": {
+    "coef": -0.17498706671854253,
+    "se": 0.05557007639136952,
+    "p": 0.0016386151086193773,
+    "irr_per_10x": 0.8394678777733366
+  },
+  "window_sensitivity": {
+    "n": 136,
+    "reach2_coef": -0.11000842600636657,
+    "reach2_p": 0.14901656172320404,
+    "irr": 0.8958265870242018
+  },
+  "quintile_by_period": {
+    "0": {
+      "post": 9.690248923825566,
+      "pre": 7.024,
+      "n_pre": 18750.0,
+      "n_post": 235092.0
+    },
+    "1": {
+      "post": 9.291203306015369,
+      "pre": 7.475884244372991,
+      "n_pre": 1244.0,
+      "n_post": 172292.0
+    },
+    "2": {
+      "post": 9.686652714549757,
+      "pre": null,
+      "n_pre": null,
+      "n_post": 139047.0
+    },
+    "3": {
+      "post": 9.48839501877383,
+      "pre": null,
+      "n_pre": null,
+      "n_post": 137958.0
+    },
+    "4": {
+      "post": 9.720898122883725,
+      "pre": null,
+      "n_pre": null,
+      "n_post": 121676.0
+    }
+  }
+}

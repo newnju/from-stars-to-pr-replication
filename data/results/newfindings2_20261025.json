@@ -1,0 +1,203 @@
+{
+ "A_genealogy": {
+  "anthropic_docs": 17,
+  "anthropic_shas": 17,
+  "anth_fanout_max": 37,
+  "anth_fanout_mean": 20.88,
+  "top2_communities": [
+   {
+    "size": 1385,
+    "median_stars": 4,
+    "registry_like_share": 0.326,
+    "top_degree": [
+     [
+      "NeverSight/skills_feed",
+      1908,
+      62
+     ],
+     [
+      "NeverSight/learn-skills.dev",
+      144,
+      66
+     ],
+     [
+      "jackspace/ClaudeSkillz",
+      68,
+      9
+     ]
+    ]
+   },
+   {
+    "size": 1125,
+    "median_stars": 0,
+    "registry_like_share": 0.147,
+    "top_degree": [
+     [
+      "majiayu000/claude-skill-registry",
+      1305,
+      107
+     ],
+     [
+      "agdev/claude-code",
+      12,
+      0
+     ],
+     [
+      "bl1nk-bot/agent-library",
+      9,
+      1
+     ]
+    ]
+   }
+  ]
+ },
+ "B_traj_channels": {
+  "type1": {
+   "n": 70,
+   "hit_share": 0.443,
+   "med_inst": 2908
+  },
+  "type2": {
+   "n": 119,
+   "hit_share": 0.496,
+   "med_inst": 22761
+  },
+  "type3": {
+   "n": 29,
+   "hit_share": 0.483,
+   "med_inst": 1213
+  },
+  "type4": {
+   "n": 114,
+   "hit_share": 0.553,
+   "med_inst": 4001
+  }
+ },
+ "C_pr_titles": {
+  "n": 72281,
+  "convention": 0.739,
+  "ai_mention": 0.211,
+  "chinese": 0.014
+ },
+ "D_match": {
+  "clawhub": 83215,
+  "github_names": 79883,
+  "matched": 6057,
+  "rate": 0.073
+ },
+ "E_burst": [
+  [
+   "03-31",
+   144347
+  ],
+  [
+   "04-01",
+   100022
+  ],
+  [
+   "04-07",
+   89781
+  ],
+  [
+   "04-08",
+   77723
+  ],
+  [
+   "04-13",
+   76295
+  ],
+  [
+   "04-09",
+   75162
+  ],
+  [
+   "03-09",
+   74878
+  ],
+  [
+   "04-02",
+   73286
+  ]
+ ],
+ "F_strategy": {
+  "n": 5525,
+  "single_type_share": 0.359,
+  "med_types": 1.0,
+  "med_stars_by_nd": {
+   "0": 1,
+   "1": 1,
+   "2": 1,
+   "3+": 3
+  },
+  "p_div1_vs_3plus": 0.0
+ },
+ "G_targets": {
+  "top15": [
+   [
+    "kubesphere/kubesphere",
+    1539
+   ],
+   [
+    "MemTensor/MemOS",
+    1367
+   ],
+   [
+    "YaoApp/yao",
+    1231
+   ],
+   [
+    "genspark-ai/genoffice",
+    1209
+   ],
+   [
+    "Gentleman-Programming/gentle-ai",
+    1187
+   ],
+   [
+    "MycroftAI/mycroft-core",
+    1002
+   ],
+   [
+    "travisvn/awesome-claude-skills",
+    987
+   ],
+   [
+    "Observal/Observal",
+    896
+   ],
+   [
+    "Q00/ouroboros",
+    777
+   ],
+   [
+    "davepoon/buildwithclaude",
+    646
+   ],
+   [
+    "DietrichGebert/ponytail",
+    595
+   ],
+   [
+    "mcp-use/mcp-use",
+    580
+   ],
+   [
+    "ikaijua/Awesome-AITools",
+    553
+   ],
+   [
+    "maziyarpanahi/openmed",
+    535
+   ],
+   [
+    "odysseus-dev/odysseus",
+    497
+   ]
+  ],
+  "class": {
+   "app": 13,
+   "registry": 2
+  },
+  "top5_share": 0.285
+ }
+}

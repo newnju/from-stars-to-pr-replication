@@ -1,0 +1,14 @@
+{
+  "multi": 306088,
+  "cov_first": 170,
+  "cov_created": 305589,
+  "cov_disc": 5812,
+  "cov_first_or_created": 170,
+  "cov_any_first_created": 305630,
+  "cov_all3": 305998,
+  "is_fork_one": 3,
+  "is_fork_null": 515,
+  "is_fork_zero": 281682,
+  "repo_created": 281676,
+  "discovered_at_pct": 100.0
+}

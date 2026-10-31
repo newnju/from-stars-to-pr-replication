@@ -1,0 +1,29 @@
+{
+ "test": "copy_to_fork",
+ "date": "2026-10-31",
+ "sample": "有跨仓复制边的仓（near_duplicates 去重后 2,001 仓有元数据），非 341 面板",
+ "copy_measure": "跨仓复制出度=该仓文档被其他仓复制的去重 SHA 数",
+ "n_out_gt0_fork_gt0": 784,
+ "rho": 0.1071,
+ "p": 0.00269,
+ "tost_vs_0.5": {
+  "p": "<1e-10"
+ },
+ "tost_vs_0.35": {
+  "p": 2.81e-13
+ },
+ "in_degree": {
+  "n": 674,
+  "rho": -0.0298,
+  "p_tost": "<1e-10"
+ },
+ "control_copy_to_stars": {
+  "n": 1079,
+  "rho": 0.1322
+ },
+ "control_fork_to_stars": {
+  "n": 902,
+  "rho": 0.9144
+ },
+ "note": "元数据经 GraphQL 补拉，2,170 成功、294 个仓已删除（404）"
+}

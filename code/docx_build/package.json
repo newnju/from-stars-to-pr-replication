@@ -1,0 +1,9 @@
+{
+  "name": "skill-diffusion-docx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "《新闻与传播研究》体例正文与封面生成器",
+  "dependencies": {
+    "docx": "^9.14.0"
+  }
+}

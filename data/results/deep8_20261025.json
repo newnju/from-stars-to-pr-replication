@@ -1,0 +1,196 @@
+{
+ "dbscan": {
+  "n_clusters": 1,
+  "n_noise": 18,
+  "groups": {
+   "cluster_0": {
+    "n": 44,
+    "median_log_stars": 3,
+    "median_log_inst": 3,
+    "median_share_cross": 0.0,
+    "example": "anthropics/skills"
+   },
+   "cluster_-1": {
+    "n": 18,
+    "median_log_stars": 4,
+    "median_log_inst": 2,
+    "median_share_cross": 0.071,
+    "example": "openclaw/openclaw"
+   }
+  },
+  "note": "DBSCAN eps=0.9 minPts=8 于 RobustScaler 后的5维空间（星/装/复制/ fork/年龄）"
+ },
+ "mutual_info": {
+  "normalized_MI": {
+   "star_tier": {
+    "MI_to_skillssh": 0.014,
+    "MI_to_clawhub": 0.134
+   },
+   "share_cross_q": {
+    "MI_to_skillssh": 0.021,
+    "MI_to_clawhub": 0.02
+   },
+   "n_skills_q": {
+    "MI_to_skillssh": 0.003,
+    "MI_to_clawhub": 0.001
+   },
+   "age_q": {
+    "MI_to_skillssh": 0.005,
+    "MI_to_clawhub": 0.001
+   }
+  },
+  "note": "四分位离散化后的归一化互信息（0=无关，1=完全决定）"
+ },
+ "community_growth": [
+  {
+   "community": 1,
+   "size": 1336,
+   "first_member": [
+    "2019-05",
+    1
+   ],
+   "growth_by_month": [
+    [
+     "2019-05",
+     1
+    ],
+    [
+     "2023-04",
+     2
+    ],
+    [
+     "2025-06",
+     3
+    ],
+    [
+     "2025-07",
+     5
+    ],
+    [
+     "2025-08",
+     6
+    ],
+    [
+     "2025-11",
+     8
+    ],
+    [
+     "2025-12",
+     9
+    ],
+    [
+     "2026-01",
+     10
+    ]
+   ]
+  },
+  {
+   "community": 2,
+   "size": 1197,
+   "first_member": null,
+   "growth_by_month": []
+  }
+ ],
+ "readability": {
+  "n_sents": 13636,
+  "median_sentence_words": 14,
+  "p90_sentence_words": 35,
+  "median_para_words": 25,
+  "note": "去代码块后的句长/段长分布（简化可读性指标）"
+ },
+ "dtw_shape": {
+  "n_pairs": 18,
+  "median_dtw_star_vs_fork": 0.01503,
+  "baseline_dtw_random_star_pairs": 0.01215,
+  "note": "DTW 越小形态越相似；对比组为随机两仓的星标曲线"
+ },
+ "enrichment_highcopy": {
+  "n_high_copy": 1052,
+  "n_all": 18282,
+  "python": {
+   "k": 7,
+   "pool": 29,
+   "fold": 4.19,
+   "p": 0.00105
+  },
+  "markdown_only": {
+   "k": 1040,
+   "pool": 18222,
+   "fold": 0.99,
+   "p": 0.99997
+  },
+  "created_2025": {
+   "k": 8,
+   "pool": 35,
+   "fold": 3.97,
+   "p": 0.00068
+  },
+  "on_skillssh": {
+   "k": 8,
+   "pool": 46,
+   "fold": 3.02,
+   "p": 0.00433
+  },
+  "note": "高复制仓（share≥0.5,≥5技能）的特征富集：fold>1 为富集，hypergeom 单侧"
+ },
+ "gb_importance": {
+  "n": 46,
+  "r2": 0.735,
+  "importance": [
+   [
+    "log_stars",
+    0.3278
+   ],
+   [
+    "clawhub",
+    0.2235
+   ],
+   [
+    "n_skills",
+    0.1771
+   ],
+   [
+    "share_cross",
+    0.1695
+   ],
+   [
+    "age",
+    0.0765
+   ],
+   [
+    "log_forks",
+    -0.0047
+   ]
+  ],
+  "pdp_share_cross": [
+   {
+    "sc": 0.0,
+    "pred_log_inst": 4.016
+   },
+   {
+    "sc": 0.2,
+    "pred_log_inst": 4.575
+   },
+   {
+    "sc": 0.4,
+    "pred_log_inst": 4.575
+   },
+   {
+    "sc": 0.6,
+    "pred_log_inst": 4.575
+   },
+   {
+    "sc": 0.8,
+    "pred_log_inst": 4.575
+   },
+   {
+    "sc": 1.0,
+    "pred_log_inst": 4.575
+   }
+  ]
+ },
+ "word_nn": {
+  "n_docs": 57,
+  "probes": {}
+ }
+}
