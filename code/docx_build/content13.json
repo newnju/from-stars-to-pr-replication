@@ -1,6 +1,6 @@
 {
  "title": "从星标到 PR",
- "subtitle": "——Agent Skill 扩散链上的效度边界与两处示范检验",
+ "subtitle": "——Agent Skill 扩散链上的效度边界",
  "abstract": "扩散研究惯以星标、安装、fork 与 PR 依次代表注意、采纳与贡献，能否互替却很少被检验。本文提出“效度边界”：平台指标的有效性止于其归属环节，越过即不成立。以 Agent Skill 生态为个案（3.6 万仓库、15.6 万文档、185 万 fork），本文在“注意—安装”与“fork—PR”两处示范逐环检验，并描述后段环节。在已进入平台视野的头部判定样本内，星标与安装的秩相关为 0.204，可排除中等以上相关；fork 首次回流 6.33%，其中 87.8% 发生在 24 小时内，呈工作流时间签名。水平上各环节几乎不携带彼此信息，仓内周度波动却同向，后者排除测量噪声。分层显示边界并不均匀，在高星新仓中可能不成立。本文不主张链级弱耦合，也不外推长尾。",
  "keywords": "效度边界；扩散链；平台指标；逐环检验；Agent Skill 生态",
  "abstract_en": "Diffusion research routinely treats stars, installs, forks and pull requests as interchangeable proxies for attention, adoption and contribution, yet their interchangeability is rarely tested. This article proposes the concept of a validity boundary: a platform metric is valid only for the segment of the diffusion chain to which it belongs, and ceases to be valid once used to proxy the next construct. Using the Agent Skill ecosystem as a case (35,947 repositories, 155,547 documents, 1.85 million forks), the article tests two segments—attention to installation, and fork to pull request—and reports descriptive evidence for the remaining segments. The rank correlation between stars and installs is 0.204, excluding |ρ| ≥ 0.5; the first-return rate of forks is 6.33%, with 87.8% of first returns within 24 hours, a workflow signature. Horizontally, segments carry almost no information about one another (NMI ≤ 0.022); dynamically, weekly stars and pull requests move together within repositories (median ρ of about 0.37), which rules out measurement noise. These two boundaries suggest that coupling may be segment-dependent, but any chain-level claim awaits tests of the intermediate segments. The article does not assert structural coupling and does not extrapolate to the long tail.",
@@ -833,7 +833,7 @@
    "caption": "图 4  P4 主检验：(a) 正式审查覆盖随仓库 PR 量上升但恒低于三成；(b) 合并结果五折仓库分组 AUC=0.595 [0.545, 0.644]"
   }
  },
- "title_en": "From Stars to Pull Requests: Validity Boundaries and Segment-by-Segment Tests along the Agent Skill Diffusion Chain",
+ "title_en": "From Stars to Pull Requests: Validity Boundaries along the Agent Skill Diffusion Chain",
  "refNotes": {
   "1": "Everett M. Rogers, *Diffusion of Innovations*, 5th ed., New York: Free Press, 2003.",
   "2": "Elihu Katz & Paul F. Lazarsfeld, *Personal Influence: The Part Played by People in the Flow of Mass Communications*, Glencoe: Free Press, 1955.",

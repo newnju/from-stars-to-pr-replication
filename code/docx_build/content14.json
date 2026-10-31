@@ -1,0 +1,891 @@
+{
+ "title": "从星标到 PR",
+ "subtitle": "——Agent Skill 扩散链上的效度边界",
+ "abstract": "扩散研究惯以星标、安装、fork 与 PR 依次代表注意、采纳与贡献，能否互替却很少被检验。本文提出“效度边界”：平台指标的有效性止于其归属环节，越过即不成立。以 Agent Skill 生态为个案（3.6 万仓库、15.6 万文档、185 万 fork），本文在“注意—安装”与“fork—PR”两处示范逐环检验，并描述后段环节。在已进入平台视野的头部判定样本内，星标与安装的秩相关为 0.204，可排除中等以上相关；fork 首次回流 6.33%，其中 87.8% 发生在 24 小时内，呈工作流时间签名。水平上各环节几乎不携带彼此信息，仓内周度波动却同向，后者排除测量噪声。分层显示边界并不均匀，在高星新仓中可能不成立。本文不主张链级弱耦合，也不外推长尾。",
+ "keywords": "效度边界；扩散链；平台指标；逐环检验；Agent Skill 生态",
+ "abstract_en": "Diffusion research routinely treats stars, installs, forks and pull requests as interchangeable proxies for attention, adoption and contribution, yet their interchangeability is rarely tested. This article proposes the concept of a validity boundary: a platform metric is valid only for the segment of the diffusion chain to which it belongs, and ceases to be valid once used to proxy the next construct. Using the Agent Skill ecosystem as a case (35,947 repositories, 155,547 documents, 1.85 million forks), the article tests two segments—attention to installation, and fork to pull request—and reports descriptive evidence for the remaining segments. The rank correlation between stars and installs is 0.204, excluding |ρ| ≥ 0.5; the first-return rate of forks is 6.33%, with 87.8% of first returns within 24 hours, a workflow signature. Horizontally, segments carry almost no information about one another (NMI ≤ 0.022); dynamically, weekly stars and pull requests move together within repositories (median ρ of about 0.37), which rules out measurement noise. These two boundaries suggest that coupling may be segment-dependent, but any chain-level claim awaits tests of the intermediate segments. The article does not assert structural coupling and does not extrapolate to the long tail.",
+ "keywords_en": "validity boundary; diffusion chain; platform metrics; segment-by-segment test; agent skill ecosystem",
+ "blocks": [
+  {
+   "t": "h1",
+   "x": "一、被默认连续的链：代理便利与互换假设"
+  },
+  {
+   "t": "p",
+   "x": "从罗杰斯（Everett M. Rogers）起，扩散研究默认一条从注意通向治理的信号链，即注意预示采纳、采纳预示使用、使用孕育贡献、规模要求治理（E. M. Rogers, 2003）。方法上，这条链带来一个便利——星标代理注意、下载代理使用、提交代理参与，各环节指标可以相互替换，但构念效度很少被正面检验。文化市场实验早已提示热度的不可预测，新闻周期研究显示多数内容速朽，级联结构研究亦显示传播深度有限（Salganik et al., 2006；Leskovec et al., 2009；Goel et al., 2016），但这些工作仍假定代理替换的误差是局部的、可校准的。"
+  },
+  {
+   "t": "p",
+   "x": "平台指标不等于扩散，这一点近乎常识；本文追问的是更具体的问题：如果这条代理链并非同一过程的若干阶段，那么每个指标各自度量什么，错配又会在哪一环造成可指认的误判？回答它需要能同时观测注意、安装、复制、贡献与审查的场域，AI Agent 技能生态（Agent skill 生态）即是。"
+  },
+  {
+   "t": "p",
+   "x": "本文首先把“效度边界”确立为一个可检验的概念，指平台指标的有效性止于其归属环节，越过即不成立；本文给出归属、止点、位置性三个要件与相应判据，并在注意—安装、fork—PR 两处测出边界。这一概念同时修正了既有替代链的表述——既有研究把 fork—PR 称为“采纳—贡献”，但 fork 首先是技术动作：Jiang 等的动机研究记录了保存副本与提交 PR 两类用法，而在本生态中技术用法占绝对主导（Jiang et al., 2017），因此本文把链条改为“注意—安装—复制—fork—PR—审查”，并逐环检验。在此之上，本文把逐环检验收缩为两条解释线索，星标—安装的分离对应媒介偏向与受众商品，fork—PR 的快速回流对应平台工作流的策略仪式，而审查与署名只作测量描述，收录作为链外检验。这里用“解释”而非“生成机制”，因为观察数据只能显示模式，不能识别过程。"
+  },
+  {
+   "t": "p",
+   "x": "需要预先说明检验覆盖的范围。链条有六个环节，但只在注意—安装、fork—PR 两处完成支持档检验，原因有二：其一，面板 341 仓中 315 仓（92.4%）的跨仓复制计数为零，非零者仅 26 仓，不足以估计安装到复制的相关；其二，复制到 fork 在面板内同样不可判，本文改在有跨仓复制边的子样本中补做，见第四节（二）。P3、P4 因此定位为测量描述；链级形态的判定留待后续。标题标示的是链条范围，不是检验覆盖；结论只落在已测的两处环节上。"
+  },
+  {
+   "t": "p",
+   "x": "这条代理链并非无源之水。受众测量史上早有对应物：收视率代理观看、发行量代理阅读，其效度问题与商业测量制度同步生长。安（Ien Ang）指出，测量到的“受众”本身是测量制度的建构（Ang, 1991）；纳波利（Philip M. Napoli）把受众测量体系的商品化演化作为受众研究的分析对象（Napoli, 2011）；韦伯斯特与克谢泽克（James G. Webster & Thomas B. Ksiazek）以网络分析刻画注意力在媒介间的流动，注意力碎片化意味着任何单一指标只捕捉行为的一侧（Webster & Ksiazek, 2012）。这些工作处理的仍是“单一指标对单一概念”的效度；扩散链把多个指标排成一列代理，本文把上述问题推广为链式版本：每一环的效度独立检验，互换须逐环证明。"
+  },
+  {
+   "t": "p",
+   "x": "本文的贡献有三。其一，提出“效度边界”作为平台指标链式替代的可操作检验框架，给出归属、止点、位置性三个要件与相应判据。其二，在注意—安装、fork—PR 两个环节上提供示范检验，前者以 TOST 排除中等以上相关，后者以风险率形态识别工作流签名。其三，两处边界的发现提示扩散链的耦合可能是环节依赖的——链条并非整体失效（注意—fork 仍高度关联，NMI=0.523），也非处处连续——但链级普遍性有待中间环节检验，本文不将其表述为已建立的链级理论。本文提供的是中层的链式代理效度框架，而非链级理论。三个可检验主张：指标的有效性止于其归属环节、相邻环节达不到可互换门槛、边界位置需逐环测定；三个不主张：链整体弱耦合、边界可外推、平台指标无效。"
+  },
+  {
+   "t": "h1",
+   "x": "二、效度边界：归属、止点与位置性"
+  },
+  {
+   "t": "p",
+   "x": "扩散研究惯以相邻环节的平台指标相互代理注意、采纳与贡献。本节先说明这一指标可互换假设在复制成本趋零的条件下为何可疑，再提出核心概念“效度边界”及其判定规则。"
+  },
+  {
+   "t": "p",
+   "x": "扩散研究、平台研究与测量研究各自提供了线索，但三者之间没有接上。扩散研究把采纳看作知晓与说服之后的决策，指标只是过程留下的痕迹；平台研究指出平台把行为转写为可排序的计量物并据此分配可见性，但多讨论分配结果，少检验计量物之间能否互替（R. Rogers, 2018）；测量研究一侧，构念效度追问指标是否测到了它声称的构念，通约研究追问异质事物如何被折算成同一尺度，两者都停在“单一指标对单一构念”的关系上，没有处理一条链上多个指标依次代理的情形。本文补的正是这一环，即把构念效度从“一对一”推广到“链式代理”。"
+  },
+  {
+   "t": "p",
+   "x": "这里需要区分三个层次，其一是扩散理论自身的命题——采纳是知晓与说服后的决策（Katz & Lazarsfeld, 1955）；其二是计算研究中的代理实践——以星标代理注意、下载代理安装、提交代理参与，这是测量便利而非理论主张（van Dijck et al., 2018）；其三是本文的否证对象——代理可互换假设，即相邻环节的信号应强相关、可相互替换。需要说明，本文否证的是测量实践中的隐含假设，而非罗杰斯式扩散理论本身。对第三层，五个命题各对应一个可检验零假设，本文不把“相关低”本身当作结论，而把“低到不足以互换”设为判据。"
+  },
+  {
+   "t": "p",
+   "x": "本文提出“效度边界”这一概念，指一个平台指标对其所指构念的有效性所止之处。它由三个要件构成，其一是归属——每个指标首先归属于一个传播环节，度量的是该环节的行为痕迹，而非链条整体；fork 归属分支工作流而非参与意愿、审查记录归属程序存续而非把关有效，都是归属问题。其二是止点——跨过归属环节后，指标与下一构念的关联低于可互换门槛；本文以 |ρ|=0.5 作为可互换门槛的参照点，这一阈值借自构念效度文献的中等效应惯例，其选择是惯例性的而非实质性的（Cronbach & Meehl, 1955；Campbell & Fiske, 1959；Messick, 1995），P1 报告 0.35–0.60 的敏感性，收紧到 0.30 时不足以排除。其三是位置性——边界不在整条链上均匀出现，而落在具体环节；本文测得两道（注意—安装、fork—PR），而注意—fork 之间仍高度关联（NMI=0.523），说明链条并非整体失效。"
+  },
+  {
+   "t": "p",
+   "x": "效度边界需与心理测量学的区分效度正面比较，否则容易被读作后者的换名。二者共享一个判断：一个测量不应过度地与它理论上应当区分的构念相关；福内尔–拉克尔准则即以平均方差抽取量的平方根与构念间相关的比较来判定区分效度（Fornell & Larcker, 1981）。差异有三。其一，对象不同：多质多法（MTMM）矩阵以特质与方法的交叉排列同时估计聚合与区分效度，判断的是“该不该区分”；本文处理的是链上相邻两环节，判断的是“代理止于何处”。其二，前提不同：MTMM 要求特质与方法可交换排列，本文假设指标沿扩散阶段有结构顺序，上游指标先于下游出现，下游构念又由另一指标代表。其三，失败的含义不同：区分不足指向测量工具的缺陷，换方法可修正；边界是构念与指标的对位错误，换方法修不好。就此而言，效度边界不是区分效度的扩展，而是把“该不该区分”换成“在哪一环停止代理”的链式问题。"
+  },
+  {
+   "t": "p",
+   "x": "效度边界也应与计算社会科学的测量反思并置。既有讨论集中在数据层：大数据的代表性偏差与平台偏差、痕迹与行为的落差（Lazer et al., 2009；Ruths & Pfeffer, 2014；Tufekci, 2014）；在数字痕迹上做网络分析时的构念—指标错配亦有系统讨论（Howison et al., 2011）；以 GitHub 为数据源的工作已逐一列出仓库真实性的陷阱——镜像仓库、空仓库与改名仓库造成的低估（Kalliamvakou et al., 2014），本文处理 fork 改名匹配与安装估计偏差时即属同类操作。这些文献问的是“数据是否代表它声称的现象”；本文问的是“指标是否代理链条上的下一个构念”：前者是数据效度，后者是链式代理效度，二者正交。据此，本文的贡献不在引入新数据，而在把构念效度从“一指标一概念”推进到“链式代理”，并给出可移植的逐环检验。"
+  },
+  {
+   "t": "p",
+   "x": "效度边界不同于测量误差，这是本文的关键区分。误差发生在同一构念内部，可以加权、可以校准；边界发生在构念之间，加权修不好“测错了构念”。"
+  },
+  {
+   "t": "p",
+   "x": "弱耦合在本文中是一个待检验的形态命题，而非已成立的链级属性。本文所称“弱耦合形态”，需同时满足三个条件：至少两个相邻环节的指标相关低于可互换门槛；水平低相关的同时，动态序列同向，以排除纯噪声；边界不是均匀分布，至少一处相邻环节仍高度关联。本文在 P1、P2 满足前两条，注意—fork 的 NMI=0.523 满足第三条，但检验点只有两个，故只报告“形态提示”，不宣称“形态成立”。它与韦克（Karl E. Weick）意义上“要素之间有回应却各自保持认同”的松散耦合不同，本文指的是测量层面指标与构念的对应止于环节（Weick, 1976；Orton & Weick, 1990）；它不是对卢曼（Niklas Luhmann）结构耦合理论的检验（Luhmann, 1995）。"
+  },
+  {
+   "t": "p",
+   "x": "在此基础上，本文进一步区分耦合的两个尺度。水平耦合指仓与仓之间的率是否相关——一个仓库的转化率是否随它的星标、安装或渠道可见性上升；动态耦合指同一仓库的周度波动是否同向——星标增量高的那几周，PR 是否也更多。二者可以分离，水平与不同过程一致，短期波动则由共同冲击驱动。水平判据是主检验；动态同向承担的是判别功能——若低相关只是测量噪声，动态上也不应同向。这一区分是后文 P2 与跨命题整合的分析基础。"
+  },
+  {
+   "t": "p",
+   "x": "P3、P4 只作测量描述，P5 不属于链条相邻环节，本文将其作为链外检验；三者的证据档位见第四节末的分层表。"
+  },
+  {
+   "t": "fig",
+   "id": "jf1"
+  },
+  {
+   "t": "p",
+   "x": "P2 的预期方向可由一个经典命题推出。塔奇曼（Gertrude Tuchman）把新闻生产中的例行程序读作“策略仪式”——从业者不必判断结果是否达成，只需确认程序是否走完（Tuchman, 1978）。若 fork—PR 同属此类程序性痕迹，则首次回流应在时间上前置、且与注意力无关；这正是 P2 零假设所设定的形态。理论在此不承担因果识别，只负责给出可证伪的时间签名预期。"
+  },
+  {
+   "t": "p",
+   "x": "据此，本文提出四项逐环检验与一项链外检验。"
+  },
+  {
+   "t": "p",
+   "x": "P1：星标与安装的秩相关不应达到 |ρ|≥0.5 的可互换阈值；渠道可见性在控制共同原因后不应彼此独立。P2：若 fork 承载持续贡献意愿，首次回流应呈连续、深思熟虑的时间结构，且转化率随父仓热度上升；这正是意图与行为分离所预期的形态；若为工作流，则应高度前置、与注意力无关。P3：若复制磨损署名，复制对的署名条件保留率不应高于独立配对期望；若为模板署名惯例，则应接近生产端基线且方向不可判。P4：若审查有效，合并结果应可由可观特征显著预测（AUC 显著高于 0.5）；若为形式存续，则覆盖低、预测弱。P5：若收录是热度市场，星标应显著预测收录；若功效不足，则应判为证据不足，而非支持效度边界存在。五项检验按“支持 / 描述 / 证据不足”三档报告，不以显著性替代效应量。"
+  },
+  {
+   "t": "h1",
+   "x": "三、数据与识别：四层样本与四条口径"
+  },
+  {
+   "t": "p",
+   "x": "本文的检验依赖平台数据的分层采集与相邻环节的识别策略。本节说明数据来源、样本框与变量口径，并交代各项检验的识别方法。"
+  },
+  {
+   "t": "h2",
+   "x": "（一）四层嵌套的样本框"
+  },
+  {
+   "t": "p",
+   "x": "数据截至 2026 年 10 月 24 日，形成四层嵌套（表 1）。生态扫描层由两轮话题与搜索采集构成，覆盖 35,947 个仓库；内容层为 155,547 份 SKILL.md 全文，逐份计算 SHA-256 哈希并做 SimHash 近重复检测（300 对抽样复核的字符 5-gram Jaccard 中位数 1.00、最小 0.838，精确率有保障而召回率为未知下界）；平台层完成 341 个面板仓的五渠道查询（星标、skills.sh、ClawHub、release、npm），172 个有 skills.sh 安装命中，ClawHub 注册表 83,215 条，release 下载 131 仓大于零，npm 匹配 84 仓有包。"
+  },
+  {
+   "t": "p",
+   "x": "互惠层覆盖 228 个父仓的 1,851,928 个 fork，时间戳全量，其中 225 仓完成全量解析，共 1,832,187 个 fork、122,235 个回流 fork、447,495 次回流 PR。治理层含 189 仓 PR 列表 45,203 条，其中 44,572 条可与 GraphQL 审查数据连接；已合并且可连接审查数据的 23,988 条用于审查覆盖估计。各层样本框与分母见表 1；凡比率均标注样本内口径，不外推为全生态参数。复制（文档级）与 fork（平台级）是两个构念；本文以 fork 作为复制的平台操作化，内容层与互惠层的连接分析超出本文范围，作为边界说明（Star & Griesemer, 1989）。"
+  },
+  {
+   "t": "table",
+   "id": "jt2"
+  },
+  {
+   "t": "h2",
+   "x": "（二）四条口径与识别策略"
+  },
+  {
+   "t": "p",
+   "x": "在进入检验之前，需要先说明四条口径。第一，fork 转化率有两种分母——全量 fork（风险模型）与回流 fork（结构描述）。本文主检验用全量 fork，结构描述用回流 fork，二者不混用；若以回流 fork 的全部 PR 事件为分母，24 小时内占 37%、7 天以上占 52%，这描述的是回流后的持续提交，不能用于首次回流。第二，缺失不置零，安装、审查、fork 时间戳的缺失均按缺失处理。第三，作者身份按登录名聚合，无法区分多账号、组织号与 CI 服务账号；机器人按登录名匹配 bot、action、sync 等模式识别，仅作辅助口径。第四，P1 的等价界设为 |ρ|=0.5，两个单侧检验各用 α=.05，未做多重校正，因为这是单一预设检验；判决对这一区间的依赖见第四节。SimHash 以 64 位指纹、汉明距离不大于 3 判定近重复，召回不低于 93.0%。"
+  },
+  {
+   "t": "p",
+   "x": "除口径之外，测量边界同样需要报告。341 面板仓不是概率样本，而是按平台可见性优先纳入、完成五渠道查询的判定样本（占 0.95%），适用于“已进入平台视野的头部”，不能外推长尾。各分析样本并非一条嵌套流，而是从同一母本按不同条件抽取、彼此部分重叠的子样本：172 仓是面板中有安装命中者，228 父仓是有 fork 全量者，189 治理仓是有 PR 列表者，266 仓是排除清单仓后的收录样本；四者分母不可相加。安装量是平台报告的累计值，非去重用户数或执行次数；平台指标把异质对象转化为可比较的排序（Espeland & Stevens, 1998），但通约性需逐项检验。P4 的审查覆盖以“已合并且可连接审查数据”的 23,988 条为分母，存在选择偏差，因为未合并 PR 与不可连接 PR 被排除；本文另以全 PR 分母给出审查覆盖率的下界，作为方向性敏感性分析，不做 Heckman 校正，相关结论只作描述。"
+  },
+  {
+   "t": "p",
+   "x": "P1 用 Spearman 秩相关、Fisher z 区间、90% 区间与 TOST；等价界设为 |ρ|=0.5，并报告层内点估计，不以层内显著性替代总体估计。P2 用全量 fork 的 Kaplan–Meier 累计发生率和离散区间风险率，事件为首次 fork→PR，删失为数据截止；区间分为不足 1 小时、1–24 小时、1–7 天、7–30 天、30–90 天、90–365 天、一年以上。转化率是否呈第二个人群，用 GMM（k=1–4，BIC）与核密度峰数检验。P3 用 4,000 对近重复文档的条件保留率与独立配对期望对照；独立期望由字段边际分布相乘得到。"
+  },
+  {
+   "t": "p",
+   "x": "P4 用审查覆盖、按仓库分组五折交叉验证的 AUC 与置换检验；报告三个分母与选择偏差，AUC 的零假设为 0.5，报告折间区间与 BH 校正 q 值。P5 用 logit 几率比及其 95% 区间，并报告最小可检测效应；在 n=266 下，区间宽度本身即是功效约束。跨命题整合用四分位离散化的互信息与 500 次置换，并做 3–6 分箱敏感性；连续变量另报距离相关，以避免分箱边界对结论的影响。动态耦合用仓内 Spearman 相关与 1,000 次仓库 bootstrap，并用仓库与周双向固定效应吸收共同冲击。四项逐环检验与一项链外检验均为预设检验；除 P4 的合并预测报告 BH 校正 q 值外，其余为单一主检验，未做跨命题校正。动态耦合采用仓库聚类标准误与双向固定效应。"
+  },
+  {
+   "t": "table",
+   "id": "jt1"
+  },
+  {
+   "t": "h1",
+   "x": "四、逐环检验：支持、描述与证据不足"
+  },
+  {
+   "t": "p",
+   "x": "以下依次报告两处支持档检验、一处补充检验、后段环节的测量形态与一项链外检验，最后以证据分层表汇总。"
+  },
+  {
+   "t": "h2",
+   "x": "（一）注意—安装：可排除中等以上相关（P1）"
+  },
+  {
+   "t": "p",
+   "x": "第一项检验关注注意与安装的关系，问的是星标能否代理安装。172 个有安装命中的仓库中，星标与安装的 Spearman ρ=0.204（95%CI [0.056, 0.343]，90%CI [0.080, 0.321]，p=.007；图 2a）。在等价界 ±0.5 下，TOST 的两个单侧检验均被拒绝（p=4.2×10⁻⁶），可认为 |ρ|<0.5；这不是证明“无相关”，只说明中等以上相关可被排除。按星标四分位分层，层内 ρ 为 0.12、0.28、0.37、0.31；按年龄三分位为 0.17、0.37、0.19。方向一致，但层内样本小、区间宽，不能声称层内为零；可以声称的是，所有层内点估计均低于 0.5，总体区间上界也低于 0.5（图 2b）。分层并未使相关归零，只是使其落在弱相关区间。"
+  },
+  {
+   "t": "p",
+   "x": "渠道独立性也不成立，控制星标与年龄后，skills.sh 命中对 ClawHub 命中的 logit 系数为 0.71（p=.017）。两平台并非各自独立策展，而是共享上游信号——被一个平台收录的仓库更可能被另一个收录。因此 P1 的判决是“支持边界存在，但限于排除中等以上相关，且为下界证据”：层内点估计落在 0.12–0.37 的弱相关区间，不能声称层内为零。等价界在 0.35–0.60 间变动时，TOST 单侧 p 由 2.0×10⁻² 降至 1.3×10⁻¹⁰，判决不变；收紧到 0.30 时 p≈.09，不足以排除。未做测量误差衰减校正，真实相关可能高于 0.204，但方向性结论在现有测量条件下成立。按年龄与星标中位数（273 天、7,660）交叉分层，新仓×低星、老仓×低星、老仓×高星三格均可排除 |ρ|≥0.5（TOST p<.001、.021、.002），但新仓×高星一格（n=31）点估计 ρ=0.477、p=.438，不能排除——该格样本小、区间宽，却提示边界在高星新仓中可能不成立。这一结果与 Shen 等直接操纵星标的田野实验方向一致——该实验未发现星标对下游采纳的可检测影响（Shen et al., 2026），但二者识别策略不同。动态层面提供的是排除性证据而非支持证据：若低相关源于噪声，动态上不应同向；同向说明低相关反映的是构念差异，但同向本身不证明边界存在——支持证据仍是横截面的 TOST。"
+  },
+  {
+   "t": "p",
+   "x": "若把星标读作表达的注意、安装读作实际的使用，P1 的分离即受众测量效度问题在平台生态中的重现：ratings 与使用的缺口在收视率时代由测量制度维持，在这里由行为本身维持。格拉利茨与赫尔蒙德（Carolin Gerlitz & Anne Helmond）所称的“点赞经济”把可比、可累计的反应按钮作为平台的货币装置（Gerlitz & Helmond, 2013），星标是其在技能生态中的对应物——注意力市场中最易被商品化的，恰是最可展示的信号（Webster, 2014）。此解读提供可理解性而非因果识别：它解释星标为何最显眼、也为何最易与安装脱钩，但不识别任何一方对另一方的贡献。"
+  },
+  {
+   "t": "fig",
+   "id": "jf2"
+  },
+  {
+   "t": "h2",
+   "x": "（二）fork—PR：工作流的时间签名（P2）"
+  },
+  {
+   "t": "p",
+   "x": "第二项检验关注 fork 与 PR 的转化。就首次回流风险而言，全量 fork 风险模型给出的图像，与仅看回流 fork 的口径明显不同。1,851,928 个 fork 中，117,169 个在截止前首次回流，累计发生率 6.33%；1 小时内 4.82%，24 小时内 5.55%，30 天 6.09%，一年 6.36%（图 3a）。在回流者中，87.8% 的首次回流发生在 24 小时内，中位 0.01 天；7 天后首次回流的不足 5%。分区间的风险率由不足 1 小时的 4.82% 降至一年以上的 0.09%（图 3b），首小时后下降一个数量级；这是“fork 时即完成分支动作”的形态，而非“深思熟虑的贡献”。"
+  },
+  {
+   "t": "p",
+   "x": "三个数字的口径需要分开，6.33% 是曾回流比例（117,169/1,851,928）；6.36% 是 Kaplan–Meier 一年累计发生率，含删失权重；6.67% 是 fork 层回流率（122,235/1,832,187，分母为 225 个全量解析父仓的 fork），三者口径不同而方向一致。若以回流 fork 的全部 PR 事件为分母，24 小时内占 37.0%、7 天以上占 52.0%；这描述的是回流后的持续提交，不能用于首次回流。以首次回流重算，24 小时内占回流者的 87.8%，7 天后不足 5%——时间断崖不是变弱，而是变强——回流高度前置，长期回流只是少数高频作者的持续提交。"
+  },
+  {
+   "t": "p",
+   "x": "结构描述进一步支持工作流解释，fork 层转化率为 6.67%（122,235/1,832,187），每仓中位 3.95%；剔除 14 个转化率不低于 20% 的仓（占父仓 6.2%，贡献 30.7% 的回流 fork）后为 4.90%（中位 3.25%）；剔除事件量前五仓后为 4.74%。换言之，典型仓库的转化率约为 3.3%–3.5%，6.67% 是 fork 加权值，由少数大仓抬升。转化率与星标规模无关，按星标十分位，每仓中位转化率在 2.6%–5.3% 之间波动，没有单调梯度；对 log 转化率与 log 星标的回归斜率不显著（β=−0.01，p=.81）。"
+  },
+  {
+   "t": "p",
+   "x": "转化率分布为单峰重尾，GMM 的 BIC 在 logit 与 log10 尺度均选 k=1（649.4 对 655.5；649.4 对 657.3），KDE 单峰；14 个仓不低于 20% 只是右尾，不是第二个人群。右尾由清单仓库与工程仓构成。清单仓库的每仓中位转化率与非清单仓库几乎相同（3.67% 对 3.95%），但进入 20% 以上尾部的概率高一个数量级（23.7% 对 2.7%）。清单仓库的 fork+PR 是投稿接口——改一行、提一个 PR，是这类仓库的既定工作流；它并不更能把读者变成贡献者。"
+  },
+  {
+   "t": "p",
+   "x": "事件集中度进一步说明“贡献”在这批数据中究竟指什么。前五个父仓（hermes-agent、openclaw、playwright、dify、awesome-mcp-servers）占 447,495 次回流 PR 的 46.8%；99,798 名作者中，483 人（0.48%）贡献 38.9% 事件，前 1% 占 46.5%。高频作者不是机器人（bot 类账号仅占事件 0.97%），playwright 的五名维护者集中在单仓，twenty 的两名维护者集中在单仓——fork 是团队的分支开发流程，不是陌生人的参与入口。"
+  },
+  {
+   "t": "p",
+   "x": "综上，P2 的判决是 fork 的贡献意愿代理效度未获支持，其时间形态更接近工作流签名——边界只在时间标记层面成立，不在构念层面成立。这一节检验的是 fork 与 PR 的转化，不是“采纳—贡献”，理由不是“贡献意愿低”，而是这一层主要度量工作流与投稿接口。当复制本身已交付全部能力，fork 首先是一个技术动作；把它读成参与承诺，是把工作流误读成共同体。这一判决同时解释了为何转化率与注意力无关——两者与不同过程一致，一个是平台策展下的注意力分配，一个是团队分支与清单仓库的投稿工作流。"
+  },
+  {
+   "t": "p",
+   "x": "快速回流与“工作流触发”相容，也与“意图先于 fork”相容：熟练贡献者可能在 fork 之前已决定提交修改，fork 只是必要的前置技术步骤，延迟反映的是流程效率而非无意图。本文的数据不能区分这两种解释，区分它们需要 PR 内容修改量、fork 前的活动史或贡献者调查，本文均未纳入。因此 P2 的判决应读作：fork—PR 的转化在时间形态上更接近工作流签名，而非延迟性的采纳—贡献序列；这一形态不排除贡献意图的存在，但表明 fork 本身不是贡献意愿的可靠时间标记。清单仓库的证据同样只说明高转化率仓的转化由既定工作流驱动，不构成“无贡献意图”的证据——清单仓库的投稿者本来就知道自己要提 PR，与“意图先于 fork”相容。"
+  },
+  {
+   "t": "fig",
+   "id": "jf3"
+  },
+  {
+   "t": "table",
+   "id": "jt4"
+  },
+  {
+   "t": "h2",
+   "x": "（三）复制—fork：不同源样本的补充检验"
+  },
+  {
+   "t": "p",
+   "x": "链条中段还有一处可以检验。跨仓复制出度指该仓文档被其他仓复制的去重 SHA 数，可与 fork 数对照。样本为有跨仓复制边的仓，与 341 面板不同源，其元数据经 GraphQL 补拉，2,170 仓成功、294 仓已删除。在出度与 fork 均大于零的784 个仓中，二者秩相关仅 0.107（p=.003），TOST 对 |ρ|≥0.5 的单侧 p<10⁻¹⁰，可明确排除中等以上相关；作为自检，同一批仓的 fork 与星标秩相关为 0.914，说明连接无误。这一结果构成第三处边界，且位于链条中段。但它的样本框与 P1、P2 不同源，本文只作补充检验报告，不并入支持档主表。"
+  },
+  {
+   "t": "h2",
+   "x": "（四）署名与审查：后段环节的测量形态（P3—P4）"
+  },
+  {
+   "t": "p",
+   "x": "P3 与 P4 不构成对效度边界的支持检验，其功能是描述链条后段的测量形态。就复制与溯源而言，4,000 对近重复复制对中，父侧有署名字段时子侧保留的条件保留率为 77.8%（95%CI 76.5%–79.1%），独立配对期望为 9.7%；68 对精确复制中 97.1% 保留署名。差值说明署名在复制中高度共现，但不能识别方向——复制可能偏向已署名文档（选择效应），也可能是署名随复制保留（复制保留效应），两种机制产生同一共现模式。独立期望按字段边际分布相乘得到，可能因模板同质性与仓库内聚集而高估“独立”；本文未设同模板非复制对照，故 P3 仅作描述性发现，不作为效度边界的支持证据，也不采“生产端惯例决定”这类强表述，只保留“与模板署名惯例一致（待检验），磨损方向不可判”。"
+  },
+  {
+   "t": "p",
+   "x": "文件级历史提供了另一侧证据。544 个可判侧中，71.3% 从未写入署名字段，26.8% 在文件诞生时写入，仅 1.8% 后补；154,292 份 frontmatter 文档中 83.0% 不含署名。两者分母不同，不可混用。它们共同说明署名在生产端就稀薄；但现有样本中父子文件首创时间与署名写入时间同时可判者仅 8 对，不足以证明“生产端决定”。"
+  },
+  {
+   "t": "p",
+   "x": "作为治理描述（White, 1950；Shoemaker & Vos, 2009），45,203 条 PR 中，33.2% 至少有一条正式审查记录（含 COMMENTED）；已合并且可连接审查数据的 23,988 条里，80.0% 没有 reviewDecision，37.6% 至少收到一条审查记录——有记录不等于有正式决定，两个比例分母相同但含义不同。未合并已关闭 PR 的审查记录覆盖为 30.7%，开放 PR 为 19.5%。三个分母必须分开，全 PR 分母含未合并与不可连接者，可连接分母 44,572 条，已合并分母 23,988 条。以已合并为分母会高估“审查后仍合并”的比例，因为被拒绝的 PR 不在其中；本文因此把审查覆盖低表述为描述事实，不作因果推断。"
+  },
+  {
+   "t": "p",
+   "x": "正式审查决定覆盖率随仓库 PR 量上升，不足 50 条为 5.8%、50–199 条为 11.2%、200–999 条为 16.0%、1,000 条以上为 26.2%，但恒低于三成（图 4a）；这里的“覆盖率”指 reviewDecision 非空的比例，不含只有 COMMENTED 记录的情形。合并权则高度集中，合并数不少于 20 的 108 仓中，头部合并者份额中位 1.0，64.8% 的仓 90% 以上合并由单一账号执行（95%CI 55.4%–73.2%）；这些是横截面描述，不能支持审查功能随时间弱化的判断；本文只将其表述为审查形式存续、决定覆盖率低（Meyer & Rowan, 1977）。"
+  },
+  {
+   "t": "p",
+   "x": "既有研究以 PR 内容特征预测接受与否（Tsay et al., 2014）；本文只用仓库元数据，合并结果只弱可预测，AUC=0.595（95%CI [0.545, 0.644]，五折仓库分组；置换 p=.005，BH q=.008；图 4b）。区间不含 0.5，因此不能判为随机；但 0.595 的可预测性有限，远低于“审查有效”所要求的水平。校准与 Brier 分数未估计，故不能把 0.595 读成“预测概率准确”；它只说明排序信息略优于随机。本文因此拆成两条，正式审查覆盖低是描述事实，合并弱可预测是另一结果，而“合并集中”只是对两者的解释，不是已检验的机制。P4 判为部分描述，且两条结论分别报告。"
+  },
+  {
+   "t": "fig",
+   "id": "jf4"
+  },
+  {
+   "t": "h2",
+   "x": "（五）星标与收录：证据不足的链外检验（P5）"
+  },
+  {
+   "t": "p",
+   "x": "链外检验问的是平台收录是否由星标驱动。skills.sh 收录仓的星标中位数（7,587）低于未收录仓（11,710），差异不显著（Mann–Whitney p=.12）。排除清单仓库后的 logit 回归（n=266）中，星标系数 −0.06，OR 的 95%CI 为 [0.65, 1.35]。按 80% 功效与双侧 α=.05 近似，最小可检测 OR 约为 1.69。未收录的头部 50 仓中 48% 为明确的非技能仓，与类目边界解释一致；这说明平台收录决定谁被看见（Thompson, 2005）。P5 因此判为“证据不足”，既不能支持“星标预测收录”，也不能支持“无预测力”。"
+  },
+  {
+   "t": "p",
+   "x": "布伦蒂（Andrea Brighenti）把可见性立为社会理论的范畴——被看见、被注视、被调节在此是可分离的机制（Brighenti, 2007）；收录在这里承担的是第一道：进入名单者获得被看见的资格，未收录的头部仓则被置于类目之外。48% 的未收录头部为非技能仓，说明这道关口不是纯粹的质量排序，而携带类目边界——把关先于排序。此为描述档位，不构成对收录机制的推断。"
+  },
+  {
+   "t": "p",
+   "x": "表 4 按证据档位汇总五项结果。支持档只有 P1、P2：前者排除中等以上相关但为下界证据，后者限于时间形态；P3、P4 只作测量描述，其功能是标记后段环节的效度问题位置；P5 功效不足，不构成支持也不构成否定。五项不能统称为“共同支持弱耦合”，因为只有两处达到支持档；跨命题的 NMI 也只支持“贡献率与注意力、fork、可见性不重叠”，不支持“注意力与 fork 不重叠”——后者的 NMI 为 0.52，说明星标与 fork 仍是同一构念的两种测量（Borges et al., 2016）。"
+  },
+  {
+   "t": "table",
+   "id": "jt3"
+  },
+  {
+   "t": "h1",
+   "x": "五、环节依赖：意涵与限制"
+  },
+  {
+   "t": "p",
+   "x": "本节把结果放回理论语境，先说明其对扩散研究与平台指标研究的两重意涵，再给出可移植的检查步骤，最后交代适用范围与限制。"
+  },
+  {
+   "t": "h2",
+   "x": "（一）扩散研究：操作化误差与两条命题"
+  },
+  {
+   "t": "p",
+   "x": "把四个仓级变量（星标、fork、贡献率、平台收录数）各按四分位离散化，贡献率与注意力、fork、可见性的 NMI 分别为 0.009、0.022、0.012（置换 p=.802、.156、.569）；注意力与 fork 的 NMI 为 0.523。3–6 分箱与连续变量的距离相关给出同向结果，贡献率与其余三层的关联均在 0.15 以下且不显著。水平上，贡献率几乎不携带其他三层的信息；注意力与 fork 仍是同一构念的两种测量。"
+  },
+  {
+   "t": "p",
+   "x": "但同一批仓的周序列中，星标增量与 PR 事件的仓内相关中位为 0.374（低转化率组，210 仓，bootstrap 95%CI [0.315, 0.430]）与 0.294（高转化率组，14 仓，95%CI [−0.012, 0.565]）；加入仓库与周双向固定效应后，去均值弹性为 0.357（SE 0.017）与 0.643（SE 0.060）。周固定效应吸收共同冲击后弹性并未消失，说明“动态同向”不只是全生态曝光的结果；但高转化率组仅 14 仓，区间很宽，不能据此估计稳定弹性。弱耦合的判据在水平，动态同向用于判别噪声，二者分工不同。本文未做滞后项或反向因果检验，动态结果仅作探索性证据。"
+  },
+  {
+   "t": "p",
+   "x": "贡献者的人口结构解释了为何“社区”的共同维护特征较弱。62.4% 的作者只贡献一次，仅占 13.9% 事件；483 名贡献不少于 100 次的高频作者占 38.9%，前 1% 占 46.5%（Merton, 1968）。作者事件数的尾指数 α=2.03，西蒙（Herbert A. Simon）单过程给出 p=1−1/α≈0.51 的粗略对照（Simon, 1955），而实测作者数/事件数比为 0.223（隐含 α≈1.29）——单一新人流入被拒绝，重尾由高频作者主导。所谓“贡献社区”，其实是仅贡献一次的作者加极少数维护者与团队工作流的组合；以提交量度量社区健康，会把高频作者的工作流误读为广泛参与。这一结构可读作参与式文化的异化（Benkler, 2006），共同创造被分发取代。"
+  },
+  {
+   "t": "p",
+   "x": "这一结构与两步流传统中的意见领袖分布同形，也与参与阶梯的经验标尺一致：极少数人占事件大头，多数人只出现一次（Preece & Shneiderman, 2009）；不同在于，本文的门槛事件是 PR 而非评论——门槛越重，阶梯越陡。以提交量度量社区健康，会把头部工作流误读为广泛参与，正是参与阶梯文献警告过的读法。"
+  },
+  {
+   "t": "p",
+   "x": "扩散研究预设注意、采纳、使用、贡献的阶段序列，计算研究将其操作化为可互换的指标；本文证明至少两处环节不可互换，且边界位置不均。这不是否定阶段模型，而是指出阶段模型被操作化时的测量谬误。由此可提三条命题：H1，复制成本越低的环节，边界越可能出现；H2，工作流越标准化，fork—PR 的时间签名越前置。"
+  },
+  {
+   "t": "h2",
+   "x": "（二）平台指标研究：偏向与商品化"
+  },
+  {
+   "t": "p",
+   "x": "星标—安装的分离可用英尼斯（Harold A. Innis）的媒介偏向与斯迈思（Dallas W. Smythe）的受众商品作事后解读（Innis, 1951；Smythe, 1977）：星标是空间偏向的可见性标记，短促、爆发、可跨平台扩散（Wu & Huberman, 2007），却不承载持续关系；安装则更接近时间偏向的痕迹，对象被纳入工作流、被留存、被重复调用。二者不可互代，不是测量误差，而是平台把两种偏向的行为纳入同一条扩散叙事的结果。星标之所以最显眼，正因它最易被商品化为可比较、可排序、可展示的“注意力存量”，如同收视率之于商业媒体（Gillespie, 2010；Bucher, 2018；Meehan, 1984）。这一解读不是因果识别，而是提供可理解性。"
+  },
+  {
+   "t": "p",
+   "x": "偏向论可以进一步操作化为可供性。博伊德（danah boyd）列举的数字痕迹属性中，星标主要负载可持久、可扩展、可检索的展示面向——短促、可累计、可跨平台迁移；安装主要负载平台内的留存面向——对象被纳入工作流，被重复调用（boyd, 2010）。二者不可互换，不是测量误差，而是两种可供性把不同行为痕迹纳入同一条扩散叙事的结果。由此，“可见性冲击前后分离度变化”不再只是修辞性猜想，而成为可检验命题（P6）：若星标确为空间偏向的展示信号，则外生可见性冲击（平台推荐、榜单收录）之后，星标增量与安装增量的耦合应在窗口期内系统性上升；若分离恒定，则偏向论在本生态中不成立。本文数据不含冲击事件标注，P6 留待后续。受众商品论的当代形态在此得到旁注：平台出售的是可比、可排序的注意力，使用留下的痕迹留在工作流内不被计价；无偿贡献的尾部——0.48% 的作者贡献 38.9% 的事件——接近免费劳动文献描述的分布（Terranova, 2000；Jhally & Livant, 1986）。此为解读，不构成检验。"
+  },
+  {
+   "t": "p",
+   "x": "扩散在这批数据里更接近内容分发，而非共同维护。内容被搬运、安装、同步，但很少被讨论、审查、署名或共同维护（Businge et al., 2022）。对扩散理论，耦合假设在复制成本趋零、信息与工具同体的条件下失效，边界条件由此明确；对审查理论，审查数量不等于审查有效性——正式审查形式存续，决定覆盖率低；平台侧的类目边界与仓库侧的合并集中构成两个互补层面。对测量，单一平台指标不可代理扩散构念，效度须逐层建立。"
+  },
+  {
+   "t": "p",
+   "x": "把合并权的分布命名为“把关集中度”，P4 的描述即可接入平台治理文献：正式审查形式存续而决定覆盖低，与“仪式性形式”的判断一致（Gillespie, 2018）；合并头部位额中位 1.0、64.8% 的仓库 90% 以上合并由单一账号执行，是把关权集中的量。内容调节与平台治理研究把此类分布视为治理结构的直接观测（Gorwa, 2019）。待检验命题：把关集中度越高，正式审查覆盖率越低——本文两个描述并置，未作因果检验。"
+  },
+  {
+   "t": "h2",
+   "x": "（三）可移植的三步检查"
+  },
+  {
+   "t": "p",
+   "x": "方法论上，效度边界给出一个可移植的三步检查。先定位归属，即该指标记录的是哪一类行为痕迹；再测定止点，即它与下一环节构念的关联能否排除可互换；最后判别，即水平低相关而动态同向时可判为构念归属的断裂，而非测量噪声。"
+  },
+  {
+   "t": "h2",
+   "x": "（四）适用范围与限制"
+  },
+  {
+   "t": "p",
+   "x": "上述结论受四重边界约束。第一，样本是判定样本而非概率样本，比率不外推至长尾。第二，fork 风险模型含 228 父仓，3 仓永久缺失，首次回流以 fork 全名为匹配键。第三，转化率是同一时点静态比值，无法区分“fork 后立即提 PR”与“长期维护者”。第四，作者身份按登录名聚合，无法识别多账号与 CI 服务账号。"
+  },
+  {
+   "t": "p",
+   "x": "可复现与伦理方面，数据均来自公开 GitHub 与平台页面；仓库名与作者登录名为公开标识，本文只做聚合统计，不指向个人，不做跨平台身份链接。分析代码、变量字典、查询词、样本筛选流程图、近重复检测阈值、fork 改名匹配规则与审查数据连接规则随复现包提供；fork 改名与安装封顶的敏感性分析作为补充材料。上述边界不改变方向，但限制效应量的精确性；本文所有比率均以样本内口径解读。"
+  },
+  {
+   "t": "h1",
+   "x": "六、结论：逐环而测"
+  },
+  {
+   "t": "p",
+   "x": "在复制可字节观测的技能生态中，本文提出“效度边界”并以之检验平台指标的替代链。五项检验的结果并不整齐：P1、P2 支持边界存在——星标—安装 ρ=0.204（90%CI 0.080–0.321），fork 首次回流 6.33%、87.8% 在 24 小时内；另在链条中段的复制—fork 上补做一处检验，秩相关 0.107，同样可排除中等以上相关，但样本不同源，只作补充；P3、P4 只提供测量描述，署名共现方向不可判，审查形式存续而决定覆盖低；P5 功效不足，不计入支持。讨论中另提出一条待检验命题 P6——可见性冲击前后的分离度变化，本文数据不含冲击事件标注，未做检验。这一分布本身说明，效度边界不是一次性可判定的属性，而是需要逐环检验、逐环报告的证据结构。"
+  },
+  {
+   "t": "p",
+   "x": "本文的贡献不在于证明链是弱耦合的，而在于提供一个可操作的检验框架，并示范了两处边界的测量方式。两处边界的发现提示扩散链的耦合可能是环节依赖的，但这一提示的普遍性受限于检验点的数量。将“弱耦合”提升为链级理论，需至少一个中间环节的边界证据；本文未提供。"
+  },
+  {
+   "t": "p",
+   "x": "所有比率为样本内口径，样本限于头部，不外推长尾。效度边界的判定框架可移植到其他平台生态，但边界的位置与强度需逐案检验。"
+  },
+  {
+   "t": "h1",
+   "x": "参考文献"
+  },
+  {
+   "t": "ref",
+   "x": "Ang I. Desperately Seeking the Audience[M]. London: Routledge, 1991."
+  },
+  {
+   "t": "ref",
+   "x": "Benkler Y. The Wealth of Networks: How Social Production Transforms Markets and Freedom[M]. New Haven: Yale University Press, 2006."
+  },
+  {
+   "t": "ref",
+   "x": "Borges H, Hora A, Valente M T. Understanding the factors that impact the popularity of GitHub repositories[C]//2016 IEEE International Conference on Software Maintenance and Evolution (ICSME). 2016: 334-344."
+  },
+  {
+   "t": "ref",
+   "x": "boyd d. Social network sites as networked publics: affordances, dynamics, and implications[M]//Papacharissi Z (ed.). A Networked Self: Identity, Community, and Culture on Social Network Sites. New York: Routledge, 2010: 39-58."
+  },
+  {
+   "t": "ref",
+   "x": "Brighenti A. Visibility: a category for the social sciences[J]. Current Sociology, 2007, 55(3): 323-342."
+  },
+  {
+   "t": "ref",
+   "x": "Bucher T. If...Then: Algorithmic Power and Politics[M]. Oxford: Oxford University Press, 2018."
+  },
+  {
+   "t": "ref",
+   "x": "Businge J, Openja M, Nadi S, Berger T. Reuse and maintenance practices among divergent forks in three software ecosystems[J]. Empirical Software Engineering, 2022, 27(2): 54."
+  },
+  {
+   "t": "ref",
+   "x": "Campbell D T, Fiske D W. Convergent and discriminant validation by the multitrait-multimethod matrix[J]. Psychological Bulletin, 1959, 56(2): 81-105."
+  },
+  {
+   "t": "ref",
+   "x": "Cronbach L J, Meehl P E. Construct validity in psychological tests[J]. Psychological Bulletin, 1955, 52(4): 281-302."
+  },
+  {
+   "t": "ref",
+   "x": "Espeland W N, Stevens M L. Commensuration as a social process[J]. Annual Review of Sociology, 1998, 24: 313-343."
+  },
+  {
+   "t": "ref",
+   "x": "Fornell C, Larcker D F. Evaluating structural equation models with unobservable variables and measurement error[J]. Journal of Marketing Research, 1981, 18(1): 39-50."
+  },
+  {
+   "t": "ref",
+   "x": "Gerlitz C, Helmond A. The like economy: social buttons and the data-intensive web[J]. New Media & Society, 2013, 15(8): 1348-1368."
+  },
+  {
+   "t": "ref",
+   "x": "Gillespie T. The politics of “platforms”[J]. New Media & Society, 2010, 12(3): 347-364."
+  },
+  {
+   "t": "ref",
+   "x": "Gillespie T. Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media[M]. New Haven: Yale University Press, 2018."
+  },
+  {
+   "t": "ref",
+   "x": "Goel S, Anderson A, Hofman J, et al. The structural virality of online diffusion[J]. Management Science, 2016, 62(1): 180-196."
+  },
+  {
+   "t": "ref",
+   "x": "Gorwa R. What is platform governance?[J]. Information, Communication & Society, 2019, 22(6): 854-871."
+  },
+  {
+   "t": "ref",
+   "x": "Howison J, Wiggins A, Crowston K. Validity issues in the use of social network analysis with digital trace data[J]. Journal of the Association for Information Systems, 2011, 12(12): 700-723."
+  },
+  {
+   "t": "ref",
+   "x": "Innis H A. The Bias of Communication[M]. Toronto: University of Toronto Press, 1951."
+  },
+  {
+   "t": "ref",
+   "x": "Jhally S, Livant B. Watching as working: the valorization of audience consciousness[J]. Journal of Communication, 1986, 36(3): 124-143."
+  },
+  {
+   "t": "ref",
+   "x": "Jiang J, Lo D, He J, et al. Why and how developers fork what from whom in GitHub[J]. Empirical Software Engineering, 2017, 22(1): 547-578."
+  },
+  {
+   "t": "ref",
+   "x": "Kalliamvakou E, Gousios G, Blincoe K, et al. The promises and perils of mining GitHub[C]//Proceedings of the 11th Working Conference on Mining Software Repositories. New York: ACM, 2014: 92-101."
+  },
+  {
+   "t": "ref",
+   "x": "Katz E, Lazarsfeld P F. Personal Influence: The Part Played by People in the Flow of Mass Communications[M]. Glencoe: Free Press, 1955."
+  },
+  {
+   "t": "ref",
+   "x": "Lazer D, Pentland A, Adamic L, et al. Computational social science[J]. Science, 2009, 323(5915): 721-723."
+  },
+  {
+   "t": "ref",
+   "x": "Leskovec J, Backstrom L, Kleinberg J. Meme-tracking and the dynamics of the news cycle[C]//Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. New York: ACM, 2009: 497-506."
+  },
+  {
+   "t": "ref",
+   "x": "Luhmann N. Social Systems[M]. Stanford: Stanford University Press, 1995."
+  },
+  {
+   "t": "ref",
+   "x": "Meehan E R. Ratings and the institutional approach: a third answer to the commodity question[J]. Critical Studies in Mass Communication, 1984, 1(2): 216-225."
+  },
+  {
+   "t": "ref",
+   "x": "Merton R K. The Matthew effect in science[J]. Science, 1968, 159(3810): 56-63."
+  },
+  {
+   "t": "ref",
+   "x": "Messick S. Validity of psychological assessment: validation of inferences from persons’ responses and performances as scientific inquiry into score meaning[J]. American Psychologist, 1995, 50(9): 741-749."
+  },
+  {
+   "t": "ref",
+   "x": "Meyer J W, Rowan B. Institutionalized organizations: formal structure as myth and ceremony[J]. American Journal of Sociology, 1977, 83(2): 340-363."
+  },
+  {
+   "t": "ref",
+   "x": "Napoli P M. Audience Evolution: New Technologies and the Transformation of Media Audiences[M]. New York: Columbia University Press, 2011."
+  },
+  {
+   "t": "ref",
+   "x": "Orton J D, Weick K E. Loosely coupled systems: a reconceptualization[J]. Academy of Management Review, 1990, 15(2): 203-223."
+  },
+  {
+   "t": "ref",
+   "x": "Preece J, Shneiderman B. The reader-to-leader framework: motivating technology-mediated social participation[J]. AIS Transactions on Human-Computer Interaction, 2009, 1(1): 13-32."
+  },
+  {
+   "t": "ref",
+   "x": "Rogers E M. Diffusion of Innovations[M]. 5th ed. New York: Free Press, 2003."
+  },
+  {
+   "t": "ref",
+   "x": "Rogers R. Otherwise engaged: social media from vanity metrics to critical analytics[J]. International Journal of Communication, 2018, 12: 450-472."
+  },
+  {
+   "t": "ref",
+   "x": "Ruths D, Pfeffer J. Social media for large studies of behavior[J]. Science, 2014, 346(6213): 1063-1064."
+  },
+  {
+   "t": "ref",
+   "x": "Salganik M J, Dodds P S, Watts D J. Experimental study of inequality and unpredictability in an artificial cultural market[J]. Science, 2006, 311(5762): 854-856."
+  },
+  {
+   "t": "ref",
+   "x": "Shen L, Weitzel D, Sood G. Social proof is in the pudding: the non-impact of stars on software downloads[J]. Journal of Online Trust and Safety, 2026, 3(2)."
+  },
+  {
+   "t": "ref",
+   "x": "Shoemaker P J, Vos T P. Gatekeeping Theory[M]. New York: Routledge, 2009."
+  },
+  {
+   "t": "ref",
+   "x": "Simon H A. On a class of skew distribution functions[J]. Biometrika, 1955, 42(3/4): 425-440."
+  },
+  {
+   "t": "ref",
+   "x": "Smythe D W. Communications: blindspot of Western Marxism[J]. Canadian Journal of Political and Social Theory, 1977, 1(3): 1-27."
+  },
+  {
+   "t": "ref",
+   "x": "Star S L, Griesemer J R. Institutional ecology, “translations” and boundary objects: amateurs and professionals in Berkeley’s Museum of Vertebrate Zoology, 1907-39[J]. Social Studies of Science, 1989, 19(3): 387-420."
+  },
+  {
+   "t": "ref",
+   "x": "Terranova T. Free labor: producing culture for the digital economy[J]. Social Text, 2000, 18(2): 33-58."
+  },
+  {
+   "t": "ref",
+   "x": "Thompson J B. The new visibility[J]. Theory, Culture & Society, 2005, 22(6): 31-51."
+  },
+  {
+   "t": "ref",
+   "x": "Tsay J, Dabbish L, Herbsleb J. Influence of social and technical factors for evaluating contribution in GitHub[C]//Proceedings of the 36th International Conference on Software Engineering. 2014: 356-366."
+  },
+  {
+   "t": "ref",
+   "x": "Tuchman G. Making News: A Study in the Construction of Reality[M]. New York: Free Press, 1978."
+  },
+  {
+   "t": "ref",
+   "x": "Tufekci Z. Big questions for social media big data: representativeness, validity and other methodological pitfalls[J]. Social Science Computer Review, 2014, 32(5): 638-648."
+  },
+  {
+   "t": "ref",
+   "x": "van Dijck J, Poell T, de Waal M. The Platform Society: Public Values in a Connective World[M]. Oxford: Oxford University Press, 2018."
+  },
+  {
+   "t": "ref",
+   "x": "Webster J G, Ksiazek T B. The dynamics of audience fragmentation: public attention in an age of digital media[J]. Journal of Communication, 2012, 62(1): 39-56."
+  },
+  {
+   "t": "ref",
+   "x": "Webster J G. The Marketplace of Attention: How Appeals Take Shape in a Digital Age[M]. Cambridge, MA: MIT Press, 2014."
+  },
+  {
+   "t": "ref",
+   "x": "Weick K E. Educational organizations as loosely coupled systems[J]. Administrative Science Quarterly, 1976, 21(1): 1-19."
+  },
+  {
+   "t": "ref",
+   "x": "White D M. The “gate keeper”: a case study in the selection of news[J]. Journalism Quarterly, 1950, 27(4): 383-390."
+  },
+  {
+   "t": "ref",
+   "x": "Wu F, Huberman B A. Novelty and collective attention[J]. Proceedings of the National Academy of Sciences, 2007, 104(45): 17599-17601."
+  }
+ ],
+ "tables": {
+  "jt1": {
+   "caption": "表 2  四个核心概念的定义、操作化与区分效度",
+   "header": [
+    "构念",
+    "定义",
+    "操作化与判据",
+    "与相邻概念的区分"
+   ],
+   "widths": [
+    14,
+    32,
+    30,
+    24
+   ],
+   "rows": [
+    [
+     "效度边界",
+     "平台指标的有效性止于其归属环节",
+     "归属判定；TOST 排除 |ρ|≥0.5；位置性",
+     "异于测量误差、信度与边界条件"
+    ],
+    [
+     "弱耦合",
+     "两处以上边界、动态同向、边界非均匀",
+     "三条件同时满足方可称“形态成立”",
+     "非韦克松散耦合、非卢曼结构耦合"
+    ],
+    [
+     "审查形式化",
+     "正式审查程序存续而决定覆盖率低（横截面）",
+     "审查覆盖（三分母）、合并权集中度、AUC",
+     "限于正式审查决定，不含内容审查规范，不等于全无审查"
+    ],
+    [
+     "复制可观测而署名不可判",
+     "复制关系可观测而来源信息缺失",
+     "条件保留率对独立期望；署名字段写入时点",
+     "异于“复写新闻业”的流转磨损：此处是模板署名惯例（待检验）"
+    ]
+   ],
+   "aligns": [
+    "left",
+    "left",
+    "left",
+    "left"
+   ]
+  },
+  "jt2": {
+   "caption": "表 1  数据分层、规模与口径",
+   "header": [
+    "数据层",
+    "规模",
+    "口径与去重",
+    "用途"
+   ],
+   "widths": [
+    14,
+    20,
+    44,
+    22
+   ],
+   "rows": [
+    [
+     "生态扫描",
+     "35,947 仓",
+     "两轮话题与搜索采集，去重",
+     "队列与生命周期"
+    ],
+    [
+     "内容层",
+     "155,547 份",
+     "SHA-256 精确哈希＋SimHash",
+     "P3 复制与溯源"
+    ],
+    [
+     "面板层",
+     "341 仓",
+     "有元数据，完成五渠道查询",
+     "P1、P5"
+    ],
+    [
+     "安装子样本",
+     "172 仓",
+     "skills.sh 有命中（5 仓封顶）",
+     "P1 主检验"
+    ],
+    [
+     "互惠层",
+     "1,851,928 fork",
+     "228 父仓全量；225 仓解析",
+     "P2 风险模型"
+    ],
+    [
+     "回流事件",
+     "447,495 PR",
+     "225 父仓；122,235 回流 fork",
+     "P2 结构描述"
+    ],
+    [
+     "治理层",
+     "45,203 PR",
+     "189 仓；44,572 可连审查",
+     "P4"
+    ],
+    [
+     "审查分母",
+     "23,988 PR",
+     "已合并且可连审查",
+     "P4 审查覆盖"
+    ]
+   ],
+   "aligns": [
+    "left",
+    "center",
+    "left",
+    "left"
+   ],
+   "note": "注：skills.sh 数据取自其搜索接口 https://www.skills.sh/api/search，查询词为仓库全名，单次上限 200 条，抓取于 2026 年 10 月 24 日；返回字段为 installs，按 source 等于该仓全名精确匹配后求和。“命中”指搜索结果中至少一条 skill 的 source 与该仓全名相同；172 个仓为 full 与 retry 两批合并所得，另 extra 批 3 个仓未计入，三批合并为 175。平台未公布 installs 的统计窗口与去重规则。以汉明距离 6 重扫作召回参照，近重复对由 121,127 增至 130,203，跨仓对由 105,673 增至 110,154；88.3% 的近重复对距离为 0，阈值选择主要影响长尾。"
+  },
+  "jt3": {
+   "caption": "表 4  效度边界的证据分层",
+   "header": [
+    "档位",
+    "检验",
+    "能支持什么",
+    "不能支持什么"
+   ],
+   "widths": [
+    16,
+    20,
+    32,
+    32
+   ],
+   "rows": [
+    [
+     "支持（下界证据）",
+     "P1（172 仓）",
+     "星标不能替代安装（排除 |ρ|≥0.5）",
+     "不能声称层内为零；不能外推长尾；真实相关可能更高"
+    ],
+    [
+     "支持（限于时间形态）",
+     "P2（185 万 fork）",
+     "fork—PR 转化呈工作流时间签名",
+     "不能判定 fork 不携带贡献意愿"
+    ],
+    [
+     "补充（样本不同源）",
+     "复制→fork（784 仓）",
+     "复制出度与 fork 秩相关 0.107，可排除 |ρ|≥0.5",
+     "样本非 341 面板，不并入支持档"
+    ],
+    [
+     "描述",
+     "P3（4,000 对）",
+     "署名生产端稀薄，复制未明显增删",
+     "不能支持边界存在；方向不可判"
+    ],
+    [
+     "描述",
+     "P4（45,203 PR）",
+     "审查决定覆盖低、合并权集中",
+     "不能支持“审查功能退化”；不能作因果推断"
+    ],
+    [
+     "不足",
+     "P5（266 仓）",
+     "无",
+     "不能支持或否定星标预测收录；亦不能排除 OR<1.69 的中等效应被漏检"
+    ]
+   ],
+   "aligns": [
+    "left",
+    "left",
+    "left",
+    "left"
+   ],
+   "note": "注：等价界取 |ρ|=0.5 时 TOST 单侧 p≈4×10⁻⁶；0.4 界下 p≈.002，0.35 界下 p≈.02，0.30 界下 p≈.09。本文只宣称“中等以上相关可被排除”，不宣称弱相关不存在。未做测量误差衰减校正；若按经典检验理论以两指标信度的几何平均校正，信度均为 0.6 时校正值约 0.34、均为 0.5 时约 0.41，仍低于门槛，只有信度低于约 0.41 时才会越过 0.5。独立期望隐含字段间相互独立的假设；模板同质性与仓库内聚集会使该期望偏高，故 77.8% 与 9.7% 的差值只作上界性质的对照。6.33% 为全量 fork 的风险模型估计，6.67% 为 fork 层回流率，二者分母不同，不宜直接比较。"
+  },
+  "jt4": {
+   "caption": "表 3  贡献作者的核心—边缘结构",
+   "header": [
+    "指标",
+    "数值",
+    "口径"
+   ],
+   "widths": [
+    46,
+    28,
+    26
+   ],
+   "rows": [
+    [
+     "作者数",
+     "99,798",
+     "225 父仓去重"
+    ],
+    [
+     "回流 PR 事件",
+     "447,495",
+     "事件级"
+    ],
+    [
+     "仅贡献一次的作者占比",
+     "62.4%",
+     "作者数口径"
+    ],
+    [
+     "仅贡献一次的作者事件占比",
+     "13.9%",
+     "事件数口径"
+    ],
+    [
+     "贡献不少于 100 次的作者",
+     "483（0.48%）",
+     "作者数口径"
+    ],
+    [
+     "其事件占比",
+     "38.9%",
+     "事件数口径"
+    ],
+    [
+     "前 1% 作者事件占比",
+     "46.5%",
+     "事件数口径"
+    ],
+    [
+     "作者/事件比",
+     "0.223",
+     "作者数/事件数"
+    ],
+    [
+     "西蒙单过程粗略对照",
+     "p=1−1/α≈0.51",
+     "α=2.03，非正式检验"
+    ]
+   ],
+   "aligns": [
+    "left",
+    "center",
+    "left"
+   ],
+   "note": "注：清单仓库按仓库描述中的 awesome、curated、collection、list、合集、清单等关键词粗分，共 38 仓；关键词仅覆盖中英文，存在漏分，但 14 个高转化仓中 9 个为清单仓，与人工核对一致。"
+  }
+ },
+ "figures": {
+  "jf1": {
+   "file": "jfig1_framework.png",
+   "caption": "图 1  效度边界的三要件与链条位置：实线为已检验的相邻环节（P1 检验注意—安装，P2 检验 fork—PR；复制—fork 为补充检验，样本与 P1、P2 不同源），虚线为未检验环节（安装—复制）；P5 为链外检验。图示为分析框架，不表示因果识别。"
+  },
+  "jf2": {
+   "file": "jfig2_p1.png",
+   "caption": "图 2  P1 主检验：(a) 星标—安装散点（ρ=0.204，n=172，90%CI 0.080–0.321）；(b) 星标四分位与年龄三分位的分层敏感性（等价界 0.5）"
+  },
+  "jf3": {
+   "file": "jfig3_p2.png",
+   "caption": "图 3  P2 主检验：(a) 全量 fork 的首次回流累计发生率（1,851,928 个 fork）；(b) 分区间风险率",
+   "note": "注：fork 风险模型以 fork 全名为匹配键，改名会导致低估；删失与截断口径见第三节。双峰系数 BC=0.742 看似支持双峰，但该系数对重尾极敏感；本文以 GMM 的 BIC 与核密度峰数为准，二者在 logit 与 log10 尺度均支持单成分。"
+  },
+  "jf4": {
+   "file": "jfig4_p4.png",
+   "caption": "图 4  P4 主检验：(a) 正式审查覆盖随仓库 PR 量上升但恒低于三成；(b) 合并结果五折仓库分组 AUC=0.595 [0.545, 0.644]"
+  }
+ },
+ "title_en": "From Stars to Pull Requests: Validity Boundaries along the Agent Skill Diffusion Chain",
+ "refNotes": {
+  "1": "Everett M. Rogers, *Diffusion of Innovations*, 5th ed., New York: Free Press, 2003.",
+  "2": "Elihu Katz & Paul F. Lazarsfeld, *Personal Influence: The Part Played by People in the Flow of Mass Communications*, Glencoe: Free Press, 1955.",
+  "3": "Matthew J. Salganik, Peter S. Dodds & Duncan J. Watts, “Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market,” *Science*, vol. 311, no. 5762, 2006, pp. 854-856.",
+  "4": "Jure Leskovec, Lars Backstrom & Jon Kleinberg, “Meme-tracking and the Dynamics of the News Cycle,” *Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, New York: ACM, 2009, pp. 497-506.",
+  "5": "Susan Leigh Star & James R. Griesemer, “Institutional Ecology, ‘Translations’ and Boundary Objects: Amateurs and Professionals in Berkeley’s Museum of Vertebrate Zoology, 1907-39,” *Social Studies of Science*, vol. 19, no. 3, 1989, pp. 387-420.",
+  "6": "Sharad Goel, Ashton Anderson, Jake Hofman & Duncan J. Watts, “The Structural Virality of Online Diffusion,” *Management Science*, vol. 62, no. 1, 2016, pp. 180-196.",
+  "7": "John W. Meyer & Brian Rowan, “Institutionalized Organizations: Formal Structure as Myth and Ceremony,” *American Journal of Sociology*, vol. 83, no. 2, 1977, pp. 340-363.",
+  "8": "David Manning White, “The ‘Gate Keeper’: A Case Study in the Selection of News,” *Journalism Quarterly*, vol. 27, no. 4, 1950, pp. 383-390.",
+  "9": "Pamela J. Shoemaker & Tim P. Vos, *Gatekeeping Theory*, New York: Routledge, 2009.",
+  "11": "José van Dijck, Thomas Poell & Martijn de Waal, *The Platform Society: Public Values in a Connective World*, Oxford: Oxford University Press, 2018.",
+  "12": "Tarleton Gillespie, “The Politics of ‘Platforms’,” *New Media & Society*, vol. 12, no. 3, 2010, pp. 347-364.",
+  "13": "Fang Wu & Bernardo A. Huberman, “Novelty and Collective Attention,” *Proceedings of the National Academy of Sciences*, vol. 104, no. 45, 2007, pp. 17599-17601.",
+  "14": "Robert K. Merton, “The Matthew Effect in Science,” *Science*, vol. 159, no. 3810, 1968, pp. 56-63.",
+  "15": "Wendy Nelson Espeland & Mitchell L. Stevens, “Commensuration as a Social Process,” *Annual Review of Sociology*, vol. 24, 1998, pp. 313-343.",
+  "16": "Yochai Benkler, *The Wealth of Networks: How Social Production Transforms Markets and Freedom*, New Haven: Yale University Press, 2006.",
+  "17": "Karl E. Weick, “Educational Organizations as Loosely Coupled Systems,” *Administrative Science Quarterly*, vol. 21, no. 1, 1976, pp. 1-19.",
+  "18": "James D. Orton & Karl E. Weick, “Loosely Coupled Systems: A Reconceptualization,” *Academy of Management Review*, vol. 15, no. 2, 1990, pp. 203-223.",
+  "19": "Jing Jiang, David Lo, Jiajun He, et al., “Why and How Developers Fork What from Whom in GitHub,” *Empirical Software Engineering*, vol. 22, no. 1, 2017, pp. 547-578.",
+  "21": "John B. Thompson, “The New Visibility,” *Theory, Culture & Society*, vol. 22, no. 6, 2005, pp. 31-51.",
+  "22": "Herbert A. Simon, “On a Class of Skew Distribution Functions,” *Biometrika*, vol. 42, no. 3/4, 1955, pp. 425-440.",
+  "24": "Lee J. Cronbach & Paul E. Meehl, “Construct Validity in Psychological Tests,” *Psychological Bulletin*, vol. 52, no. 4, 1955, pp. 281-302.",
+  "25": "Donald T. Campbell & Donald W. Fiske, “Convergent and Discriminant Validation by the Multitrait-Multimethod Matrix,” *Psychological Bulletin*, vol. 56, no. 2, 1959, pp. 81-105.",
+  "26": "Samuel Messick, “Validity of Psychological Assessment: Validation of Inferences from Persons’ Responses and Performances as Scientific Inquiry into Score Meaning,” *American Psychologist*, vol. 50, no. 9, 1995, pp. 741-749.",
+  "27": "Taina Bucher, *If...Then: Algorithmic Power and Politics*, Oxford: Oxford University Press, 2018.",
+  "28": "John Businge, Moses Openja, Sarah Nadi & Thorsten Berger, “Reuse and Maintenance Practices among Divergent Forks in Three Software Ecosystems,” *Empirical Software Engineering*, vol. 27, no. 2, 2022, art. 54.",
+  "30": "Harold A. Innis, *The Bias of Communication*, Toronto: University of Toronto Press, 1951.",
+  "31": "Dallas W. Smythe, “Communications: Blindspot of Western Marxism,” *Canadian Journal of Political and Social Theory*, vol. 1, no. 3, 1977, pp. 1-27.",
+  "32": "Eileen R. Meehan, “Ratings and the Institutional Approach: A Third Answer to the Commodity Question,” *Critical Studies in Mass Communication*, vol. 1, no. 2, 1984, pp. 216-225.",
+  "33": "Gertrude Tuchman, *Making News: A Study in the Construction of Reality*, New York: Free Press, 1978.",
+  "34": "Niklas Luhmann, *Social Systems*, Stanford: Stanford University Press, 1995.",
+  "35": "Claes Fornell & David F. Larcker, “Evaluating Structural Equation Models with Unobservable Variables and Measurement Error,” *Journal of Marketing Research*, vol. 18, no. 1, 1981, pp. 39-50.",
+  "36": "Hudson Borges, André Hora & Marco Tulio Valente, “Understanding the Factors That Impact the Popularity of GitHub Repositories,” *2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)*, 2016, pp. 334-344.",
+  "37": "Lucas Shen, David Weitzel & Gaurav Sood, “Social Proof is in the Pudding: The Non-Impact of Stars on Software Downloads,” *Journal of Online Trust and Safety*, vol. 3, no. 2, 2026.",
+  "38": "Richard Rogers, “Otherwise Engaged: Social Media from Vanity Metrics to Critical Analytics,” *International Journal of Communication*, vol. 12, 2018, pp. 450-472.",
+  "39": "Jason Tsay, Laura Dabbish & James Herbsleb, “Influence of Social and Technical Factors for Evaluating Contribution in GitHub,” *Proceedings of the 36th International Conference on Software Engineering*, 2014, pp. 356-366.",
+  "40": "Ien Ang, *Desperately Seeking the Audience*, London: Routledge, 1991.",
+  "41": "Philip M. Napoli, *Audience Evolution: New Technologies and the Transformation of Media Audiences*, New York: Columbia University Press, 2011.",
+  "42": "James G. Webster & Thomas B. Ksiazek, “The Dynamics of Audience Fragmentation: Public Attention in an Age of Digital Media,” *Journal of Communication*, vol. 62, no. 1, 2012, pp. 39-56.",
+  "43": "David Lazer, Alex Pentland, Lada Adamic, et al., “Computational Social Science,” *Science*, vol. 323, no. 5915, 2009, pp. 721-723.",
+  "44": "Deen Ruths & Jürgen Pfeffer, “Social Media for Large Studies of Behavior,” *Science*, vol. 346, no. 6213, 2014, pp. 1063-1064.",
+  "45": "Zeynep Tufekci, “Big Questions for Social Media Big Data: Representativeness, Validity and Other Methodological Pitfalls,” *Social Science Computer Review*, vol. 32, no. 5, 2014, pp. 638-648.",
+  "46": "James Howison, Andrea Wiggins & Kevin Crowston, “Validity Issues in the Use of Social Network Analysis with Digital Trace Data,” *Journal of the Association for Information Systems*, vol. 12, no. 12, 2011, pp. 700-723.",
+  "47": "Eirini Kalliamvakou, Georgios Gousios, Kelly Blincoe, et al., “The Promises and Perils of Mining GitHub,” *Proceedings of the 11th Working Conference on Mining Software Repositories*, New York: ACM, 2014, pp. 92-101.",
+  "48": "Carolin Gerlitz & Anne Helmond, “The Like Economy: Social Buttons and the Data-Intensive Web,” *New Media & Society*, vol. 15, no. 8, 2013, pp. 1348-1368.",
+  "49": "James G. Webster, *The Marketplace of Attention: How Appeals Take Shape in a Digital Age*, Cambridge, MA: MIT Press, 2014.",
+  "50": "Andrea Brighenti, “Visibility: A Category for the Social Sciences,” *Current Sociology*, vol. 55, no. 3, 2007, pp. 323-342.",
+  "51": "Jenny Preece & Ben Shneiderman, “The Reader-to-Leader Framework: Motivating Technology-Mediated Social Participation,” *AIS Transactions on Human-Computer Interaction*, vol. 1, no. 1, 2009, pp. 13-32.",
+  "52": "danah boyd, “Social Network Sites as Networked Publics: Affordances, Dynamics, and Implications,” in Zizi Papacharissi (ed.), *A Networked Self: Identity, Community, and Culture on Social Network Sites*, New York: Routledge, 2010, pp. 39-58.",
+  "53": "Tiziana Terranova, “Free Labor: Producing Culture for the Digital Economy,” *Social Text*, vol. 18, no. 2, 2000, pp. 33-58.",
+  "54": "Sut Jhally & Bill Livant, “Watching as Working: The Valorization of Audience Consciousness,” *Journal of Communication*, vol. 36, no. 3, 1986, pp. 124-143.",
+  "55": "Tarleton Gillespie, *Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media*, New Haven: Yale University Press, 2018.",
+  "56": "Robert Gorwa, “What Is Platform Governance?” *Information, Communication & Society*, vol. 22, no. 6, 2019, pp. 854-871."
+ }
+}
