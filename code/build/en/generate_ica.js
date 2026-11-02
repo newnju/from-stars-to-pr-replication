@@ -145,7 +145,7 @@ while (i < lines.length) {
     const p = path.join(ROOT, "figures", "en", path.basename(file));
     const buf = fs.readFileSync(p);
     const dim = pngSize(buf);
-    const maxW = 600;
+    const maxW = 620;
     const w = Math.min(maxW, dim.w);
     const h = Math.round(dim.h * (w / dim.w));
     body.push(new Paragraph({
@@ -164,7 +164,7 @@ while (i < lines.length) {
     const rows = [];
     i++;
     while (i < lines.length && lines[i].startsWith("ROW|")) {
-      rows.push(lines[i].slice(4).split("|"));
+      rows.push(lines[i].slice(4).split("§"));
       i++;
     }
     if (i < lines.length && lines[i] === "ENDTBL") { /* skip */ }
