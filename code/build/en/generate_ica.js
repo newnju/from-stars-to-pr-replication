@@ -10,7 +10,7 @@ const {
 } = require("docx");
 
 const DIR = __dirname;
-const FIGDIR = path.join(DIR, "..", "..", "..", "figures", "en");
+const ROOT = path.join(DIR, "..", "..", "..");   // replication/
 const FONT = "Times New Roman";
 const BODY = 24;      // 12pt
 const SMALL = 20;     // 10pt
@@ -64,6 +64,21 @@ while (i < lines.length) {
       spacing: { line: LINE, before: 0, after: 240 },
       children: [new TextRun({ text: val, bold: true, font: FONT, size: BODY })],
     }));
+  } else if (tag === "AUTH") {
+    for (const name of val.split(";")) {
+      if (!name.trim()) continue;
+      body.push(new Paragraph({
+        alignment: AlignmentType.CENTER,
+        spacing: { line: LINE, before: 0, after: 0 },
+        children: [new TextRun({ text: name.trim(), font: FONT, size: BODY })],
+      }));
+    }
+  } else if (tag === "AFF") {
+    body.push(new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { line: LINE, before: 0, after: 200 },
+      children: [new TextRun({ text: val, italics: true, font: FONT, size: BODY })],
+    }));
   } else if (tag === "RUN") {
     runHead = val;
   } else if (tag === "H1") {
@@ -112,7 +127,7 @@ while (i < lines.length) {
   } else if (tag === "FIG") {
     const [file, ...rest] = val.split("|");
     const cap = rest.join("|");
-    const p = path.join(FIGDIR, path.basename(file));
+    const p = path.join(ROOT, "figures", "en", path.basename(file));
     const buf = fs.readFileSync(p);
     const dim = pngSize(buf);
     const maxW = 600;

@@ -1,198 +1,189 @@
-# 从星标到 PR——Agent Skill 扩散链上的效度边界
-## 复现包 / Replication Package
+# From Stars to Pull Requests — Replication Package
 
-本仓库是论文《从星标到 PR——Agent Skill 扩散链上的效度边界》的复现代码与结果。
-论文检验平台指标（星标、安装、fork、PR）能否在扩散链上互相代理，在「注意—安装」与「fork—PR」
-两处完成支持档检验，并补做「复制—fork」一处补充检验。
+[中文](README.zh.md)
 
-- 稿件版本：
-  - `从星标到PR——Agent Skill 扩散链上的效度边界_新闻与传播研究体例.docx`（注释体例，页下注 40 条）
-  - `从星标到PR——Agent Skill 扩散链上的效度边界_国际新闻界体例.docx`（著者-出版年制，正文夹注 + 文末参考文献 52 条）
-- 数据截止：2026-10-24
-- 复现包版本：2026-10-31
+Replication code and results for *From Stars to Pull Requests: Validity Boundaries along the Agent Skill Diffusion Chain*. The paper asks whether platform metrics (stars, installs, forks, pull requests) can stand in for one another along a diffusion chain. Two segments receive supported-tier tests (attention–installation; fork–PR), one mid-chain segment is tested on a different-source sample (copy–fork), and the remaining segments are reported as measurement descriptions.
+
+- Data cut-off: 2026-10-24
+- Package version: 2026-11-02
+- Language split: **Chinese materials under `zh/`, English materials under `en/`**. Shared analysis code and data are language-neutral.
 
 ---
 
-## 一、目录结构
+## 1. Structure
 
 ```
 replication/
-├── README.md                  本文件
-├── MANIFEST.csv               本仓库文件的 SHA-256 清单
-├── zenodo_MANIFEST.csv        Zenodo 大文件（26 个，1.84 GB）的 SHA-256 清单
-├── requirements.txt           Python 依赖
+├── README.md                  this file (English)
+├── README.zh.md               Chinese README
+├── MANIFEST.csv               SHA-256 for every file in this repository
+├── zenodo_MANIFEST.csv        SHA-256 for the 26 large files archived on Zenodo (1.84 GB)
+├── requirements.txt
 ├── code/
-│   ├── analysis/              105 个分析脚本（按论文顺序编号见第四节）
-│   └── docx_build/            正文排版：content13.json + 两个 Node 生成器
-├── data/
-│   ├── repos_meta.json        341 面板仓的元数据（星标、fork、创建时间、描述）
-│   ├── repos_discovered.json  同上（早期版本）
-│   ├── topic_agent_skills_frame.json   24,854 仓的普查框架（含 forks/stars）
-│   └── results/               76 个结果文件（JSON / Markdown），论文全部数字来源
-├── figures/                   期刊版四张图（300 dpi，灰度安全）
+│   ├── analysis/              106 analysis and figure scripts (shared by both language versions)
+│   └── build/
+│       ├── zh/                Chinese manuscript sources and generators
+│       │   ├── content13.json         《新闻与传播研究》注释体例
+│       │   ├── content14.json         《国际新闻界》著者-出版年制
+│       │   └── generate_xwycbyj.js / generate_cjjc.js / generate_cover.js
+│       └── en/                English manuscript source and generator
+│           ├── ica_content.txt        ICA / APA 7 manuscript source
+│           └── generate_ica.js
+├── figures/
+│   ├── zh/                    four journal figures, Chinese labels
+│   └── en/                    four journal figures, English labels
+├── data/                      shared: panel metadata, census frame, 76 result files
+│   ├── README.md              data dictionary (English)
+│   └── README.zh.md           data dictionary (Chinese)
 └── docs/
-    ├── 图表与排版管线说明.md    图的构图约定、灰度规范、docx 生成流程
-    ├── 数据来源全清单.md        全部外部数据源与可达性实测
-    ├── C刊标准评审意见.md       外部评审意见存档
-    └── paper_revision_plan_20261030.md  修改方案存档
+    ├── zh/                    pipeline notes, data-source inventory, review memos
+    └── en/                    data dictionary, variable list
 ```
 
-**大文件不在本仓库**，见第二节。
+Large files are not in this repository; see §2.
 
 ---
 
-## 二、数据分层：哪些在本仓库，哪些在 Zenodo
+## 2. What is here and what is on Zenodo
 
-原始数据约 16 GB，GitHub 单文件上限 100 MB，故分两处：
+Raw data total about 16 GB, and GitHub caps single files at 100 MB, so the package is split:
 
-| 位置 | 内容 | 体量 |
+| Location | Contents | Size |
 |---|---|---|
-| **本仓库（GitHub）** | 全部代码、76 个结果文件、元数据、四张图、文档 | 19 MB |
-| **Zenodo 归档（DOI）** | 抓取原文与 API 拉取记录 | 约 2 GB |
+| **This repository** | all code, 76 result files, metadata, eight figures, documentation | about 20 MB |
+| **Zenodo (DOI)** | raw crawls and API pull records | about 2 GB |
 
-Zenodo 归档包含：
+Zenodo archive:
 
-| 文件 | 说明 | 体量 |
+| File | Contents | Size |
 |---|---|---|
-| `skills_with_content.jsonl` | 155,547 份 SKILL.md 全文（内容层） | 1.39 GB |
-| `collected_20261024/` | 2026-10-24 一批 API 拉取（PR、审查、评论、市场、近重复、fork→PR） | 233 MB |
-| `forks_timestamps_full.json` | 228 父仓全量 fork 时间戳 | 143 MB |
-| `gh_discourse.json` | 203 仓的 issue/PR/commit 评论 | 120 MB |
+| `skills_with_content.jsonl` | full text of 155,547 SKILL.md files (content layer) | 1.39 GB |
+| `collected_20261024/` | API pulls of 2026-10-24: PRs, reviews, comments, market, near-duplicates, fork-to-PR | 233 MB |
+| `forks_timestamps_full.json` | complete fork timestamps for 228 parent repositories | 143 MB |
+| `gh_discourse.json` | issue/PR/commit comments for 203 repositories | 120 MB |
 
-**第三方数据集不重复上传**，按来源引用：
-
-- Gitskills 数据集（`gitskills_parquet/`、`skillmd_138k/train.parquet`）：见 `docs/数据来源全清单.md`
-- After the Party 等复现项目材料：同上
+Third-party datasets (Gitskills, After the Party, and others) are cited by source and not re-uploaded; see `docs/zh/数据来源全清单.md`.
 
 ---
 
-## 三、环境
+## 3. Environment
 
 ```bash
 # Python 3.12
 pip install -r requirements.txt
 
-# Node 22（仅用于重排正文与封面）
+# Node 22 (only for rebuilding the manuscripts)
 node --version   # >= 18
 ```
 
-`requirements.txt`：
+### Path configuration (required for Python scripts)
 
-```
-numpy
-scipy
-pandas
-matplotlib
-```
-
-### 路径配置（Python 脚本必读）
-
-`code/analysis/` 下的脚本保留了研究时的绝对路径常量：
+Scripts in `code/analysis/` keep the absolute path constant used during the study:
 
 ```python
 ROOT = r"E:\Skill扩散论文_可复现项目"
 ```
 
-在别处复现时，把每个脚本首部的 `ROOT` 改为本地项目根目录即可。之所以没有统一改成相对路径，
-是因为这些脚本在探索过程中反复改写过路径，保留原值可以核对当时读的到底是哪一份数据。
-`code/docx_build/` 下的两个 Node 生成器已改为相对路径，无需修改。
+Change `ROOT` at the top of each script to your local project root. The values were deliberately left as they were: these scripts were rewritten many times during exploration, and the original paths record which copy of the data each run actually read. The Node generators under `code/build/` use relative paths and need no editing.
 
 ---
 
-## 四、复现路径（三级）
+## 4. Reproduction paths (three levels)
 
-### 级别 1：从结果文件重画图表（最快，无需原始数据）
+### Level 1 — redraw figures and rebuild manuscripts (no raw data needed)
 
-论文四张图与四张表所需的数字全部在 `data/results/` 中。
-
-```bash
-python code/analysis/make_fig1_framework.py       # 图 1
-python code/analysis/make_journal_figures.py      # 图 2—4
-```
-
-两个脚本读 `data/results/fig_input_*.json`，输出 PNG。
-> 注意：脚本默认写到系统临时目录，运行后需拷回 `figures/`。
-
-重排正文：
+Every number in the four figures and four tables is in `data/results/`.
 
 ```bash
-cd code/docx_build
-npm install                  # 安装 docx 依赖
-node generate_xwycbyj.js     # 读本目录 content13.json，输出 out_正文.docx
-node generate_cover.js       # 输出 out_投稿封面.docx
+# Chinese figures
+python code/analysis/make_fig1_framework.py       # Figure 1
+python code/analysis/make_journal_figures.py      # Figures 2–4
+
+# English figures
+python code/analysis/make_figures_en.py           # all four, English labels
 ```
 
-排版脚本已改为相对路径，可在任意位置运行；图从 `figures/` 读取。
+The Chinese scripts write to the system temp directory by default; copy the PNGs into `figures/zh/`. `make_figures_en.py` writes directly to `paper_figs/en/` in the project root — change its `OUT` constant to `figures/en/` if you run it inside this package.
 
-### 级别 2：从中间数据重算统计量
+Rebuild the manuscripts:
 
-| 论文结论 | 脚本 | 输入 | 输出 |
+```bash
+cd code/build/zh
+npm install
+node generate_xwycbyj.js      # reads content13.json -> out_正文.docx
+node generate_cjjc.js         # reads content14.json -> out_国际新闻界体例.docx
+node generate_cover.js        # -> out_投稿封面.docx
+
+cd ../en
+node generate_ica.js          # reads ica_content.txt -> out_ICA_manuscript.docx
+```
+
+All four generators were tested inside this package; they read figures from `figures/zh/` and `figures/en/` respectively.
+
+### Level 2 — recompute statistics from intermediate data
+
+| Claim | Script | Input | Output |
 |---|---|---|---|
-| P1 分层敏感性、中间环节试算 | `compute_mid_chain.py` | `collected_20261024/market_full.jsonl` 等 | 终端输出 |
-| 复制→fork 补充检验 | `compute_copy_fork_full.py` | `collected_20261024/near_duplicates.jsonl` + Zenodo 元数据 | `data/results/copy_to_fork_20261031.json` |
-| SimHash 召回下界 | `near_recall_bound.py` | `skills_with_content.jsonl` | `data/results/near_recall_bound_20261031.json` |
-| P1 主检验与 TOST | `mine_nobel_methods.py` | `data/` | `data/results/mine_nobel_20261030.json` |
-| P2 风险模型 | `mine_comprehensive.py` | `collected_20261024/` | `data/results/mine_comprehensive_20261029.json` |
+| P1 stratified sensitivity, mid-chain trial | `compute_mid_chain.py` | `collected_20261024/market_full.jsonl` and others | console |
+| Copy-to-fork supplementary test | `compute_copy_fork_full.py` | `collected_20261024/near_duplicates.jsonl` plus Zenodo metadata | `data/results/copy_to_fork_20261031.json` |
+| SimHash recall lower bound | `near_recall_bound.py` | `skills_with_content.jsonl` | `data/results/near_recall_bound_20261031.json` |
+| P1 main test and TOST | `mine_nobel_methods.py` | `data/` | `data/results/mine_nobel_20261030.json` |
+| P2 hazard model | `mine_comprehensive.py` | `collected_20261024/` | `data/results/mine_comprehensive_20261029.json` |
+| Integrative NMI and dynamic coupling | `deep_what_data_shows.py` | `star_history_v2.json`, `fork_prs*.jsonl` | `data/results/deep_what_data_shows_20261030.json` |
 
-### 级别 3：从原始数据全链路
+### Level 3 — full pipeline from raw data
 
-需要先跑 `fetch_*.py` 系列重新采集（需要 GitHub Token，写入 `external_data/_cache/gh_token.txt`），
-再跑聚合脚本。采集窗口与查询词见 `docs/数据来源全清单.md`。
+Re-run the `fetch_*.py` series first (a GitHub token is required, written to `external_data/_cache/gh_token.txt`), then the aggregation scripts. Collection windows and query terms are documented in `docs/zh/数据来源全清单.md`.
 
-> 全链路复现约需 6—8 小时（GitHub API 限流 + skills.sh 逐仓查询）。
+> A full re-run takes about 6–8 hours, dominated by GitHub API rate limits and per-repository queries to skills.sh.
 
 ---
 
-## 五、脚本与论文的对应
+## 5. Script-to-paper map
 
-| 论文位置 | 脚本 | 结果文件 |
+| Paper element | Script | Result file |
 |---|---|---|
-| 表 1 数据分层 | `fetch_fork_prs.py`、`fetch_market_full.py` 等采集脚本 | `collected_20261024_summary.json` |
-| 表 2 四个核心概念 | 人工整理 | — |
-| 表 3 贡献作者结构 | `mine_comprehensive.py` | `mine_comprehensive_20261029.json` |
-| 表 4 证据分层 | 汇总自 P1—P5 | 见各检验结果 |
-| 图 1 三要件框架 | `make_fig1_framework.py` | — |
-| 图 2 P1 | `make_journal_figures.py` | `fig_input_p1_p2.json` |
-| 图 3 P2 | 同上 | `fig_input_fork_hazard.json` |
-| 图 4 P4 | 同上 | `fig_input_p1_p2.json` |
-| P1 主检验 | `mine_nobel_methods.py` | `mine_nobel_20261030.json` |
-| P1 等价界敏感性 | `compute_mid_chain.py` | 终端输出 |
-| P2 首次回流风险 | `mine_comprehensive.py` | `mine_comprehensive_20261029.json` |
-| 复制→fork 补充检验 | `compute_copy_fork_full.py` | `copy_to_fork_20261031.json` |
-| SimHash 召回下界 | `near_recall_bound.py` | `near_recall_bound_20261031.json` |
+| Table 1 data layers | `fetch_fork_prs.py`, `fetch_market_full.py` and other collectors | `collected_20261024_summary.json` |
+| Table 2 four concepts | manual | — |
+| Table 3 contributor structure | `mine_comprehensive.py` | `mine_comprehensive_20261029.json` |
+| Table 4 evidence tiers | summary of P1–P5 | see individual result files |
+| Figure 1 framework | `make_fig1_framework.py` (zh) / `make_figures_en.py` (en) | — |
+| Figure 2 P1 | `make_journal_figures.py` / `make_figures_en.py` | `fig_input_p1_p2.json` |
+| Figure 3 P2 | same | `fig_input_fork_hazard.json` |
+| Figure 4 P4 | same | `fig_input_p1_p2.json` |
+| P1 main test | `mine_nobel_methods.py` | `mine_nobel_20261030.json` |
+| P1 equivalence-bound sensitivity | `compute_mid_chain.py` | console |
+| P2 first-return hazard | `mine_comprehensive.py` | `mine_comprehensive_20261029.json` |
+| Copy-to-fork supplementary test | `compute_copy_fork_full.py` | `copy_to_fork_20261031.json` |
+| SimHash recall lower bound | `near_recall_bound.py` | `near_recall_bound_20261031.json` |
 
-其余脚本（`mine_*.py`、`deep*.py`）为历轮探索性挖掘，结果保留在 `data/results/`，
-论文未全部采用，但构成完整的分析路径。
-
----
-
-## 六、关键口径（复现前必读）
-
-1. **样本非概率**：341 面板仓是按平台可见性优先纳入的判定样本，占生态扫描 35,947 仓的 0.95%，
-   比率不外推长尾。
-2. **安装量口径**：skills.sh 搜索接口返回的 `installs` 字段，按 `source` 等于仓库全名精确匹配后求和；
-   平台未公布统计窗口与去重规则，本文按单一计数处理。
-3. **172 个安装命中**：为 `market_full`（146）与 `market_retry`（26）两批合并所得；
-   `market_extra` 的 3 个仓未计入，三批合并为 175。
-4. **复制→fork 的样本与 P1、P2 不同源**：取自 2,001 个有跨仓复制边的仓，非 341 面板，
-   故在表 4 中列为「补充」而非「支持档」。
-5. **缺失不置零**：安装、审查、fork 时间戳的缺失均按缺失处理，报告中给出覆盖数。
+The remaining scripts (`mine_*.py`, `deep*.py`) are exploratory rounds; their outputs are kept in `data/results/`. The paper does not use all of them, but they document the full analytic path.
 
 ---
 
-## 七、已知限制
+## 6. Definitions that must be read before reproducing
 
-- 图 2—4 的输入是中间聚合文件（`fig_input_*.json`），不是从 raw 直接算。
-- 表 1—4 的数字未自动回填：改动 `data/results/` 后需手工同步 `content13.json` 的 `tables` 字段。
-- Python 脚本默认写系统临时目录（沙箱限制），运行后需手工拷回。
-- `make_journal_figures.py` 中原有的旧版图 1 代码已停用，图 1 只由 `make_fig1_framework.py` 生成。
+1. **Non-probability sample.** The 341-repository panel is an adjudication sample prioritized by platform visibility, 0.95% of the 35,947-repository ecosystem scan. Ratios are not extrapolated to the long tail.
+2. **Install counts.** The `installs` field returned by the skills.sh search API, summed after exact matching on `source` equal to the repository full name. The platform does not publish its statistical window or deduplication rule, so the value is treated as a single count.
+3. **172 install hits.** The merge of `market_full` (146) and `market_retry` (26). The three repositories in `market_extra` are excluded; all three batches together would give 175.
+4. **Copy-to-fork uses a different sample.** It draws on repositories with cross-repository copying edges, not the 341 panel, and is therefore labelled supplementary rather than supported in Table 4.
+5. **Missing is not zero.** Missing installs, reviews, and fork timestamps are treated as missing; coverage counts are reported.
 
 ---
 
-## 八、许可与引用
+## 7. Known limitations
 
-- **代码**：建议 MIT（作者确认后填入 `LICENSE`）
-- **数据**：建议 CC BY 4.0
-- **引用格式**：待论文正式发表后补充 DOI
+- Inputs to Figures 2–4 are intermediate aggregates (`fig_input_*.json`), not computed directly from raw data.
+- Numbers in Tables 1–4 are not auto-populated: after changing `data/results/`, the `tables` field of `content13.json` / `content14.json` / `ica_content.txt` must be updated by hand.
+- Python scripts write to the system temp directory by default; outputs must be copied back manually.
+- The legacy Figure 1 code inside `make_journal_figures.py` is disabled; Figure 1 comes only from `make_fig1_framework.py` (zh) or `make_figures_en.py` (en).
 
-复现包版本 2026-10-31，对应稿件 2026-10-31 版。任何数字若有出入，以 `MANIFEST.csv` 所列文件为准。
+---
+
+## 8. License and citation
+
+- **Code**: MIT recommended (to be confirmed by the author in `LICENSE`)
+- **Data**: CC BY 4.0 recommended
+- **Citation**: DOI to be added after publication
+
+Package version 2026-11-02. If any number disagrees, the files listed in `MANIFEST.csv` are authoritative.

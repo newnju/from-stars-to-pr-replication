@@ -139,12 +139,12 @@ R|Campbell, D. T., & Fiske, D. W. (1959). Convergent and discriminant validation
 R|Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. *Psychological Bulletin, 52*(4), 281–302.
 R|Espeland, W. N., & Stevens, M. L. (1998). Commensuration as a social process. *Annual Review of Sociology, 24*, 313–343.
 R|Fornell, C., & Larcker, D. F. (1981). Evaluating structural equation models with unobservable variables and measurement error. *Journal of Marketing Research, 18*(1), 39–50.
-R|Gerlitz, C., & Helmond, A. (2013). The like economy: Social buttons and the data-intensive web. *New Media & Society, 15*(8), 1348–1368.
+R|Gerlitz, C., & Helmond, A. (2013). The like economy: Social buttons and the data-intensive web. *New Media & Society, 15*(8), 1348–1365.
 R|Gillespie, T. (2010). The politics of "platforms." *New Media & Society, 12*(3), 347–364.
 R|Gillespie, T. (2018). *Custodians of the Internet: Platforms, content moderation, and the hidden decisions that shape social media*. New Haven, CT: Yale University Press.
 R|Goel, S., Anderson, A., Hofman, J., & Watts, D. J. (2016). The structural virality of online diffusion. *Management Science, 62*(1), 180–196.
 R|Gorwa, R. (2019). What is platform governance? *Information, Communication & Society, 22*(6), 854–871.
-R|Howison, J., Wiggins, A., & Crowston, K. (2011). Validity issues in the use of social network analysis with digital trace data. *Journal of the Association for Information Systems, 12*(12), 700–723.
+R|Howison, J., Wiggins, A., & Crowston, K. (2011). Validity issues in the use of social network analysis with digital trace data. *Journal of the Association for Information Systems, 12*(12), 767–797.
 R|Innis, H. A. (1951). *The bias of communication*. Toronto, Canada: University of Toronto Press.
 R|Jhally, S., & Livant, B. (1986). Watching as working: The valorization of audience consciousness. *Journal of Communication, 36*(3), 124–143.
 R|Jiang, J., Lo, D., He, J., & Xia, X. (2017). Why and how developers fork what from whom in GitHub. *Empirical Software Engineering, 22*(1), 547–578.
