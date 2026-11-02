@@ -9,10 +9,10 @@ const {
 const fs = require("fs");
 const path = require("path");
 
-const TMP = __dirname;   // 复现包：内容源与输出都在本目录
-const C = JSON.parse(fs.readFileSync(path.join(TMP, "content13.json"), "utf-8"));
-const FIGDIR = path.join(__dirname, "..", "..", "figures");
-const OUT = path.join(__dirname, "out_正文.docx");
+const TMP = __dirname;
+const C = JSON.parse(fs.readFileSync(path.join(TMP, "content14.json"), "utf-8"));
+const FIGDIR = path.join(__dirname, "..", "..", "..", "figures", "zh");
+const OUT = path.join(__dirname, "out_国际新闻界体例.docx");
 
 const NB = { style: BorderStyle.NONE, size: 0, color: "FFFFFF" };
 const SONG = { ascii: "Times New Roman", eastAsia: "SimSun" };
@@ -223,7 +223,7 @@ for (const b of C.blocks) {
   else if (b.t === "p") body.push(bodyP(b.x));
   else if (b.t === "ref") body.push(new Paragraph({
     alignment: AlignmentType.JUSTIFIED,
-    indent: { left: 480, hanging: 480 },
+    indent: { left: 360, hanging: 360 },
     spacing: { line: LINE, lineRule: "exact", before: 0, after: 0 },
     children: [new TextRun({ text: b.x, size: SZ_SMALL, font: SONG, color: "000000" })],
   }));
