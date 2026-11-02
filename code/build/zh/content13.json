@@ -1,9 +1,9 @@
 {
  "title": "从星标到 PR",
  "subtitle": "——Agent Skill 扩散链上的效度边界",
- "abstract": "扩散研究惯以星标、安装、fork 与 PR 依次代表注意、采纳与贡献，能否互替却很少被检验。本文提出“效度边界”：平台指标的有效性止于其归属环节，越过即不成立。以 Agent Skill 生态为个案（3.6 万仓库、15.6 万文档、185 万 fork），本文在“注意—安装”与“fork—PR”两处示范逐环检验，并描述后段环节。在已进入平台视野的头部判定样本内，星标与安装的秩相关为 0.204，可排除中等以上相关；fork 首次回流 6.33%，其中 87.8% 发生在 24 小时内，呈工作流时间签名。水平上各环节几乎不携带彼此信息，仓内周度波动却同向，后者排除测量噪声。分层显示边界并不均匀，在高星新仓中可能不成立。本文不主张链级弱耦合，也不外推长尾。",
+ "abstract": "扩散研究惯以星标、安装、fork 与 PR 依次代表注意、采纳与贡献，能否互替却很少被检验。本文提出“效度边界”：平台指标的有效性止于其归属环节，越过即不成立。以 Agent Skill 生态为个案（3.6 万仓库、15.6 万文档、185 万 fork），本文在“注意—安装”与“fork—PR”两处完成支持档检验，在“复制—fork”补做一处不同源检验。在头部判定样本内，星标与安装的秩相关为 0.204，可排除中等以上相关；fork 首次回流 6.33%，87.8% 发生在 24 小时内，呈工作流时间签名；复制—fork 得 ρ=0.107，同样可排除。水平上各环节几乎不携带彼此信息（NMI≤0.022），仓内周度波动却同向（中位 ρ≈0.37），后者不支持纯测量噪声。三处边界来自三个样本，提示耦合可能环节依赖；本文不作链级断言，也不外推长尾。",
  "keywords": "效度边界；扩散链；平台指标；逐环检验；Agent Skill 生态",
- "abstract_en": "Diffusion research routinely treats stars, installs, forks and pull requests as interchangeable proxies for attention, adoption and contribution, yet their interchangeability is rarely tested. This article proposes the concept of a validity boundary: a platform metric is valid only for the segment of the diffusion chain to which it belongs, and ceases to be valid once used to proxy the next construct. Using the Agent Skill ecosystem as a case (35,947 repositories, 155,547 documents, 1.85 million forks), the article tests two segments—attention to installation, and fork to pull request—and reports descriptive evidence for the remaining segments. The rank correlation between stars and installs is 0.204, excluding |ρ| ≥ 0.5; the first-return rate of forks is 6.33%, with 87.8% of first returns within 24 hours, a workflow signature. Horizontally, segments carry almost no information about one another (NMI ≤ 0.022); dynamically, weekly stars and pull requests move together within repositories (median ρ of about 0.37), which rules out measurement noise. These two boundaries suggest that coupling may be segment-dependent, but any chain-level claim awaits tests of the intermediate segments. The article does not assert structural coupling and does not extrapolate to the long tail.",
+ "abstract_en": "Diffusion research routinely treats stars, installs, forks, and pull requests as interchangeable proxies for attention, adoption, and contribution, yet their interchangeability is rarely tested. This article proposes the concept of a validity boundary: a platform metric is valid only for the segment of the diffusion chain to which it belongs, and ceases to be valid once used to proxy the next construct. Using the Agent Skill ecosystem as a case (35,947 repositories, 155,547 documents, 1.85 million forks), with hypothesis tests run on a 341-repository adjudication panel, the article tests two segments—attention to installation, and fork to pull request—supplements a third, mid-chain segment (copy to fork) with a different-source sample, and reports descriptive evidence for the remaining segments. The rank correlation between stars and installs is 0.204, excluding |ρ| ≥ 0.50; the first-return rate of forks is 6.33%, with 87.8% of first returns within 24 hours, a workflow signature; the copy–fork supplement yields ρ = 0.107, likewise excluding medium-or-stronger association. Horizontally, segments carry almost no information about one another (normalized mutual information of 0.022 or less); dynamically, weekly stars and pull requests move together within repositories (median ρ = 0.37), which argues against pure measurement noise. Three boundaries observed in three samples suggest that coupling is segment-dependent, but a chain-level claim is not made. The article does not assert structural coupling and does not extrapolate to the long tail.",
  "keywords_en": "validity boundary; diffusion chain; platform metrics; segment-by-segment test; agent skill ecosystem",
  "blocks": [
   {
@@ -184,11 +184,11 @@
   },
   {
    "t": "p",
-   "x": "结构描述进一步支持工作流解释，fork 层转化率为 6.67%（122,235/1,832,187），每仓中位 3.95%；剔除 14 个转化率不低于 20% 的仓（占父仓 6.2%，贡献 30.7% 的回流 fork）后为 4.90%（中位 3.25%）；剔除事件量前五仓后为 4.74%。换言之，典型仓库的转化率约为 3.3%–3.5%，6.67% 是 fork 加权值，由少数大仓抬升。转化率与星标规模无关，按星标十分位，每仓中位转化率在 2.6%–5.3% 之间波动，没有单调梯度；对 log 转化率与 log 星标的回归斜率不显著（β=−0.01，p=.81）。"
+   "x": "结构描述进一步支持工作流解释，fork 层转化率为 6.67%（122,235/1,832,187），每仓中位 3.95%；剔除 12 个转化率不低于 20% 的仓（占父仓 5.3%）后为 4.79%（中位 3.16%）；剔除事件量前五仓后为 4.53%（中位 3.40%）。换言之，典型仓库的转化率约为 3.2%–3.4%，6.67% 是 fork 加权值，由少数大仓抬升。转化率与星标规模无关，按星标十分位，每仓中位转化率在 2.6%–5.3% 之间波动，没有单调梯度；对 log 转化率与 log 星标的回归斜率不显著（β=−0.01，p=.81）。"
   },
   {
    "t": "p",
-   "x": "转化率分布为单峰重尾，GMM 的 BIC 在 logit 与 log10 尺度均选 k=1（649.4 对 655.5；649.4 对 657.3），KDE 单峰；14 个仓不低于 20% 只是右尾，不是第二个人群。右尾由清单仓库与工程仓构成。清单仓库的每仓中位转化率与非清单仓库几乎相同（3.67% 对 3.95%），但进入 20% 以上尾部的概率高一个数量级（23.7% 对 2.7%）。清单仓库的 fork+PR 是投稿接口——改一行、提一个 PR，是这类仓库的既定工作流；它并不更能把读者变成贡献者。"
+   "x": "转化率分布为单峰重尾，GMM 的 BIC 在 logit 与 log10 尺度均选 k=1（649.4 对 655.5；649.4 对 657.3），KDE 单峰；12 个仓不低于 20% 只是右尾，不是第二个人群。右尾由清单仓库与工程仓构成。清单仓库的每仓中位转化率与非清单仓库几乎相同（3.57% 对 3.90%），但进入 20% 以上尾部的概率高一个数量级（21.1% 对 2.1%）。清单仓库的 fork+PR 是投稿接口——改一行、提一个 PR，是这类仓库的既定工作流；它并不更能把读者变成贡献者。"
   },
   {
    "t": "p",
@@ -284,7 +284,7 @@
   },
   {
    "t": "p",
-   "x": "但同一批仓的周序列中，星标增量与 PR 事件的仓内相关中位为 0.374（低转化率组，210 仓，bootstrap 95%CI [0.315, 0.430]）与 0.294（高转化率组，14 仓，95%CI [−0.012, 0.565]）；加入仓库与周双向固定效应后，去均值弹性为 0.357（SE 0.017）与 0.643（SE 0.060）。周固定效应吸收共同冲击后弹性并未消失，说明“动态同向”不只是全生态曝光的结果；但高转化率组仅 14 仓，区间很宽，不能据此估计稳定弹性。弱耦合的判据在水平，动态同向用于判别噪声，二者分工不同。本文未做滞后项或反向因果检验，动态结果仅作探索性证据。"
+   "x": "但同一批仓的周序列中，星标增量与 PR 事件的仓内相关中位为 0.374（低转化率组，212 仓）与 0.169（高转化率组，12 仓）；加入仓库与周双向固定效应后，去均值弹性为 0.319（SE 0.022）与 0.604（SE 0.140）。周固定效应吸收共同冲击后弹性并未消失，说明“动态同向”不只是全生态曝光的结果；但高转化率组仅 12 仓，估计不稳，不能据此给出稳定弹性。弱耦合的判据在水平，动态同向用于判别噪声，二者分工不同。本文未做滞后项或反向因果检验，动态结果仅作探索性证据。"
   },
   {
    "t": "p",

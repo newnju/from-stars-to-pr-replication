@@ -79,6 +79,21 @@ while (i < lines.length) {
       spacing: { line: LINE, before: 0, after: 200 },
       children: [new TextRun({ text: val, italics: true, font: FONT, size: BODY })],
     }));
+  } else if (tag === "CORR") {
+    body.push(new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { line: SINGLE, before: 120, after: 0 },
+      children: [new TextRun({ text: val, font: FONT, size: SMALL })],
+    }));
+  } else if (tag === "FUND") {
+    body.push(new Paragraph({
+      alignment: AlignmentType.LEFT,
+      spacing: { line: SINGLE, before: 160, after: 240 },
+      children: [
+        new TextRun({ text: "Funding: ", italics: true, font: FONT, size: SMALL }),
+        new TextRun({ text: val, font: FONT, size: SMALL }),
+      ],
+    }));
   } else if (tag === "RUN") {
     runHead = val;
   } else if (tag === "H1") {
