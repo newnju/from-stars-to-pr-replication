@@ -261,6 +261,7 @@ const header = new Header({
 
 const doc = new Document({
   creator: "Anonymous",
+  lastModifiedBy: "Anonymous",
   title: "From Stars to Pull Requests",
   sections: [{
     properties: {
