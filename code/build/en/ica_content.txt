@@ -174,7 +174,7 @@ R|Tsay, J., Dabbish, L., & Herbsleb, J. (2014). Influence of social and technica
 R|Tuchman, G. (1978). *Making news: A study in the construction of reality*. New York, NY: Free Press.
 R|Tufekci, Z. (2014). Big questions for social media big data: Representativeness, validity and other methodological pitfalls. In *Proceedings of the 8th International AAAI Conference on Weblogs and Social Media* (pp. 505–514). AAAI.
 R|van Dijck, J., Poell, T., & de Waal, M. (2018). *The platform society: Public values in a connective world*. Oxford, UK: Oxford University Press.
-R|Webster, J. G. (2014). *The marketplace of attention: How appeals take shape in a digital age*. Cambridge, MA: MIT Press.
+R|Webster, J. G. (2014). *The marketplace of attention: How audiences take shape in a digital age*. Cambridge, MA: MIT Press.
 R|Webster, J. G., & Ksiazek, T. B. (2012). The dynamics of audience fragmentation: Public attention in an age of digital media. *Journal of Communication, 62*(1), 39–56.
 R|Weick, K. E. (1976). Educational organizations as loosely coupled systems. *Administrative Science Quarterly, 21*(1), 1–19.
 R|White, D. M. (1950). The “gate keeper”: A case study in the selection of news. *Journalism Quarterly, 27*(4), 383–390.
